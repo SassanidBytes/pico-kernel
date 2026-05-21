@@ -25,5 +25,6 @@ target_link_libraries(pico_kernel
     hardware_gpio
 )
 
-pico_enable_stdio_uart(pico_kernel 1)
+pico_enable_stdio_usb(pico_kernel 1)
+pico_enable_stdio_uart(pico_kernel 0)
 pico_add_extra_outputs(pico_kernel)
