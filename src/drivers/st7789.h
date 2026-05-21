@@ -13,7 +13,7 @@
 #define PIN_CS    17
 #define PIN_DC    16
 #define PIN_BL    20
-#define PIN_RST   -1  // Nicht verbunden 
+#define PIN_RST   -1  // Nicht verbunden
 
 // Farben (RGB565 Format)
 #define COLOR_BLACK   0x0000
