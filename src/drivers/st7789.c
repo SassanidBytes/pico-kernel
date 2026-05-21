@@ -30,7 +30,10 @@ void st7789_init() {
     write_cmd(0x01); sleep_ms(150);  // Software Reset
     write_cmd(0x11); sleep_ms(50);   // Sleep Out
     write_cmd(0x3A); write_data(0x05); // 16bit Farben
-    write_cmd(0x29);                 // Display On
+    write_cmd(0x36); write_data(0x70); // Landscape Rotation
+    write_cmd(0x21);                   // Farb-Inversion an
+    write_cmd(0x29); sleep_ms(10);     // Display On
+    st7789_fill(0x0000);               // Screen leeren
 }
 
 void st7789_set_window(int x, int y, int w, int h) {
