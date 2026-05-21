@@ -1,6 +1,4 @@
 C:/pico/pico-kernel/build/CMakeFiles/pico_kernel.dir
-C:/pico/pico-kernel/build/CMakeFiles/picotoolForceReconfigure.dir
-C:/pico/pico-kernel/build/CMakeFiles/picotoolBuild.dir
 C:/pico/pico-kernel/build/CMakeFiles/edit_cache.dir
 C:/pico/pico-kernel/build/CMakeFiles/rebuild_cache.dir
 C:/pico/pico-kernel/build/pico-sdk/CMakeFiles/edit_cache.dir
