@@ -199,3 +199,13 @@
 391	662	8010988963926537	C:/pico/pico-kernel/build/pico_kernel.hex	d4370f6dec88de37
 391	662	8010988963926537	C:/pico/pico-kernel/build/pico_kernel.bin	d4370f6dec88de37
 391	662	8010988963926537	C:/pico/pico-kernel/build/pico_kernel.uf2	d4370f6dec88de37
+29	250	8010996912972056	CMakeFiles/pico_kernel.dir/src/drivers/st7789.c.obj	490bf23a6ebf384
+250	531	8010996917920642	pico_kernel.elf	d4370f6dec88de37
+250	531	8010996917920642	pico_kernel.dis	d4370f6dec88de37
+250	531	8010996917920642	pico_kernel.hex	d4370f6dec88de37
+250	531	8010996917920642	pico_kernel.bin	d4370f6dec88de37
+250	531	8010996917920642	pico_kernel.uf2	d4370f6dec88de37
+250	531	8010996917920642	C:/pico/pico-kernel/build/pico_kernel.dis	d4370f6dec88de37
+250	531	8010996917920642	C:/pico/pico-kernel/build/pico_kernel.hex	d4370f6dec88de37
+250	531	8010996917920642	C:/pico/pico-kernel/build/pico_kernel.bin	d4370f6dec88de37
+250	531	8010996917920642	C:/pico/pico-kernel/build/pico_kernel.uf2	d4370f6dec88de37
