@@ -185,3 +185,17 @@
 372	1068	8010985339078540	CMakeFiles/pico_kernel.dir/C_/pico/pico-sdk/src/rp2_common/pico_float/float_math.c.obj	f66064a538906265
 186	1073	8010985337496573	CMakeFiles/pico_kernel.dir/C_/pico/pico-sdk/src/rp2_common/pico_double/double_math.c.obj	9e82ff1ad8a98da8
 492	1190	8010985340283422	CMakeFiles/pico_kernel.dir/C_/pico/pico-sdk/src/rp2_common/pico_printf/printf.c.obj	b0a012d2054a612e
+54	304	8010988957901737	CMakeFiles/pico_kernel.dir/C_/pico/pico-sdk/src/rp2_common/pico_stdio_uart/stdio_uart.c.obj	d89a44cff83e75a5
+41	326	8010988957776636	CMakeFiles/pico_kernel.dir/C_/pico/pico-sdk/src/rp2_common/pico_clib_interface/newlib_interface.c.obj	97ac6828b066d7d
+33	344	8010988957698272	CMakeFiles/pico_kernel.dir/src/kernel/shell.c.obj	6cfc674aa0880079
+63	345	8010988957996904	CMakeFiles/pico_kernel.dir/C_/pico/pico-sdk/src/rp2_common/hardware_spi/spi.c.obj	8acc11a8752f853e
+47	391	8010988957841782	CMakeFiles/pico_kernel.dir/C_/pico/pico-sdk/src/rp2_common/pico_stdio/stdio.c.obj	b542abaead705c9e
+391	662	8010988963926537	pico_kernel.elf	d4370f6dec88de37
+391	662	8010988963926537	pico_kernel.dis	d4370f6dec88de37
+391	662	8010988963926537	pico_kernel.hex	d4370f6dec88de37
+391	662	8010988963926537	pico_kernel.bin	d4370f6dec88de37
+391	662	8010988963926537	pico_kernel.uf2	d4370f6dec88de37
+391	662	8010988963926537	C:/pico/pico-kernel/build/pico_kernel.dis	d4370f6dec88de37
+391	662	8010988963926537	C:/pico/pico-kernel/build/pico_kernel.hex	d4370f6dec88de37
+391	662	8010988963926537	C:/pico/pico-kernel/build/pico_kernel.bin	d4370f6dec88de37
+391	662	8010988963926537	C:/pico/pico-kernel/build/pico_kernel.uf2	d4370f6dec88de37
