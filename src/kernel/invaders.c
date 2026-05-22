@@ -43,6 +43,7 @@ static int count_aliens() {
     for (int r = 0; r < ALIEN_ROWS; r++)
         for (int c = 0; c < ALIEN_COLS; c++)
             if (aliens[r][c]) count++;
+
     return count;
 }
 
@@ -127,6 +128,7 @@ static void enemy_shoot() {
 
 // ─── Haupt-Loop ──────────────────────────────────────────
 void invaders_run() {
+    pong_active = true;
     gpio_init(INV_BTN_A); gpio_set_dir(INV_BTN_A, GPIO_IN); gpio_pull_up(INV_BTN_A);
     gpio_init(INV_BTN_B); gpio_set_dir(INV_BTN_B, GPIO_IN); gpio_pull_up(INV_BTN_B);
     gpio_init(INV_BTN_X); gpio_set_dir(INV_BTN_X, GPIO_IN); gpio_pull_up(INV_BTN_X);
@@ -139,6 +141,7 @@ void invaders_run() {
     while (!game_over) {
         // ── Beenden ──
         if (!gpio_get(INV_BTN_Y) && !gpio_get(INV_BTN_A)) {
+            pong_active = false;
             sleep_ms(300);
             if (!gpio_get(INV_BTN_Y) && !gpio_get(INV_BTN_A)) return;
         }
@@ -263,4 +266,5 @@ void invaders_run() {
     display_lock();
     st7789_fill(INV_BG);
     display_unlock();
+    pong_active = false;
 }
