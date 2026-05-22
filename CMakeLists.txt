@@ -13,6 +13,7 @@ add_executable(pico_kernel
     src/kernel/shell.c
     src/kernel/tasks/scheduler.c
     src/kernel/mutex.c
+    src/kernel/pong.c
 )
 
 target_include_directories(pico_kernel PRIVATE

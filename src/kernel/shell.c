@@ -6,6 +6,7 @@
 #include "pico/stdlib.h"
 #include <string.h>
 #include <stdio.h>
+#include "pong.h"
 
 // Cursor Position
 static int cursor_col = 0;
@@ -72,6 +73,7 @@ static void handle_command(const char* cmd) {
         shell_println("  color   - Farb-Test");
         shell_println("  info    - System Info");
         shell_println("  tasks   - Task Manager");
+        shell_println("  pong    - Pong Spiel");
     } else if (strcmp(cmd, "clear") == 0) {
         shell_clear();
     } else if (strcmp(cmd, "hello") == 0) {
@@ -109,6 +111,7 @@ void shell_run() {
     char buf[64];
     int  pos = 0;
 
+    pong_run();
     shell_clear();
     shell_println("PicoKernel v2.0");
     shell_println("---------------");
