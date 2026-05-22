@@ -7,6 +7,7 @@
 #include "pico/stdlib.h"
 #include <string.h>
 #include <stdio.h>
+#include "invaders.h"
 
 static int cursor_col = 0;
 static int cursor_row = 0;
@@ -71,6 +72,7 @@ static void handle_command(const char* cmd) {
         shell_println("  info    - System Info");
         shell_println("  tasks   - Task Manager");
         shell_println("  pong    - Pong Spiel");
+        shell_println("  inv     - Space Invaders");
     } else if (strcmp(cmd, "clear") == 0) {
         shell_clear();
     } else if (strcmp(cmd, "hello") == 0) {
@@ -106,6 +108,15 @@ static void handle_command(const char* cmd) {
         shell_print("> ");
     } else if (strlen(cmd) == 0) {
         // nichts tun
+
+    } else if (strcmp(cmd, "inv") == 0) {
+        invaders_run();
+        shell_clear();
+        shell_println("PicoKernel v2.0");
+        shell_println("---------------");
+        shell_println("'help' fuer Hilfe");
+        shell_println("");
+        shell_print("> ");
     } else {
         shell_print("Unbekannt: ");
         shell_println(cmd);
