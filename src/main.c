@@ -27,7 +27,7 @@ void core1_entry() {
         if (!pong_active) {
             uint16_t color = (tick++ % 2 == 0) ? 0x07E0 : 0x001F;
             display_lock();
-            st7789_fill_rect(185, 120, 35, 10, color);
+            st7789_fill_rect(233, 126, 5, 5, color);
             display_unlock();
         }
         sleep_ms(500);
