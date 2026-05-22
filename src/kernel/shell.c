@@ -80,7 +80,7 @@ static void handle_command(const char* cmd) {
         shell_clear();
         shell_println("Farb-Test fertig!");
     } else if (strcmp(cmd, "info") == 0) {
-        shell_println("PicoKernel v0.1");
+        shell_println("PicoKernel v2.0");
         shell_println("Display: ST7789");
         shell_println("240x135 RGB565");
         shell_println("SPI @ 62.5MHz");
@@ -97,7 +97,7 @@ void shell_run() {
     int  pos = 0;
 
     shell_clear();
-    shell_println("PicoKernel v0.1");
+    shell_println("PicoKernel v2.0");
     shell_println("---------------");
     shell_println("'help' fuer Hilfe");
     shell_println("");
