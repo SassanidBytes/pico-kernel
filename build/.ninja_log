@@ -337,3 +337,13 @@
 355	667	8011669340101720	C:/pico/pico-kernel/build/pico_kernel.hex	10de8755c2acae86
 355	667	8011669340101720	C:/pico/pico-kernel/build/pico_kernel.bin	10de8755c2acae86
 355	667	8011669340101720	C:/pico/pico-kernel/build/pico_kernel.uf2	10de8755c2acae86
+39	331	8011688777451570	CMakeFiles/pico_kernel.dir/src/kernel/shell.c.obj	802fa19e8612928a
+332	654	8011688783530265	pico_kernel.elf	10de8755c2acae86
+332	654	8011688783530265	pico_kernel.dis	10de8755c2acae86
+332	654	8011688783530265	pico_kernel.hex	10de8755c2acae86
+332	654	8011688783530265	pico_kernel.bin	10de8755c2acae86
+332	654	8011688783530265	pico_kernel.uf2	10de8755c2acae86
+332	654	8011688783530265	C:/pico/pico-kernel/build/pico_kernel.dis	10de8755c2acae86
+332	654	8011688783530265	C:/pico/pico-kernel/build/pico_kernel.hex	10de8755c2acae86
+332	654	8011688783530265	C:/pico/pico-kernel/build/pico_kernel.bin	10de8755c2acae86
+332	654	8011688783530265	C:/pico/pico-kernel/build/pico_kernel.uf2	10de8755c2acae86
