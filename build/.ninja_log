@@ -337,3 +337,14 @@
 1574	2754	8011828326581976	C:/pico/pico-kernel/build/pico_kernel.hex	46b63bbb09840289
 1574	2754	8011828326581976	C:/pico/pico-kernel/build/pico_kernel.bin	46b63bbb09840289
 1574	2754	8011828326581976	C:/pico/pico-kernel/build/pico_kernel.uf2	46b63bbb09840289
+39	259	8011830089148076	CMakeFiles/pico_kernel.dir/src/kernel/pong.c.obj	49fecf8cfa3fb129
+32	329	8011830089072969	CMakeFiles/pico_kernel.dir/src/kernel/shell.c.obj	802fa19e8612928a
+330	646	8011830095151855	pico_kernel.elf	46b63bbb09840289
+330	646	8011830095151855	pico_kernel.dis	46b63bbb09840289
+330	646	8011830095151855	pico_kernel.hex	46b63bbb09840289
+330	646	8011830095151855	pico_kernel.bin	46b63bbb09840289
+330	646	8011830095151855	pico_kernel.uf2	46b63bbb09840289
+330	646	8011830095151855	C:/pico/pico-kernel/build/pico_kernel.dis	46b63bbb09840289
+330	646	8011830095151855	C:/pico/pico-kernel/build/pico_kernel.hex	46b63bbb09840289
+330	646	8011830095151855	C:/pico/pico-kernel/build/pico_kernel.bin	46b63bbb09840289
+330	646	8011830095151855	C:/pico/pico-kernel/build/pico_kernel.uf2	46b63bbb09840289

@@ -3,12 +3,11 @@
 #include "font8x8.h"
 #include "mutex.h"
 #include "scheduler.h"
+#include "pong.h"
 #include "pico/stdlib.h"
 #include <string.h>
 #include <stdio.h>
-#include "pong.h"
 
-// Cursor Position
 static int cursor_col = 0;
 static int cursor_row = 0;
 
@@ -18,14 +17,13 @@ void shell_draw_char(char c, int col, int row, uint16_t fg, uint16_t bg) {
     int px = col * 9;
     int py = row * 10;
     display_lock();
-    for (int y = 0; y < 8; y++) {
+    for (int y = 0; y < 8; y++)
         for (int x = 0; x < 8; x++) {
             uint16_t color = (glyph[y] & (1 << x)) ? fg : bg;
             st7789_set_pixel(px + x, py + y, color);
         }
-    }
     display_unlock();
-} 
+}
 
 void shell_draw_string(const char* str, int col, int row, uint16_t fg, uint16_t bg) {
     int c = col;
@@ -63,7 +61,6 @@ void shell_println(const char* str) {
     shell_print("\n");
 }
 
-// Befehl verarbeiten
 static void handle_command(const char* cmd) {
     if (strcmp(cmd, "help") == 0) {
         shell_println("Befehle:");
@@ -91,16 +88,24 @@ static void handle_command(const char* cmd) {
         shell_println("Display: ST7789");
         shell_println("240x135 RGB565");
         shell_println("SPI @ 62.5MHz");
-    } else if (strlen(cmd) == 0) {
-        // nichts tun
     } else if (strcmp(cmd, "tasks") == 0) {
         shell_println("Laufende Tasks:");
         shell_println("  [0] shell    RUNNING  Core0");
         shell_println("  [1] heartbt  RUNNING  Core1");
         char buf[32];
-        snprintf(buf, sizeof(buf), "  Tasks: %d/%d", 
+        snprintf(buf, sizeof(buf), "  Tasks: %d/%d",
                  scheduler_task_count(), MAX_TASKS);
         shell_println(buf);
+    } else if (strcmp(cmd, "pong") == 0) {
+        pong_run();
+        shell_clear();
+        shell_println("PicoKernel v2.0");
+        shell_println("---------------");
+        shell_println("'help' fuer Hilfe");
+        shell_println("");
+        shell_print("> ");
+    } else if (strlen(cmd) == 0) {
+        // nichts tun
     } else {
         shell_print("Unbekannt: ");
         shell_println(cmd);
@@ -111,7 +116,6 @@ void shell_run() {
     char buf[64];
     int  pos = 0;
 
-    pong_run();
     shell_clear();
     shell_println("PicoKernel v2.0");
     shell_println("---------------");
@@ -130,7 +134,6 @@ void shell_run() {
             pos = 0;
             shell_print("> ");
         } else if (c == 127 && pos > 0) {
-            // Backspace
             pos--;
             cursor_col--;
             shell_draw_char(' ', cursor_col, cursor_row, SHELL_FG, SHELL_BG);
