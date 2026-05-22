@@ -2,6 +2,7 @@
 #include "st7789.h"
 #include "font8x8.h"
 #include "mutex.h"
+#include "scheduler.h"
 #include "pico/stdlib.h"
 #include <string.h>
 #include <stdio.h>
@@ -70,6 +71,7 @@ static void handle_command(const char* cmd) {
         shell_println("  hello   - Begruessing");
         shell_println("  color   - Farb-Test");
         shell_println("  info    - System Info");
+        shell_println("  tasks   - Task Manager");
     } else if (strcmp(cmd, "clear") == 0) {
         shell_clear();
     } else if (strcmp(cmd, "hello") == 0) {
@@ -89,6 +91,14 @@ static void handle_command(const char* cmd) {
         shell_println("SPI @ 62.5MHz");
     } else if (strlen(cmd) == 0) {
         // nichts tun
+    } else if (strcmp(cmd, "tasks") == 0) {
+        shell_println("Laufende Tasks:");
+        shell_println("  [0] shell    RUNNING  Core0");
+        shell_println("  [1] heartbt  RUNNING  Core1");
+        char buf[32];
+        snprintf(buf, sizeof(buf), "  Tasks: %d/%d", 
+                 scheduler_task_count(), MAX_TASKS);
+        shell_println(buf);
     } else {
         shell_print("Unbekannt: ");
         shell_println(cmd);
