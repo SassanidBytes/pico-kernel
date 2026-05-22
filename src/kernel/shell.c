@@ -23,7 +23,7 @@ void shell_draw_char(char c, int col, int row, uint16_t fg, uint16_t bg) {
         }
     }
     display_unlock();
-}
+} 
 
 void shell_draw_string(const char* str, int col, int row, uint16_t fg, uint16_t bg) {
     int c = col;
