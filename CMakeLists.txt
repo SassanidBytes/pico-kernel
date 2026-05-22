@@ -11,11 +11,13 @@ add_executable(pico_kernel
     src/main.c
     src/drivers/st7789.c
     src/kernel/shell.c
+    src/kernel/tasks/scheduler.c
 )
 
 target_include_directories(pico_kernel PRIVATE
     src/drivers
     src/kernel
+    src/kernel/tasks
     src/font
 )
 
@@ -23,6 +25,8 @@ target_link_libraries(pico_kernel
     pico_stdlib
     hardware_spi
     hardware_gpio
+    hardware_timer
+    pico_multicore
 )
 
 pico_enable_stdio_usb(pico_kernel 1)
