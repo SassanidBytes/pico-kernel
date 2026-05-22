@@ -55,14 +55,14 @@ static void draw_score() {
 
 static void reset_ball() {
     ball_x  = PONG_W / 2;
-    ball_y  = PONG_H / 2;
+    ball_y  = PONG_HEIGHT / 2;
     ball_dx = (score_l + score_r) % 2 == 0 ? 2 : -2;
     ball_dy = 2;
 }
 
 static void init_game() {
-    pad_l_y = PONG_H / 2 - PAD_H / 2;
-    pad_r_y = PONG_H / 2 - PAD_H / 2;
+    pad_l_y = PONG_HEIGHT / 2 - PAD_H / 2;
+    pad_r_y = PONG_HEIGHT / 2 - PAD_H / 2;
     score_l = 0;
     score_r = 0;
     reset_ball();
@@ -85,8 +85,8 @@ static void update_ai() {
         else if (center > ball_y + 2) pad_r_y -= 2;
     } else {
         // Ball geht weg → zurück zur Mitte
-        if (center < PONG_H/2 - 2) pad_r_y += 1;
-        else if (center > PONG_H/2 + 2) pad_r_y -= 1;
+        if (center < PONG_HEIGHT/2 - 2) pad_r_y += 1;
+        else if (center > PONG_HEIGHT/2 + 2) pad_r_y -= 1;
     }
     // Grenzen
     if (pad_r_y < PONG_TOP) pad_r_y = PONG_TOP;

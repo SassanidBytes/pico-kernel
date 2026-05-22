@@ -5,7 +5,7 @@
 
 // Spielfeld
 #define PONG_W      240
-#define PONG_H      135
+#define PONG_HEIGHT 135
 #define PONG_TOP    8    // Oben reserviert für Score
 #define PONG_BOT    127  // Unten
 
