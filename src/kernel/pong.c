@@ -97,6 +97,7 @@ static void update_ai() {
 
 void pong_run() {
     // Buttons initialisieren
+    pong_active = true;
     gpio_init(BTN_A); gpio_set_dir(BTN_A, GPIO_IN); gpio_pull_up(BTN_A);
     gpio_init(BTN_B); gpio_set_dir(BTN_B, GPIO_IN); gpio_pull_up(BTN_B);
     gpio_init(BTN_X); gpio_set_dir(BTN_X, GPIO_IN); gpio_pull_up(BTN_X);
@@ -112,7 +113,9 @@ void pong_run() {
         if (!gpio_get(BTN_B)) pad_l_y += PAD_SPEED;
 
         // X+Y gleichzeitig = zurück zur Shell
-        if (!gpio_get(BTN_X) && !gpio_get(BTN_Y)) return;
+        if (!gpio_get(BTN_X) && !gpio_get(BTN_Y)) 
+        pong_active = false;
+        return;
 
         // Grenzen linker Schläger
         if (pad_l_y < PONG_TOP) pad_l_y = PONG_TOP;
@@ -168,11 +171,12 @@ void pong_run() {
             draw_middleline();
         }
 
-        // ── Zeichnen ──
-        draw_rect(PAD_L_X, pad_l_y, PAD_W, PAD_H, PONG_FG);
-        draw_rect(PAD_R_X, pad_r_y, PAD_W, PAD_H, PONG_FG);
-        draw_rect(ball_x,  ball_y,  BALL_SIZE, BALL_SIZE, PONG_FG);
+       // ── Zeichnen ──
+       draw_middleline();  // Linie nach Ball-Löschung neu zeichnen
+       draw_rect(PAD_L_X, pad_l_y, PAD_W, PAD_H, PONG_FG);
+       draw_rect(PAD_R_X, pad_r_y, PAD_W, PAD_H, PONG_FG);
+       draw_rect(ball_x,  ball_y,  BALL_SIZE, BALL_SIZE, PONG_FG);
 
-        sleep_ms(16); // ~60fps
+       sleep_ms(16);
     }
 }

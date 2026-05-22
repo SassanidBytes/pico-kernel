@@ -7,6 +7,7 @@
 #include "logo.h"
 
 // ─── Splash Screen ───────────────────────────────────────
+volatile bool pong_active = false;
 void show_splash() {
     st7789_fill(0x0000);
     int x_offset = (DISPLAY_WIDTH  - LOGO_W)      / 2;
@@ -22,16 +23,15 @@ void show_splash() {
 void core1_entry() {
     static uint8_t tick = 0;
     while (1) {
-        uint16_t color = (tick++ % 2 == 0) ? 0x07E0 : 0x001F;
-
-        display_lock();
-        st7789_fill_rect(185, 120, 35, 10, color);
-        display_unlock();
-
+        if (!pong_active) {
+            uint16_t color = (tick++ % 2 == 0) ? 0x07E0 : 0x001F;
+            display_lock();
+            st7789_fill_rect(185, 120, 35, 10, color);
+            display_unlock();
+        }
         sleep_ms(500);
     }
 }
-
 // ─── Tasks ───────────────────────────────────────────────
 void task_shell(void) {
     shell_run();

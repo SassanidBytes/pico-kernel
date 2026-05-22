@@ -2,6 +2,7 @@
 #define PONG_H
 
 #include <stdint.h>
+extern volatile bool pong_active;
 
 // Spielfeld
 #define PONG_W      240
