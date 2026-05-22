@@ -102,7 +102,7 @@ void pong_run() {
     gpio_init(BTN_B); gpio_set_dir(BTN_B, GPIO_IN); gpio_pull_up(BTN_B);
     gpio_init(BTN_X); gpio_set_dir(BTN_X, GPIO_IN); gpio_pull_up(BTN_X);
     gpio_init(BTN_Y); gpio_set_dir(BTN_Y, GPIO_IN); gpio_pull_up(BTN_Y);
-
+    sleep_ms(500);
     init_game();
     draw_field();
 
@@ -113,9 +113,13 @@ void pong_run() {
         if (!gpio_get(BTN_B)) pad_l_y += PAD_SPEED;
 
         // X+Y gleichzeitig = zurück zur Shell
-        if (!gpio_get(BTN_X) && !gpio_get(BTN_Y)) 
-        pong_active = false;
-        return;
+        if (!gpio_get(BTN_X) && !gpio_get(BTN_Y)) {
+            sleep_ms(300);
+            if (!gpio_get(BTN_X) && !gpio_get(BTN_Y)) {
+                pong_active = false;
+                return;
+            }
+        }
 
         // Grenzen linker Schläger
         if (pad_l_y < PONG_TOP) pad_l_y = PONG_TOP;

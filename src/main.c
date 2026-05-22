@@ -1,4 +1,5 @@
 #include "pico/stdlib.h"
+#include <stdbool.h>
 #include "pico/multicore.h"
 #include "drivers/st7789.h"
 #include "kernel/shell.h"
