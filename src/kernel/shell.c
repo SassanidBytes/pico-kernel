@@ -1,6 +1,7 @@
 #include "shell.h"
 #include "st7789.h"
 #include "font8x8.h"
+#include "mutex.h"
 #include "pico/stdlib.h"
 #include <string.h>
 #include <stdio.h>
@@ -14,12 +15,14 @@ void shell_draw_char(char c, int col, int row, uint16_t fg, uint16_t bg) {
     const uint8_t* glyph = font8x8[c - 32];
     int px = col * 9;
     int py = row * 10;
+    display_lock();
     for (int y = 0; y < 8; y++) {
         for (int x = 0; x < 8; x++) {
             uint16_t color = (glyph[y] & (1 << x)) ? fg : bg;
             st7789_set_pixel(px + x, py + y, color);
         }
     }
+    display_unlock();
 }
 
 void shell_draw_string(const char* str, int col, int row, uint16_t fg, uint16_t bg) {
