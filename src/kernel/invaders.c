@@ -1,9 +1,11 @@
+
 #include "invaders.h"
 #include "st7789.h"
 #include "mutex.h"
 #include "pico/stdlib.h"
 #include "hardware/gpio.h"
 #include <string.h>
+extern volatile bool pong_active;
 
 // ─── Spielzustand ────────────────────────────────────────
 static int  player_x;
