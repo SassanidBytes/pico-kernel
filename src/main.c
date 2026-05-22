@@ -39,7 +39,7 @@ void task_heartbeat(void)  {
 // Kern 1: kleine Status-Anzeige oben rechts
     static uint8_t tick = 0; 
     uint16_t color = (tick++ % 2 == 0) ? 0x07E0 : 0x0000;
-    st7789_fill_rect(255, 2, 10, 10, color); 
+    st7789_fill_rect(190, 2, 35, 15, color); 
     sleep_ms(500); 
 }
 
@@ -47,7 +47,7 @@ void task_heartbeat(void)  {
 void core1_entry(){
 
     while(1){
-        task_heartbeat(); 
+        sleep_ms(500);
     }
 
 }
@@ -57,17 +57,17 @@ void core1_entry(){
 int main() {
     stdio_init_all();
     sleep_ms(2000);
-
     st7789_init();
     show_splash();
-
-    // Kern 1 starten (Heartbeat)
+    st7789_fill(0x0000); // Screen leeren nach Splash
+    sleep_ms(100);
+    // Kern 1 starten
     multicore_launch_core1(core1_entry);
+    // Kern 1 starten (Heartbeat)
+   
     scheduler_init();
     scheduler_add_task("shell", task_shell);
-    
     //scheduler starten
-
     scheduler_run();
 
     return 0;
