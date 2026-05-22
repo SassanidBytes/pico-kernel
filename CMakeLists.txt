@@ -12,6 +12,7 @@ add_executable(pico_kernel
     src/drivers/st7789.c
     src/kernel/shell.c
     src/kernel/tasks/scheduler.c
+    src/kernel/mutex.c
 )
 
 target_include_directories(pico_kernel PRIVATE
@@ -19,6 +20,7 @@ target_include_directories(pico_kernel PRIVATE
     src/kernel
     src/kernel/tasks
     src/font
+    src/kernel
 )
 
 target_link_libraries(pico_kernel
