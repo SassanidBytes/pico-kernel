@@ -25,8 +25,10 @@ It boots with a custom splash screen, launches a dual-core scheduler, and drops 
 - Boot splash screen with custom logo
 - Pong game with AI opponent
 - Space Invaders with enemy AI
-- Hardware Password Manager (XOR encrypted)
+- Hardware Password Manager (XOR encrypted, Flash storage)
+- Password add/delete with persistent storage
 - 2FA TOTP Token Generator
+- System info (RAM/Flash usage)
 - Heartbeat indicator (Core1)
 
 ## Hardware
@@ -133,9 +135,12 @@ Connect via any serial terminal (e.g. PuTTY) at `115200` baud:
 | `color` | RGB color test |
 | `info` | Display driver info |
 | `tasks` | Task manager (dual-core) |
+| `sysinfo` | RAM/Flash/Password usage |
 | `pong` | Pong vs AI (A=up, B=down, X+Y=exit) |
 | `inv` | Space Invaders (A=left, B=right, X=shoot, Y+A=exit) |
 | `pass` | Password Manager (A/B=scroll, X=select, Y=exit) |
+| `addpass` | Add new password (saved to Flash) |
+| `delpass` | Delete password (A/B=scroll, X=delete, Y=cancel) |
 | `2fa` | 2FA TOTP Token Generator (Y=exit) |
 
 ## How it works
