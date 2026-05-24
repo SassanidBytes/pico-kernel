@@ -17,6 +17,7 @@ add_executable(pico_kernel
     src/kernel/invaders.c
     src/kernel/passmanager.c
     src/kernel/totp.c
+    src/kernel/storage.c
 )
 
 target_include_directories(pico_kernel PRIVATE
@@ -31,6 +32,8 @@ target_link_libraries(pico_kernel
     hardware_spi
     hardware_gpio
     hardware_timer
+    hardware_flash
+    hardware_sync
     pico_multicore
 )
 
