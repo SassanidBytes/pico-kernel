@@ -6,6 +6,7 @@
 #include "hardware/gpio.h"
 #include <string.h>
 #include <stdio.h>
+#include "storage.h"
 
 extern volatile bool pong_active;
 
@@ -83,6 +84,119 @@ static void draw_passmanager(int sel) {
     shell_draw_string("A/B:Scroll X:Select Y:Exit", 0, 12, PM_GOLD, PM_BG);
 }
 
+void passmanager_add() {
+    char name[MAX_NAME_LEN]  = {0};
+    char user[MAX_NAME_LEN]  = {0};
+    char pass[MAX_PASS_LEN]  = {0};
+    int  pos = 0;
+
+    // Name eingeben
+    display_lock();
+    st7789_fill(PM_BG);
+    display_unlock();
+    shell_draw_string("Neues Passwort", 0, 0, PM_GOLD, PM_BG);
+    shell_draw_string("Name:", 0, 2, PM_GREEN, PM_BG);
+    shell_print("> ");
+
+    pos = 0;
+    while (1) {
+        int c = getchar_timeout_us(0);
+        if (c == PICO_ERROR_TIMEOUT) continue;
+        if (c == '\r' || c == '\n') break;
+        if (c == 127 && pos > 0) { pos--; continue; }
+        if (pos < MAX_NAME_LEN - 1) name[pos++] = (char)c;
+    }
+    name[pos] = '\0';
+
+    // Username eingeben
+    shell_draw_string("User:", 0, 4, PM_GREEN, PM_BG);
+    shell_print("> ");
+    pos = 0;
+    while (1) {
+        int c = getchar_timeout_us(0);
+        if (c == PICO_ERROR_TIMEOUT) continue;
+        if (c == '\r' || c == '\n') break;
+        if (c == 127 && pos > 0) { pos--; continue; }
+        if (pos < MAX_NAME_LEN - 1) user[pos++] = (char)c;
+    }
+    user[pos] = '\0';
+
+    // Passwort eingeben
+    shell_draw_string("Pass:", 0, 6, PM_GREEN, PM_BG);
+    shell_print("> ");
+    pos = 0;
+    while (1) {
+        int c = getchar_timeout_us(0);
+        if (c == PICO_ERROR_TIMEOUT) continue;
+        if (c == '\r' || c == '\n') break;
+        if (c == 127 && pos > 0) { pos--; continue; }
+        if (pos < MAX_PASS_LEN - 1) pass[pos++] = (char)c;
+    }
+    pass[pos] = '\0';
+
+    // Speichern
+    int count = 0;
+    storage_load(passwords, &count);
+    if (count < MAX_PASSWORDS) {
+        strncpy(passwords[count].name,     name, MAX_NAME_LEN);
+        strncpy(passwords[count].username, user, MAX_NAME_LEN);
+        // XOR verschlüsseln
+        for (int i = 0; i < (int)strlen(pass); i++)
+            passwords[count].password[i] = pass[i] ^ PASS_XOR_KEY;
+        passwords[count].active = true;
+        count++;
+        storage_save(passwords, count);
+        shell_draw_string("Gespeichert!", 0, 9, PM_GREEN, PM_BG);
+    } else {
+        shell_draw_string("Voll! Max 8", 0, 9, PM_RED, PM_BG);
+    }
+    sleep_ms(1500);
+}
+
+void passmanager_delete() {
+    int count = 0;
+    storage_load(passwords, &count);
+    if (count == 0) {
+        shell_println("Keine Passwoerter!");
+        return;
+    }
+
+    display_lock();
+    st7789_fill(PM_BG);
+    display_unlock();
+    shell_draw_string("Loeschen: A/B=Scroll", 0, 0, PM_GOLD, PM_BG);
+    shell_draw_string("X=Loeschen Y=Abbruch", 0, 1, PM_GOLD, PM_BG);
+
+    int sel = 0;
+    draw_passmanager(sel);
+
+    while (1) {
+        if (!gpio_get(BTN_Y)) { sleep_ms(200); return; }
+        if (!gpio_get(BTN_A)) {
+            sel = (sel - 1 + count) % count;
+            draw_passmanager(sel);
+            sleep_ms(200);
+        }
+        if (!gpio_get(BTN_B)) {
+            sel = (sel + 1) % count;
+            draw_passmanager(sel);
+            sleep_ms(200);
+        }
+        if (!gpio_get(BTN_X)) {
+            // Eintrag löschen
+            for (int i = sel; i < count - 1; i++)
+                passwords[i] = passwords[i + 1];
+            memset(&passwords[count-1], 0, sizeof(password_entry_t));
+            count--;
+            storage_save(passwords, count);
+            shell_draw_string("Geloescht!", 0, 10, PM_RED, PM_BG);
+            sleep_ms(1000);
+            return;
+        }
+        sleep_ms(50);
+    }
+}
+
 static void show_password(int idx) {
     char decrypted[MAX_PASS_LEN];
     xor_crypt(passwords[idx].password,
@@ -126,6 +240,12 @@ void passmanager_run() {
     gpio_init(BTN_X); gpio_set_dir(BTN_X, GPIO_IN); gpio_pull_up(BTN_X);
     gpio_init(BTN_Y); gpio_set_dir(BTN_Y, GPIO_IN); gpio_pull_up(BTN_Y);
     sleep_ms(300);
+
+    // Passwörter aus Flash laden
+    int count = 0;
+    if (!storage_load(passwords, &count)) {
+        // Kein Flash Inhalt → Demo Passwörter bleiben
+    }
 
     selected = 0;
     draw_passmanager(selected);

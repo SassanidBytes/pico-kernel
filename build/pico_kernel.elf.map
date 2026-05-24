@@ -206,6 +206,33 @@ Discarded input sections
  .bss           0x00000000        0x0 CMakeFiles/pico_kernel.dir/src/kernel/totp.c.obj
  .text.totp_generate
                 0x00000000       0x78 CMakeFiles/pico_kernel.dir/src/kernel/totp.c.obj
+ .text          0x00000000        0x0 CMakeFiles/pico_kernel.dir/src/kernel/storage.c.obj
+ .data          0x00000000        0x0 CMakeFiles/pico_kernel.dir/src/kernel/storage.c.obj
+ .bss           0x00000000        0x0 CMakeFiles/pico_kernel.dir/src/kernel/storage.c.obj
+ .text.storage_init
+                0x00000000        0x4 CMakeFiles/pico_kernel.dir/src/kernel/storage.c.obj
+ .text.storage_save
+                0x00000000       0xd8 CMakeFiles/pico_kernel.dir/src/kernel/storage.c.obj
+ .text.storage_load
+                0x00000000       0xb8 CMakeFiles/pico_kernel.dir/src/kernel/storage.c.obj
+ .text.storage_get_info
+                0x00000000        0xc CMakeFiles/pico_kernel.dir/src/kernel/storage.c.obj
+ .text.storage_get_password_count
+                0x00000000       0x18 CMakeFiles/pico_kernel.dir/src/kernel/storage.c.obj
+ .debug_info    0x00000000      0x5e3 CMakeFiles/pico_kernel.dir/src/kernel/storage.c.obj
+ .debug_abbrev  0x00000000      0x2d6 CMakeFiles/pico_kernel.dir/src/kernel/storage.c.obj
+ .debug_loclists
+                0x00000000      0x457 CMakeFiles/pico_kernel.dir/src/kernel/storage.c.obj
+ .debug_aranges
+                0x00000000       0x40 CMakeFiles/pico_kernel.dir/src/kernel/storage.c.obj
+ .debug_rnglists
+                0x00000000       0x61 CMakeFiles/pico_kernel.dir/src/kernel/storage.c.obj
+ .debug_line    0x00000000      0x803 CMakeFiles/pico_kernel.dir/src/kernel/storage.c.obj
+ .debug_str     0x00000000      0x2ff CMakeFiles/pico_kernel.dir/src/kernel/storage.c.obj
+ .comment       0x00000000       0x46 CMakeFiles/pico_kernel.dir/src/kernel/storage.c.obj
+ .debug_frame   0x00000000       0x88 CMakeFiles/pico_kernel.dir/src/kernel/storage.c.obj
+ .ARM.attributes
+                0x00000000       0x2c CMakeFiles/pico_kernel.dir/src/kernel/storage.c.obj
  .text          0x00000000        0x0 CMakeFiles/pico_kernel.dir/C_/Users/david/Downloads/myshit/pico-sdk/src/rp2_common/pico_stdlib/stdlib.c.obj
  .data          0x00000000        0x0 CMakeFiles/pico_kernel.dir/C_/Users/david/Downloads/myshit/pico-sdk/src/rp2_common/pico_stdlib/stdlib.c.obj
  .bss           0x00000000        0x0 CMakeFiles/pico_kernel.dir/C_/Users/david/Downloads/myshit/pico-sdk/src/rp2_common/pico_stdlib/stdlib.c.obj
@@ -4118,6 +4145,7 @@ LOAD CMakeFiles/pico_kernel.dir/src/kernel/pong.c.obj
 LOAD CMakeFiles/pico_kernel.dir/src/kernel/invaders.c.obj
 LOAD CMakeFiles/pico_kernel.dir/src/kernel/passmanager.c.obj
 LOAD CMakeFiles/pico_kernel.dir/src/kernel/totp.c.obj
+LOAD CMakeFiles/pico_kernel.dir/src/kernel/storage.c.obj
 LOAD CMakeFiles/pico_kernel.dir/C_/Users/david/Downloads/myshit/pico-sdk/src/rp2_common/pico_stdlib/stdlib.c.obj
 LOAD CMakeFiles/pico_kernel.dir/C_/Users/david/Downloads/myshit/pico-sdk/src/rp2_common/hardware_gpio/gpio.c.obj
 LOAD CMakeFiles/pico_kernel.dir/C_/Users/david/Downloads/myshit/pico-sdk/src/rp2040/pico_platform/platform.c.obj

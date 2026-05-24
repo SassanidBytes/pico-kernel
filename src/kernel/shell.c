@@ -10,6 +10,7 @@
 #include "invaders.h"
 #include "passmanager.h"
 #include "totp.h"
+#include "storage.h"
 
 static int cursor_col = 0;
 static int cursor_row = 0;
@@ -77,6 +78,9 @@ static void handle_command(const char* cmd) {
         shell_println("  inv     - Space Invaders");
         shell_println("  pass    - Password Manager");
         shell_println("  2fa     - 2FA Token");
+        shell_println("  addpass - Passwort hinzufuegen");
+        shell_println("  delpass - Passwort loeschen");
+        shell_println("  sysinfo - System Info");
     } else if (strcmp(cmd, "clear") == 0) {
         shell_clear();
     } else if (strcmp(cmd, "hello") == 0) {
@@ -137,6 +141,24 @@ static void handle_command(const char* cmd) {
         shell_println("'help' fuer Hilfe");
         shell_println("");
         shell_print("> ");
+
+    } else if (strcmp(cmd, "sysinfo") == 0) {
+        uint32_t used, free;
+        storage_get_info(&used, &free);
+        char buf[32];
+        shell_println("PicoKernel v2.0");
+        shell_println("CPU: RP2040 @ 125MHz");
+        shell_println("RAM: 264KB total");
+        snprintf(buf, sizeof(buf), "Flash: %luKB frei", (unsigned long)free);
+        shell_println(buf);
+        snprintf(buf, sizeof(buf), "Passes: %lu/8", (unsigned long)storage_get_password_count());
+        shell_println(buf);
+    } else if (strncmp(cmd, "addpass", 7) == 0) {
+        shell_println("Name: ");
+        // Wird via passmanager_add() gemacht
+        passmanager_add();
+    } else if (strncmp(cmd, "delpass", 7) == 0) {
+        passmanager_delete();
 
     
     } else {

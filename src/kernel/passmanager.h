@@ -19,5 +19,7 @@ typedef struct {
 
 // Funktionen
 void passmanager_run();
+void passmanager_add();
+void passmanager_delete();
 
 #endif
