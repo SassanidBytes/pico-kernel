@@ -56,6 +56,7 @@ It boots with a custom splash screen, launches a dual-core scheduler, and drops 
 
 ## Project Structure
 
+```
 pico-kernel/
 ├── src/
 │   ├── main.c                  # Entry point, dual-core launch
@@ -73,6 +74,8 @@ pico-kernel/
 │   │   ├── invaders.h
 │   │   ├── passmanager.c       # Password Manager
 │   │   ├── passmanager.h
+│   │   ├── storage.c           # Flash storage
+│   │   ├── storage.h
 │   │   ├── totp.c              # 2FA Token Generator
 │   │   ├── totp.h
 │   │   └── tasks/
@@ -84,7 +87,7 @@ pico-kernel/
 │       └── logo.h              # Boot splash logo (RGB565)
 ├── CMakeLists.txt
 └── pico_sdk_import.cmake
-
+```
 
 
 ## Build Instructions
