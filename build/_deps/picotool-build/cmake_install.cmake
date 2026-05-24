@@ -81,10 +81,6 @@ if(CMAKE_INSTALL_COMPONENT STREQUAL "Unspecified" OR NOT CMAKE_INSTALL_COMPONENT
   file(INSTALL DESTINATION "${CMAKE_INSTALL_PREFIX}/picotool" TYPE FILE MESSAGE_NEVER FILES "C:/pico/pico-kernel/build/_deps/picotool-build/enc_bootloader/enc_bootloader.elf")
 endif()
 
-if(CMAKE_INSTALL_COMPONENT STREQUAL "Unspecified" OR NOT CMAKE_INSTALL_COMPONENT)
-  file(INSTALL DESTINATION "${CMAKE_INSTALL_PREFIX}/picotool" TYPE FILE MESSAGE_NEVER RENAME "enc_bootloader_mbedtls.elf" FILES "C:/pico/pico-kernel/build/_deps/picotool-build/enc_bootloader_mbedtls/enc_bootloader.elf")
-endif()
-
 if(NOT CMAKE_INSTALL_LOCAL_ONLY)
   # Include the install script for each subdirectory.
   include("C:/pico/pico-kernel/build/_deps/picotool-build/lib/cmake_install.cmake")

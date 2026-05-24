@@ -1,4 +1,4 @@
-# Install script for directory: C:/pico/pico-sdk/src/common/pico_util
+# Install script for directory: C:/Users/david/Downloads/myshit/pico-sdk/src/common/pico_util
 
 # Set the install prefix
 if(NOT DEFINED CMAKE_INSTALL_PREFIX)

@@ -4,4 +4,3 @@ C:/pico/pico-kernel/build/_deps/picotool/picotoolTargets-release.cmake
 C:/pico/pico-kernel/build/_deps/picotool/picotoolConfig.cmake
 C:/pico/pico-kernel/build/_deps/picotool/picotoolConfigVersion.cmake
 C:/pico/pico-kernel/build/_deps/picotool/enc_bootloader.elf
-C:/pico/pico-kernel/build/_deps/picotool/enc_bootloader_mbedtls.elf

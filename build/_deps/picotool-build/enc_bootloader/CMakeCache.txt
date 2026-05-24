@@ -278,7 +278,7 @@ CMAKE_VERBOSE_MAKEFILE:BOOL=FALSE
 PICO_DEBUG_INFO_IN_RELEASE:UNINITIALIZED=OFF
 
 //No help, variable specified on the command line.
-PICO_SDK_PATH:FILEPATH=C:/pico/pico-sdk
+PICO_SDK_PATH:FILEPATH=C:/Users/david/Downloads/myshit/pico-sdk
 
 //No help, variable specified on the command line.
 USE_MBEDTLS:UNINITIALIZED=0

@@ -15,6 +15,8 @@ add_executable(pico_kernel
     src/kernel/mutex.c
     src/kernel/pong.c
     src/kernel/invaders.c
+    src/kernel/passmanager.c
+    src/kernel/totp.c
 )
 
 target_include_directories(pico_kernel PRIVATE
@@ -22,7 +24,6 @@ target_include_directories(pico_kernel PRIVATE
     src/kernel
     src/kernel/tasks
     src/font
-    src/kernel
 )
 
 target_link_libraries(pico_kernel
@@ -36,15 +37,3 @@ target_link_libraries(pico_kernel
 pico_enable_stdio_usb(pico_kernel 1)
 pico_enable_stdio_uart(pico_kernel 0)
 pico_add_extra_outputs(pico_kernel)
-
-add_executable(pico_kernel
-    src/main.c
-    src/drivers/st7789.c
-    src/kernel/shell.c
-    src/kernel/tasks/scheduler.c
-    src/kernel/mutex.c
-    src/kernel/pong.c
-    src/kernel/invaders.c
-    src/kernel/passmanager.c
-    src/kernel/totp.c
-)

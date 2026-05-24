@@ -1,4 +1,4 @@
-# Install script for directory: C:/pico/pico-sdk/src/common/pico_divider_headers
+# Install script for directory: C:/Users/david/Downloads/myshit/pico-sdk/src/common/pico_divider_headers
 
 # Set the install prefix
 if(NOT DEFINED CMAKE_INSTALL_PREFIX)

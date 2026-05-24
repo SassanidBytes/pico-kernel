@@ -1,5 +1,4 @@
 C:/pico/pico-kernel/build/_deps/picotool-build/CMakeFiles/enc_bootloader.dir
-C:/pico/pico-kernel/build/_deps/picotool-build/CMakeFiles/enc_bootloader_mbedtls.dir
 C:/pico/pico-kernel/build/_deps/picotool-build/CMakeFiles/embedded_data_no_libusb.dir
 C:/pico/pico-kernel/build/_deps/picotool-build/CMakeFiles/embedded_data.dir
 C:/pico/pico-kernel/build/_deps/picotool-build/CMakeFiles/picotool.dir
@@ -9,7 +8,6 @@ C:/pico/pico-kernel/build/_deps/picotool-build/CMakeFiles/list_install_component
 C:/pico/pico-kernel/build/_deps/picotool-build/CMakeFiles/install.dir
 C:/pico/pico-kernel/build/_deps/picotool-build/CMakeFiles/install/local.dir
 C:/pico/pico-kernel/build/_deps/picotool-build/CMakeFiles/install/strip.dir
-C:/pico/pico-kernel/build/_deps/picotool-build/lib/CMakeFiles/mbedtls.dir
 C:/pico/pico-kernel/build/_deps/picotool-build/lib/CMakeFiles/edit_cache.dir
 C:/pico/pico-kernel/build/_deps/picotool-build/lib/CMakeFiles/rebuild_cache.dir
 C:/pico/pico-kernel/build/_deps/picotool-build/lib/CMakeFiles/list_install_components.dir

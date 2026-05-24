@@ -35,8 +35,6 @@ events:
       - "clang"
     candidate_directories:
       - "C:/Users/david/.cursor/extensions/vadimcn.vscode-lldb-1.12.0/bin/"
-      - "C:/Users/david/scoop/apps/gcc-arm-none-eabi/current/bin/"
-      - "C:/Users/david/scoop/shims/"
       - "C:/Python314/Scripts/"
       - "C:/Python314/"
       - "C:/Program Files (x86)/Razer/ChromaBroadcast/bin/"
@@ -61,6 +59,8 @@ events:
       - "C:/ProgramData/chocolatey/bin/"
       - "C:/Program Files/Git/cmd/"
       - "C:/Program Files/dotnet/"
+      - "C:/Users/david/scoop/apps/gcc-arm-none-eabi/current/bin/"
+      - "C:/Users/david/scoop/shims/"
       - "C:/Users/david/AppData/Local/Programs/cursor/resources/app/bin/"
       - "C:/msys64/ucrt64/bin/"
       - "C:/Users/david/AppData/Roaming/npm/"
@@ -87,48 +87,6 @@ events:
       - "C:/Users/david/.cursor/extensions/vadimcn.vscode-lldb-1.12.0/bin/clang.com"
       - "C:/Users/david/.cursor/extensions/vadimcn.vscode-lldb-1.12.0/bin/clang.exe"
       - "C:/Users/david/.cursor/extensions/vadimcn.vscode-lldb-1.12.0/bin/clang"
-      - "C:/Users/david/scoop/apps/gcc-arm-none-eabi/current/bin/cc.com"
-      - "C:/Users/david/scoop/apps/gcc-arm-none-eabi/current/bin/cc.exe"
-      - "C:/Users/david/scoop/apps/gcc-arm-none-eabi/current/bin/cc"
-      - "C:/Users/david/scoop/apps/gcc-arm-none-eabi/current/bin/gcc.com"
-      - "C:/Users/david/scoop/apps/gcc-arm-none-eabi/current/bin/gcc.exe"
-      - "C:/Users/david/scoop/apps/gcc-arm-none-eabi/current/bin/gcc"
-      - "C:/Users/david/scoop/apps/gcc-arm-none-eabi/current/bin/cl.com"
-      - "C:/Users/david/scoop/apps/gcc-arm-none-eabi/current/bin/cl.exe"
-      - "C:/Users/david/scoop/apps/gcc-arm-none-eabi/current/bin/cl"
-      - "C:/Users/david/scoop/apps/gcc-arm-none-eabi/current/bin/bcc.com"
-      - "C:/Users/david/scoop/apps/gcc-arm-none-eabi/current/bin/bcc.exe"
-      - "C:/Users/david/scoop/apps/gcc-arm-none-eabi/current/bin/bcc"
-      - "C:/Users/david/scoop/apps/gcc-arm-none-eabi/current/bin/xlc.com"
-      - "C:/Users/david/scoop/apps/gcc-arm-none-eabi/current/bin/xlc.exe"
-      - "C:/Users/david/scoop/apps/gcc-arm-none-eabi/current/bin/xlc"
-      - "C:/Users/david/scoop/apps/gcc-arm-none-eabi/current/bin/icx.com"
-      - "C:/Users/david/scoop/apps/gcc-arm-none-eabi/current/bin/icx.exe"
-      - "C:/Users/david/scoop/apps/gcc-arm-none-eabi/current/bin/icx"
-      - "C:/Users/david/scoop/apps/gcc-arm-none-eabi/current/bin/clang.com"
-      - "C:/Users/david/scoop/apps/gcc-arm-none-eabi/current/bin/clang.exe"
-      - "C:/Users/david/scoop/apps/gcc-arm-none-eabi/current/bin/clang"
-      - "C:/Users/david/scoop/shims/cc.com"
-      - "C:/Users/david/scoop/shims/cc.exe"
-      - "C:/Users/david/scoop/shims/cc"
-      - "C:/Users/david/scoop/shims/gcc.com"
-      - "C:/Users/david/scoop/shims/gcc.exe"
-      - "C:/Users/david/scoop/shims/gcc"
-      - "C:/Users/david/scoop/shims/cl.com"
-      - "C:/Users/david/scoop/shims/cl.exe"
-      - "C:/Users/david/scoop/shims/cl"
-      - "C:/Users/david/scoop/shims/bcc.com"
-      - "C:/Users/david/scoop/shims/bcc.exe"
-      - "C:/Users/david/scoop/shims/bcc"
-      - "C:/Users/david/scoop/shims/xlc.com"
-      - "C:/Users/david/scoop/shims/xlc.exe"
-      - "C:/Users/david/scoop/shims/xlc"
-      - "C:/Users/david/scoop/shims/icx.com"
-      - "C:/Users/david/scoop/shims/icx.exe"
-      - "C:/Users/david/scoop/shims/icx"
-      - "C:/Users/david/scoop/shims/clang.com"
-      - "C:/Users/david/scoop/shims/clang.exe"
-      - "C:/Users/david/scoop/shims/clang"
       - "C:/Python314/Scripts/cc.com"
       - "C:/Python314/Scripts/cc.exe"
       - "C:/Python314/Scripts/cc"
@@ -633,6 +591,48 @@ events:
       - "C:/Program Files/dotnet/clang.com"
       - "C:/Program Files/dotnet/clang.exe"
       - "C:/Program Files/dotnet/clang"
+      - "C:/Users/david/scoop/apps/gcc-arm-none-eabi/current/bin/cc.com"
+      - "C:/Users/david/scoop/apps/gcc-arm-none-eabi/current/bin/cc.exe"
+      - "C:/Users/david/scoop/apps/gcc-arm-none-eabi/current/bin/cc"
+      - "C:/Users/david/scoop/apps/gcc-arm-none-eabi/current/bin/gcc.com"
+      - "C:/Users/david/scoop/apps/gcc-arm-none-eabi/current/bin/gcc.exe"
+      - "C:/Users/david/scoop/apps/gcc-arm-none-eabi/current/bin/gcc"
+      - "C:/Users/david/scoop/apps/gcc-arm-none-eabi/current/bin/cl.com"
+      - "C:/Users/david/scoop/apps/gcc-arm-none-eabi/current/bin/cl.exe"
+      - "C:/Users/david/scoop/apps/gcc-arm-none-eabi/current/bin/cl"
+      - "C:/Users/david/scoop/apps/gcc-arm-none-eabi/current/bin/bcc.com"
+      - "C:/Users/david/scoop/apps/gcc-arm-none-eabi/current/bin/bcc.exe"
+      - "C:/Users/david/scoop/apps/gcc-arm-none-eabi/current/bin/bcc"
+      - "C:/Users/david/scoop/apps/gcc-arm-none-eabi/current/bin/xlc.com"
+      - "C:/Users/david/scoop/apps/gcc-arm-none-eabi/current/bin/xlc.exe"
+      - "C:/Users/david/scoop/apps/gcc-arm-none-eabi/current/bin/xlc"
+      - "C:/Users/david/scoop/apps/gcc-arm-none-eabi/current/bin/icx.com"
+      - "C:/Users/david/scoop/apps/gcc-arm-none-eabi/current/bin/icx.exe"
+      - "C:/Users/david/scoop/apps/gcc-arm-none-eabi/current/bin/icx"
+      - "C:/Users/david/scoop/apps/gcc-arm-none-eabi/current/bin/clang.com"
+      - "C:/Users/david/scoop/apps/gcc-arm-none-eabi/current/bin/clang.exe"
+      - "C:/Users/david/scoop/apps/gcc-arm-none-eabi/current/bin/clang"
+      - "C:/Users/david/scoop/shims/cc.com"
+      - "C:/Users/david/scoop/shims/cc.exe"
+      - "C:/Users/david/scoop/shims/cc"
+      - "C:/Users/david/scoop/shims/gcc.com"
+      - "C:/Users/david/scoop/shims/gcc.exe"
+      - "C:/Users/david/scoop/shims/gcc"
+      - "C:/Users/david/scoop/shims/cl.com"
+      - "C:/Users/david/scoop/shims/cl.exe"
+      - "C:/Users/david/scoop/shims/cl"
+      - "C:/Users/david/scoop/shims/bcc.com"
+      - "C:/Users/david/scoop/shims/bcc.exe"
+      - "C:/Users/david/scoop/shims/bcc"
+      - "C:/Users/david/scoop/shims/xlc.com"
+      - "C:/Users/david/scoop/shims/xlc.exe"
+      - "C:/Users/david/scoop/shims/xlc"
+      - "C:/Users/david/scoop/shims/icx.com"
+      - "C:/Users/david/scoop/shims/icx.exe"
+      - "C:/Users/david/scoop/shims/icx"
+      - "C:/Users/david/scoop/shims/clang.com"
+      - "C:/Users/david/scoop/shims/clang.exe"
+      - "C:/Users/david/scoop/shims/clang"
       - "C:/Users/david/AppData/Local/Programs/cursor/resources/app/bin/cc.com"
       - "C:/Users/david/AppData/Local/Programs/cursor/resources/app/bin/cc.exe"
       - "C:/Users/david/AppData/Local/Programs/cursor/resources/app/bin/cc"
@@ -659,8 +659,6 @@ events:
     search_context:
       ENV{PATH}:
         - "c:\\Users\\david\\.cursor\\extensions\\vadimcn.vscode-lldb-1.12.0\\bin"
-        - "C:\\Users\\david\\scoop\\apps\\gcc-arm-none-eabi\\current\\bin"
-        - "C:\\Users\\david\\scoop\\shims"
         - "C:\\Python314\\Scripts\\"
         - "C:\\Python314\\"
         - "C:\\Program Files (x86)\\Razer\\ChromaBroadcast\\bin"
@@ -685,9 +683,8 @@ events:
         - "C:\\ProgramData\\chocolatey\\bin"
         - "C:\\Program Files\\Git\\cmd"
         - "C:\\Program Files\\dotnet\\"
-        - "C:\\Users\\david\\AppData\\Local\\Programs\\Python\\Python313\\Scripts\\"
-        - "C:\\Users\\david\\AppData\\Local\\Programs\\Python\\Python313\\"
-        - "C:\\Users\\david\\AppData\\Local\\Microsoft\\WindowsApps"
+        - "C:\\Users\\david\\scoop\\apps\\gcc-arm-none-eabi\\current\\bin"
+        - "C:\\Users\\david\\scoop\\shims"
         - "C:\\Users\\david\\AppData\\Local\\Programs\\cursor\\resources\\app\\bin"
         - "C:\\msys64\\ucrt64\\bin"
         - "C:\\Users\\david\\AppData\\Roaming\\npm"
@@ -721,8 +718,6 @@ events:
     search_context:
       ENV{PATH}:
         - "c:\\Users\\david\\.cursor\\extensions\\vadimcn.vscode-lldb-1.12.0\\bin"
-        - "C:\\Users\\david\\scoop\\apps\\gcc-arm-none-eabi\\current\\bin"
-        - "C:\\Users\\david\\scoop\\shims"
         - "C:\\Python314\\Scripts\\"
         - "C:\\Python314\\"
         - "C:\\Program Files (x86)\\Razer\\ChromaBroadcast\\bin"
@@ -747,9 +742,8 @@ events:
         - "C:\\ProgramData\\chocolatey\\bin"
         - "C:\\Program Files\\Git\\cmd"
         - "C:\\Program Files\\dotnet\\"
-        - "C:\\Users\\david\\AppData\\Local\\Programs\\Python\\Python313\\Scripts\\"
-        - "C:\\Users\\david\\AppData\\Local\\Programs\\Python\\Python313\\"
-        - "C:\\Users\\david\\AppData\\Local\\Microsoft\\WindowsApps"
+        - "C:\\Users\\david\\scoop\\apps\\gcc-arm-none-eabi\\current\\bin"
+        - "C:\\Users\\david\\scoop\\shims"
         - "C:\\Users\\david\\AppData\\Local\\Programs\\cursor\\resources\\app\\bin"
         - "C:\\msys64\\ucrt64\\bin"
         - "C:\\Users\\david\\AppData\\Roaming\\npm"
@@ -799,8 +793,6 @@ events:
     candidate_directories:
       - "C:/msys64/ucrt64/bin/"
       - "C:/Users/david/.cursor/extensions/vadimcn.vscode-lldb-1.12.0/bin/"
-      - "C:/Users/david/scoop/apps/gcc-arm-none-eabi/current/bin/"
-      - "C:/Users/david/scoop/shims/"
       - "C:/Python314/Scripts/"
       - "C:/Python314/"
       - "C:/Program Files (x86)/Razer/ChromaBroadcast/bin/"
@@ -825,6 +817,8 @@ events:
       - "C:/ProgramData/chocolatey/bin/"
       - "C:/Program Files/Git/cmd/"
       - "C:/Program Files/dotnet/"
+      - "C:/Users/david/scoop/apps/gcc-arm-none-eabi/current/bin/"
+      - "C:/Users/david/scoop/shims/"
       - "C:/Users/david/AppData/Local/Programs/cursor/resources/app/bin/"
       - "C:/Users/david/AppData/Roaming/npm/"
       - "C:/Users/david/.dotnet/tools/"
@@ -834,8 +828,6 @@ events:
     search_context:
       ENV{PATH}:
         - "c:\\Users\\david\\.cursor\\extensions\\vadimcn.vscode-lldb-1.12.0\\bin"
-        - "C:\\Users\\david\\scoop\\apps\\gcc-arm-none-eabi\\current\\bin"
-        - "C:\\Users\\david\\scoop\\shims"
         - "C:\\Python314\\Scripts\\"
         - "C:\\Python314\\"
         - "C:\\Program Files (x86)\\Razer\\ChromaBroadcast\\bin"
@@ -860,9 +852,8 @@ events:
         - "C:\\ProgramData\\chocolatey\\bin"
         - "C:\\Program Files\\Git\\cmd"
         - "C:\\Program Files\\dotnet\\"
-        - "C:\\Users\\david\\AppData\\Local\\Programs\\Python\\Python313\\Scripts\\"
-        - "C:\\Users\\david\\AppData\\Local\\Programs\\Python\\Python313\\"
-        - "C:\\Users\\david\\AppData\\Local\\Microsoft\\WindowsApps"
+        - "C:\\Users\\david\\scoop\\apps\\gcc-arm-none-eabi\\current\\bin"
+        - "C:\\Users\\david\\scoop\\shims"
         - "C:\\Users\\david\\AppData\\Local\\Programs\\cursor\\resources\\app\\bin"
         - "C:\\msys64\\ucrt64\\bin"
         - "C:\\Users\\david\\AppData\\Roaming\\npm"
@@ -890,8 +881,6 @@ events:
     candidate_directories:
       - "C:/msys64/ucrt64/bin/"
       - "C:/Users/david/.cursor/extensions/vadimcn.vscode-lldb-1.12.0/bin/"
-      - "C:/Users/david/scoop/apps/gcc-arm-none-eabi/current/bin/"
-      - "C:/Users/david/scoop/shims/"
       - "C:/Python314/Scripts/"
       - "C:/Python314/"
       - "C:/Program Files (x86)/Razer/ChromaBroadcast/bin/"
@@ -916,6 +905,8 @@ events:
       - "C:/ProgramData/chocolatey/bin/"
       - "C:/Program Files/Git/cmd/"
       - "C:/Program Files/dotnet/"
+      - "C:/Users/david/scoop/apps/gcc-arm-none-eabi/current/bin/"
+      - "C:/Users/david/scoop/shims/"
       - "C:/Users/david/AppData/Local/Programs/cursor/resources/app/bin/"
       - "C:/Users/david/AppData/Roaming/npm/"
       - "C:/Users/david/.dotnet/tools/"
@@ -925,8 +916,6 @@ events:
     search_context:
       ENV{PATH}:
         - "c:\\Users\\david\\.cursor\\extensions\\vadimcn.vscode-lldb-1.12.0\\bin"
-        - "C:\\Users\\david\\scoop\\apps\\gcc-arm-none-eabi\\current\\bin"
-        - "C:\\Users\\david\\scoop\\shims"
         - "C:\\Python314\\Scripts\\"
         - "C:\\Python314\\"
         - "C:\\Program Files (x86)\\Razer\\ChromaBroadcast\\bin"
@@ -951,9 +940,8 @@ events:
         - "C:\\ProgramData\\chocolatey\\bin"
         - "C:\\Program Files\\Git\\cmd"
         - "C:\\Program Files\\dotnet\\"
-        - "C:\\Users\\david\\AppData\\Local\\Programs\\Python\\Python313\\Scripts\\"
-        - "C:\\Users\\david\\AppData\\Local\\Programs\\Python\\Python313\\"
-        - "C:\\Users\\david\\AppData\\Local\\Microsoft\\WindowsApps"
+        - "C:\\Users\\david\\scoop\\apps\\gcc-arm-none-eabi\\current\\bin"
+        - "C:\\Users\\david\\scoop\\shims"
         - "C:\\Users\\david\\AppData\\Local\\Programs\\cursor\\resources\\app\\bin"
         - "C:\\msys64\\ucrt64\\bin"
         - "C:\\Users\\david\\AppData\\Roaming\\npm"
@@ -981,8 +969,6 @@ events:
     candidate_directories:
       - "C:/msys64/ucrt64/bin/"
       - "C:/Users/david/.cursor/extensions/vadimcn.vscode-lldb-1.12.0/bin/"
-      - "C:/Users/david/scoop/apps/gcc-arm-none-eabi/current/bin/"
-      - "C:/Users/david/scoop/shims/"
       - "C:/Python314/Scripts/"
       - "C:/Python314/"
       - "C:/Program Files (x86)/Razer/ChromaBroadcast/bin/"
@@ -1007,6 +993,8 @@ events:
       - "C:/ProgramData/chocolatey/bin/"
       - "C:/Program Files/Git/cmd/"
       - "C:/Program Files/dotnet/"
+      - "C:/Users/david/scoop/apps/gcc-arm-none-eabi/current/bin/"
+      - "C:/Users/david/scoop/shims/"
       - "C:/Users/david/AppData/Local/Programs/cursor/resources/app/bin/"
       - "C:/Users/david/AppData/Roaming/npm/"
       - "C:/Users/david/.dotnet/tools/"
@@ -1016,8 +1004,6 @@ events:
     search_context:
       ENV{PATH}:
         - "c:\\Users\\david\\.cursor\\extensions\\vadimcn.vscode-lldb-1.12.0\\bin"
-        - "C:\\Users\\david\\scoop\\apps\\gcc-arm-none-eabi\\current\\bin"
-        - "C:\\Users\\david\\scoop\\shims"
         - "C:\\Python314\\Scripts\\"
         - "C:\\Python314\\"
         - "C:\\Program Files (x86)\\Razer\\ChromaBroadcast\\bin"
@@ -1042,9 +1028,8 @@ events:
         - "C:\\ProgramData\\chocolatey\\bin"
         - "C:\\Program Files\\Git\\cmd"
         - "C:\\Program Files\\dotnet\\"
-        - "C:\\Users\\david\\AppData\\Local\\Programs\\Python\\Python313\\Scripts\\"
-        - "C:\\Users\\david\\AppData\\Local\\Programs\\Python\\Python313\\"
-        - "C:\\Users\\david\\AppData\\Local\\Microsoft\\WindowsApps"
+        - "C:\\Users\\david\\scoop\\apps\\gcc-arm-none-eabi\\current\\bin"
+        - "C:\\Users\\david\\scoop\\shims"
         - "C:\\Users\\david\\AppData\\Local\\Programs\\cursor\\resources\\app\\bin"
         - "C:\\msys64\\ucrt64\\bin"
         - "C:\\Users\\david\\AppData\\Roaming\\npm"
@@ -1072,8 +1057,6 @@ events:
     candidate_directories:
       - "C:/msys64/ucrt64/bin/"
       - "C:/Users/david/.cursor/extensions/vadimcn.vscode-lldb-1.12.0/bin/"
-      - "C:/Users/david/scoop/apps/gcc-arm-none-eabi/current/bin/"
-      - "C:/Users/david/scoop/shims/"
       - "C:/Python314/Scripts/"
       - "C:/Python314/"
       - "C:/Program Files (x86)/Razer/ChromaBroadcast/bin/"
@@ -1098,6 +1081,8 @@ events:
       - "C:/ProgramData/chocolatey/bin/"
       - "C:/Program Files/Git/cmd/"
       - "C:/Program Files/dotnet/"
+      - "C:/Users/david/scoop/apps/gcc-arm-none-eabi/current/bin/"
+      - "C:/Users/david/scoop/shims/"
       - "C:/Users/david/AppData/Local/Programs/cursor/resources/app/bin/"
       - "C:/Users/david/AppData/Roaming/npm/"
       - "C:/Users/david/.dotnet/tools/"
@@ -1107,8 +1092,6 @@ events:
     search_context:
       ENV{PATH}:
         - "c:\\Users\\david\\.cursor\\extensions\\vadimcn.vscode-lldb-1.12.0\\bin"
-        - "C:\\Users\\david\\scoop\\apps\\gcc-arm-none-eabi\\current\\bin"
-        - "C:\\Users\\david\\scoop\\shims"
         - "C:\\Python314\\Scripts\\"
         - "C:\\Python314\\"
         - "C:\\Program Files (x86)\\Razer\\ChromaBroadcast\\bin"
@@ -1133,9 +1116,8 @@ events:
         - "C:\\ProgramData\\chocolatey\\bin"
         - "C:\\Program Files\\Git\\cmd"
         - "C:\\Program Files\\dotnet\\"
-        - "C:\\Users\\david\\AppData\\Local\\Programs\\Python\\Python313\\Scripts\\"
-        - "C:\\Users\\david\\AppData\\Local\\Programs\\Python\\Python313\\"
-        - "C:\\Users\\david\\AppData\\Local\\Microsoft\\WindowsApps"
+        - "C:\\Users\\david\\scoop\\apps\\gcc-arm-none-eabi\\current\\bin"
+        - "C:\\Users\\david\\scoop\\shims"
         - "C:\\Users\\david\\AppData\\Local\\Programs\\cursor\\resources\\app\\bin"
         - "C:\\msys64\\ucrt64\\bin"
         - "C:\\Users\\david\\AppData\\Roaming\\npm"
@@ -1163,8 +1145,6 @@ events:
     candidate_directories:
       - "C:/msys64/ucrt64/bin/"
       - "C:/Users/david/.cursor/extensions/vadimcn.vscode-lldb-1.12.0/bin/"
-      - "C:/Users/david/scoop/apps/gcc-arm-none-eabi/current/bin/"
-      - "C:/Users/david/scoop/shims/"
       - "C:/Python314/Scripts/"
       - "C:/Python314/"
       - "C:/Program Files (x86)/Razer/ChromaBroadcast/bin/"
@@ -1189,6 +1169,8 @@ events:
       - "C:/ProgramData/chocolatey/bin/"
       - "C:/Program Files/Git/cmd/"
       - "C:/Program Files/dotnet/"
+      - "C:/Users/david/scoop/apps/gcc-arm-none-eabi/current/bin/"
+      - "C:/Users/david/scoop/shims/"
       - "C:/Users/david/AppData/Local/Programs/cursor/resources/app/bin/"
       - "C:/Users/david/AppData/Roaming/npm/"
       - "C:/Users/david/.dotnet/tools/"
@@ -1198,8 +1180,6 @@ events:
     search_context:
       ENV{PATH}:
         - "c:\\Users\\david\\.cursor\\extensions\\vadimcn.vscode-lldb-1.12.0\\bin"
-        - "C:\\Users\\david\\scoop\\apps\\gcc-arm-none-eabi\\current\\bin"
-        - "C:\\Users\\david\\scoop\\shims"
         - "C:\\Python314\\Scripts\\"
         - "C:\\Python314\\"
         - "C:\\Program Files (x86)\\Razer\\ChromaBroadcast\\bin"
@@ -1224,9 +1204,8 @@ events:
         - "C:\\ProgramData\\chocolatey\\bin"
         - "C:\\Program Files\\Git\\cmd"
         - "C:\\Program Files\\dotnet\\"
-        - "C:\\Users\\david\\AppData\\Local\\Programs\\Python\\Python313\\Scripts\\"
-        - "C:\\Users\\david\\AppData\\Local\\Programs\\Python\\Python313\\"
-        - "C:\\Users\\david\\AppData\\Local\\Microsoft\\WindowsApps"
+        - "C:\\Users\\david\\scoop\\apps\\gcc-arm-none-eabi\\current\\bin"
+        - "C:\\Users\\david\\scoop\\shims"
         - "C:\\Users\\david\\AppData\\Local\\Programs\\cursor\\resources\\app\\bin"
         - "C:\\msys64\\ucrt64\\bin"
         - "C:\\Users\\david\\AppData\\Roaming\\npm"
@@ -1254,8 +1233,6 @@ events:
     candidate_directories:
       - "C:/msys64/ucrt64/bin/"
       - "C:/Users/david/.cursor/extensions/vadimcn.vscode-lldb-1.12.0/bin/"
-      - "C:/Users/david/scoop/apps/gcc-arm-none-eabi/current/bin/"
-      - "C:/Users/david/scoop/shims/"
       - "C:/Python314/Scripts/"
       - "C:/Python314/"
       - "C:/Program Files (x86)/Razer/ChromaBroadcast/bin/"
@@ -1280,6 +1257,8 @@ events:
       - "C:/ProgramData/chocolatey/bin/"
       - "C:/Program Files/Git/cmd/"
       - "C:/Program Files/dotnet/"
+      - "C:/Users/david/scoop/apps/gcc-arm-none-eabi/current/bin/"
+      - "C:/Users/david/scoop/shims/"
       - "C:/Users/david/AppData/Local/Programs/cursor/resources/app/bin/"
       - "C:/Users/david/AppData/Roaming/npm/"
       - "C:/Users/david/.dotnet/tools/"
@@ -1289,8 +1268,6 @@ events:
     search_context:
       ENV{PATH}:
         - "c:\\Users\\david\\.cursor\\extensions\\vadimcn.vscode-lldb-1.12.0\\bin"
-        - "C:\\Users\\david\\scoop\\apps\\gcc-arm-none-eabi\\current\\bin"
-        - "C:\\Users\\david\\scoop\\shims"
         - "C:\\Python314\\Scripts\\"
         - "C:\\Python314\\"
         - "C:\\Program Files (x86)\\Razer\\ChromaBroadcast\\bin"
@@ -1315,9 +1292,8 @@ events:
         - "C:\\ProgramData\\chocolatey\\bin"
         - "C:\\Program Files\\Git\\cmd"
         - "C:\\Program Files\\dotnet\\"
-        - "C:\\Users\\david\\AppData\\Local\\Programs\\Python\\Python313\\Scripts\\"
-        - "C:\\Users\\david\\AppData\\Local\\Programs\\Python\\Python313\\"
-        - "C:\\Users\\david\\AppData\\Local\\Microsoft\\WindowsApps"
+        - "C:\\Users\\david\\scoop\\apps\\gcc-arm-none-eabi\\current\\bin"
+        - "C:\\Users\\david\\scoop\\shims"
         - "C:\\Users\\david\\AppData\\Local\\Programs\\cursor\\resources\\app\\bin"
         - "C:\\msys64\\ucrt64\\bin"
         - "C:\\Users\\david\\AppData\\Roaming\\npm"
@@ -1345,8 +1321,6 @@ events:
     candidate_directories:
       - "C:/msys64/ucrt64/bin/"
       - "C:/Users/david/.cursor/extensions/vadimcn.vscode-lldb-1.12.0/bin/"
-      - "C:/Users/david/scoop/apps/gcc-arm-none-eabi/current/bin/"
-      - "C:/Users/david/scoop/shims/"
       - "C:/Python314/Scripts/"
       - "C:/Python314/"
       - "C:/Program Files (x86)/Razer/ChromaBroadcast/bin/"
@@ -1371,6 +1345,8 @@ events:
       - "C:/ProgramData/chocolatey/bin/"
       - "C:/Program Files/Git/cmd/"
       - "C:/Program Files/dotnet/"
+      - "C:/Users/david/scoop/apps/gcc-arm-none-eabi/current/bin/"
+      - "C:/Users/david/scoop/shims/"
       - "C:/Users/david/AppData/Local/Programs/cursor/resources/app/bin/"
       - "C:/Users/david/AppData/Roaming/npm/"
       - "C:/Users/david/.dotnet/tools/"
@@ -1380,8 +1356,6 @@ events:
     search_context:
       ENV{PATH}:
         - "c:\\Users\\david\\.cursor\\extensions\\vadimcn.vscode-lldb-1.12.0\\bin"
-        - "C:\\Users\\david\\scoop\\apps\\gcc-arm-none-eabi\\current\\bin"
-        - "C:\\Users\\david\\scoop\\shims"
         - "C:\\Python314\\Scripts\\"
         - "C:\\Python314\\"
         - "C:\\Program Files (x86)\\Razer\\ChromaBroadcast\\bin"
@@ -1406,9 +1380,8 @@ events:
         - "C:\\ProgramData\\chocolatey\\bin"
         - "C:\\Program Files\\Git\\cmd"
         - "C:\\Program Files\\dotnet\\"
-        - "C:\\Users\\david\\AppData\\Local\\Programs\\Python\\Python313\\Scripts\\"
-        - "C:\\Users\\david\\AppData\\Local\\Programs\\Python\\Python313\\"
-        - "C:\\Users\\david\\AppData\\Local\\Microsoft\\WindowsApps"
+        - "C:\\Users\\david\\scoop\\apps\\gcc-arm-none-eabi\\current\\bin"
+        - "C:\\Users\\david\\scoop\\shims"
         - "C:\\Users\\david\\AppData\\Local\\Programs\\cursor\\resources\\app\\bin"
         - "C:\\msys64\\ucrt64\\bin"
         - "C:\\Users\\david\\AppData\\Roaming\\npm"
@@ -1436,8 +1409,6 @@ events:
     candidate_directories:
       - "C:/msys64/ucrt64/bin/"
       - "C:/Users/david/.cursor/extensions/vadimcn.vscode-lldb-1.12.0/bin/"
-      - "C:/Users/david/scoop/apps/gcc-arm-none-eabi/current/bin/"
-      - "C:/Users/david/scoop/shims/"
       - "C:/Python314/Scripts/"
       - "C:/Python314/"
       - "C:/Program Files (x86)/Razer/ChromaBroadcast/bin/"
@@ -1462,6 +1433,8 @@ events:
       - "C:/ProgramData/chocolatey/bin/"
       - "C:/Program Files/Git/cmd/"
       - "C:/Program Files/dotnet/"
+      - "C:/Users/david/scoop/apps/gcc-arm-none-eabi/current/bin/"
+      - "C:/Users/david/scoop/shims/"
       - "C:/Users/david/AppData/Local/Programs/cursor/resources/app/bin/"
       - "C:/Users/david/AppData/Roaming/npm/"
       - "C:/Users/david/.dotnet/tools/"
@@ -1471,8 +1444,6 @@ events:
     search_context:
       ENV{PATH}:
         - "c:\\Users\\david\\.cursor\\extensions\\vadimcn.vscode-lldb-1.12.0\\bin"
-        - "C:\\Users\\david\\scoop\\apps\\gcc-arm-none-eabi\\current\\bin"
-        - "C:\\Users\\david\\scoop\\shims"
         - "C:\\Python314\\Scripts\\"
         - "C:\\Python314\\"
         - "C:\\Program Files (x86)\\Razer\\ChromaBroadcast\\bin"
@@ -1497,9 +1468,8 @@ events:
         - "C:\\ProgramData\\chocolatey\\bin"
         - "C:\\Program Files\\Git\\cmd"
         - "C:\\Program Files\\dotnet\\"
-        - "C:\\Users\\david\\AppData\\Local\\Programs\\Python\\Python313\\Scripts\\"
-        - "C:\\Users\\david\\AppData\\Local\\Programs\\Python\\Python313\\"
-        - "C:\\Users\\david\\AppData\\Local\\Microsoft\\WindowsApps"
+        - "C:\\Users\\david\\scoop\\apps\\gcc-arm-none-eabi\\current\\bin"
+        - "C:\\Users\\david\\scoop\\shims"
         - "C:\\Users\\david\\AppData\\Local\\Programs\\cursor\\resources\\app\\bin"
         - "C:\\msys64\\ucrt64\\bin"
         - "C:\\Users\\david\\AppData\\Roaming\\npm"
@@ -1527,8 +1497,6 @@ events:
     candidate_directories:
       - "C:/msys64/ucrt64/bin/"
       - "C:/Users/david/.cursor/extensions/vadimcn.vscode-lldb-1.12.0/bin/"
-      - "C:/Users/david/scoop/apps/gcc-arm-none-eabi/current/bin/"
-      - "C:/Users/david/scoop/shims/"
       - "C:/Python314/Scripts/"
       - "C:/Python314/"
       - "C:/Program Files (x86)/Razer/ChromaBroadcast/bin/"
@@ -1553,6 +1521,8 @@ events:
       - "C:/ProgramData/chocolatey/bin/"
       - "C:/Program Files/Git/cmd/"
       - "C:/Program Files/dotnet/"
+      - "C:/Users/david/scoop/apps/gcc-arm-none-eabi/current/bin/"
+      - "C:/Users/david/scoop/shims/"
       - "C:/Users/david/AppData/Local/Programs/cursor/resources/app/bin/"
       - "C:/Users/david/AppData/Roaming/npm/"
       - "C:/Users/david/.dotnet/tools/"
@@ -1562,8 +1532,6 @@ events:
     search_context:
       ENV{PATH}:
         - "c:\\Users\\david\\.cursor\\extensions\\vadimcn.vscode-lldb-1.12.0\\bin"
-        - "C:\\Users\\david\\scoop\\apps\\gcc-arm-none-eabi\\current\\bin"
-        - "C:\\Users\\david\\scoop\\shims"
         - "C:\\Python314\\Scripts\\"
         - "C:\\Python314\\"
         - "C:\\Program Files (x86)\\Razer\\ChromaBroadcast\\bin"
@@ -1588,9 +1556,8 @@ events:
         - "C:\\ProgramData\\chocolatey\\bin"
         - "C:\\Program Files\\Git\\cmd"
         - "C:\\Program Files\\dotnet\\"
-        - "C:\\Users\\david\\AppData\\Local\\Programs\\Python\\Python313\\Scripts\\"
-        - "C:\\Users\\david\\AppData\\Local\\Programs\\Python\\Python313\\"
-        - "C:\\Users\\david\\AppData\\Local\\Microsoft\\WindowsApps"
+        - "C:\\Users\\david\\scoop\\apps\\gcc-arm-none-eabi\\current\\bin"
+        - "C:\\Users\\david\\scoop\\shims"
         - "C:\\Users\\david\\AppData\\Local\\Programs\\cursor\\resources\\app\\bin"
         - "C:\\msys64\\ucrt64\\bin"
         - "C:\\Users\\david\\AppData\\Roaming\\npm"
@@ -1618,8 +1585,6 @@ events:
     candidate_directories:
       - "C:/msys64/ucrt64/bin/"
       - "C:/Users/david/.cursor/extensions/vadimcn.vscode-lldb-1.12.0/bin/"
-      - "C:/Users/david/scoop/apps/gcc-arm-none-eabi/current/bin/"
-      - "C:/Users/david/scoop/shims/"
       - "C:/Python314/Scripts/"
       - "C:/Python314/"
       - "C:/Program Files (x86)/Razer/ChromaBroadcast/bin/"
@@ -1644,6 +1609,8 @@ events:
       - "C:/ProgramData/chocolatey/bin/"
       - "C:/Program Files/Git/cmd/"
       - "C:/Program Files/dotnet/"
+      - "C:/Users/david/scoop/apps/gcc-arm-none-eabi/current/bin/"
+      - "C:/Users/david/scoop/shims/"
       - "C:/Users/david/AppData/Local/Programs/cursor/resources/app/bin/"
       - "C:/Users/david/AppData/Roaming/npm/"
       - "C:/Users/david/.dotnet/tools/"
@@ -1653,8 +1620,6 @@ events:
     search_context:
       ENV{PATH}:
         - "c:\\Users\\david\\.cursor\\extensions\\vadimcn.vscode-lldb-1.12.0\\bin"
-        - "C:\\Users\\david\\scoop\\apps\\gcc-arm-none-eabi\\current\\bin"
-        - "C:\\Users\\david\\scoop\\shims"
         - "C:\\Python314\\Scripts\\"
         - "C:\\Python314\\"
         - "C:\\Program Files (x86)\\Razer\\ChromaBroadcast\\bin"
@@ -1679,9 +1644,8 @@ events:
         - "C:\\ProgramData\\chocolatey\\bin"
         - "C:\\Program Files\\Git\\cmd"
         - "C:\\Program Files\\dotnet\\"
-        - "C:\\Users\\david\\AppData\\Local\\Programs\\Python\\Python313\\Scripts\\"
-        - "C:\\Users\\david\\AppData\\Local\\Programs\\Python\\Python313\\"
-        - "C:\\Users\\david\\AppData\\Local\\Microsoft\\WindowsApps"
+        - "C:\\Users\\david\\scoop\\apps\\gcc-arm-none-eabi\\current\\bin"
+        - "C:\\Users\\david\\scoop\\shims"
         - "C:\\Users\\david\\AppData\\Local\\Programs\\cursor\\resources\\app\\bin"
         - "C:\\msys64\\ucrt64\\bin"
         - "C:\\Users\\david\\AppData\\Roaming\\npm"
@@ -1709,8 +1673,6 @@ events:
     candidate_directories:
       - "C:/msys64/ucrt64/bin/"
       - "C:/Users/david/.cursor/extensions/vadimcn.vscode-lldb-1.12.0/bin/"
-      - "C:/Users/david/scoop/apps/gcc-arm-none-eabi/current/bin/"
-      - "C:/Users/david/scoop/shims/"
       - "C:/Python314/Scripts/"
       - "C:/Python314/"
       - "C:/Program Files (x86)/Razer/ChromaBroadcast/bin/"
@@ -1735,6 +1697,8 @@ events:
       - "C:/ProgramData/chocolatey/bin/"
       - "C:/Program Files/Git/cmd/"
       - "C:/Program Files/dotnet/"
+      - "C:/Users/david/scoop/apps/gcc-arm-none-eabi/current/bin/"
+      - "C:/Users/david/scoop/shims/"
       - "C:/Users/david/AppData/Local/Programs/cursor/resources/app/bin/"
       - "C:/Users/david/AppData/Roaming/npm/"
       - "C:/Users/david/.dotnet/tools/"
@@ -1745,12 +1709,6 @@ events:
       - "C:/Users/david/.cursor/extensions/vadimcn.vscode-lldb-1.12.0/bin/tapi.com"
       - "C:/Users/david/.cursor/extensions/vadimcn.vscode-lldb-1.12.0/bin/tapi.exe"
       - "C:/Users/david/.cursor/extensions/vadimcn.vscode-lldb-1.12.0/bin/tapi"
-      - "C:/Users/david/scoop/apps/gcc-arm-none-eabi/current/bin/tapi.com"
-      - "C:/Users/david/scoop/apps/gcc-arm-none-eabi/current/bin/tapi.exe"
-      - "C:/Users/david/scoop/apps/gcc-arm-none-eabi/current/bin/tapi"
-      - "C:/Users/david/scoop/shims/tapi.com"
-      - "C:/Users/david/scoop/shims/tapi.exe"
-      - "C:/Users/david/scoop/shims/tapi"
       - "C:/Python314/Scripts/tapi.com"
       - "C:/Python314/Scripts/tapi.exe"
       - "C:/Python314/Scripts/tapi"
@@ -1823,6 +1781,12 @@ events:
       - "C:/Program Files/dotnet/tapi.com"
       - "C:/Program Files/dotnet/tapi.exe"
       - "C:/Program Files/dotnet/tapi"
+      - "C:/Users/david/scoop/apps/gcc-arm-none-eabi/current/bin/tapi.com"
+      - "C:/Users/david/scoop/apps/gcc-arm-none-eabi/current/bin/tapi.exe"
+      - "C:/Users/david/scoop/apps/gcc-arm-none-eabi/current/bin/tapi"
+      - "C:/Users/david/scoop/shims/tapi.com"
+      - "C:/Users/david/scoop/shims/tapi.exe"
+      - "C:/Users/david/scoop/shims/tapi"
       - "C:/Users/david/AppData/Local/Programs/cursor/resources/app/bin/tapi.com"
       - "C:/Users/david/AppData/Local/Programs/cursor/resources/app/bin/tapi.exe"
       - "C:/Users/david/AppData/Local/Programs/cursor/resources/app/bin/tapi"
@@ -1836,8 +1800,6 @@ events:
     search_context:
       ENV{PATH}:
         - "c:\\Users\\david\\.cursor\\extensions\\vadimcn.vscode-lldb-1.12.0\\bin"
-        - "C:\\Users\\david\\scoop\\apps\\gcc-arm-none-eabi\\current\\bin"
-        - "C:\\Users\\david\\scoop\\shims"
         - "C:\\Python314\\Scripts\\"
         - "C:\\Python314\\"
         - "C:\\Program Files (x86)\\Razer\\ChromaBroadcast\\bin"
@@ -1862,9 +1824,8 @@ events:
         - "C:\\ProgramData\\chocolatey\\bin"
         - "C:\\Program Files\\Git\\cmd"
         - "C:\\Program Files\\dotnet\\"
-        - "C:\\Users\\david\\AppData\\Local\\Programs\\Python\\Python313\\Scripts\\"
-        - "C:\\Users\\david\\AppData\\Local\\Programs\\Python\\Python313\\"
-        - "C:\\Users\\david\\AppData\\Local\\Microsoft\\WindowsApps"
+        - "C:\\Users\\david\\scoop\\apps\\gcc-arm-none-eabi\\current\\bin"
+        - "C:\\Users\\david\\scoop\\shims"
         - "C:\\Users\\david\\AppData\\Local\\Programs\\cursor\\resources\\app\\bin"
         - "C:\\msys64\\ucrt64\\bin"
         - "C:\\Users\\david\\AppData\\Roaming\\npm"
@@ -1895,8 +1856,6 @@ events:
     candidate_directories:
       - "C:/msys64/ucrt64/bin/"
       - "C:/Users/david/.cursor/extensions/vadimcn.vscode-lldb-1.12.0/bin/"
-      - "C:/Users/david/scoop/apps/gcc-arm-none-eabi/current/bin/"
-      - "C:/Users/david/scoop/shims/"
       - "C:/Python314/Scripts/"
       - "C:/Python314/"
       - "C:/Program Files (x86)/Razer/ChromaBroadcast/bin/"
@@ -1921,6 +1880,8 @@ events:
       - "C:/ProgramData/chocolatey/bin/"
       - "C:/Program Files/Git/cmd/"
       - "C:/Program Files/dotnet/"
+      - "C:/Users/david/scoop/apps/gcc-arm-none-eabi/current/bin/"
+      - "C:/Users/david/scoop/shims/"
       - "C:/Users/david/AppData/Local/Programs/cursor/resources/app/bin/"
       - "C:/Users/david/AppData/Roaming/npm/"
       - "C:/Users/david/.dotnet/tools/"
@@ -1931,12 +1892,6 @@ events:
       - "C:/Users/david/.cursor/extensions/vadimcn.vscode-lldb-1.12.0/bin/gcc-ar-15.2.com"
       - "C:/Users/david/.cursor/extensions/vadimcn.vscode-lldb-1.12.0/bin/gcc-ar-15.2.exe"
       - "C:/Users/david/.cursor/extensions/vadimcn.vscode-lldb-1.12.0/bin/gcc-ar-15.2"
-      - "C:/Users/david/scoop/apps/gcc-arm-none-eabi/current/bin/gcc-ar-15.2.com"
-      - "C:/Users/david/scoop/apps/gcc-arm-none-eabi/current/bin/gcc-ar-15.2.exe"
-      - "C:/Users/david/scoop/apps/gcc-arm-none-eabi/current/bin/gcc-ar-15.2"
-      - "C:/Users/david/scoop/shims/gcc-ar-15.2.com"
-      - "C:/Users/david/scoop/shims/gcc-ar-15.2.exe"
-      - "C:/Users/david/scoop/shims/gcc-ar-15.2"
       - "C:/Python314/Scripts/gcc-ar-15.2.com"
       - "C:/Python314/Scripts/gcc-ar-15.2.exe"
       - "C:/Python314/Scripts/gcc-ar-15.2"
@@ -2009,6 +1964,12 @@ events:
       - "C:/Program Files/dotnet/gcc-ar-15.2.com"
       - "C:/Program Files/dotnet/gcc-ar-15.2.exe"
       - "C:/Program Files/dotnet/gcc-ar-15.2"
+      - "C:/Users/david/scoop/apps/gcc-arm-none-eabi/current/bin/gcc-ar-15.2.com"
+      - "C:/Users/david/scoop/apps/gcc-arm-none-eabi/current/bin/gcc-ar-15.2.exe"
+      - "C:/Users/david/scoop/apps/gcc-arm-none-eabi/current/bin/gcc-ar-15.2"
+      - "C:/Users/david/scoop/shims/gcc-ar-15.2.com"
+      - "C:/Users/david/scoop/shims/gcc-ar-15.2.exe"
+      - "C:/Users/david/scoop/shims/gcc-ar-15.2"
       - "C:/Users/david/AppData/Local/Programs/cursor/resources/app/bin/gcc-ar-15.2.com"
       - "C:/Users/david/AppData/Local/Programs/cursor/resources/app/bin/gcc-ar-15.2.exe"
       - "C:/Users/david/AppData/Local/Programs/cursor/resources/app/bin/gcc-ar-15.2"
@@ -2024,12 +1985,6 @@ events:
       - "C:/Users/david/.cursor/extensions/vadimcn.vscode-lldb-1.12.0/bin/gcc-ar-15.com"
       - "C:/Users/david/.cursor/extensions/vadimcn.vscode-lldb-1.12.0/bin/gcc-ar-15.exe"
       - "C:/Users/david/.cursor/extensions/vadimcn.vscode-lldb-1.12.0/bin/gcc-ar-15"
-      - "C:/Users/david/scoop/apps/gcc-arm-none-eabi/current/bin/gcc-ar-15.com"
-      - "C:/Users/david/scoop/apps/gcc-arm-none-eabi/current/bin/gcc-ar-15.exe"
-      - "C:/Users/david/scoop/apps/gcc-arm-none-eabi/current/bin/gcc-ar-15"
-      - "C:/Users/david/scoop/shims/gcc-ar-15.com"
-      - "C:/Users/david/scoop/shims/gcc-ar-15.exe"
-      - "C:/Users/david/scoop/shims/gcc-ar-15"
       - "C:/Python314/Scripts/gcc-ar-15.com"
       - "C:/Python314/Scripts/gcc-ar-15.exe"
       - "C:/Python314/Scripts/gcc-ar-15"
@@ -2102,6 +2057,12 @@ events:
       - "C:/Program Files/dotnet/gcc-ar-15.com"
       - "C:/Program Files/dotnet/gcc-ar-15.exe"
       - "C:/Program Files/dotnet/gcc-ar-15"
+      - "C:/Users/david/scoop/apps/gcc-arm-none-eabi/current/bin/gcc-ar-15.com"
+      - "C:/Users/david/scoop/apps/gcc-arm-none-eabi/current/bin/gcc-ar-15.exe"
+      - "C:/Users/david/scoop/apps/gcc-arm-none-eabi/current/bin/gcc-ar-15"
+      - "C:/Users/david/scoop/shims/gcc-ar-15.com"
+      - "C:/Users/david/scoop/shims/gcc-ar-15.exe"
+      - "C:/Users/david/scoop/shims/gcc-ar-15"
       - "C:/Users/david/AppData/Local/Programs/cursor/resources/app/bin/gcc-ar-15.com"
       - "C:/Users/david/AppData/Local/Programs/cursor/resources/app/bin/gcc-ar-15.exe"
       - "C:/Users/david/AppData/Local/Programs/cursor/resources/app/bin/gcc-ar-15"
@@ -2117,12 +2078,6 @@ events:
       - "C:/Users/david/.cursor/extensions/vadimcn.vscode-lldb-1.12.0/bin/gcc-ar15.com"
       - "C:/Users/david/.cursor/extensions/vadimcn.vscode-lldb-1.12.0/bin/gcc-ar15.exe"
       - "C:/Users/david/.cursor/extensions/vadimcn.vscode-lldb-1.12.0/bin/gcc-ar15"
-      - "C:/Users/david/scoop/apps/gcc-arm-none-eabi/current/bin/gcc-ar15.com"
-      - "C:/Users/david/scoop/apps/gcc-arm-none-eabi/current/bin/gcc-ar15.exe"
-      - "C:/Users/david/scoop/apps/gcc-arm-none-eabi/current/bin/gcc-ar15"
-      - "C:/Users/david/scoop/shims/gcc-ar15.com"
-      - "C:/Users/david/scoop/shims/gcc-ar15.exe"
-      - "C:/Users/david/scoop/shims/gcc-ar15"
       - "C:/Python314/Scripts/gcc-ar15.com"
       - "C:/Python314/Scripts/gcc-ar15.exe"
       - "C:/Python314/Scripts/gcc-ar15"
@@ -2195,6 +2150,12 @@ events:
       - "C:/Program Files/dotnet/gcc-ar15.com"
       - "C:/Program Files/dotnet/gcc-ar15.exe"
       - "C:/Program Files/dotnet/gcc-ar15"
+      - "C:/Users/david/scoop/apps/gcc-arm-none-eabi/current/bin/gcc-ar15.com"
+      - "C:/Users/david/scoop/apps/gcc-arm-none-eabi/current/bin/gcc-ar15.exe"
+      - "C:/Users/david/scoop/apps/gcc-arm-none-eabi/current/bin/gcc-ar15"
+      - "C:/Users/david/scoop/shims/gcc-ar15.com"
+      - "C:/Users/david/scoop/shims/gcc-ar15.exe"
+      - "C:/Users/david/scoop/shims/gcc-ar15"
       - "C:/Users/david/AppData/Local/Programs/cursor/resources/app/bin/gcc-ar15.com"
       - "C:/Users/david/AppData/Local/Programs/cursor/resources/app/bin/gcc-ar15.exe"
       - "C:/Users/david/AppData/Local/Programs/cursor/resources/app/bin/gcc-ar15"
@@ -2209,8 +2170,6 @@ events:
     search_context:
       ENV{PATH}:
         - "c:\\Users\\david\\.cursor\\extensions\\vadimcn.vscode-lldb-1.12.0\\bin"
-        - "C:\\Users\\david\\scoop\\apps\\gcc-arm-none-eabi\\current\\bin"
-        - "C:\\Users\\david\\scoop\\shims"
         - "C:\\Python314\\Scripts\\"
         - "C:\\Python314\\"
         - "C:\\Program Files (x86)\\Razer\\ChromaBroadcast\\bin"
@@ -2235,9 +2194,8 @@ events:
         - "C:\\ProgramData\\chocolatey\\bin"
         - "C:\\Program Files\\Git\\cmd"
         - "C:\\Program Files\\dotnet\\"
-        - "C:\\Users\\david\\AppData\\Local\\Programs\\Python\\Python313\\Scripts\\"
-        - "C:\\Users\\david\\AppData\\Local\\Programs\\Python\\Python313\\"
-        - "C:\\Users\\david\\AppData\\Local\\Microsoft\\WindowsApps"
+        - "C:\\Users\\david\\scoop\\apps\\gcc-arm-none-eabi\\current\\bin"
+        - "C:\\Users\\david\\scoop\\shims"
         - "C:\\Users\\david\\AppData\\Local\\Programs\\cursor\\resources\\app\\bin"
         - "C:\\msys64\\ucrt64\\bin"
         - "C:\\Users\\david\\AppData\\Roaming\\npm"
@@ -2268,8 +2226,6 @@ events:
     candidate_directories:
       - "C:/msys64/ucrt64/bin/"
       - "C:/Users/david/.cursor/extensions/vadimcn.vscode-lldb-1.12.0/bin/"
-      - "C:/Users/david/scoop/apps/gcc-arm-none-eabi/current/bin/"
-      - "C:/Users/david/scoop/shims/"
       - "C:/Python314/Scripts/"
       - "C:/Python314/"
       - "C:/Program Files (x86)/Razer/ChromaBroadcast/bin/"
@@ -2294,6 +2250,8 @@ events:
       - "C:/ProgramData/chocolatey/bin/"
       - "C:/Program Files/Git/cmd/"
       - "C:/Program Files/dotnet/"
+      - "C:/Users/david/scoop/apps/gcc-arm-none-eabi/current/bin/"
+      - "C:/Users/david/scoop/shims/"
       - "C:/Users/david/AppData/Local/Programs/cursor/resources/app/bin/"
       - "C:/Users/david/AppData/Roaming/npm/"
       - "C:/Users/david/.dotnet/tools/"
@@ -2304,12 +2262,6 @@ events:
       - "C:/Users/david/.cursor/extensions/vadimcn.vscode-lldb-1.12.0/bin/gcc-ranlib-15.2.com"
       - "C:/Users/david/.cursor/extensions/vadimcn.vscode-lldb-1.12.0/bin/gcc-ranlib-15.2.exe"
       - "C:/Users/david/.cursor/extensions/vadimcn.vscode-lldb-1.12.0/bin/gcc-ranlib-15.2"
-      - "C:/Users/david/scoop/apps/gcc-arm-none-eabi/current/bin/gcc-ranlib-15.2.com"
-      - "C:/Users/david/scoop/apps/gcc-arm-none-eabi/current/bin/gcc-ranlib-15.2.exe"
-      - "C:/Users/david/scoop/apps/gcc-arm-none-eabi/current/bin/gcc-ranlib-15.2"
-      - "C:/Users/david/scoop/shims/gcc-ranlib-15.2.com"
-      - "C:/Users/david/scoop/shims/gcc-ranlib-15.2.exe"
-      - "C:/Users/david/scoop/shims/gcc-ranlib-15.2"
       - "C:/Python314/Scripts/gcc-ranlib-15.2.com"
       - "C:/Python314/Scripts/gcc-ranlib-15.2.exe"
       - "C:/Python314/Scripts/gcc-ranlib-15.2"
@@ -2382,6 +2334,12 @@ events:
       - "C:/Program Files/dotnet/gcc-ranlib-15.2.com"
       - "C:/Program Files/dotnet/gcc-ranlib-15.2.exe"
       - "C:/Program Files/dotnet/gcc-ranlib-15.2"
+      - "C:/Users/david/scoop/apps/gcc-arm-none-eabi/current/bin/gcc-ranlib-15.2.com"
+      - "C:/Users/david/scoop/apps/gcc-arm-none-eabi/current/bin/gcc-ranlib-15.2.exe"
+      - "C:/Users/david/scoop/apps/gcc-arm-none-eabi/current/bin/gcc-ranlib-15.2"
+      - "C:/Users/david/scoop/shims/gcc-ranlib-15.2.com"
+      - "C:/Users/david/scoop/shims/gcc-ranlib-15.2.exe"
+      - "C:/Users/david/scoop/shims/gcc-ranlib-15.2"
       - "C:/Users/david/AppData/Local/Programs/cursor/resources/app/bin/gcc-ranlib-15.2.com"
       - "C:/Users/david/AppData/Local/Programs/cursor/resources/app/bin/gcc-ranlib-15.2.exe"
       - "C:/Users/david/AppData/Local/Programs/cursor/resources/app/bin/gcc-ranlib-15.2"
@@ -2397,12 +2355,6 @@ events:
       - "C:/Users/david/.cursor/extensions/vadimcn.vscode-lldb-1.12.0/bin/gcc-ranlib-15.com"
       - "C:/Users/david/.cursor/extensions/vadimcn.vscode-lldb-1.12.0/bin/gcc-ranlib-15.exe"
       - "C:/Users/david/.cursor/extensions/vadimcn.vscode-lldb-1.12.0/bin/gcc-ranlib-15"
-      - "C:/Users/david/scoop/apps/gcc-arm-none-eabi/current/bin/gcc-ranlib-15.com"
-      - "C:/Users/david/scoop/apps/gcc-arm-none-eabi/current/bin/gcc-ranlib-15.exe"
-      - "C:/Users/david/scoop/apps/gcc-arm-none-eabi/current/bin/gcc-ranlib-15"
-      - "C:/Users/david/scoop/shims/gcc-ranlib-15.com"
-      - "C:/Users/david/scoop/shims/gcc-ranlib-15.exe"
-      - "C:/Users/david/scoop/shims/gcc-ranlib-15"
       - "C:/Python314/Scripts/gcc-ranlib-15.com"
       - "C:/Python314/Scripts/gcc-ranlib-15.exe"
       - "C:/Python314/Scripts/gcc-ranlib-15"
@@ -2475,6 +2427,12 @@ events:
       - "C:/Program Files/dotnet/gcc-ranlib-15.com"
       - "C:/Program Files/dotnet/gcc-ranlib-15.exe"
       - "C:/Program Files/dotnet/gcc-ranlib-15"
+      - "C:/Users/david/scoop/apps/gcc-arm-none-eabi/current/bin/gcc-ranlib-15.com"
+      - "C:/Users/david/scoop/apps/gcc-arm-none-eabi/current/bin/gcc-ranlib-15.exe"
+      - "C:/Users/david/scoop/apps/gcc-arm-none-eabi/current/bin/gcc-ranlib-15"
+      - "C:/Users/david/scoop/shims/gcc-ranlib-15.com"
+      - "C:/Users/david/scoop/shims/gcc-ranlib-15.exe"
+      - "C:/Users/david/scoop/shims/gcc-ranlib-15"
       - "C:/Users/david/AppData/Local/Programs/cursor/resources/app/bin/gcc-ranlib-15.com"
       - "C:/Users/david/AppData/Local/Programs/cursor/resources/app/bin/gcc-ranlib-15.exe"
       - "C:/Users/david/AppData/Local/Programs/cursor/resources/app/bin/gcc-ranlib-15"
@@ -2490,12 +2448,6 @@ events:
       - "C:/Users/david/.cursor/extensions/vadimcn.vscode-lldb-1.12.0/bin/gcc-ranlib15.com"
       - "C:/Users/david/.cursor/extensions/vadimcn.vscode-lldb-1.12.0/bin/gcc-ranlib15.exe"
       - "C:/Users/david/.cursor/extensions/vadimcn.vscode-lldb-1.12.0/bin/gcc-ranlib15"
-      - "C:/Users/david/scoop/apps/gcc-arm-none-eabi/current/bin/gcc-ranlib15.com"
-      - "C:/Users/david/scoop/apps/gcc-arm-none-eabi/current/bin/gcc-ranlib15.exe"
-      - "C:/Users/david/scoop/apps/gcc-arm-none-eabi/current/bin/gcc-ranlib15"
-      - "C:/Users/david/scoop/shims/gcc-ranlib15.com"
-      - "C:/Users/david/scoop/shims/gcc-ranlib15.exe"
-      - "C:/Users/david/scoop/shims/gcc-ranlib15"
       - "C:/Python314/Scripts/gcc-ranlib15.com"
       - "C:/Python314/Scripts/gcc-ranlib15.exe"
       - "C:/Python314/Scripts/gcc-ranlib15"
@@ -2568,6 +2520,12 @@ events:
       - "C:/Program Files/dotnet/gcc-ranlib15.com"
       - "C:/Program Files/dotnet/gcc-ranlib15.exe"
       - "C:/Program Files/dotnet/gcc-ranlib15"
+      - "C:/Users/david/scoop/apps/gcc-arm-none-eabi/current/bin/gcc-ranlib15.com"
+      - "C:/Users/david/scoop/apps/gcc-arm-none-eabi/current/bin/gcc-ranlib15.exe"
+      - "C:/Users/david/scoop/apps/gcc-arm-none-eabi/current/bin/gcc-ranlib15"
+      - "C:/Users/david/scoop/shims/gcc-ranlib15.com"
+      - "C:/Users/david/scoop/shims/gcc-ranlib15.exe"
+      - "C:/Users/david/scoop/shims/gcc-ranlib15"
       - "C:/Users/david/AppData/Local/Programs/cursor/resources/app/bin/gcc-ranlib15.com"
       - "C:/Users/david/AppData/Local/Programs/cursor/resources/app/bin/gcc-ranlib15.exe"
       - "C:/Users/david/AppData/Local/Programs/cursor/resources/app/bin/gcc-ranlib15"
@@ -2582,8 +2540,6 @@ events:
     search_context:
       ENV{PATH}:
         - "c:\\Users\\david\\.cursor\\extensions\\vadimcn.vscode-lldb-1.12.0\\bin"
-        - "C:\\Users\\david\\scoop\\apps\\gcc-arm-none-eabi\\current\\bin"
-        - "C:\\Users\\david\\scoop\\shims"
         - "C:\\Python314\\Scripts\\"
         - "C:\\Python314\\"
         - "C:\\Program Files (x86)\\Razer\\ChromaBroadcast\\bin"
@@ -2608,9 +2564,8 @@ events:
         - "C:\\ProgramData\\chocolatey\\bin"
         - "C:\\Program Files\\Git\\cmd"
         - "C:\\Program Files\\dotnet\\"
-        - "C:\\Users\\david\\AppData\\Local\\Programs\\Python\\Python313\\Scripts\\"
-        - "C:\\Users\\david\\AppData\\Local\\Programs\\Python\\Python313\\"
-        - "C:\\Users\\david\\AppData\\Local\\Microsoft\\WindowsApps"
+        - "C:\\Users\\david\\scoop\\apps\\gcc-arm-none-eabi\\current\\bin"
+        - "C:\\Users\\david\\scoop\\shims"
         - "C:\\Users\\david\\AppData\\Local\\Programs\\cursor\\resources\\app\\bin"
         - "C:\\msys64\\ucrt64\\bin"
         - "C:\\Users\\david\\AppData\\Roaming\\npm"
@@ -2648,8 +2603,6 @@ events:
     search_context:
       ENV{PATH}:
         - "c:\\Users\\david\\.cursor\\extensions\\vadimcn.vscode-lldb-1.12.0\\bin"
-        - "C:\\Users\\david\\scoop\\apps\\gcc-arm-none-eabi\\current\\bin"
-        - "C:\\Users\\david\\scoop\\shims"
         - "C:\\Python314\\Scripts\\"
         - "C:\\Python314\\"
         - "C:\\Program Files (x86)\\Razer\\ChromaBroadcast\\bin"
@@ -2674,9 +2627,8 @@ events:
         - "C:\\ProgramData\\chocolatey\\bin"
         - "C:\\Program Files\\Git\\cmd"
         - "C:\\Program Files\\dotnet\\"
-        - "C:\\Users\\david\\AppData\\Local\\Programs\\Python\\Python313\\Scripts\\"
-        - "C:\\Users\\david\\AppData\\Local\\Programs\\Python\\Python313\\"
-        - "C:\\Users\\david\\AppData\\Local\\Microsoft\\WindowsApps"
+        - "C:\\Users\\david\\scoop\\apps\\gcc-arm-none-eabi\\current\\bin"
+        - "C:\\Users\\david\\scoop\\shims"
         - "C:\\Users\\david\\AppData\\Local\\Programs\\cursor\\resources\\app\\bin"
         - "C:\\msys64\\ucrt64\\bin"
         - "C:\\Users\\david\\AppData\\Roaming\\npm"
@@ -2710,8 +2662,6 @@ events:
     search_context:
       ENV{PATH}:
         - "c:\\Users\\david\\.cursor\\extensions\\vadimcn.vscode-lldb-1.12.0\\bin"
-        - "C:\\Users\\david\\scoop\\apps\\gcc-arm-none-eabi\\current\\bin"
-        - "C:\\Users\\david\\scoop\\shims"
         - "C:\\Python314\\Scripts\\"
         - "C:\\Python314\\"
         - "C:\\Program Files (x86)\\Razer\\ChromaBroadcast\\bin"
@@ -2736,9 +2686,8 @@ events:
         - "C:\\ProgramData\\chocolatey\\bin"
         - "C:\\Program Files\\Git\\cmd"
         - "C:\\Program Files\\dotnet\\"
-        - "C:\\Users\\david\\AppData\\Local\\Programs\\Python\\Python313\\Scripts\\"
-        - "C:\\Users\\david\\AppData\\Local\\Programs\\Python\\Python313\\"
-        - "C:\\Users\\david\\AppData\\Local\\Microsoft\\WindowsApps"
+        - "C:\\Users\\david\\scoop\\apps\\gcc-arm-none-eabi\\current\\bin"
+        - "C:\\Users\\david\\scoop\\shims"
         - "C:\\Users\\david\\AppData\\Local\\Programs\\cursor\\resources\\app\\bin"
         - "C:\\msys64\\ucrt64\\bin"
         - "C:\\Users\\david\\AppData\\Roaming\\npm"
@@ -2791,8 +2740,6 @@ events:
     candidate_directories:
       - "C:/msys64/ucrt64/bin/"
       - "C:/Users/david/.cursor/extensions/vadimcn.vscode-lldb-1.12.0/bin/"
-      - "C:/Users/david/scoop/apps/gcc-arm-none-eabi/current/bin/"
-      - "C:/Users/david/scoop/shims/"
       - "C:/Python314/Scripts/"
       - "C:/Python314/"
       - "C:/Program Files (x86)/Razer/ChromaBroadcast/bin/"
@@ -2817,6 +2764,8 @@ events:
       - "C:/ProgramData/chocolatey/bin/"
       - "C:/Program Files/Git/cmd/"
       - "C:/Program Files/dotnet/"
+      - "C:/Users/david/scoop/apps/gcc-arm-none-eabi/current/bin/"
+      - "C:/Users/david/scoop/shims/"
       - "C:/Users/david/AppData/Local/Programs/cursor/resources/app/bin/"
       - "C:/Users/david/AppData/Roaming/npm/"
       - "C:/Users/david/.dotnet/tools/"
@@ -2827,12 +2776,6 @@ events:
       - "C:/Users/david/.cursor/extensions/vadimcn.vscode-lldb-1.12.0/bin/gcc-ar-15.2.com"
       - "C:/Users/david/.cursor/extensions/vadimcn.vscode-lldb-1.12.0/bin/gcc-ar-15.2.exe"
       - "C:/Users/david/.cursor/extensions/vadimcn.vscode-lldb-1.12.0/bin/gcc-ar-15.2"
-      - "C:/Users/david/scoop/apps/gcc-arm-none-eabi/current/bin/gcc-ar-15.2.com"
-      - "C:/Users/david/scoop/apps/gcc-arm-none-eabi/current/bin/gcc-ar-15.2.exe"
-      - "C:/Users/david/scoop/apps/gcc-arm-none-eabi/current/bin/gcc-ar-15.2"
-      - "C:/Users/david/scoop/shims/gcc-ar-15.2.com"
-      - "C:/Users/david/scoop/shims/gcc-ar-15.2.exe"
-      - "C:/Users/david/scoop/shims/gcc-ar-15.2"
       - "C:/Python314/Scripts/gcc-ar-15.2.com"
       - "C:/Python314/Scripts/gcc-ar-15.2.exe"
       - "C:/Python314/Scripts/gcc-ar-15.2"
@@ -2905,6 +2848,12 @@ events:
       - "C:/Program Files/dotnet/gcc-ar-15.2.com"
       - "C:/Program Files/dotnet/gcc-ar-15.2.exe"
       - "C:/Program Files/dotnet/gcc-ar-15.2"
+      - "C:/Users/david/scoop/apps/gcc-arm-none-eabi/current/bin/gcc-ar-15.2.com"
+      - "C:/Users/david/scoop/apps/gcc-arm-none-eabi/current/bin/gcc-ar-15.2.exe"
+      - "C:/Users/david/scoop/apps/gcc-arm-none-eabi/current/bin/gcc-ar-15.2"
+      - "C:/Users/david/scoop/shims/gcc-ar-15.2.com"
+      - "C:/Users/david/scoop/shims/gcc-ar-15.2.exe"
+      - "C:/Users/david/scoop/shims/gcc-ar-15.2"
       - "C:/Users/david/AppData/Local/Programs/cursor/resources/app/bin/gcc-ar-15.2.com"
       - "C:/Users/david/AppData/Local/Programs/cursor/resources/app/bin/gcc-ar-15.2.exe"
       - "C:/Users/david/AppData/Local/Programs/cursor/resources/app/bin/gcc-ar-15.2"
@@ -2920,12 +2869,6 @@ events:
       - "C:/Users/david/.cursor/extensions/vadimcn.vscode-lldb-1.12.0/bin/gcc-ar-15.com"
       - "C:/Users/david/.cursor/extensions/vadimcn.vscode-lldb-1.12.0/bin/gcc-ar-15.exe"
       - "C:/Users/david/.cursor/extensions/vadimcn.vscode-lldb-1.12.0/bin/gcc-ar-15"
-      - "C:/Users/david/scoop/apps/gcc-arm-none-eabi/current/bin/gcc-ar-15.com"
-      - "C:/Users/david/scoop/apps/gcc-arm-none-eabi/current/bin/gcc-ar-15.exe"
-      - "C:/Users/david/scoop/apps/gcc-arm-none-eabi/current/bin/gcc-ar-15"
-      - "C:/Users/david/scoop/shims/gcc-ar-15.com"
-      - "C:/Users/david/scoop/shims/gcc-ar-15.exe"
-      - "C:/Users/david/scoop/shims/gcc-ar-15"
       - "C:/Python314/Scripts/gcc-ar-15.com"
       - "C:/Python314/Scripts/gcc-ar-15.exe"
       - "C:/Python314/Scripts/gcc-ar-15"
@@ -2998,6 +2941,12 @@ events:
       - "C:/Program Files/dotnet/gcc-ar-15.com"
       - "C:/Program Files/dotnet/gcc-ar-15.exe"
       - "C:/Program Files/dotnet/gcc-ar-15"
+      - "C:/Users/david/scoop/apps/gcc-arm-none-eabi/current/bin/gcc-ar-15.com"
+      - "C:/Users/david/scoop/apps/gcc-arm-none-eabi/current/bin/gcc-ar-15.exe"
+      - "C:/Users/david/scoop/apps/gcc-arm-none-eabi/current/bin/gcc-ar-15"
+      - "C:/Users/david/scoop/shims/gcc-ar-15.com"
+      - "C:/Users/david/scoop/shims/gcc-ar-15.exe"
+      - "C:/Users/david/scoop/shims/gcc-ar-15"
       - "C:/Users/david/AppData/Local/Programs/cursor/resources/app/bin/gcc-ar-15.com"
       - "C:/Users/david/AppData/Local/Programs/cursor/resources/app/bin/gcc-ar-15.exe"
       - "C:/Users/david/AppData/Local/Programs/cursor/resources/app/bin/gcc-ar-15"
@@ -3013,12 +2962,6 @@ events:
       - "C:/Users/david/.cursor/extensions/vadimcn.vscode-lldb-1.12.0/bin/gcc-ar15.com"
       - "C:/Users/david/.cursor/extensions/vadimcn.vscode-lldb-1.12.0/bin/gcc-ar15.exe"
       - "C:/Users/david/.cursor/extensions/vadimcn.vscode-lldb-1.12.0/bin/gcc-ar15"
-      - "C:/Users/david/scoop/apps/gcc-arm-none-eabi/current/bin/gcc-ar15.com"
-      - "C:/Users/david/scoop/apps/gcc-arm-none-eabi/current/bin/gcc-ar15.exe"
-      - "C:/Users/david/scoop/apps/gcc-arm-none-eabi/current/bin/gcc-ar15"
-      - "C:/Users/david/scoop/shims/gcc-ar15.com"
-      - "C:/Users/david/scoop/shims/gcc-ar15.exe"
-      - "C:/Users/david/scoop/shims/gcc-ar15"
       - "C:/Python314/Scripts/gcc-ar15.com"
       - "C:/Python314/Scripts/gcc-ar15.exe"
       - "C:/Python314/Scripts/gcc-ar15"
@@ -3091,6 +3034,12 @@ events:
       - "C:/Program Files/dotnet/gcc-ar15.com"
       - "C:/Program Files/dotnet/gcc-ar15.exe"
       - "C:/Program Files/dotnet/gcc-ar15"
+      - "C:/Users/david/scoop/apps/gcc-arm-none-eabi/current/bin/gcc-ar15.com"
+      - "C:/Users/david/scoop/apps/gcc-arm-none-eabi/current/bin/gcc-ar15.exe"
+      - "C:/Users/david/scoop/apps/gcc-arm-none-eabi/current/bin/gcc-ar15"
+      - "C:/Users/david/scoop/shims/gcc-ar15.com"
+      - "C:/Users/david/scoop/shims/gcc-ar15.exe"
+      - "C:/Users/david/scoop/shims/gcc-ar15"
       - "C:/Users/david/AppData/Local/Programs/cursor/resources/app/bin/gcc-ar15.com"
       - "C:/Users/david/AppData/Local/Programs/cursor/resources/app/bin/gcc-ar15.exe"
       - "C:/Users/david/AppData/Local/Programs/cursor/resources/app/bin/gcc-ar15"
@@ -3105,8 +3054,6 @@ events:
     search_context:
       ENV{PATH}:
         - "c:\\Users\\david\\.cursor\\extensions\\vadimcn.vscode-lldb-1.12.0\\bin"
-        - "C:\\Users\\david\\scoop\\apps\\gcc-arm-none-eabi\\current\\bin"
-        - "C:\\Users\\david\\scoop\\shims"
         - "C:\\Python314\\Scripts\\"
         - "C:\\Python314\\"
         - "C:\\Program Files (x86)\\Razer\\ChromaBroadcast\\bin"
@@ -3131,9 +3078,8 @@ events:
         - "C:\\ProgramData\\chocolatey\\bin"
         - "C:\\Program Files\\Git\\cmd"
         - "C:\\Program Files\\dotnet\\"
-        - "C:\\Users\\david\\AppData\\Local\\Programs\\Python\\Python313\\Scripts\\"
-        - "C:\\Users\\david\\AppData\\Local\\Programs\\Python\\Python313\\"
-        - "C:\\Users\\david\\AppData\\Local\\Microsoft\\WindowsApps"
+        - "C:\\Users\\david\\scoop\\apps\\gcc-arm-none-eabi\\current\\bin"
+        - "C:\\Users\\david\\scoop\\shims"
         - "C:\\Users\\david\\AppData\\Local\\Programs\\cursor\\resources\\app\\bin"
         - "C:\\msys64\\ucrt64\\bin"
         - "C:\\Users\\david\\AppData\\Roaming\\npm"
@@ -3164,8 +3110,6 @@ events:
     candidate_directories:
       - "C:/msys64/ucrt64/bin/"
       - "C:/Users/david/.cursor/extensions/vadimcn.vscode-lldb-1.12.0/bin/"
-      - "C:/Users/david/scoop/apps/gcc-arm-none-eabi/current/bin/"
-      - "C:/Users/david/scoop/shims/"
       - "C:/Python314/Scripts/"
       - "C:/Python314/"
       - "C:/Program Files (x86)/Razer/ChromaBroadcast/bin/"
@@ -3190,6 +3134,8 @@ events:
       - "C:/ProgramData/chocolatey/bin/"
       - "C:/Program Files/Git/cmd/"
       - "C:/Program Files/dotnet/"
+      - "C:/Users/david/scoop/apps/gcc-arm-none-eabi/current/bin/"
+      - "C:/Users/david/scoop/shims/"
       - "C:/Users/david/AppData/Local/Programs/cursor/resources/app/bin/"
       - "C:/Users/david/AppData/Roaming/npm/"
       - "C:/Users/david/.dotnet/tools/"
@@ -3200,12 +3146,6 @@ events:
       - "C:/Users/david/.cursor/extensions/vadimcn.vscode-lldb-1.12.0/bin/gcc-ranlib-15.2.com"
       - "C:/Users/david/.cursor/extensions/vadimcn.vscode-lldb-1.12.0/bin/gcc-ranlib-15.2.exe"
       - "C:/Users/david/.cursor/extensions/vadimcn.vscode-lldb-1.12.0/bin/gcc-ranlib-15.2"
-      - "C:/Users/david/scoop/apps/gcc-arm-none-eabi/current/bin/gcc-ranlib-15.2.com"
-      - "C:/Users/david/scoop/apps/gcc-arm-none-eabi/current/bin/gcc-ranlib-15.2.exe"
-      - "C:/Users/david/scoop/apps/gcc-arm-none-eabi/current/bin/gcc-ranlib-15.2"
-      - "C:/Users/david/scoop/shims/gcc-ranlib-15.2.com"
-      - "C:/Users/david/scoop/shims/gcc-ranlib-15.2.exe"
-      - "C:/Users/david/scoop/shims/gcc-ranlib-15.2"
       - "C:/Python314/Scripts/gcc-ranlib-15.2.com"
       - "C:/Python314/Scripts/gcc-ranlib-15.2.exe"
       - "C:/Python314/Scripts/gcc-ranlib-15.2"
@@ -3278,6 +3218,12 @@ events:
       - "C:/Program Files/dotnet/gcc-ranlib-15.2.com"
       - "C:/Program Files/dotnet/gcc-ranlib-15.2.exe"
       - "C:/Program Files/dotnet/gcc-ranlib-15.2"
+      - "C:/Users/david/scoop/apps/gcc-arm-none-eabi/current/bin/gcc-ranlib-15.2.com"
+      - "C:/Users/david/scoop/apps/gcc-arm-none-eabi/current/bin/gcc-ranlib-15.2.exe"
+      - "C:/Users/david/scoop/apps/gcc-arm-none-eabi/current/bin/gcc-ranlib-15.2"
+      - "C:/Users/david/scoop/shims/gcc-ranlib-15.2.com"
+      - "C:/Users/david/scoop/shims/gcc-ranlib-15.2.exe"
+      - "C:/Users/david/scoop/shims/gcc-ranlib-15.2"
       - "C:/Users/david/AppData/Local/Programs/cursor/resources/app/bin/gcc-ranlib-15.2.com"
       - "C:/Users/david/AppData/Local/Programs/cursor/resources/app/bin/gcc-ranlib-15.2.exe"
       - "C:/Users/david/AppData/Local/Programs/cursor/resources/app/bin/gcc-ranlib-15.2"
@@ -3293,12 +3239,6 @@ events:
       - "C:/Users/david/.cursor/extensions/vadimcn.vscode-lldb-1.12.0/bin/gcc-ranlib-15.com"
       - "C:/Users/david/.cursor/extensions/vadimcn.vscode-lldb-1.12.0/bin/gcc-ranlib-15.exe"
       - "C:/Users/david/.cursor/extensions/vadimcn.vscode-lldb-1.12.0/bin/gcc-ranlib-15"
-      - "C:/Users/david/scoop/apps/gcc-arm-none-eabi/current/bin/gcc-ranlib-15.com"
-      - "C:/Users/david/scoop/apps/gcc-arm-none-eabi/current/bin/gcc-ranlib-15.exe"
-      - "C:/Users/david/scoop/apps/gcc-arm-none-eabi/current/bin/gcc-ranlib-15"
-      - "C:/Users/david/scoop/shims/gcc-ranlib-15.com"
-      - "C:/Users/david/scoop/shims/gcc-ranlib-15.exe"
-      - "C:/Users/david/scoop/shims/gcc-ranlib-15"
       - "C:/Python314/Scripts/gcc-ranlib-15.com"
       - "C:/Python314/Scripts/gcc-ranlib-15.exe"
       - "C:/Python314/Scripts/gcc-ranlib-15"
@@ -3371,6 +3311,12 @@ events:
       - "C:/Program Files/dotnet/gcc-ranlib-15.com"
       - "C:/Program Files/dotnet/gcc-ranlib-15.exe"
       - "C:/Program Files/dotnet/gcc-ranlib-15"
+      - "C:/Users/david/scoop/apps/gcc-arm-none-eabi/current/bin/gcc-ranlib-15.com"
+      - "C:/Users/david/scoop/apps/gcc-arm-none-eabi/current/bin/gcc-ranlib-15.exe"
+      - "C:/Users/david/scoop/apps/gcc-arm-none-eabi/current/bin/gcc-ranlib-15"
+      - "C:/Users/david/scoop/shims/gcc-ranlib-15.com"
+      - "C:/Users/david/scoop/shims/gcc-ranlib-15.exe"
+      - "C:/Users/david/scoop/shims/gcc-ranlib-15"
       - "C:/Users/david/AppData/Local/Programs/cursor/resources/app/bin/gcc-ranlib-15.com"
       - "C:/Users/david/AppData/Local/Programs/cursor/resources/app/bin/gcc-ranlib-15.exe"
       - "C:/Users/david/AppData/Local/Programs/cursor/resources/app/bin/gcc-ranlib-15"
@@ -3386,12 +3332,6 @@ events:
       - "C:/Users/david/.cursor/extensions/vadimcn.vscode-lldb-1.12.0/bin/gcc-ranlib15.com"
       - "C:/Users/david/.cursor/extensions/vadimcn.vscode-lldb-1.12.0/bin/gcc-ranlib15.exe"
       - "C:/Users/david/.cursor/extensions/vadimcn.vscode-lldb-1.12.0/bin/gcc-ranlib15"
-      - "C:/Users/david/scoop/apps/gcc-arm-none-eabi/current/bin/gcc-ranlib15.com"
-      - "C:/Users/david/scoop/apps/gcc-arm-none-eabi/current/bin/gcc-ranlib15.exe"
-      - "C:/Users/david/scoop/apps/gcc-arm-none-eabi/current/bin/gcc-ranlib15"
-      - "C:/Users/david/scoop/shims/gcc-ranlib15.com"
-      - "C:/Users/david/scoop/shims/gcc-ranlib15.exe"
-      - "C:/Users/david/scoop/shims/gcc-ranlib15"
       - "C:/Python314/Scripts/gcc-ranlib15.com"
       - "C:/Python314/Scripts/gcc-ranlib15.exe"
       - "C:/Python314/Scripts/gcc-ranlib15"
@@ -3464,6 +3404,12 @@ events:
       - "C:/Program Files/dotnet/gcc-ranlib15.com"
       - "C:/Program Files/dotnet/gcc-ranlib15.exe"
       - "C:/Program Files/dotnet/gcc-ranlib15"
+      - "C:/Users/david/scoop/apps/gcc-arm-none-eabi/current/bin/gcc-ranlib15.com"
+      - "C:/Users/david/scoop/apps/gcc-arm-none-eabi/current/bin/gcc-ranlib15.exe"
+      - "C:/Users/david/scoop/apps/gcc-arm-none-eabi/current/bin/gcc-ranlib15"
+      - "C:/Users/david/scoop/shims/gcc-ranlib15.com"
+      - "C:/Users/david/scoop/shims/gcc-ranlib15.exe"
+      - "C:/Users/david/scoop/shims/gcc-ranlib15"
       - "C:/Users/david/AppData/Local/Programs/cursor/resources/app/bin/gcc-ranlib15.com"
       - "C:/Users/david/AppData/Local/Programs/cursor/resources/app/bin/gcc-ranlib15.exe"
       - "C:/Users/david/AppData/Local/Programs/cursor/resources/app/bin/gcc-ranlib15"
@@ -3478,8 +3424,6 @@ events:
     search_context:
       ENV{PATH}:
         - "c:\\Users\\david\\.cursor\\extensions\\vadimcn.vscode-lldb-1.12.0\\bin"
-        - "C:\\Users\\david\\scoop\\apps\\gcc-arm-none-eabi\\current\\bin"
-        - "C:\\Users\\david\\scoop\\shims"
         - "C:\\Python314\\Scripts\\"
         - "C:\\Python314\\"
         - "C:\\Program Files (x86)\\Razer\\ChromaBroadcast\\bin"
@@ -3504,9 +3448,8 @@ events:
         - "C:\\ProgramData\\chocolatey\\bin"
         - "C:\\Program Files\\Git\\cmd"
         - "C:\\Program Files\\dotnet\\"
-        - "C:\\Users\\david\\AppData\\Local\\Programs\\Python\\Python313\\Scripts\\"
-        - "C:\\Users\\david\\AppData\\Local\\Programs\\Python\\Python313\\"
-        - "C:\\Users\\david\\AppData\\Local\\Microsoft\\WindowsApps"
+        - "C:\\Users\\david\\scoop\\apps\\gcc-arm-none-eabi\\current\\bin"
+        - "C:\\Users\\david\\scoop\\shims"
         - "C:\\Users\\david\\AppData\\Local\\Programs\\cursor\\resources\\app\\bin"
         - "C:\\msys64\\ucrt64\\bin"
         - "C:\\Users\\david\\AppData\\Roaming\\npm"
@@ -3536,8 +3479,6 @@ events:
       - "windres"
     candidate_directories:
       - "C:/Users/david/.cursor/extensions/vadimcn.vscode-lldb-1.12.0/bin/"
-      - "C:/Users/david/scoop/apps/gcc-arm-none-eabi/current/bin/"
-      - "C:/Users/david/scoop/shims/"
       - "C:/Python314/Scripts/"
       - "C:/Python314/"
       - "C:/Program Files (x86)/Razer/ChromaBroadcast/bin/"
@@ -3562,6 +3503,8 @@ events:
       - "C:/ProgramData/chocolatey/bin/"
       - "C:/Program Files/Git/cmd/"
       - "C:/Program Files/dotnet/"
+      - "C:/Users/david/scoop/apps/gcc-arm-none-eabi/current/bin/"
+      - "C:/Users/david/scoop/shims/"
       - "C:/Users/david/AppData/Local/Programs/cursor/resources/app/bin/"
       - "C:/msys64/ucrt64/bin/"
       - "C:/Users/david/AppData/Roaming/npm/"
@@ -3582,12 +3525,6 @@ events:
       - "C:/Users/david/.cursor/extensions/vadimcn.vscode-lldb-1.12.0/bin/windres.com"
       - "C:/Users/david/.cursor/extensions/vadimcn.vscode-lldb-1.12.0/bin/windres.exe"
       - "C:/Users/david/.cursor/extensions/vadimcn.vscode-lldb-1.12.0/bin/windres"
-      - "C:/Users/david/scoop/apps/gcc-arm-none-eabi/current/bin/windres.com"
-      - "C:/Users/david/scoop/apps/gcc-arm-none-eabi/current/bin/windres.exe"
-      - "C:/Users/david/scoop/apps/gcc-arm-none-eabi/current/bin/windres"
-      - "C:/Users/david/scoop/shims/windres.com"
-      - "C:/Users/david/scoop/shims/windres.exe"
-      - "C:/Users/david/scoop/shims/windres"
       - "C:/Python314/Scripts/windres.com"
       - "C:/Python314/Scripts/windres.exe"
       - "C:/Python314/Scripts/windres"
@@ -3660,6 +3597,12 @@ events:
       - "C:/Program Files/dotnet/windres.com"
       - "C:/Program Files/dotnet/windres.exe"
       - "C:/Program Files/dotnet/windres"
+      - "C:/Users/david/scoop/apps/gcc-arm-none-eabi/current/bin/windres.com"
+      - "C:/Users/david/scoop/apps/gcc-arm-none-eabi/current/bin/windres.exe"
+      - "C:/Users/david/scoop/apps/gcc-arm-none-eabi/current/bin/windres"
+      - "C:/Users/david/scoop/shims/windres.com"
+      - "C:/Users/david/scoop/shims/windres.exe"
+      - "C:/Users/david/scoop/shims/windres"
       - "C:/Users/david/AppData/Local/Programs/cursor/resources/app/bin/windres.com"
       - "C:/Users/david/AppData/Local/Programs/cursor/resources/app/bin/windres.exe"
       - "C:/Users/david/AppData/Local/Programs/cursor/resources/app/bin/windres"
@@ -3668,8 +3611,6 @@ events:
     search_context:
       ENV{PATH}:
         - "c:\\Users\\david\\.cursor\\extensions\\vadimcn.vscode-lldb-1.12.0\\bin"
-        - "C:\\Users\\david\\scoop\\apps\\gcc-arm-none-eabi\\current\\bin"
-        - "C:\\Users\\david\\scoop\\shims"
         - "C:\\Python314\\Scripts\\"
         - "C:\\Python314\\"
         - "C:\\Program Files (x86)\\Razer\\ChromaBroadcast\\bin"
@@ -3694,9 +3635,8 @@ events:
         - "C:\\ProgramData\\chocolatey\\bin"
         - "C:\\Program Files\\Git\\cmd"
         - "C:\\Program Files\\dotnet\\"
-        - "C:\\Users\\david\\AppData\\Local\\Programs\\Python\\Python313\\Scripts\\"
-        - "C:\\Users\\david\\AppData\\Local\\Programs\\Python\\Python313\\"
-        - "C:\\Users\\david\\AppData\\Local\\Microsoft\\WindowsApps"
+        - "C:\\Users\\david\\scoop\\apps\\gcc-arm-none-eabi\\current\\bin"
+        - "C:\\Users\\david\\scoop\\shims"
         - "C:\\Users\\david\\AppData\\Local\\Programs\\cursor\\resources\\app\\bin"
         - "C:\\msys64\\ucrt64\\bin"
         - "C:\\Users\\david\\AppData\\Roaming\\npm"
@@ -3716,8 +3656,8 @@ events:
     checks:
       - "Detecting C compiler ABI info"
     directories:
-      source: "C:/pico/pico-kernel/build/_deps/picotool-build/CMakeFiles/CMakeScratch/TryCompile-onrwva"
-      binary: "C:/pico/pico-kernel/build/_deps/picotool-build/CMakeFiles/CMakeScratch/TryCompile-onrwva"
+      source: "C:/pico/pico-kernel/build/_deps/picotool-build/CMakeFiles/CMakeScratch/TryCompile-7jesl8"
+      binary: "C:/pico/pico-kernel/build/_deps/picotool-build/CMakeFiles/CMakeScratch/TryCompile-7jesl8"
     cmakeVariables:
       CMAKE_CXX_STDLIB_MODULES_JSON: ""
       CMAKE_C_FLAGS: ""
@@ -3727,10 +3667,10 @@ events:
       variable: "CMAKE_C_ABI_COMPILED"
       cached: true
       stdout: |
-        Change Dir: 'C:/pico/pico-kernel/build/_deps/picotool-build/CMakeFiles/CMakeScratch/TryCompile-onrwva'
+        Change Dir: 'C:/pico/pico-kernel/build/_deps/picotool-build/CMakeFiles/CMakeScratch/TryCompile-7jesl8'
         
-        Run Build Command(s): C:/Users/david/scoop/shims/ninja.exe -v cmTC_0cb0f
-        [1/2] C:\\msys64\\ucrt64\\bin\\cc.exe   -v -o CMakeFiles/cmTC_0cb0f.dir/CMakeCCompilerABI.c.obj -c C:/Users/david/scoop/apps/cmake/current/share/cmake-4.3/Modules/CMakeCCompilerABI.c
+        Run Build Command(s): C:/Users/david/scoop/shims/ninja.exe -v cmTC_443cc
+        [1/2] C:\\msys64\\ucrt64\\bin\\cc.exe   -v -o CMakeFiles/cmTC_443cc.dir/CMakeCCompilerABI.c.obj -c C:/Users/david/scoop/apps/cmake/current/share/cmake-4.3/Modules/CMakeCCompilerABI.c
         Using built-in specs.
         COLLECT_GCC=C:\\msys64\\ucrt64\\bin\\cc.exe
         Target: x86_64-w64-mingw32
@@ -3738,8 +3678,8 @@ events:
         Thread model: posix
         Supported LTO compression algorithms: zlib zstd
         gcc version 15.2.0 (Rev8, Built by MSYS2 project) 
-        COLLECT_GCC_OPTIONS='-v' '-o' 'CMakeFiles/cmTC_0cb0f.dir/CMakeCCompilerABI.c.obj' '-c' '-mtune=generic' '-march=nocona' '-dumpdir' 'CMakeFiles/cmTC_0cb0f.dir/'
-         C:/msys64/ucrt64/bin/../lib/gcc/x86_64-w64-mingw32/15.2.0/cc1.exe -quiet -v -iprefix C:/msys64/ucrt64/bin/../lib/gcc/x86_64-w64-mingw32/15.2.0/ -D_REENTRANT C:/Users/david/scoop/apps/cmake/current/share/cmake-4.3/Modules/CMakeCCompilerABI.c -quiet -dumpdir CMakeFiles/cmTC_0cb0f.dir/ -dumpbase CMakeCCompilerABI.c.c -dumpbase-ext .c -mtune=generic -march=nocona -version -o C:\\Users\\david\\AppData\\Local\\Temp\\ccqv6OlA.s
+        COLLECT_GCC_OPTIONS='-v' '-o' 'CMakeFiles/cmTC_443cc.dir/CMakeCCompilerABI.c.obj' '-c' '-mtune=generic' '-march=nocona' '-dumpdir' 'CMakeFiles/cmTC_443cc.dir/'
+         C:/msys64/ucrt64/bin/../lib/gcc/x86_64-w64-mingw32/15.2.0/cc1.exe -quiet -v -iprefix C:/msys64/ucrt64/bin/../lib/gcc/x86_64-w64-mingw32/15.2.0/ -D_REENTRANT C:/Users/david/scoop/apps/cmake/current/share/cmake-4.3/Modules/CMakeCCompilerABI.c -quiet -dumpdir CMakeFiles/cmTC_443cc.dir/ -dumpbase CMakeCCompilerABI.c.c -dumpbase-ext .c -mtune=generic -march=nocona -version -o C:\\Users\\david\\AppData\\Local\\Temp\\ccwMp3Kf.s
         GNU C23 (Rev8, Built by MSYS2 project) version 15.2.0 (x86_64-w64-mingw32)
         	compiled by GNU C version 15.2.0, GMP version 6.3.0, MPFR version 4.2.2, MPC version 1.3.1, isl version isl-0.27-GMP
         
@@ -3758,13 +3698,13 @@ events:
          C:/msys64/ucrt64/bin/../lib/gcc/x86_64-w64-mingw32/15.2.0/include-fixed
         End of search list.
         Compiler executable checksum: f68563dd6aebdc6b84233a210e98d3c3
-        COLLECT_GCC_OPTIONS='-v' '-o' 'CMakeFiles/cmTC_0cb0f.dir/CMakeCCompilerABI.c.obj' '-c' '-mtune=generic' '-march=nocona' '-dumpdir' 'CMakeFiles/cmTC_0cb0f.dir/'
-         C:/msys64/ucrt64/bin/../lib/gcc/x86_64-w64-mingw32/15.2.0/../../../../x86_64-w64-mingw32/bin/as.exe -v -o CMakeFiles/cmTC_0cb0f.dir/CMakeCCompilerABI.c.obj C:\\Users\\david\\AppData\\Local\\Temp\\ccqv6OlA.s
+        COLLECT_GCC_OPTIONS='-v' '-o' 'CMakeFiles/cmTC_443cc.dir/CMakeCCompilerABI.c.obj' '-c' '-mtune=generic' '-march=nocona' '-dumpdir' 'CMakeFiles/cmTC_443cc.dir/'
+         C:/msys64/ucrt64/bin/../lib/gcc/x86_64-w64-mingw32/15.2.0/../../../../x86_64-w64-mingw32/bin/as.exe -v -o CMakeFiles/cmTC_443cc.dir/CMakeCCompilerABI.c.obj C:\\Users\\david\\AppData\\Local\\Temp\\ccwMp3Kf.s
         GNU assembler version 2.45 (x86_64-w64-mingw32) using BFD version (GNU Binutils) 2.45
         COMPILER_PATH=C:/msys64/ucrt64/bin/../lib/gcc/x86_64-w64-mingw32/15.2.0/;C:/msys64/ucrt64/bin/../lib/gcc/;C:/msys64/ucrt64/bin/../lib/gcc/x86_64-w64-mingw32/15.2.0/../../../../x86_64-w64-mingw32/bin/
         LIBRARY_PATH=C:/msys64/ucrt64/bin/../lib/gcc/x86_64-w64-mingw32/15.2.0/;C:/msys64/ucrt64/bin/../lib/gcc/;C:/msys64/ucrt64/bin/../lib/gcc/x86_64-w64-mingw32/15.2.0/../../../../x86_64-w64-mingw32/lib/../lib/;C:/msys64/ucrt64/bin/../lib/gcc/x86_64-w64-mingw32/15.2.0/../../../../lib/;C:/msys64/ucrt64/bin/../lib/gcc/x86_64-w64-mingw32/15.2.0/../../../../x86_64-w64-mingw32/lib/;C:/msys64/ucrt64/bin/../lib/gcc/x86_64-w64-mingw32/15.2.0/../../../
-        COLLECT_GCC_OPTIONS='-v' '-o' 'CMakeFiles/cmTC_0cb0f.dir/CMakeCCompilerABI.c.obj' '-c' '-mtune=generic' '-march=nocona' '-dumpdir' 'CMakeFiles/cmTC_0cb0f.dir/CMakeCCompilerABI.c.'
-        [2/2] C:\\WINDOWS\\system32\\cmd.exe /C "cd . && C:\\msys64\\ucrt64\\bin\\cc.exe  -v -Wl,-v CMakeFiles/cmTC_0cb0f.dir/CMakeCCompilerABI.c.obj -o cmTC_0cb0f.exe -Wl,--out-implib,libcmTC_0cb0f.dll.a -Wl,--major-image-version,0,--minor-image-version,0   && cd ."
+        COLLECT_GCC_OPTIONS='-v' '-o' 'CMakeFiles/cmTC_443cc.dir/CMakeCCompilerABI.c.obj' '-c' '-mtune=generic' '-march=nocona' '-dumpdir' 'CMakeFiles/cmTC_443cc.dir/CMakeCCompilerABI.c.'
+        [2/2] C:\\WINDOWS\\system32\\cmd.exe /C "cd . && C:\\msys64\\ucrt64\\bin\\cc.exe  -v -Wl,-v CMakeFiles/cmTC_443cc.dir/CMakeCCompilerABI.c.obj -o cmTC_443cc.exe -Wl,--out-implib,libcmTC_443cc.dll.a -Wl,--major-image-version,0,--minor-image-version,0   && cd ."
         Using built-in specs.
         COLLECT_GCC=C:\\msys64\\ucrt64\\bin\\cc.exe
         COLLECT_LTO_WRAPPER=C:/msys64/ucrt64/bin/../lib/gcc/x86_64-w64-mingw32/15.2.0/lto-wrapper.exe
@@ -3775,12 +3715,12 @@ events:
         gcc version 15.2.0 (Rev8, Built by MSYS2 project) 
         COMPILER_PATH=C:/msys64/ucrt64/bin/../lib/gcc/x86_64-w64-mingw32/15.2.0/;C:/msys64/ucrt64/bin/../lib/gcc/;C:/msys64/ucrt64/bin/../lib/gcc/x86_64-w64-mingw32/15.2.0/../../../../x86_64-w64-mingw32/bin/
         LIBRARY_PATH=C:/msys64/ucrt64/bin/../lib/gcc/x86_64-w64-mingw32/15.2.0/;C:/msys64/ucrt64/bin/../lib/gcc/;C:/msys64/ucrt64/bin/../lib/gcc/x86_64-w64-mingw32/15.2.0/../../../../x86_64-w64-mingw32/lib/../lib/;C:/msys64/ucrt64/bin/../lib/gcc/x86_64-w64-mingw32/15.2.0/../../../../lib/;C:/msys64/ucrt64/bin/../lib/gcc/x86_64-w64-mingw32/15.2.0/../../../../x86_64-w64-mingw32/lib/;C:/msys64/ucrt64/bin/../lib/gcc/x86_64-w64-mingw32/15.2.0/../../../
-        COLLECT_GCC_OPTIONS='-v' '-o' 'cmTC_0cb0f.exe' '-mtune=generic' '-march=nocona' '-dumpdir' 'cmTC_0cb0f.'
-         C:/msys64/ucrt64/bin/../lib/gcc/x86_64-w64-mingw32/15.2.0/collect2.exe -plugin C:/msys64/ucrt64/bin/../lib/gcc/x86_64-w64-mingw32/15.2.0/liblto_plugin.dll -plugin-opt=C:/msys64/ucrt64/bin/../lib/gcc/x86_64-w64-mingw32/15.2.0/lto-wrapper.exe -plugin-opt=-fresolution=C:\\Users\\david\\AppData\\Local\\Temp\\ccI0U0NK.res -plugin-opt=-pass-through=-lmingw32 -plugin-opt=-pass-through=-lgcc -plugin-opt=-pass-through=-lgcc_eh -plugin-opt=-pass-through=-lmingwex -plugin-opt=-pass-through=-lmsvcrt -plugin-opt=-pass-through=-lkernel32 -plugin-opt=-pass-through=-lpthread -plugin-opt=-pass-through=-ladvapi32 -plugin-opt=-pass-through=-lshell32 -plugin-opt=-pass-through=-luser32 -plugin-opt=-pass-through=-lkernel32 -plugin-opt=-pass-through=-lmingw32 -plugin-opt=-pass-through=-lgcc -plugin-opt=-pass-through=-lgcc_eh -plugin-opt=-pass-through=-lmingwex -plugin-opt=-pass-through=-lmsvcrt -plugin-opt=-pass-through=-lkernel32 -m i386pep -Bdynamic -o cmTC_0cb0f.exe C:/msys64/ucrt64/bin/../lib/gcc/x86_64-w64-mingw32/15.2.0/../../../../lib/crt2.o C:/msys64/ucrt64/bin/../lib/gcc/x86_64-w64-mingw32/15.2.0/crtbegin.o -LC:/msys64/ucrt64/bin/../lib/gcc/x86_64-w64-mingw32/15.2.0 -LC:/msys64/ucrt64/bin/../lib/gcc -LC:/msys64/ucrt64/bin/../lib/gcc/x86_64-w64-mingw32/15.2.0/../../../../x86_64-w64-mingw32/lib/../lib -LC:/msys64/ucrt64/bin/../lib/gcc/x86_64-w64-mingw32/15.2.0/../../../../lib -LC:/msys64/ucrt64/bin/../lib/gcc/x86_64-w64-mingw32/15.2.0/../../../../x86_64-w64-mingw32/lib -LC:/msys64/ucrt64/bin/../lib/gcc/x86_64-w64-mingw32/15.2.0/../../.. -v CMakeFiles/cmTC_0cb0f.dir/CMakeCCompilerABI.c.obj --out-implib libcmTC_0cb0f.dll.a --major-image-version 0 --minor-image-version 0 -lmingw32 -lgcc -lgcc_eh -lmingwex -lmsvcrt -lkernel32 -lpthread -ladvapi32 -lshell32 -luser32 -lkernel32 -lmingw32 -lgcc -lgcc_eh -lmingwex -lmsvcrt -lkernel32 C:/msys64/ucrt64/bin/../lib/gcc/x86_64-w64-mingw32/15.2.0/../../../../lib/default-manifest.o C:/msys64/ucrt64/bin/../lib/gcc/x86_64-w64-mingw32/15.2.0/crtend.o
+        COLLECT_GCC_OPTIONS='-v' '-o' 'cmTC_443cc.exe' '-mtune=generic' '-march=nocona' '-dumpdir' 'cmTC_443cc.'
+         C:/msys64/ucrt64/bin/../lib/gcc/x86_64-w64-mingw32/15.2.0/collect2.exe -plugin C:/msys64/ucrt64/bin/../lib/gcc/x86_64-w64-mingw32/15.2.0/liblto_plugin.dll -plugin-opt=C:/msys64/ucrt64/bin/../lib/gcc/x86_64-w64-mingw32/15.2.0/lto-wrapper.exe -plugin-opt=-fresolution=C:\\Users\\david\\AppData\\Local\\Temp\\cccua4qm.res -plugin-opt=-pass-through=-lmingw32 -plugin-opt=-pass-through=-lgcc -plugin-opt=-pass-through=-lgcc_eh -plugin-opt=-pass-through=-lmingwex -plugin-opt=-pass-through=-lmsvcrt -plugin-opt=-pass-through=-lkernel32 -plugin-opt=-pass-through=-lpthread -plugin-opt=-pass-through=-ladvapi32 -plugin-opt=-pass-through=-lshell32 -plugin-opt=-pass-through=-luser32 -plugin-opt=-pass-through=-lkernel32 -plugin-opt=-pass-through=-lmingw32 -plugin-opt=-pass-through=-lgcc -plugin-opt=-pass-through=-lgcc_eh -plugin-opt=-pass-through=-lmingwex -plugin-opt=-pass-through=-lmsvcrt -plugin-opt=-pass-through=-lkernel32 -m i386pep -Bdynamic -o cmTC_443cc.exe C:/msys64/ucrt64/bin/../lib/gcc/x86_64-w64-mingw32/15.2.0/../../../../lib/crt2.o C:/msys64/ucrt64/bin/../lib/gcc/x86_64-w64-mingw32/15.2.0/crtbegin.o -LC:/msys64/ucrt64/bin/../lib/gcc/x86_64-w64-mingw32/15.2.0 -LC:/msys64/ucrt64/bin/../lib/gcc -LC:/msys64/ucrt64/bin/../lib/gcc/x86_64-w64-mingw32/15.2.0/../../../../x86_64-w64-mingw32/lib/../lib -LC:/msys64/ucrt64/bin/../lib/gcc/x86_64-w64-mingw32/15.2.0/../../../../lib -LC:/msys64/ucrt64/bin/../lib/gcc/x86_64-w64-mingw32/15.2.0/../../../../x86_64-w64-mingw32/lib -LC:/msys64/ucrt64/bin/../lib/gcc/x86_64-w64-mingw32/15.2.0/../../.. -v CMakeFiles/cmTC_443cc.dir/CMakeCCompilerABI.c.obj --out-implib libcmTC_443cc.dll.a --major-image-version 0 --minor-image-version 0 -lmingw32 -lgcc -lgcc_eh -lmingwex -lmsvcrt -lkernel32 -lpthread -ladvapi32 -lshell32 -luser32 -lkernel32 -lmingw32 -lgcc -lgcc_eh -lmingwex -lmsvcrt -lkernel32 C:/msys64/ucrt64/bin/../lib/gcc/x86_64-w64-mingw32/15.2.0/../../../../lib/default-manifest.o C:/msys64/ucrt64/bin/../lib/gcc/x86_64-w64-mingw32/15.2.0/crtend.o
         collect2 version 15.2.0
-        C:/msys64/ucrt64/bin/../lib/gcc/x86_64-w64-mingw32/15.2.0/../../../../x86_64-w64-mingw32/bin/ld.exe -plugin C:/msys64/ucrt64/bin/../lib/gcc/x86_64-w64-mingw32/15.2.0/liblto_plugin.dll -plugin-opt=C:/msys64/ucrt64/bin/../lib/gcc/x86_64-w64-mingw32/15.2.0/lto-wrapper.exe -plugin-opt=-fresolution=C:\\Users\\david\\AppData\\Local\\Temp\\ccI0U0NK.res -plugin-opt=-pass-through=-lmingw32 -plugin-opt=-pass-through=-lgcc -plugin-opt=-pass-through=-lgcc_eh -plugin-opt=-pass-through=-lmingwex -plugin-opt=-pass-through=-lmsvcrt -plugin-opt=-pass-through=-lkernel32 -plugin-opt=-pass-through=-lpthread -plugin-opt=-pass-through=-ladvapi32 -plugin-opt=-pass-through=-lshell32 -plugin-opt=-pass-through=-luser32 -plugin-opt=-pass-through=-lkernel32 -plugin-opt=-pass-through=-lmingw32 -plugin-opt=-pass-through=-lgcc -plugin-opt=-pass-through=-lgcc_eh -plugin-opt=-pass-through=-lmingwex -plugin-opt=-pass-through=-lmsvcrt -plugin-opt=-pass-through=-lkernel32 -m i386pep -Bdynamic -o cmTC_0cb0f.exe C:/msys64/ucrt64/bin/../lib/gcc/x86_64-w64-mingw32/15.2.0/../../../../lib/crt2.o C:/msys64/ucrt64/bin/../lib/gcc/x86_64-w64-mingw32/15.2.0/crtbegin.o -LC:/msys64/ucrt64/bin/../lib/gcc/x86_64-w64-mingw32/15.2.0 -LC:/msys64/ucrt64/bin/../lib/gcc -LC:/msys64/ucrt64/bin/../lib/gcc/x86_64-w64-mingw32/15.2.0/../../../../x86_64-w64-mingw32/lib/../lib -LC:/msys64/ucrt64/bin/../lib/gcc/x86_64-w64-mingw32/15.2.0/../../../../lib -LC:/msys64/ucrt64/bin/../lib/gcc/x86_64-w64-mingw32/15.2.0/../../../../x86_64-w64-mingw32/lib -LC:/msys64/ucrt64/bin/../lib/gcc/x86_64-w64-mingw32/15.2.0/../../.. -v CMakeFiles/cmTC_0cb0f.dir/CMakeCCompilerABI.c.obj --out-implib libcmTC_0cb0f.dll.a --major-image-version 0 --minor-image-version 0 -lmingw32 -lgcc -lgcc_eh -lmingwex -lmsvcrt -lkernel32 -lpthread -ladvapi32 -lshell32 -luser32 -lkernel32 -lmingw32 -lgcc -lgcc_eh -lmingwex -lmsvcrt -lkernel32 C:/msys64/ucrt64/bin/../lib/gcc/x86_64-w64-mingw32/15.2.0/../../../../lib/default-manifest.o C:/msys64/ucrt64/bin/../lib/gcc/x86_64-w64-mingw32/15.2.0/crtend.o
+        C:/msys64/ucrt64/bin/../lib/gcc/x86_64-w64-mingw32/15.2.0/../../../../x86_64-w64-mingw32/bin/ld.exe -plugin C:/msys64/ucrt64/bin/../lib/gcc/x86_64-w64-mingw32/15.2.0/liblto_plugin.dll -plugin-opt=C:/msys64/ucrt64/bin/../lib/gcc/x86_64-w64-mingw32/15.2.0/lto-wrapper.exe -plugin-opt=-fresolution=C:\\Users\\david\\AppData\\Local\\Temp\\cccua4qm.res -plugin-opt=-pass-through=-lmingw32 -plugin-opt=-pass-through=-lgcc -plugin-opt=-pass-through=-lgcc_eh -plugin-opt=-pass-through=-lmingwex -plugin-opt=-pass-through=-lmsvcrt -plugin-opt=-pass-through=-lkernel32 -plugin-opt=-pass-through=-lpthread -plugin-opt=-pass-through=-ladvapi32 -plugin-opt=-pass-through=-lshell32 -plugin-opt=-pass-through=-luser32 -plugin-opt=-pass-through=-lkernel32 -plugin-opt=-pass-through=-lmingw32 -plugin-opt=-pass-through=-lgcc -plugin-opt=-pass-through=-lgcc_eh -plugin-opt=-pass-through=-lmingwex -plugin-opt=-pass-through=-lmsvcrt -plugin-opt=-pass-through=-lkernel32 -m i386pep -Bdynamic -o cmTC_443cc.exe C:/msys64/ucrt64/bin/../lib/gcc/x86_64-w64-mingw32/15.2.0/../../../../lib/crt2.o C:/msys64/ucrt64/bin/../lib/gcc/x86_64-w64-mingw32/15.2.0/crtbegin.o -LC:/msys64/ucrt64/bin/../lib/gcc/x86_64-w64-mingw32/15.2.0 -LC:/msys64/ucrt64/bin/../lib/gcc -LC:/msys64/ucrt64/bin/../lib/gcc/x86_64-w64-mingw32/15.2.0/../../../../x86_64-w64-mingw32/lib/../lib -LC:/msys64/ucrt64/bin/../lib/gcc/x86_64-w64-mingw32/15.2.0/../../../../lib -LC:/msys64/ucrt64/bin/../lib/gcc/x86_64-w64-mingw32/15.2.0/../../../../x86_64-w64-mingw32/lib -LC:/msys64/ucrt64/bin/../lib/gcc/x86_64-w64-mingw32/15.2.0/../../.. -v CMakeFiles/cmTC_443cc.dir/CMakeCCompilerABI.c.obj --out-implib libcmTC_443cc.dll.a --major-image-version 0 --minor-image-version 0 -lmingw32 -lgcc -lgcc_eh -lmingwex -lmsvcrt -lkernel32 -lpthread -ladvapi32 -lshell32 -luser32 -lkernel32 -lmingw32 -lgcc -lgcc_eh -lmingwex -lmsvcrt -lkernel32 C:/msys64/ucrt64/bin/../lib/gcc/x86_64-w64-mingw32/15.2.0/../../../../lib/default-manifest.o C:/msys64/ucrt64/bin/../lib/gcc/x86_64-w64-mingw32/15.2.0/crtend.o
         GNU ld (GNU Binutils) 2.45
-        COLLECT_GCC_OPTIONS='-v' '-o' 'cmTC_0cb0f.exe' '-mtune=generic' '-march=nocona' '-dumpdir' 'cmTC_0cb0f.'
+        COLLECT_GCC_OPTIONS='-v' '-o' 'cmTC_443cc.exe' '-mtune=generic' '-march=nocona' '-dumpdir' 'cmTC_443cc.'
         
       exitCode: 0
   -
@@ -3813,10 +3753,10 @@ events:
       Parsed C implicit link information:
         link line regex: [^( *|.*[/\\])(ld[0-9]*(|\\.[a-rt-z][a-z]*|\\.s[a-np-z][a-z]*|\\.so[a-z]+)|CMAKE_LINK_STARTFILE-NOTFOUND|([^/\\]+-)?ld|collect2)[^/\\]*( |$)]
         linker tool regex: [^[ 	]*(->|"|[0-9]+>[ 	-]*Build:[ 	0-9]+ ms[ 	]*)?[ 	]*(([^"]*[/\\])?(ld[0-9]*(|\\.[a-rt-z][a-z]*|\\.s[a-np-z][a-z]*|\\.so[a-z]+)))("|,| |$)]
-        ignore line: [Change Dir: 'C:/pico/pico-kernel/build/_deps/picotool-build/CMakeFiles/CMakeScratch/TryCompile-onrwva']
+        ignore line: [Change Dir: 'C:/pico/pico-kernel/build/_deps/picotool-build/CMakeFiles/CMakeScratch/TryCompile-7jesl8']
         ignore line: []
-        ignore line: [Run Build Command(s): C:/Users/david/scoop/shims/ninja.exe -v cmTC_0cb0f]
-        ignore line: [[1/2] C:\\msys64\\ucrt64\\bin\\cc.exe   -v -o CMakeFiles/cmTC_0cb0f.dir/CMakeCCompilerABI.c.obj -c C:/Users/david/scoop/apps/cmake/current/share/cmake-4.3/Modules/CMakeCCompilerABI.c]
+        ignore line: [Run Build Command(s): C:/Users/david/scoop/shims/ninja.exe -v cmTC_443cc]
+        ignore line: [[1/2] C:\\msys64\\ucrt64\\bin\\cc.exe   -v -o CMakeFiles/cmTC_443cc.dir/CMakeCCompilerABI.c.obj -c C:/Users/david/scoop/apps/cmake/current/share/cmake-4.3/Modules/CMakeCCompilerABI.c]
         ignore line: [Using built-in specs.]
         ignore line: [COLLECT_GCC=C:\\msys64\\ucrt64\\bin\\cc.exe]
         ignore line: [Target: x86_64-w64-mingw32]
@@ -3824,8 +3764,8 @@ events:
         ignore line: [Thread model: posix]
         ignore line: [Supported LTO compression algorithms: zlib zstd]
         ignore line: [gcc version 15.2.0 (Rev8  Built by MSYS2 project) ]
-        ignore line: [COLLECT_GCC_OPTIONS='-v' '-o' 'CMakeFiles/cmTC_0cb0f.dir/CMakeCCompilerABI.c.obj' '-c' '-mtune=generic' '-march=nocona' '-dumpdir' 'CMakeFiles/cmTC_0cb0f.dir/']
-        ignore line: [ C:/msys64/ucrt64/bin/../lib/gcc/x86_64-w64-mingw32/15.2.0/cc1.exe -quiet -v -iprefix C:/msys64/ucrt64/bin/../lib/gcc/x86_64-w64-mingw32/15.2.0/ -D_REENTRANT C:/Users/david/scoop/apps/cmake/current/share/cmake-4.3/Modules/CMakeCCompilerABI.c -quiet -dumpdir CMakeFiles/cmTC_0cb0f.dir/ -dumpbase CMakeCCompilerABI.c.c -dumpbase-ext .c -mtune=generic -march=nocona -version -o C:\\Users\\david\\AppData\\Local\\Temp\\ccqv6OlA.s]
+        ignore line: [COLLECT_GCC_OPTIONS='-v' '-o' 'CMakeFiles/cmTC_443cc.dir/CMakeCCompilerABI.c.obj' '-c' '-mtune=generic' '-march=nocona' '-dumpdir' 'CMakeFiles/cmTC_443cc.dir/']
+        ignore line: [ C:/msys64/ucrt64/bin/../lib/gcc/x86_64-w64-mingw32/15.2.0/cc1.exe -quiet -v -iprefix C:/msys64/ucrt64/bin/../lib/gcc/x86_64-w64-mingw32/15.2.0/ -D_REENTRANT C:/Users/david/scoop/apps/cmake/current/share/cmake-4.3/Modules/CMakeCCompilerABI.c -quiet -dumpdir CMakeFiles/cmTC_443cc.dir/ -dumpbase CMakeCCompilerABI.c.c -dumpbase-ext .c -mtune=generic -march=nocona -version -o C:\\Users\\david\\AppData\\Local\\Temp\\ccwMp3Kf.s]
         ignore line: [GNU C23 (Rev8  Built by MSYS2 project) version 15.2.0 (x86_64-w64-mingw32)]
         ignore line: [	compiled by GNU C version 15.2.0  GMP version 6.3.0  MPFR version 4.2.2  MPC version 1.3.1  isl version isl-0.27-GMP]
         ignore line: []
@@ -3844,8 +3784,8 @@ events:
         ignore line: [ C:/msys64/ucrt64/bin/../lib/gcc/x86_64-w64-mingw32/15.2.0/include-fixed]
         ignore line: [End of search list.]
         ignore line: [Compiler executable checksum: f68563dd6aebdc6b84233a210e98d3c3]
-        ignore line: [COLLECT_GCC_OPTIONS='-v' '-o' 'CMakeFiles/cmTC_0cb0f.dir/CMakeCCompilerABI.c.obj' '-c' '-mtune=generic' '-march=nocona' '-dumpdir' 'CMakeFiles/cmTC_0cb0f.dir/']
-        ignore line: [ C:/msys64/ucrt64/bin/../lib/gcc/x86_64-w64-mingw32/15.2.0/../../../../x86_64-w64-mingw32/bin/as.exe -v -o CMakeFiles/cmTC_0cb0f.dir/CMakeCCompilerABI.c.obj C:\\Users\\david\\AppData\\Local\\Temp\\ccqv6OlA.s]
+        ignore line: [COLLECT_GCC_OPTIONS='-v' '-o' 'CMakeFiles/cmTC_443cc.dir/CMakeCCompilerABI.c.obj' '-c' '-mtune=generic' '-march=nocona' '-dumpdir' 'CMakeFiles/cmTC_443cc.dir/']
+        ignore line: [ C:/msys64/ucrt64/bin/../lib/gcc/x86_64-w64-mingw32/15.2.0/../../../../x86_64-w64-mingw32/bin/as.exe -v -o CMakeFiles/cmTC_443cc.dir/CMakeCCompilerABI.c.obj C:\\Users\\david\\AppData\\Local\\Temp\\ccwMp3Kf.s]
         ignore line: [GNU assembler version 2.45 (x86_64-w64-mingw32) using BFD version (GNU Binutils) 2.45]
         ignore line: [COMPILER_PATH=C:/msys64/ucrt64/bin/../lib/gcc/x86_64-w64-mingw32/15.2.0/]
         ignore line: [C:/msys64/ucrt64/bin/../lib/gcc/]
@@ -3856,8 +3796,8 @@ events:
         ignore line: [C:/msys64/ucrt64/bin/../lib/gcc/x86_64-w64-mingw32/15.2.0/../../../../lib/]
         ignore line: [C:/msys64/ucrt64/bin/../lib/gcc/x86_64-w64-mingw32/15.2.0/../../../../x86_64-w64-mingw32/lib/]
         ignore line: [C:/msys64/ucrt64/bin/../lib/gcc/x86_64-w64-mingw32/15.2.0/../../../]
-        ignore line: [COLLECT_GCC_OPTIONS='-v' '-o' 'CMakeFiles/cmTC_0cb0f.dir/CMakeCCompilerABI.c.obj' '-c' '-mtune=generic' '-march=nocona' '-dumpdir' 'CMakeFiles/cmTC_0cb0f.dir/CMakeCCompilerABI.c.']
-        ignore line: [[2/2] C:\\WINDOWS\\system32\\cmd.exe /C "cd . && C:\\msys64\\ucrt64\\bin\\cc.exe  -v -Wl -v CMakeFiles/cmTC_0cb0f.dir/CMakeCCompilerABI.c.obj -o cmTC_0cb0f.exe -Wl --out-implib libcmTC_0cb0f.dll.a -Wl --major-image-version 0 --minor-image-version 0   && cd ."]
+        ignore line: [COLLECT_GCC_OPTIONS='-v' '-o' 'CMakeFiles/cmTC_443cc.dir/CMakeCCompilerABI.c.obj' '-c' '-mtune=generic' '-march=nocona' '-dumpdir' 'CMakeFiles/cmTC_443cc.dir/CMakeCCompilerABI.c.']
+        ignore line: [[2/2] C:\\WINDOWS\\system32\\cmd.exe /C "cd . && C:\\msys64\\ucrt64\\bin\\cc.exe  -v -Wl -v CMakeFiles/cmTC_443cc.dir/CMakeCCompilerABI.c.obj -o cmTC_443cc.exe -Wl --out-implib libcmTC_443cc.dll.a -Wl --major-image-version 0 --minor-image-version 0   && cd ."]
         ignore line: [Using built-in specs.]
         ignore line: [COLLECT_GCC=C:\\msys64\\ucrt64\\bin\\cc.exe]
         ignore line: [COLLECT_LTO_WRAPPER=C:/msys64/ucrt64/bin/../lib/gcc/x86_64-w64-mingw32/15.2.0/lto-wrapper.exe]
@@ -3875,13 +3815,13 @@ events:
         ignore line: [C:/msys64/ucrt64/bin/../lib/gcc/x86_64-w64-mingw32/15.2.0/../../../../lib/]
         ignore line: [C:/msys64/ucrt64/bin/../lib/gcc/x86_64-w64-mingw32/15.2.0/../../../../x86_64-w64-mingw32/lib/]
         ignore line: [C:/msys64/ucrt64/bin/../lib/gcc/x86_64-w64-mingw32/15.2.0/../../../]
-        ignore line: [COLLECT_GCC_OPTIONS='-v' '-o' 'cmTC_0cb0f.exe' '-mtune=generic' '-march=nocona' '-dumpdir' 'cmTC_0cb0f.']
-        link line: [ C:/msys64/ucrt64/bin/../lib/gcc/x86_64-w64-mingw32/15.2.0/collect2.exe -plugin C:/msys64/ucrt64/bin/../lib/gcc/x86_64-w64-mingw32/15.2.0/liblto_plugin.dll -plugin-opt=C:/msys64/ucrt64/bin/../lib/gcc/x86_64-w64-mingw32/15.2.0/lto-wrapper.exe -plugin-opt=-fresolution=C:\\Users\\david\\AppData\\Local\\Temp\\ccI0U0NK.res -plugin-opt=-pass-through=-lmingw32 -plugin-opt=-pass-through=-lgcc -plugin-opt=-pass-through=-lgcc_eh -plugin-opt=-pass-through=-lmingwex -plugin-opt=-pass-through=-lmsvcrt -plugin-opt=-pass-through=-lkernel32 -plugin-opt=-pass-through=-lpthread -plugin-opt=-pass-through=-ladvapi32 -plugin-opt=-pass-through=-lshell32 -plugin-opt=-pass-through=-luser32 -plugin-opt=-pass-through=-lkernel32 -plugin-opt=-pass-through=-lmingw32 -plugin-opt=-pass-through=-lgcc -plugin-opt=-pass-through=-lgcc_eh -plugin-opt=-pass-through=-lmingwex -plugin-opt=-pass-through=-lmsvcrt -plugin-opt=-pass-through=-lkernel32 -m i386pep -Bdynamic -o cmTC_0cb0f.exe C:/msys64/ucrt64/bin/../lib/gcc/x86_64-w64-mingw32/15.2.0/../../../../lib/crt2.o C:/msys64/ucrt64/bin/../lib/gcc/x86_64-w64-mingw32/15.2.0/crtbegin.o -LC:/msys64/ucrt64/bin/../lib/gcc/x86_64-w64-mingw32/15.2.0 -LC:/msys64/ucrt64/bin/../lib/gcc -LC:/msys64/ucrt64/bin/../lib/gcc/x86_64-w64-mingw32/15.2.0/../../../../x86_64-w64-mingw32/lib/../lib -LC:/msys64/ucrt64/bin/../lib/gcc/x86_64-w64-mingw32/15.2.0/../../../../lib -LC:/msys64/ucrt64/bin/../lib/gcc/x86_64-w64-mingw32/15.2.0/../../../../x86_64-w64-mingw32/lib -LC:/msys64/ucrt64/bin/../lib/gcc/x86_64-w64-mingw32/15.2.0/../../.. -v CMakeFiles/cmTC_0cb0f.dir/CMakeCCompilerABI.c.obj --out-implib libcmTC_0cb0f.dll.a --major-image-version 0 --minor-image-version 0 -lmingw32 -lgcc -lgcc_eh -lmingwex -lmsvcrt -lkernel32 -lpthread -ladvapi32 -lshell32 -luser32 -lkernel32 -lmingw32 -lgcc -lgcc_eh -lmingwex -lmsvcrt -lkernel32 C:/msys64/ucrt64/bin/../lib/gcc/x86_64-w64-mingw32/15.2.0/../../../../lib/default-manifest.o C:/msys64/ucrt64/bin/../lib/gcc/x86_64-w64-mingw32/15.2.0/crtend.o]
+        ignore line: [COLLECT_GCC_OPTIONS='-v' '-o' 'cmTC_443cc.exe' '-mtune=generic' '-march=nocona' '-dumpdir' 'cmTC_443cc.']
+        link line: [ C:/msys64/ucrt64/bin/../lib/gcc/x86_64-w64-mingw32/15.2.0/collect2.exe -plugin C:/msys64/ucrt64/bin/../lib/gcc/x86_64-w64-mingw32/15.2.0/liblto_plugin.dll -plugin-opt=C:/msys64/ucrt64/bin/../lib/gcc/x86_64-w64-mingw32/15.2.0/lto-wrapper.exe -plugin-opt=-fresolution=C:\\Users\\david\\AppData\\Local\\Temp\\cccua4qm.res -plugin-opt=-pass-through=-lmingw32 -plugin-opt=-pass-through=-lgcc -plugin-opt=-pass-through=-lgcc_eh -plugin-opt=-pass-through=-lmingwex -plugin-opt=-pass-through=-lmsvcrt -plugin-opt=-pass-through=-lkernel32 -plugin-opt=-pass-through=-lpthread -plugin-opt=-pass-through=-ladvapi32 -plugin-opt=-pass-through=-lshell32 -plugin-opt=-pass-through=-luser32 -plugin-opt=-pass-through=-lkernel32 -plugin-opt=-pass-through=-lmingw32 -plugin-opt=-pass-through=-lgcc -plugin-opt=-pass-through=-lgcc_eh -plugin-opt=-pass-through=-lmingwex -plugin-opt=-pass-through=-lmsvcrt -plugin-opt=-pass-through=-lkernel32 -m i386pep -Bdynamic -o cmTC_443cc.exe C:/msys64/ucrt64/bin/../lib/gcc/x86_64-w64-mingw32/15.2.0/../../../../lib/crt2.o C:/msys64/ucrt64/bin/../lib/gcc/x86_64-w64-mingw32/15.2.0/crtbegin.o -LC:/msys64/ucrt64/bin/../lib/gcc/x86_64-w64-mingw32/15.2.0 -LC:/msys64/ucrt64/bin/../lib/gcc -LC:/msys64/ucrt64/bin/../lib/gcc/x86_64-w64-mingw32/15.2.0/../../../../x86_64-w64-mingw32/lib/../lib -LC:/msys64/ucrt64/bin/../lib/gcc/x86_64-w64-mingw32/15.2.0/../../../../lib -LC:/msys64/ucrt64/bin/../lib/gcc/x86_64-w64-mingw32/15.2.0/../../../../x86_64-w64-mingw32/lib -LC:/msys64/ucrt64/bin/../lib/gcc/x86_64-w64-mingw32/15.2.0/../../.. -v CMakeFiles/cmTC_443cc.dir/CMakeCCompilerABI.c.obj --out-implib libcmTC_443cc.dll.a --major-image-version 0 --minor-image-version 0 -lmingw32 -lgcc -lgcc_eh -lmingwex -lmsvcrt -lkernel32 -lpthread -ladvapi32 -lshell32 -luser32 -lkernel32 -lmingw32 -lgcc -lgcc_eh -lmingwex -lmsvcrt -lkernel32 C:/msys64/ucrt64/bin/../lib/gcc/x86_64-w64-mingw32/15.2.0/../../../../lib/default-manifest.o C:/msys64/ucrt64/bin/../lib/gcc/x86_64-w64-mingw32/15.2.0/crtend.o]
           arg [C:/msys64/ucrt64/bin/../lib/gcc/x86_64-w64-mingw32/15.2.0/collect2.exe] ==> ignore
           arg [-plugin] ==> ignore
           arg [C:/msys64/ucrt64/bin/../lib/gcc/x86_64-w64-mingw32/15.2.0/liblto_plugin.dll] ==> ignore
           arg [-plugin-opt=C:/msys64/ucrt64/bin/../lib/gcc/x86_64-w64-mingw32/15.2.0/lto-wrapper.exe] ==> ignore
-          arg [-plugin-opt=-fresolution=C:\\Users\\david\\AppData\\Local\\Temp\\ccI0U0NK.res] ==> ignore
+          arg [-plugin-opt=-fresolution=C:\\Users\\david\\AppData\\Local\\Temp\\cccua4qm.res] ==> ignore
           arg [-plugin-opt=-pass-through=-lmingw32] ==> ignore
           arg [-plugin-opt=-pass-through=-lgcc] ==> ignore
           arg [-plugin-opt=-pass-through=-lgcc_eh] ==> ignore
@@ -3903,7 +3843,7 @@ events:
           arg [i386pep] ==> ignore
           arg [-Bdynamic] ==> search dynamic
           arg [-o] ==> ignore
-          arg [cmTC_0cb0f.exe] ==> ignore
+          arg [cmTC_443cc.exe] ==> ignore
           arg [C:/msys64/ucrt64/bin/../lib/gcc/x86_64-w64-mingw32/15.2.0/../../../../lib/crt2.o] ==> obj [C:/msys64/ucrt64/bin/../lib/gcc/x86_64-w64-mingw32/15.2.0/../../../../lib/crt2.o]
           arg [C:/msys64/ucrt64/bin/../lib/gcc/x86_64-w64-mingw32/15.2.0/crtbegin.o] ==> obj [C:/msys64/ucrt64/bin/../lib/gcc/x86_64-w64-mingw32/15.2.0/crtbegin.o]
           arg [-LC:/msys64/ucrt64/bin/../lib/gcc/x86_64-w64-mingw32/15.2.0] ==> dir [C:/msys64/ucrt64/bin/../lib/gcc/x86_64-w64-mingw32/15.2.0]
@@ -3913,9 +3853,9 @@ events:
           arg [-LC:/msys64/ucrt64/bin/../lib/gcc/x86_64-w64-mingw32/15.2.0/../../../../x86_64-w64-mingw32/lib] ==> dir [C:/msys64/ucrt64/bin/../lib/gcc/x86_64-w64-mingw32/15.2.0/../../../../x86_64-w64-mingw32/lib]
           arg [-LC:/msys64/ucrt64/bin/../lib/gcc/x86_64-w64-mingw32/15.2.0/../../..] ==> dir [C:/msys64/ucrt64/bin/../lib/gcc/x86_64-w64-mingw32/15.2.0/../../..]
           arg [-v] ==> ignore
-          arg [CMakeFiles/cmTC_0cb0f.dir/CMakeCCompilerABI.c.obj] ==> ignore
+          arg [CMakeFiles/cmTC_443cc.dir/CMakeCCompilerABI.c.obj] ==> ignore
           arg [--out-implib] ==> ignore
-          arg [libcmTC_0cb0f.dll.a] ==> ignore
+          arg [libcmTC_443cc.dll.a] ==> ignore
           arg [--major-image-version] ==> ignore
           arg [0] ==> ignore
           arg [--minor-image-version] ==> ignore
@@ -3940,7 +3880,7 @@ events:
           arg [C:/msys64/ucrt64/bin/../lib/gcc/x86_64-w64-mingw32/15.2.0/../../../../lib/default-manifest.o] ==> obj [C:/msys64/ucrt64/bin/../lib/gcc/x86_64-w64-mingw32/15.2.0/../../../../lib/default-manifest.o]
           arg [C:/msys64/ucrt64/bin/../lib/gcc/x86_64-w64-mingw32/15.2.0/crtend.o] ==> obj [C:/msys64/ucrt64/bin/../lib/gcc/x86_64-w64-mingw32/15.2.0/crtend.o]
         ignore line: [collect2 version 15.2.0]
-        ignore line: [C:/msys64/ucrt64/bin/../lib/gcc/x86_64-w64-mingw32/15.2.0/../../../../x86_64-w64-mingw32/bin/ld.exe -plugin C:/msys64/ucrt64/bin/../lib/gcc/x86_64-w64-mingw32/15.2.0/liblto_plugin.dll -plugin-opt=C:/msys64/ucrt64/bin/../lib/gcc/x86_64-w64-mingw32/15.2.0/lto-wrapper.exe -plugin-opt=-fresolution=C:\\Users\\david\\AppData\\Local\\Temp\\ccI0U0NK.res -plugin-opt=-pass-through=-lmingw32 -plugin-opt=-pass-through=-lgcc -plugin-opt=-pass-through=-lgcc_eh -plugin-opt=-pass-through=-lmingwex -plugin-opt=-pass-through=-lmsvcrt -plugin-opt=-pass-through=-lkernel32 -plugin-opt=-pass-through=-lpthread -plugin-opt=-pass-through=-ladvapi32 -plugin-opt=-pass-through=-lshell32 -plugin-opt=-pass-through=-luser32 -plugin-opt=-pass-through=-lkernel32 -plugin-opt=-pass-through=-lmingw32 -plugin-opt=-pass-through=-lgcc -plugin-opt=-pass-through=-lgcc_eh -plugin-opt=-pass-through=-lmingwex -plugin-opt=-pass-through=-lmsvcrt -plugin-opt=-pass-through=-lkernel32 -m i386pep -Bdynamic -o cmTC_0cb0f.exe C:/msys64/ucrt64/bin/../lib/gcc/x86_64-w64-mingw32/15.2.0/../../../../lib/crt2.o C:/msys64/ucrt64/bin/../lib/gcc/x86_64-w64-mingw32/15.2.0/crtbegin.o -LC:/msys64/ucrt64/bin/../lib/gcc/x86_64-w64-mingw32/15.2.0 -LC:/msys64/ucrt64/bin/../lib/gcc -LC:/msys64/ucrt64/bin/../lib/gcc/x86_64-w64-mingw32/15.2.0/../../../../x86_64-w64-mingw32/lib/../lib -LC:/msys64/ucrt64/bin/../lib/gcc/x86_64-w64-mingw32/15.2.0/../../../../lib -LC:/msys64/ucrt64/bin/../lib/gcc/x86_64-w64-mingw32/15.2.0/../../../../x86_64-w64-mingw32/lib -LC:/msys64/ucrt64/bin/../lib/gcc/x86_64-w64-mingw32/15.2.0/../../.. -v CMakeFiles/cmTC_0cb0f.dir/CMakeCCompilerABI.c.obj --out-implib libcmTC_0cb0f.dll.a --major-image-version 0 --minor-image-version 0 -lmingw32 -lgcc -lgcc_eh -lmingwex -lmsvcrt -lkernel32 -lpthread -ladvapi32 -lshell32 -luser32 -lkernel32 -lmingw32 -lgcc -lgcc_eh -lmingwex -lmsvcrt -lkernel32 C:/msys64/ucrt64/bin/../lib/gcc/x86_64-w64-mingw32/15.2.0/../../../../lib/default-manifest.o C:/msys64/ucrt64/bin/../lib/gcc/x86_64-w64-mingw32/15.2.0/crtend.o]
+        ignore line: [C:/msys64/ucrt64/bin/../lib/gcc/x86_64-w64-mingw32/15.2.0/../../../../x86_64-w64-mingw32/bin/ld.exe -plugin C:/msys64/ucrt64/bin/../lib/gcc/x86_64-w64-mingw32/15.2.0/liblto_plugin.dll -plugin-opt=C:/msys64/ucrt64/bin/../lib/gcc/x86_64-w64-mingw32/15.2.0/lto-wrapper.exe -plugin-opt=-fresolution=C:\\Users\\david\\AppData\\Local\\Temp\\cccua4qm.res -plugin-opt=-pass-through=-lmingw32 -plugin-opt=-pass-through=-lgcc -plugin-opt=-pass-through=-lgcc_eh -plugin-opt=-pass-through=-lmingwex -plugin-opt=-pass-through=-lmsvcrt -plugin-opt=-pass-through=-lkernel32 -plugin-opt=-pass-through=-lpthread -plugin-opt=-pass-through=-ladvapi32 -plugin-opt=-pass-through=-lshell32 -plugin-opt=-pass-through=-luser32 -plugin-opt=-pass-through=-lkernel32 -plugin-opt=-pass-through=-lmingw32 -plugin-opt=-pass-through=-lgcc -plugin-opt=-pass-through=-lgcc_eh -plugin-opt=-pass-through=-lmingwex -plugin-opt=-pass-through=-lmsvcrt -plugin-opt=-pass-through=-lkernel32 -m i386pep -Bdynamic -o cmTC_443cc.exe C:/msys64/ucrt64/bin/../lib/gcc/x86_64-w64-mingw32/15.2.0/../../../../lib/crt2.o C:/msys64/ucrt64/bin/../lib/gcc/x86_64-w64-mingw32/15.2.0/crtbegin.o -LC:/msys64/ucrt64/bin/../lib/gcc/x86_64-w64-mingw32/15.2.0 -LC:/msys64/ucrt64/bin/../lib/gcc -LC:/msys64/ucrt64/bin/../lib/gcc/x86_64-w64-mingw32/15.2.0/../../../../x86_64-w64-mingw32/lib/../lib -LC:/msys64/ucrt64/bin/../lib/gcc/x86_64-w64-mingw32/15.2.0/../../../../lib -LC:/msys64/ucrt64/bin/../lib/gcc/x86_64-w64-mingw32/15.2.0/../../../../x86_64-w64-mingw32/lib -LC:/msys64/ucrt64/bin/../lib/gcc/x86_64-w64-mingw32/15.2.0/../../.. -v CMakeFiles/cmTC_443cc.dir/CMakeCCompilerABI.c.obj --out-implib libcmTC_443cc.dll.a --major-image-version 0 --minor-image-version 0 -lmingw32 -lgcc -lgcc_eh -lmingwex -lmsvcrt -lkernel32 -lpthread -ladvapi32 -lshell32 -luser32 -lkernel32 -lmingw32 -lgcc -lgcc_eh -lmingwex -lmsvcrt -lkernel32 C:/msys64/ucrt64/bin/../lib/gcc/x86_64-w64-mingw32/15.2.0/../../../../lib/default-manifest.o C:/msys64/ucrt64/bin/../lib/gcc/x86_64-w64-mingw32/15.2.0/crtend.o]
         linker tool for 'C': C:/msys64/ucrt64/x86_64-w64-mingw32/bin/ld.exe
         remove lib [gcc_eh]
         remove lib [msvcrt]
@@ -3981,8 +3921,8 @@ events:
     checks:
       - "Detecting CXX compiler ABI info"
     directories:
-      source: "C:/pico/pico-kernel/build/_deps/picotool-build/CMakeFiles/CMakeScratch/TryCompile-qzpqte"
-      binary: "C:/pico/pico-kernel/build/_deps/picotool-build/CMakeFiles/CMakeScratch/TryCompile-qzpqte"
+      source: "C:/pico/pico-kernel/build/_deps/picotool-build/CMakeFiles/CMakeScratch/TryCompile-wh2jd2"
+      binary: "C:/pico/pico-kernel/build/_deps/picotool-build/CMakeFiles/CMakeScratch/TryCompile-wh2jd2"
     cmakeVariables:
       CMAKE_CXX_FLAGS: ""
       CMAKE_CXX_FLAGS_DEBUG: "-g"
@@ -3993,10 +3933,10 @@ events:
       variable: "CMAKE_CXX_ABI_COMPILED"
       cached: true
       stdout: |
-        Change Dir: 'C:/pico/pico-kernel/build/_deps/picotool-build/CMakeFiles/CMakeScratch/TryCompile-qzpqte'
+        Change Dir: 'C:/pico/pico-kernel/build/_deps/picotool-build/CMakeFiles/CMakeScratch/TryCompile-wh2jd2'
         
-        Run Build Command(s): C:/Users/david/scoop/shims/ninja.exe -v cmTC_b11f6
-        [1/2] C:\\msys64\\ucrt64\\bin\\c++.exe   -v -o CMakeFiles/cmTC_b11f6.dir/CMakeCXXCompilerABI.cpp.obj -c C:/Users/david/scoop/apps/cmake/current/share/cmake-4.3/Modules/CMakeCXXCompilerABI.cpp
+        Run Build Command(s): C:/Users/david/scoop/shims/ninja.exe -v cmTC_12492
+        [1/2] C:\\msys64\\ucrt64\\bin\\c++.exe   -v -o CMakeFiles/cmTC_12492.dir/CMakeCXXCompilerABI.cpp.obj -c C:/Users/david/scoop/apps/cmake/current/share/cmake-4.3/Modules/CMakeCXXCompilerABI.cpp
         Using built-in specs.
         COLLECT_GCC=C:\\msys64\\ucrt64\\bin\\c++.exe
         Target: x86_64-w64-mingw32
@@ -4004,8 +3944,8 @@ events:
         Thread model: posix
         Supported LTO compression algorithms: zlib zstd
         gcc version 15.2.0 (Rev8, Built by MSYS2 project) 
-        COLLECT_GCC_OPTIONS='-v' '-o' 'CMakeFiles/cmTC_b11f6.dir/CMakeCXXCompilerABI.cpp.obj' '-c' '-shared-libgcc' '-mtune=generic' '-march=nocona' '-dumpdir' 'CMakeFiles/cmTC_b11f6.dir/'
-         C:/msys64/ucrt64/bin/../lib/gcc/x86_64-w64-mingw32/15.2.0/cc1plus.exe -quiet -v -iprefix C:/msys64/ucrt64/bin/../lib/gcc/x86_64-w64-mingw32/15.2.0/ -D_REENTRANT C:/Users/david/scoop/apps/cmake/current/share/cmake-4.3/Modules/CMakeCXXCompilerABI.cpp -quiet -dumpdir CMakeFiles/cmTC_b11f6.dir/ -dumpbase CMakeCXXCompilerABI.cpp.cpp -dumpbase-ext .cpp -mtune=generic -march=nocona -version -o C:\\Users\\david\\AppData\\Local\\Temp\\ccHxJGyd.s
+        COLLECT_GCC_OPTIONS='-v' '-o' 'CMakeFiles/cmTC_12492.dir/CMakeCXXCompilerABI.cpp.obj' '-c' '-shared-libgcc' '-mtune=generic' '-march=nocona' '-dumpdir' 'CMakeFiles/cmTC_12492.dir/'
+         C:/msys64/ucrt64/bin/../lib/gcc/x86_64-w64-mingw32/15.2.0/cc1plus.exe -quiet -v -iprefix C:/msys64/ucrt64/bin/../lib/gcc/x86_64-w64-mingw32/15.2.0/ -D_REENTRANT C:/Users/david/scoop/apps/cmake/current/share/cmake-4.3/Modules/CMakeCXXCompilerABI.cpp -quiet -dumpdir CMakeFiles/cmTC_12492.dir/ -dumpbase CMakeCXXCompilerABI.cpp.cpp -dumpbase-ext .cpp -mtune=generic -march=nocona -version -o C:\\Users\\david\\AppData\\Local\\Temp\\ccuxkVzZ.s
         GNU C++17 (Rev8, Built by MSYS2 project) version 15.2.0 (x86_64-w64-mingw32)
         	compiled by GNU C version 15.2.0, GMP version 6.3.0, MPFR version 4.2.2, MPC version 1.3.1, isl version isl-0.27-GMP
         
@@ -4030,13 +3970,13 @@ events:
          C:/msys64/ucrt64/bin/../lib/gcc/x86_64-w64-mingw32/15.2.0/include-fixed
         End of search list.
         Compiler executable checksum: 3a1a95c83f0136a64748ec8c5a2a87f3
-        COLLECT_GCC_OPTIONS='-v' '-o' 'CMakeFiles/cmTC_b11f6.dir/CMakeCXXCompilerABI.cpp.obj' '-c' '-shared-libgcc' '-mtune=generic' '-march=nocona' '-dumpdir' 'CMakeFiles/cmTC_b11f6.dir/'
-         C:/msys64/ucrt64/bin/../lib/gcc/x86_64-w64-mingw32/15.2.0/../../../../x86_64-w64-mingw32/bin/as.exe -v -o CMakeFiles/cmTC_b11f6.dir/CMakeCXXCompilerABI.cpp.obj C:\\Users\\david\\AppData\\Local\\Temp\\ccHxJGyd.s
+        COLLECT_GCC_OPTIONS='-v' '-o' 'CMakeFiles/cmTC_12492.dir/CMakeCXXCompilerABI.cpp.obj' '-c' '-shared-libgcc' '-mtune=generic' '-march=nocona' '-dumpdir' 'CMakeFiles/cmTC_12492.dir/'
+         C:/msys64/ucrt64/bin/../lib/gcc/x86_64-w64-mingw32/15.2.0/../../../../x86_64-w64-mingw32/bin/as.exe -v -o CMakeFiles/cmTC_12492.dir/CMakeCXXCompilerABI.cpp.obj C:\\Users\\david\\AppData\\Local\\Temp\\ccuxkVzZ.s
         GNU assembler version 2.45 (x86_64-w64-mingw32) using BFD version (GNU Binutils) 2.45
         COMPILER_PATH=C:/msys64/ucrt64/bin/../lib/gcc/x86_64-w64-mingw32/15.2.0/;C:/msys64/ucrt64/bin/../lib/gcc/;C:/msys64/ucrt64/bin/../lib/gcc/x86_64-w64-mingw32/15.2.0/../../../../x86_64-w64-mingw32/bin/
         LIBRARY_PATH=C:/msys64/ucrt64/bin/../lib/gcc/x86_64-w64-mingw32/15.2.0/;C:/msys64/ucrt64/bin/../lib/gcc/;C:/msys64/ucrt64/bin/../lib/gcc/x86_64-w64-mingw32/15.2.0/../../../../x86_64-w64-mingw32/lib/../lib/;C:/msys64/ucrt64/bin/../lib/gcc/x86_64-w64-mingw32/15.2.0/../../../../lib/;C:/msys64/ucrt64/bin/../lib/gcc/x86_64-w64-mingw32/15.2.0/../../../../x86_64-w64-mingw32/lib/;C:/msys64/ucrt64/bin/../lib/gcc/x86_64-w64-mingw32/15.2.0/../../../
-        COLLECT_GCC_OPTIONS='-v' '-o' 'CMakeFiles/cmTC_b11f6.dir/CMakeCXXCompilerABI.cpp.obj' '-c' '-shared-libgcc' '-mtune=generic' '-march=nocona' '-dumpdir' 'CMakeFiles/cmTC_b11f6.dir/CMakeCXXCompilerABI.cpp.'
-        [2/2] C:\\WINDOWS\\system32\\cmd.exe /C "cd . && C:\\msys64\\ucrt64\\bin\\c++.exe  -v -Wl,-v CMakeFiles/cmTC_b11f6.dir/CMakeCXXCompilerABI.cpp.obj -o cmTC_b11f6.exe -Wl,--out-implib,libcmTC_b11f6.dll.a -Wl,--major-image-version,0,--minor-image-version,0   && cd ."
+        COLLECT_GCC_OPTIONS='-v' '-o' 'CMakeFiles/cmTC_12492.dir/CMakeCXXCompilerABI.cpp.obj' '-c' '-shared-libgcc' '-mtune=generic' '-march=nocona' '-dumpdir' 'CMakeFiles/cmTC_12492.dir/CMakeCXXCompilerABI.cpp.'
+        [2/2] C:\\WINDOWS\\system32\\cmd.exe /C "cd . && C:\\msys64\\ucrt64\\bin\\c++.exe  -v -Wl,-v CMakeFiles/cmTC_12492.dir/CMakeCXXCompilerABI.cpp.obj -o cmTC_12492.exe -Wl,--out-implib,libcmTC_12492.dll.a -Wl,--major-image-version,0,--minor-image-version,0   && cd ."
         Using built-in specs.
         COLLECT_GCC=C:\\msys64\\ucrt64\\bin\\c++.exe
         COLLECT_LTO_WRAPPER=C:/msys64/ucrt64/bin/../lib/gcc/x86_64-w64-mingw32/15.2.0/lto-wrapper.exe
@@ -4047,12 +3987,12 @@ events:
         gcc version 15.2.0 (Rev8, Built by MSYS2 project) 
         COMPILER_PATH=C:/msys64/ucrt64/bin/../lib/gcc/x86_64-w64-mingw32/15.2.0/;C:/msys64/ucrt64/bin/../lib/gcc/;C:/msys64/ucrt64/bin/../lib/gcc/x86_64-w64-mingw32/15.2.0/../../../../x86_64-w64-mingw32/bin/
         LIBRARY_PATH=C:/msys64/ucrt64/bin/../lib/gcc/x86_64-w64-mingw32/15.2.0/;C:/msys64/ucrt64/bin/../lib/gcc/;C:/msys64/ucrt64/bin/../lib/gcc/x86_64-w64-mingw32/15.2.0/../../../../x86_64-w64-mingw32/lib/../lib/;C:/msys64/ucrt64/bin/../lib/gcc/x86_64-w64-mingw32/15.2.0/../../../../lib/;C:/msys64/ucrt64/bin/../lib/gcc/x86_64-w64-mingw32/15.2.0/../../../../x86_64-w64-mingw32/lib/;C:/msys64/ucrt64/bin/../lib/gcc/x86_64-w64-mingw32/15.2.0/../../../
-        COLLECT_GCC_OPTIONS='-v' '-o' 'cmTC_b11f6.exe' '-shared-libgcc' '-mtune=generic' '-march=nocona' '-dumpdir' 'cmTC_b11f6.'
-         C:/msys64/ucrt64/bin/../lib/gcc/x86_64-w64-mingw32/15.2.0/collect2.exe -plugin C:/msys64/ucrt64/bin/../lib/gcc/x86_64-w64-mingw32/15.2.0/liblto_plugin.dll -plugin-opt=C:/msys64/ucrt64/bin/../lib/gcc/x86_64-w64-mingw32/15.2.0/lto-wrapper.exe -plugin-opt=-fresolution=C:\\Users\\david\\AppData\\Local\\Temp\\cc5J9bBn.res -plugin-opt=-pass-through=-lmingw32 -plugin-opt=-pass-through=-lgcc_s -plugin-opt=-pass-through=-lgcc -plugin-opt=-pass-through=-lmingwex -plugin-opt=-pass-through=-lmsvcrt -plugin-opt=-pass-through=-lkernel32 -plugin-opt=-pass-through=-lpthread -plugin-opt=-pass-through=-ladvapi32 -plugin-opt=-pass-through=-lshell32 -plugin-opt=-pass-through=-luser32 -plugin-opt=-pass-through=-lkernel32 -plugin-opt=-pass-through=-lmingw32 -plugin-opt=-pass-through=-lgcc_s -plugin-opt=-pass-through=-lgcc -plugin-opt=-pass-through=-lmingwex -plugin-opt=-pass-through=-lmsvcrt -plugin-opt=-pass-through=-lkernel32 -m i386pep -Bdynamic -o cmTC_b11f6.exe C:/msys64/ucrt64/bin/../lib/gcc/x86_64-w64-mingw32/15.2.0/../../../../lib/crt2.o C:/msys64/ucrt64/bin/../lib/gcc/x86_64-w64-mingw32/15.2.0/crtbegin.o -LC:/msys64/ucrt64/bin/../lib/gcc/x86_64-w64-mingw32/15.2.0 -LC:/msys64/ucrt64/bin/../lib/gcc -LC:/msys64/ucrt64/bin/../lib/gcc/x86_64-w64-mingw32/15.2.0/../../../../x86_64-w64-mingw32/lib/../lib -LC:/msys64/ucrt64/bin/../lib/gcc/x86_64-w64-mingw32/15.2.0/../../../../lib -LC:/msys64/ucrt64/bin/../lib/gcc/x86_64-w64-mingw32/15.2.0/../../../../x86_64-w64-mingw32/lib -LC:/msys64/ucrt64/bin/../lib/gcc/x86_64-w64-mingw32/15.2.0/../../.. -v CMakeFiles/cmTC_b11f6.dir/CMakeCXXCompilerABI.cpp.obj --out-implib libcmTC_b11f6.dll.a --major-image-version 0 --minor-image-version 0 -lstdc++ -lmingw32 -lgcc_s -lgcc -lmingwex -lmsvcrt -lkernel32 -lpthread -ladvapi32 -lshell32 -luser32 -lkernel32 -lmingw32 -lgcc_s -lgcc -lmingwex -lmsvcrt -lkernel32 C:/msys64/ucrt64/bin/../lib/gcc/x86_64-w64-mingw32/15.2.0/../../../../lib/default-manifest.o C:/msys64/ucrt64/bin/../lib/gcc/x86_64-w64-mingw32/15.2.0/crtend.o
+        COLLECT_GCC_OPTIONS='-v' '-o' 'cmTC_12492.exe' '-shared-libgcc' '-mtune=generic' '-march=nocona' '-dumpdir' 'cmTC_12492.'
+         C:/msys64/ucrt64/bin/../lib/gcc/x86_64-w64-mingw32/15.2.0/collect2.exe -plugin C:/msys64/ucrt64/bin/../lib/gcc/x86_64-w64-mingw32/15.2.0/liblto_plugin.dll -plugin-opt=C:/msys64/ucrt64/bin/../lib/gcc/x86_64-w64-mingw32/15.2.0/lto-wrapper.exe -plugin-opt=-fresolution=C:\\Users\\david\\AppData\\Local\\Temp\\ccwK7k34.res -plugin-opt=-pass-through=-lmingw32 -plugin-opt=-pass-through=-lgcc_s -plugin-opt=-pass-through=-lgcc -plugin-opt=-pass-through=-lmingwex -plugin-opt=-pass-through=-lmsvcrt -plugin-opt=-pass-through=-lkernel32 -plugin-opt=-pass-through=-lpthread -plugin-opt=-pass-through=-ladvapi32 -plugin-opt=-pass-through=-lshell32 -plugin-opt=-pass-through=-luser32 -plugin-opt=-pass-through=-lkernel32 -plugin-opt=-pass-through=-lmingw32 -plugin-opt=-pass-through=-lgcc_s -plugin-opt=-pass-through=-lgcc -plugin-opt=-pass-through=-lmingwex -plugin-opt=-pass-through=-lmsvcrt -plugin-opt=-pass-through=-lkernel32 -m i386pep -Bdynamic -o cmTC_12492.exe C:/msys64/ucrt64/bin/../lib/gcc/x86_64-w64-mingw32/15.2.0/../../../../lib/crt2.o C:/msys64/ucrt64/bin/../lib/gcc/x86_64-w64-mingw32/15.2.0/crtbegin.o -LC:/msys64/ucrt64/bin/../lib/gcc/x86_64-w64-mingw32/15.2.0 -LC:/msys64/ucrt64/bin/../lib/gcc -LC:/msys64/ucrt64/bin/../lib/gcc/x86_64-w64-mingw32/15.2.0/../../../../x86_64-w64-mingw32/lib/../lib -LC:/msys64/ucrt64/bin/../lib/gcc/x86_64-w64-mingw32/15.2.0/../../../../lib -LC:/msys64/ucrt64/bin/../lib/gcc/x86_64-w64-mingw32/15.2.0/../../../../x86_64-w64-mingw32/lib -LC:/msys64/ucrt64/bin/../lib/gcc/x86_64-w64-mingw32/15.2.0/../../.. -v CMakeFiles/cmTC_12492.dir/CMakeCXXCompilerABI.cpp.obj --out-implib libcmTC_12492.dll.a --major-image-version 0 --minor-image-version 0 -lstdc++ -lmingw32 -lgcc_s -lgcc -lmingwex -lmsvcrt -lkernel32 -lpthread -ladvapi32 -lshell32 -luser32 -lkernel32 -lmingw32 -lgcc_s -lgcc -lmingwex -lmsvcrt -lkernel32 C:/msys64/ucrt64/bin/../lib/gcc/x86_64-w64-mingw32/15.2.0/../../../../lib/default-manifest.o C:/msys64/ucrt64/bin/../lib/gcc/x86_64-w64-mingw32/15.2.0/crtend.o
         collect2 version 15.2.0
-        C:/msys64/ucrt64/bin/../lib/gcc/x86_64-w64-mingw32/15.2.0/../../../../x86_64-w64-mingw32/bin/ld.exe -plugin C:/msys64/ucrt64/bin/../lib/gcc/x86_64-w64-mingw32/15.2.0/liblto_plugin.dll -plugin-opt=C:/msys64/ucrt64/bin/../lib/gcc/x86_64-w64-mingw32/15.2.0/lto-wrapper.exe -plugin-opt=-fresolution=C:\\Users\\david\\AppData\\Local\\Temp\\cc5J9bBn.res -plugin-opt=-pass-through=-lmingw32 -plugin-opt=-pass-through=-lgcc_s -plugin-opt=-pass-through=-lgcc -plugin-opt=-pass-through=-lmingwex -plugin-opt=-pass-through=-lmsvcrt -plugin-opt=-pass-through=-lkernel32 -plugin-opt=-pass-through=-lpthread -plugin-opt=-pass-through=-ladvapi32 -plugin-opt=-pass-through=-lshell32 -plugin-opt=-pass-through=-luser32 -plugin-opt=-pass-through=-lkernel32 -plugin-opt=-pass-through=-lmingw32 -plugin-opt=-pass-through=-lgcc_s -plugin-opt=-pass-through=-lgcc -plugin-opt=-pass-through=-lmingwex -plugin-opt=-pass-through=-lmsvcrt -plugin-opt=-pass-through=-lkernel32 -m i386pep -Bdynamic -o cmTC_b11f6.exe C:/msys64/ucrt64/bin/../lib/gcc/x86_64-w64-mingw32/15.2.0/../../../../lib/crt2.o C:/msys64/ucrt64/bin/../lib/gcc/x86_64-w64-mingw32/15.2.0/crtbegin.o -LC:/msys64/ucrt64/bin/../lib/gcc/x86_64-w64-mingw32/15.2.0 -LC:/msys64/ucrt64/bin/../lib/gcc -LC:/msys64/ucrt64/bin/../lib/gcc/x86_64-w64-mingw32/15.2.0/../../../../x86_64-w64-mingw32/lib/../lib -LC:/msys64/ucrt64/bin/../lib/gcc/x86_64-w64-mingw32/15.2.0/../../../../lib -LC:/msys64/ucrt64/bin/../lib/gcc/x86_64-w64-mingw32/15.2.0/../../../../x86_64-w64-mingw32/lib -LC:/msys64/ucrt64/bin/../lib/gcc/x86_64-w64-mingw32/15.2.0/../../.. -v CMakeFiles/cmTC_b11f6.dir/CMakeCXXCompilerABI.cpp.obj --out-implib libcmTC_b11f6.dll.a --major-image-version 0 --minor-image-version 0 -lstdc++ -lmingw32 -lgcc_s -lgcc -lmingwex -lmsvcrt -lkernel32 -lpthread -ladvapi32 -lshell32 -luser32 -lkernel32 -lmingw32 -lgcc_s -lgcc -lmingwex -lmsvcrt -lkernel32 C:/msys64/ucrt64/bin/../lib/gcc/x86_64-w64-mingw32/15.2.0/../../../../lib/default-manifest.o C:/msys64/ucrt64/bin/../lib/gcc/x86_64-w64-mingw32/15.2.0/crtend.o
+        C:/msys64/ucrt64/bin/../lib/gcc/x86_64-w64-mingw32/15.2.0/../../../../x86_64-w64-mingw32/bin/ld.exe -plugin C:/msys64/ucrt64/bin/../lib/gcc/x86_64-w64-mingw32/15.2.0/liblto_plugin.dll -plugin-opt=C:/msys64/ucrt64/bin/../lib/gcc/x86_64-w64-mingw32/15.2.0/lto-wrapper.exe -plugin-opt=-fresolution=C:\\Users\\david\\AppData\\Local\\Temp\\ccwK7k34.res -plugin-opt=-pass-through=-lmingw32 -plugin-opt=-pass-through=-lgcc_s -plugin-opt=-pass-through=-lgcc -plugin-opt=-pass-through=-lmingwex -plugin-opt=-pass-through=-lmsvcrt -plugin-opt=-pass-through=-lkernel32 -plugin-opt=-pass-through=-lpthread -plugin-opt=-pass-through=-ladvapi32 -plugin-opt=-pass-through=-lshell32 -plugin-opt=-pass-through=-luser32 -plugin-opt=-pass-through=-lkernel32 -plugin-opt=-pass-through=-lmingw32 -plugin-opt=-pass-through=-lgcc_s -plugin-opt=-pass-through=-lgcc -plugin-opt=-pass-through=-lmingwex -plugin-opt=-pass-through=-lmsvcrt -plugin-opt=-pass-through=-lkernel32 -m i386pep -Bdynamic -o cmTC_12492.exe C:/msys64/ucrt64/bin/../lib/gcc/x86_64-w64-mingw32/15.2.0/../../../../lib/crt2.o C:/msys64/ucrt64/bin/../lib/gcc/x86_64-w64-mingw32/15.2.0/crtbegin.o -LC:/msys64/ucrt64/bin/../lib/gcc/x86_64-w64-mingw32/15.2.0 -LC:/msys64/ucrt64/bin/../lib/gcc -LC:/msys64/ucrt64/bin/../lib/gcc/x86_64-w64-mingw32/15.2.0/../../../../x86_64-w64-mingw32/lib/../lib -LC:/msys64/ucrt64/bin/../lib/gcc/x86_64-w64-mingw32/15.2.0/../../../../lib -LC:/msys64/ucrt64/bin/../lib/gcc/x86_64-w64-mingw32/15.2.0/../../../../x86_64-w64-mingw32/lib -LC:/msys64/ucrt64/bin/../lib/gcc/x86_64-w64-mingw32/15.2.0/../../.. -v CMakeFiles/cmTC_12492.dir/CMakeCXXCompilerABI.cpp.obj --out-implib libcmTC_12492.dll.a --major-image-version 0 --minor-image-version 0 -lstdc++ -lmingw32 -lgcc_s -lgcc -lmingwex -lmsvcrt -lkernel32 -lpthread -ladvapi32 -lshell32 -luser32 -lkernel32 -lmingw32 -lgcc_s -lgcc -lmingwex -lmsvcrt -lkernel32 C:/msys64/ucrt64/bin/../lib/gcc/x86_64-w64-mingw32/15.2.0/../../../../lib/default-manifest.o C:/msys64/ucrt64/bin/../lib/gcc/x86_64-w64-mingw32/15.2.0/crtend.o
         GNU ld (GNU Binutils) 2.45
-        COLLECT_GCC_OPTIONS='-v' '-o' 'cmTC_b11f6.exe' '-shared-libgcc' '-mtune=generic' '-march=nocona' '-dumpdir' 'cmTC_b11f6.'
+        COLLECT_GCC_OPTIONS='-v' '-o' 'cmTC_12492.exe' '-shared-libgcc' '-mtune=generic' '-march=nocona' '-dumpdir' 'cmTC_12492.'
         
       exitCode: 0
   -
@@ -4091,10 +4031,10 @@ events:
       Parsed CXX implicit link information:
         link line regex: [^( *|.*[/\\])(ld[0-9]*(|\\.[a-rt-z][a-z]*|\\.s[a-np-z][a-z]*|\\.so[a-z]+)|CMAKE_LINK_STARTFILE-NOTFOUND|([^/\\]+-)?ld|collect2)[^/\\]*( |$)]
         linker tool regex: [^[ 	]*(->|"|[0-9]+>[ 	-]*Build:[ 	0-9]+ ms[ 	]*)?[ 	]*(([^"]*[/\\])?(ld[0-9]*(|\\.[a-rt-z][a-z]*|\\.s[a-np-z][a-z]*|\\.so[a-z]+)))("|,| |$)]
-        ignore line: [Change Dir: 'C:/pico/pico-kernel/build/_deps/picotool-build/CMakeFiles/CMakeScratch/TryCompile-qzpqte']
+        ignore line: [Change Dir: 'C:/pico/pico-kernel/build/_deps/picotool-build/CMakeFiles/CMakeScratch/TryCompile-wh2jd2']
         ignore line: []
-        ignore line: [Run Build Command(s): C:/Users/david/scoop/shims/ninja.exe -v cmTC_b11f6]
-        ignore line: [[1/2] C:\\msys64\\ucrt64\\bin\\c++.exe   -v -o CMakeFiles/cmTC_b11f6.dir/CMakeCXXCompilerABI.cpp.obj -c C:/Users/david/scoop/apps/cmake/current/share/cmake-4.3/Modules/CMakeCXXCompilerABI.cpp]
+        ignore line: [Run Build Command(s): C:/Users/david/scoop/shims/ninja.exe -v cmTC_12492]
+        ignore line: [[1/2] C:\\msys64\\ucrt64\\bin\\c++.exe   -v -o CMakeFiles/cmTC_12492.dir/CMakeCXXCompilerABI.cpp.obj -c C:/Users/david/scoop/apps/cmake/current/share/cmake-4.3/Modules/CMakeCXXCompilerABI.cpp]
         ignore line: [Using built-in specs.]
         ignore line: [COLLECT_GCC=C:\\msys64\\ucrt64\\bin\\c++.exe]
         ignore line: [Target: x86_64-w64-mingw32]
@@ -4102,8 +4042,8 @@ events:
         ignore line: [Thread model: posix]
         ignore line: [Supported LTO compression algorithms: zlib zstd]
         ignore line: [gcc version 15.2.0 (Rev8  Built by MSYS2 project) ]
-        ignore line: [COLLECT_GCC_OPTIONS='-v' '-o' 'CMakeFiles/cmTC_b11f6.dir/CMakeCXXCompilerABI.cpp.obj' '-c' '-shared-libgcc' '-mtune=generic' '-march=nocona' '-dumpdir' 'CMakeFiles/cmTC_b11f6.dir/']
-        ignore line: [ C:/msys64/ucrt64/bin/../lib/gcc/x86_64-w64-mingw32/15.2.0/cc1plus.exe -quiet -v -iprefix C:/msys64/ucrt64/bin/../lib/gcc/x86_64-w64-mingw32/15.2.0/ -D_REENTRANT C:/Users/david/scoop/apps/cmake/current/share/cmake-4.3/Modules/CMakeCXXCompilerABI.cpp -quiet -dumpdir CMakeFiles/cmTC_b11f6.dir/ -dumpbase CMakeCXXCompilerABI.cpp.cpp -dumpbase-ext .cpp -mtune=generic -march=nocona -version -o C:\\Users\\david\\AppData\\Local\\Temp\\ccHxJGyd.s]
+        ignore line: [COLLECT_GCC_OPTIONS='-v' '-o' 'CMakeFiles/cmTC_12492.dir/CMakeCXXCompilerABI.cpp.obj' '-c' '-shared-libgcc' '-mtune=generic' '-march=nocona' '-dumpdir' 'CMakeFiles/cmTC_12492.dir/']
+        ignore line: [ C:/msys64/ucrt64/bin/../lib/gcc/x86_64-w64-mingw32/15.2.0/cc1plus.exe -quiet -v -iprefix C:/msys64/ucrt64/bin/../lib/gcc/x86_64-w64-mingw32/15.2.0/ -D_REENTRANT C:/Users/david/scoop/apps/cmake/current/share/cmake-4.3/Modules/CMakeCXXCompilerABI.cpp -quiet -dumpdir CMakeFiles/cmTC_12492.dir/ -dumpbase CMakeCXXCompilerABI.cpp.cpp -dumpbase-ext .cpp -mtune=generic -march=nocona -version -o C:\\Users\\david\\AppData\\Local\\Temp\\ccuxkVzZ.s]
         ignore line: [GNU C++17 (Rev8  Built by MSYS2 project) version 15.2.0 (x86_64-w64-mingw32)]
         ignore line: [	compiled by GNU C version 15.2.0  GMP version 6.3.0  MPFR version 4.2.2  MPC version 1.3.1  isl version isl-0.27-GMP]
         ignore line: []
@@ -4128,8 +4068,8 @@ events:
         ignore line: [ C:/msys64/ucrt64/bin/../lib/gcc/x86_64-w64-mingw32/15.2.0/include-fixed]
         ignore line: [End of search list.]
         ignore line: [Compiler executable checksum: 3a1a95c83f0136a64748ec8c5a2a87f3]
-        ignore line: [COLLECT_GCC_OPTIONS='-v' '-o' 'CMakeFiles/cmTC_b11f6.dir/CMakeCXXCompilerABI.cpp.obj' '-c' '-shared-libgcc' '-mtune=generic' '-march=nocona' '-dumpdir' 'CMakeFiles/cmTC_b11f6.dir/']
-        ignore line: [ C:/msys64/ucrt64/bin/../lib/gcc/x86_64-w64-mingw32/15.2.0/../../../../x86_64-w64-mingw32/bin/as.exe -v -o CMakeFiles/cmTC_b11f6.dir/CMakeCXXCompilerABI.cpp.obj C:\\Users\\david\\AppData\\Local\\Temp\\ccHxJGyd.s]
+        ignore line: [COLLECT_GCC_OPTIONS='-v' '-o' 'CMakeFiles/cmTC_12492.dir/CMakeCXXCompilerABI.cpp.obj' '-c' '-shared-libgcc' '-mtune=generic' '-march=nocona' '-dumpdir' 'CMakeFiles/cmTC_12492.dir/']
+        ignore line: [ C:/msys64/ucrt64/bin/../lib/gcc/x86_64-w64-mingw32/15.2.0/../../../../x86_64-w64-mingw32/bin/as.exe -v -o CMakeFiles/cmTC_12492.dir/CMakeCXXCompilerABI.cpp.obj C:\\Users\\david\\AppData\\Local\\Temp\\ccuxkVzZ.s]
         ignore line: [GNU assembler version 2.45 (x86_64-w64-mingw32) using BFD version (GNU Binutils) 2.45]
         ignore line: [COMPILER_PATH=C:/msys64/ucrt64/bin/../lib/gcc/x86_64-w64-mingw32/15.2.0/]
         ignore line: [C:/msys64/ucrt64/bin/../lib/gcc/]
@@ -4140,8 +4080,8 @@ events:
         ignore line: [C:/msys64/ucrt64/bin/../lib/gcc/x86_64-w64-mingw32/15.2.0/../../../../lib/]
         ignore line: [C:/msys64/ucrt64/bin/../lib/gcc/x86_64-w64-mingw32/15.2.0/../../../../x86_64-w64-mingw32/lib/]
         ignore line: [C:/msys64/ucrt64/bin/../lib/gcc/x86_64-w64-mingw32/15.2.0/../../../]
-        ignore line: [COLLECT_GCC_OPTIONS='-v' '-o' 'CMakeFiles/cmTC_b11f6.dir/CMakeCXXCompilerABI.cpp.obj' '-c' '-shared-libgcc' '-mtune=generic' '-march=nocona' '-dumpdir' 'CMakeFiles/cmTC_b11f6.dir/CMakeCXXCompilerABI.cpp.']
-        ignore line: [[2/2] C:\\WINDOWS\\system32\\cmd.exe /C "cd . && C:\\msys64\\ucrt64\\bin\\c++.exe  -v -Wl -v CMakeFiles/cmTC_b11f6.dir/CMakeCXXCompilerABI.cpp.obj -o cmTC_b11f6.exe -Wl --out-implib libcmTC_b11f6.dll.a -Wl --major-image-version 0 --minor-image-version 0   && cd ."]
+        ignore line: [COLLECT_GCC_OPTIONS='-v' '-o' 'CMakeFiles/cmTC_12492.dir/CMakeCXXCompilerABI.cpp.obj' '-c' '-shared-libgcc' '-mtune=generic' '-march=nocona' '-dumpdir' 'CMakeFiles/cmTC_12492.dir/CMakeCXXCompilerABI.cpp.']
+        ignore line: [[2/2] C:\\WINDOWS\\system32\\cmd.exe /C "cd . && C:\\msys64\\ucrt64\\bin\\c++.exe  -v -Wl -v CMakeFiles/cmTC_12492.dir/CMakeCXXCompilerABI.cpp.obj -o cmTC_12492.exe -Wl --out-implib libcmTC_12492.dll.a -Wl --major-image-version 0 --minor-image-version 0   && cd ."]
         ignore line: [Using built-in specs.]
         ignore line: [COLLECT_GCC=C:\\msys64\\ucrt64\\bin\\c++.exe]
         ignore line: [COLLECT_LTO_WRAPPER=C:/msys64/ucrt64/bin/../lib/gcc/x86_64-w64-mingw32/15.2.0/lto-wrapper.exe]
@@ -4159,13 +4099,13 @@ events:
         ignore line: [C:/msys64/ucrt64/bin/../lib/gcc/x86_64-w64-mingw32/15.2.0/../../../../lib/]
         ignore line: [C:/msys64/ucrt64/bin/../lib/gcc/x86_64-w64-mingw32/15.2.0/../../../../x86_64-w64-mingw32/lib/]
         ignore line: [C:/msys64/ucrt64/bin/../lib/gcc/x86_64-w64-mingw32/15.2.0/../../../]
-        ignore line: [COLLECT_GCC_OPTIONS='-v' '-o' 'cmTC_b11f6.exe' '-shared-libgcc' '-mtune=generic' '-march=nocona' '-dumpdir' 'cmTC_b11f6.']
-        link line: [ C:/msys64/ucrt64/bin/../lib/gcc/x86_64-w64-mingw32/15.2.0/collect2.exe -plugin C:/msys64/ucrt64/bin/../lib/gcc/x86_64-w64-mingw32/15.2.0/liblto_plugin.dll -plugin-opt=C:/msys64/ucrt64/bin/../lib/gcc/x86_64-w64-mingw32/15.2.0/lto-wrapper.exe -plugin-opt=-fresolution=C:\\Users\\david\\AppData\\Local\\Temp\\cc5J9bBn.res -plugin-opt=-pass-through=-lmingw32 -plugin-opt=-pass-through=-lgcc_s -plugin-opt=-pass-through=-lgcc -plugin-opt=-pass-through=-lmingwex -plugin-opt=-pass-through=-lmsvcrt -plugin-opt=-pass-through=-lkernel32 -plugin-opt=-pass-through=-lpthread -plugin-opt=-pass-through=-ladvapi32 -plugin-opt=-pass-through=-lshell32 -plugin-opt=-pass-through=-luser32 -plugin-opt=-pass-through=-lkernel32 -plugin-opt=-pass-through=-lmingw32 -plugin-opt=-pass-through=-lgcc_s -plugin-opt=-pass-through=-lgcc -plugin-opt=-pass-through=-lmingwex -plugin-opt=-pass-through=-lmsvcrt -plugin-opt=-pass-through=-lkernel32 -m i386pep -Bdynamic -o cmTC_b11f6.exe C:/msys64/ucrt64/bin/../lib/gcc/x86_64-w64-mingw32/15.2.0/../../../../lib/crt2.o C:/msys64/ucrt64/bin/../lib/gcc/x86_64-w64-mingw32/15.2.0/crtbegin.o -LC:/msys64/ucrt64/bin/../lib/gcc/x86_64-w64-mingw32/15.2.0 -LC:/msys64/ucrt64/bin/../lib/gcc -LC:/msys64/ucrt64/bin/../lib/gcc/x86_64-w64-mingw32/15.2.0/../../../../x86_64-w64-mingw32/lib/../lib -LC:/msys64/ucrt64/bin/../lib/gcc/x86_64-w64-mingw32/15.2.0/../../../../lib -LC:/msys64/ucrt64/bin/../lib/gcc/x86_64-w64-mingw32/15.2.0/../../../../x86_64-w64-mingw32/lib -LC:/msys64/ucrt64/bin/../lib/gcc/x86_64-w64-mingw32/15.2.0/../../.. -v CMakeFiles/cmTC_b11f6.dir/CMakeCXXCompilerABI.cpp.obj --out-implib libcmTC_b11f6.dll.a --major-image-version 0 --minor-image-version 0 -lstdc++ -lmingw32 -lgcc_s -lgcc -lmingwex -lmsvcrt -lkernel32 -lpthread -ladvapi32 -lshell32 -luser32 -lkernel32 -lmingw32 -lgcc_s -lgcc -lmingwex -lmsvcrt -lkernel32 C:/msys64/ucrt64/bin/../lib/gcc/x86_64-w64-mingw32/15.2.0/../../../../lib/default-manifest.o C:/msys64/ucrt64/bin/../lib/gcc/x86_64-w64-mingw32/15.2.0/crtend.o]
+        ignore line: [COLLECT_GCC_OPTIONS='-v' '-o' 'cmTC_12492.exe' '-shared-libgcc' '-mtune=generic' '-march=nocona' '-dumpdir' 'cmTC_12492.']
+        link line: [ C:/msys64/ucrt64/bin/../lib/gcc/x86_64-w64-mingw32/15.2.0/collect2.exe -plugin C:/msys64/ucrt64/bin/../lib/gcc/x86_64-w64-mingw32/15.2.0/liblto_plugin.dll -plugin-opt=C:/msys64/ucrt64/bin/../lib/gcc/x86_64-w64-mingw32/15.2.0/lto-wrapper.exe -plugin-opt=-fresolution=C:\\Users\\david\\AppData\\Local\\Temp\\ccwK7k34.res -plugin-opt=-pass-through=-lmingw32 -plugin-opt=-pass-through=-lgcc_s -plugin-opt=-pass-through=-lgcc -plugin-opt=-pass-through=-lmingwex -plugin-opt=-pass-through=-lmsvcrt -plugin-opt=-pass-through=-lkernel32 -plugin-opt=-pass-through=-lpthread -plugin-opt=-pass-through=-ladvapi32 -plugin-opt=-pass-through=-lshell32 -plugin-opt=-pass-through=-luser32 -plugin-opt=-pass-through=-lkernel32 -plugin-opt=-pass-through=-lmingw32 -plugin-opt=-pass-through=-lgcc_s -plugin-opt=-pass-through=-lgcc -plugin-opt=-pass-through=-lmingwex -plugin-opt=-pass-through=-lmsvcrt -plugin-opt=-pass-through=-lkernel32 -m i386pep -Bdynamic -o cmTC_12492.exe C:/msys64/ucrt64/bin/../lib/gcc/x86_64-w64-mingw32/15.2.0/../../../../lib/crt2.o C:/msys64/ucrt64/bin/../lib/gcc/x86_64-w64-mingw32/15.2.0/crtbegin.o -LC:/msys64/ucrt64/bin/../lib/gcc/x86_64-w64-mingw32/15.2.0 -LC:/msys64/ucrt64/bin/../lib/gcc -LC:/msys64/ucrt64/bin/../lib/gcc/x86_64-w64-mingw32/15.2.0/../../../../x86_64-w64-mingw32/lib/../lib -LC:/msys64/ucrt64/bin/../lib/gcc/x86_64-w64-mingw32/15.2.0/../../../../lib -LC:/msys64/ucrt64/bin/../lib/gcc/x86_64-w64-mingw32/15.2.0/../../../../x86_64-w64-mingw32/lib -LC:/msys64/ucrt64/bin/../lib/gcc/x86_64-w64-mingw32/15.2.0/../../.. -v CMakeFiles/cmTC_12492.dir/CMakeCXXCompilerABI.cpp.obj --out-implib libcmTC_12492.dll.a --major-image-version 0 --minor-image-version 0 -lstdc++ -lmingw32 -lgcc_s -lgcc -lmingwex -lmsvcrt -lkernel32 -lpthread -ladvapi32 -lshell32 -luser32 -lkernel32 -lmingw32 -lgcc_s -lgcc -lmingwex -lmsvcrt -lkernel32 C:/msys64/ucrt64/bin/../lib/gcc/x86_64-w64-mingw32/15.2.0/../../../../lib/default-manifest.o C:/msys64/ucrt64/bin/../lib/gcc/x86_64-w64-mingw32/15.2.0/crtend.o]
           arg [C:/msys64/ucrt64/bin/../lib/gcc/x86_64-w64-mingw32/15.2.0/collect2.exe] ==> ignore
           arg [-plugin] ==> ignore
           arg [C:/msys64/ucrt64/bin/../lib/gcc/x86_64-w64-mingw32/15.2.0/liblto_plugin.dll] ==> ignore
           arg [-plugin-opt=C:/msys64/ucrt64/bin/../lib/gcc/x86_64-w64-mingw32/15.2.0/lto-wrapper.exe] ==> ignore
-          arg [-plugin-opt=-fresolution=C:\\Users\\david\\AppData\\Local\\Temp\\cc5J9bBn.res] ==> ignore
+          arg [-plugin-opt=-fresolution=C:\\Users\\david\\AppData\\Local\\Temp\\ccwK7k34.res] ==> ignore
           arg [-plugin-opt=-pass-through=-lmingw32] ==> ignore
           arg [-plugin-opt=-pass-through=-lgcc_s] ==> ignore
           arg [-plugin-opt=-pass-through=-lgcc] ==> ignore
@@ -4187,7 +4127,7 @@ events:
           arg [i386pep] ==> ignore
           arg [-Bdynamic] ==> search dynamic
           arg [-o] ==> ignore
-          arg [cmTC_b11f6.exe] ==> ignore
+          arg [cmTC_12492.exe] ==> ignore
           arg [C:/msys64/ucrt64/bin/../lib/gcc/x86_64-w64-mingw32/15.2.0/../../../../lib/crt2.o] ==> obj [C:/msys64/ucrt64/bin/../lib/gcc/x86_64-w64-mingw32/15.2.0/../../../../lib/crt2.o]
           arg [C:/msys64/ucrt64/bin/../lib/gcc/x86_64-w64-mingw32/15.2.0/crtbegin.o] ==> obj [C:/msys64/ucrt64/bin/../lib/gcc/x86_64-w64-mingw32/15.2.0/crtbegin.o]
           arg [-LC:/msys64/ucrt64/bin/../lib/gcc/x86_64-w64-mingw32/15.2.0] ==> dir [C:/msys64/ucrt64/bin/../lib/gcc/x86_64-w64-mingw32/15.2.0]
@@ -4197,9 +4137,9 @@ events:
           arg [-LC:/msys64/ucrt64/bin/../lib/gcc/x86_64-w64-mingw32/15.2.0/../../../../x86_64-w64-mingw32/lib] ==> dir [C:/msys64/ucrt64/bin/../lib/gcc/x86_64-w64-mingw32/15.2.0/../../../../x86_64-w64-mingw32/lib]
           arg [-LC:/msys64/ucrt64/bin/../lib/gcc/x86_64-w64-mingw32/15.2.0/../../..] ==> dir [C:/msys64/ucrt64/bin/../lib/gcc/x86_64-w64-mingw32/15.2.0/../../..]
           arg [-v] ==> ignore
-          arg [CMakeFiles/cmTC_b11f6.dir/CMakeCXXCompilerABI.cpp.obj] ==> ignore
+          arg [CMakeFiles/cmTC_12492.dir/CMakeCXXCompilerABI.cpp.obj] ==> ignore
           arg [--out-implib] ==> ignore
-          arg [libcmTC_b11f6.dll.a] ==> ignore
+          arg [libcmTC_12492.dll.a] ==> ignore
           arg [--major-image-version] ==> ignore
           arg [0] ==> ignore
           arg [--minor-image-version] ==> ignore
@@ -4225,7 +4165,7 @@ events:
           arg [C:/msys64/ucrt64/bin/../lib/gcc/x86_64-w64-mingw32/15.2.0/../../../../lib/default-manifest.o] ==> obj [C:/msys64/ucrt64/bin/../lib/gcc/x86_64-w64-mingw32/15.2.0/../../../../lib/default-manifest.o]
           arg [C:/msys64/ucrt64/bin/../lib/gcc/x86_64-w64-mingw32/15.2.0/crtend.o] ==> obj [C:/msys64/ucrt64/bin/../lib/gcc/x86_64-w64-mingw32/15.2.0/crtend.o]
         ignore line: [collect2 version 15.2.0]
-        ignore line: [C:/msys64/ucrt64/bin/../lib/gcc/x86_64-w64-mingw32/15.2.0/../../../../x86_64-w64-mingw32/bin/ld.exe -plugin C:/msys64/ucrt64/bin/../lib/gcc/x86_64-w64-mingw32/15.2.0/liblto_plugin.dll -plugin-opt=C:/msys64/ucrt64/bin/../lib/gcc/x86_64-w64-mingw32/15.2.0/lto-wrapper.exe -plugin-opt=-fresolution=C:\\Users\\david\\AppData\\Local\\Temp\\cc5J9bBn.res -plugin-opt=-pass-through=-lmingw32 -plugin-opt=-pass-through=-lgcc_s -plugin-opt=-pass-through=-lgcc -plugin-opt=-pass-through=-lmingwex -plugin-opt=-pass-through=-lmsvcrt -plugin-opt=-pass-through=-lkernel32 -plugin-opt=-pass-through=-lpthread -plugin-opt=-pass-through=-ladvapi32 -plugin-opt=-pass-through=-lshell32 -plugin-opt=-pass-through=-luser32 -plugin-opt=-pass-through=-lkernel32 -plugin-opt=-pass-through=-lmingw32 -plugin-opt=-pass-through=-lgcc_s -plugin-opt=-pass-through=-lgcc -plugin-opt=-pass-through=-lmingwex -plugin-opt=-pass-through=-lmsvcrt -plugin-opt=-pass-through=-lkernel32 -m i386pep -Bdynamic -o cmTC_b11f6.exe C:/msys64/ucrt64/bin/../lib/gcc/x86_64-w64-mingw32/15.2.0/../../../../lib/crt2.o C:/msys64/ucrt64/bin/../lib/gcc/x86_64-w64-mingw32/15.2.0/crtbegin.o -LC:/msys64/ucrt64/bin/../lib/gcc/x86_64-w64-mingw32/15.2.0 -LC:/msys64/ucrt64/bin/../lib/gcc -LC:/msys64/ucrt64/bin/../lib/gcc/x86_64-w64-mingw32/15.2.0/../../../../x86_64-w64-mingw32/lib/../lib -LC:/msys64/ucrt64/bin/../lib/gcc/x86_64-w64-mingw32/15.2.0/../../../../lib -LC:/msys64/ucrt64/bin/../lib/gcc/x86_64-w64-mingw32/15.2.0/../../../../x86_64-w64-mingw32/lib -LC:/msys64/ucrt64/bin/../lib/gcc/x86_64-w64-mingw32/15.2.0/../../.. -v CMakeFiles/cmTC_b11f6.dir/CMakeCXXCompilerABI.cpp.obj --out-implib libcmTC_b11f6.dll.a --major-image-version 0 --minor-image-version 0 -lstdc++ -lmingw32 -lgcc_s -lgcc -lmingwex -lmsvcrt -lkernel32 -lpthread -ladvapi32 -lshell32 -luser32 -lkernel32 -lmingw32 -lgcc_s -lgcc -lmingwex -lmsvcrt -lkernel32 C:/msys64/ucrt64/bin/../lib/gcc/x86_64-w64-mingw32/15.2.0/../../../../lib/default-manifest.o C:/msys64/ucrt64/bin/../lib/gcc/x86_64-w64-mingw32/15.2.0/crtend.o]
+        ignore line: [C:/msys64/ucrt64/bin/../lib/gcc/x86_64-w64-mingw32/15.2.0/../../../../x86_64-w64-mingw32/bin/ld.exe -plugin C:/msys64/ucrt64/bin/../lib/gcc/x86_64-w64-mingw32/15.2.0/liblto_plugin.dll -plugin-opt=C:/msys64/ucrt64/bin/../lib/gcc/x86_64-w64-mingw32/15.2.0/lto-wrapper.exe -plugin-opt=-fresolution=C:\\Users\\david\\AppData\\Local\\Temp\\ccwK7k34.res -plugin-opt=-pass-through=-lmingw32 -plugin-opt=-pass-through=-lgcc_s -plugin-opt=-pass-through=-lgcc -plugin-opt=-pass-through=-lmingwex -plugin-opt=-pass-through=-lmsvcrt -plugin-opt=-pass-through=-lkernel32 -plugin-opt=-pass-through=-lpthread -plugin-opt=-pass-through=-ladvapi32 -plugin-opt=-pass-through=-lshell32 -plugin-opt=-pass-through=-luser32 -plugin-opt=-pass-through=-lkernel32 -plugin-opt=-pass-through=-lmingw32 -plugin-opt=-pass-through=-lgcc_s -plugin-opt=-pass-through=-lgcc -plugin-opt=-pass-through=-lmingwex -plugin-opt=-pass-through=-lmsvcrt -plugin-opt=-pass-through=-lkernel32 -m i386pep -Bdynamic -o cmTC_12492.exe C:/msys64/ucrt64/bin/../lib/gcc/x86_64-w64-mingw32/15.2.0/../../../../lib/crt2.o C:/msys64/ucrt64/bin/../lib/gcc/x86_64-w64-mingw32/15.2.0/crtbegin.o -LC:/msys64/ucrt64/bin/../lib/gcc/x86_64-w64-mingw32/15.2.0 -LC:/msys64/ucrt64/bin/../lib/gcc -LC:/msys64/ucrt64/bin/../lib/gcc/x86_64-w64-mingw32/15.2.0/../../../../x86_64-w64-mingw32/lib/../lib -LC:/msys64/ucrt64/bin/../lib/gcc/x86_64-w64-mingw32/15.2.0/../../../../lib -LC:/msys64/ucrt64/bin/../lib/gcc/x86_64-w64-mingw32/15.2.0/../../../../x86_64-w64-mingw32/lib -LC:/msys64/ucrt64/bin/../lib/gcc/x86_64-w64-mingw32/15.2.0/../../.. -v CMakeFiles/cmTC_12492.dir/CMakeCXXCompilerABI.cpp.obj --out-implib libcmTC_12492.dll.a --major-image-version 0 --minor-image-version 0 -lstdc++ -lmingw32 -lgcc_s -lgcc -lmingwex -lmsvcrt -lkernel32 -lpthread -ladvapi32 -lshell32 -luser32 -lkernel32 -lmingw32 -lgcc_s -lgcc -lmingwex -lmsvcrt -lkernel32 C:/msys64/ucrt64/bin/../lib/gcc/x86_64-w64-mingw32/15.2.0/../../../../lib/default-manifest.o C:/msys64/ucrt64/bin/../lib/gcc/x86_64-w64-mingw32/15.2.0/crtend.o]
         linker tool for 'CXX': C:/msys64/ucrt64/x86_64-w64-mingw32/bin/ld.exe
         remove lib [msvcrt]
         remove lib [msvcrt]
@@ -4276,8 +4216,6 @@ events:
       - "git"
     candidate_directories:
       - "C:/Users/david/.cursor/extensions/vadimcn.vscode-lldb-1.12.0/bin/"
-      - "C:/Users/david/scoop/apps/gcc-arm-none-eabi/current/bin/"
-      - "C:/Users/david/scoop/shims/"
       - "C:/Python314/Scripts/"
       - "C:/Python314/"
       - "C:/Program Files (x86)/Razer/ChromaBroadcast/bin/"
@@ -4302,6 +4240,8 @@ events:
       - "C:/ProgramData/chocolatey/bin/"
       - "C:/Program Files/Git/cmd/"
       - "C:/Program Files/dotnet/"
+      - "C:/Users/david/scoop/apps/gcc-arm-none-eabi/current/bin/"
+      - "C:/Users/david/scoop/shims/"
       - "C:/Users/david/AppData/Local/Programs/cursor/resources/app/bin/"
       - "C:/msys64/ucrt64/bin/"
       - "C:/Users/david/AppData/Roaming/npm/"
@@ -4323,12 +4263,6 @@ events:
       - "C:/Users/david/.cursor/extensions/vadimcn.vscode-lldb-1.12.0/bin/git.cmd.com"
       - "C:/Users/david/.cursor/extensions/vadimcn.vscode-lldb-1.12.0/bin/git.cmd.exe"
       - "C:/Users/david/.cursor/extensions/vadimcn.vscode-lldb-1.12.0/bin/git.cmd"
-      - "C:/Users/david/scoop/apps/gcc-arm-none-eabi/current/bin/git.cmd.com"
-      - "C:/Users/david/scoop/apps/gcc-arm-none-eabi/current/bin/git.cmd.exe"
-      - "C:/Users/david/scoop/apps/gcc-arm-none-eabi/current/bin/git.cmd"
-      - "C:/Users/david/scoop/shims/git.cmd.com"
-      - "C:/Users/david/scoop/shims/git.cmd.exe"
-      - "C:/Users/david/scoop/shims/git.cmd"
       - "C:/Python314/Scripts/git.cmd.com"
       - "C:/Python314/Scripts/git.cmd.exe"
       - "C:/Python314/Scripts/git.cmd"
@@ -4401,6 +4335,12 @@ events:
       - "C:/Program Files/dotnet/git.cmd.com"
       - "C:/Program Files/dotnet/git.cmd.exe"
       - "C:/Program Files/dotnet/git.cmd"
+      - "C:/Users/david/scoop/apps/gcc-arm-none-eabi/current/bin/git.cmd.com"
+      - "C:/Users/david/scoop/apps/gcc-arm-none-eabi/current/bin/git.cmd.exe"
+      - "C:/Users/david/scoop/apps/gcc-arm-none-eabi/current/bin/git.cmd"
+      - "C:/Users/david/scoop/shims/git.cmd.com"
+      - "C:/Users/david/scoop/shims/git.cmd.exe"
+      - "C:/Users/david/scoop/shims/git.cmd"
       - "C:/Users/david/AppData/Local/Programs/cursor/resources/app/bin/git.cmd.com"
       - "C:/Users/david/AppData/Local/Programs/cursor/resources/app/bin/git.cmd.exe"
       - "C:/Users/david/AppData/Local/Programs/cursor/resources/app/bin/git.cmd"
@@ -4455,12 +4395,6 @@ events:
       - "C:/Users/david/.cursor/extensions/vadimcn.vscode-lldb-1.12.0/bin/git.com"
       - "C:/Users/david/.cursor/extensions/vadimcn.vscode-lldb-1.12.0/bin/git.exe"
       - "C:/Users/david/.cursor/extensions/vadimcn.vscode-lldb-1.12.0/bin/git"
-      - "C:/Users/david/scoop/apps/gcc-arm-none-eabi/current/bin/git.com"
-      - "C:/Users/david/scoop/apps/gcc-arm-none-eabi/current/bin/git.exe"
-      - "C:/Users/david/scoop/apps/gcc-arm-none-eabi/current/bin/git"
-      - "C:/Users/david/scoop/shims/git.com"
-      - "C:/Users/david/scoop/shims/git.exe"
-      - "C:/Users/david/scoop/shims/git"
       - "C:/Python314/Scripts/git.com"
       - "C:/Python314/Scripts/git.exe"
       - "C:/Python314/Scripts/git"
@@ -4532,8 +4466,6 @@ events:
     search_context:
       ENV{PATH}:
         - "c:\\Users\\david\\.cursor\\extensions\\vadimcn.vscode-lldb-1.12.0\\bin"
-        - "C:\\Users\\david\\scoop\\apps\\gcc-arm-none-eabi\\current\\bin"
-        - "C:\\Users\\david\\scoop\\shims"
         - "C:\\Python314\\Scripts\\"
         - "C:\\Python314\\"
         - "C:\\Program Files (x86)\\Razer\\ChromaBroadcast\\bin"
@@ -4558,9 +4490,8 @@ events:
         - "C:\\ProgramData\\chocolatey\\bin"
         - "C:\\Program Files\\Git\\cmd"
         - "C:\\Program Files\\dotnet\\"
-        - "C:\\Users\\david\\AppData\\Local\\Programs\\Python\\Python313\\Scripts\\"
-        - "C:\\Users\\david\\AppData\\Local\\Programs\\Python\\Python313\\"
-        - "C:\\Users\\david\\AppData\\Local\\Microsoft\\WindowsApps"
+        - "C:\\Users\\david\\scoop\\apps\\gcc-arm-none-eabi\\current\\bin"
+        - "C:\\Users\\david\\scoop\\shims"
         - "C:\\Users\\david\\AppData\\Local\\Programs\\cursor\\resources\\app\\bin"
         - "C:\\msys64\\ucrt64\\bin"
         - "C:\\Users\\david\\AppData\\Roaming\\npm"

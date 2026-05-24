@@ -4,10 +4,10 @@ events:
   -
     kind: "find-v1"
     backtrace:
-      - "C:/pico/pico-sdk/cmake/preload/toolchains/util/find_compiler.cmake:12 (find_program)"
-      - "C:/pico/pico-sdk/cmake/preload/toolchains/util/find_compiler.cmake:39 (pico_find_compiler)"
-      - "C:/pico/pico-sdk/cmake/preload/toolchains/util/pico_arm_gcc_common.cmake:25 (pico_find_compiler_with_triples)"
-      - "C:/pico/pico-sdk/cmake/preload/toolchains/pico_arm_cortex_m0plus_gcc.cmake:7 (include)"
+      - "C:/Users/david/Downloads/myshit/pico-sdk/cmake/preload/toolchains/util/find_compiler.cmake:12 (find_program)"
+      - "C:/Users/david/Downloads/myshit/pico-sdk/cmake/preload/toolchains/util/find_compiler.cmake:39 (pico_find_compiler)"
+      - "C:/Users/david/Downloads/myshit/pico-sdk/cmake/preload/toolchains/util/pico_arm_gcc_common.cmake:25 (pico_find_compiler_with_triples)"
+      - "C:/Users/david/Downloads/myshit/pico-sdk/cmake/preload/toolchains/pico_arm_cortex_m0plus_gcc.cmake:7 (include)"
       - "C:/Users/david/scoop/apps/cmake/current/share/cmake-4.3/Modules/CMakeDetermineSystem.cmake:146 (include)"
       - "CMakeLists.txt:5 (project)"
     mode: "program"
@@ -27,8 +27,6 @@ events:
     search_context:
       ENV{PATH}:
         - "c:\\Users\\david\\.cursor\\extensions\\vadimcn.vscode-lldb-1.12.0\\bin"
-        - "C:\\Users\\david\\scoop\\apps\\gcc-arm-none-eabi\\current\\bin"
-        - "C:\\Users\\david\\scoop\\shims"
         - "C:\\Python314\\Scripts\\"
         - "C:\\Python314\\"
         - "C:\\Program Files (x86)\\Razer\\ChromaBroadcast\\bin"
@@ -53,9 +51,8 @@ events:
         - "C:\\ProgramData\\chocolatey\\bin"
         - "C:\\Program Files\\Git\\cmd"
         - "C:\\Program Files\\dotnet\\"
-        - "C:\\Users\\david\\AppData\\Local\\Programs\\Python\\Python313\\Scripts\\"
-        - "C:\\Users\\david\\AppData\\Local\\Programs\\Python\\Python313\\"
-        - "C:\\Users\\david\\AppData\\Local\\Microsoft\\WindowsApps"
+        - "C:\\Users\\david\\scoop\\apps\\gcc-arm-none-eabi\\current\\bin"
+        - "C:\\Users\\david\\scoop\\shims"
         - "C:\\Users\\david\\AppData\\Local\\Programs\\cursor\\resources\\app\\bin"
         - "C:\\msys64\\ucrt64\\bin"
         - "C:\\Users\\david\\AppData\\Roaming\\npm"
@@ -63,10 +60,10 @@ events:
   -
     kind: "find-v1"
     backtrace:
-      - "C:/pico/pico-sdk/cmake/preload/toolchains/util/find_compiler.cmake:24 (find_program)"
-      - "C:/pico/pico-sdk/cmake/preload/toolchains/util/find_compiler.cmake:39 (pico_find_compiler)"
-      - "C:/pico/pico-sdk/cmake/preload/toolchains/util/pico_arm_gcc_common.cmake:25 (pico_find_compiler_with_triples)"
-      - "C:/pico/pico-sdk/cmake/preload/toolchains/pico_arm_cortex_m0plus_gcc.cmake:7 (include)"
+      - "C:/Users/david/Downloads/myshit/pico-sdk/cmake/preload/toolchains/util/find_compiler.cmake:24 (find_program)"
+      - "C:/Users/david/Downloads/myshit/pico-sdk/cmake/preload/toolchains/util/find_compiler.cmake:39 (pico_find_compiler)"
+      - "C:/Users/david/Downloads/myshit/pico-sdk/cmake/preload/toolchains/util/pico_arm_gcc_common.cmake:25 (pico_find_compiler_with_triples)"
+      - "C:/Users/david/Downloads/myshit/pico-sdk/cmake/preload/toolchains/pico_arm_cortex_m0plus_gcc.cmake:7 (include)"
       - "C:/Users/david/scoop/apps/cmake/current/share/cmake-4.3/Modules/CMakeDetermineSystem.cmake:146 (include)"
       - "CMakeLists.txt:5 (project)"
     mode: "program"
@@ -84,8 +81,6 @@ events:
       - "arm-none-eabi-gcc"
     candidate_directories:
       - "C:/Users/david/.cursor/extensions/vadimcn.vscode-lldb-1.12.0/bin/"
-      - "C:/Users/david/scoop/apps/gcc-arm-none-eabi/current/bin/"
-      - "C:/Users/david/scoop/shims/"
       - "C:/Python314/Scripts/"
       - "C:/Python314/"
       - "C:/Program Files (x86)/Razer/ChromaBroadcast/bin/"
@@ -110,6 +105,8 @@ events:
       - "C:/ProgramData/chocolatey/bin/"
       - "C:/Program Files/Git/cmd/"
       - "C:/Program Files/dotnet/"
+      - "C:/Users/david/scoop/apps/gcc-arm-none-eabi/current/bin/"
+      - "C:/Users/david/scoop/shims/"
       - "C:/Users/david/AppData/Local/Programs/cursor/resources/app/bin/"
       - "C:/msys64/ucrt64/bin/"
       - "C:/Users/david/AppData/Roaming/npm/"
@@ -118,13 +115,83 @@ events:
       - "C:/Users/david/.cursor/extensions/vadimcn.vscode-lldb-1.12.0/bin/arm-none-eabi-gcc.com"
       - "C:/Users/david/.cursor/extensions/vadimcn.vscode-lldb-1.12.0/bin/arm-none-eabi-gcc.exe"
       - "C:/Users/david/.cursor/extensions/vadimcn.vscode-lldb-1.12.0/bin/arm-none-eabi-gcc"
+      - "C:/Python314/Scripts/arm-none-eabi-gcc.com"
+      - "C:/Python314/Scripts/arm-none-eabi-gcc.exe"
+      - "C:/Python314/Scripts/arm-none-eabi-gcc"
+      - "C:/Python314/arm-none-eabi-gcc.com"
+      - "C:/Python314/arm-none-eabi-gcc.exe"
+      - "C:/Python314/arm-none-eabi-gcc"
+      - "C:/Program Files (x86)/Razer/ChromaBroadcast/bin/arm-none-eabi-gcc.com"
+      - "C:/Program Files (x86)/Razer/ChromaBroadcast/bin/arm-none-eabi-gcc.exe"
+      - "C:/Program Files (x86)/Razer/ChromaBroadcast/bin/arm-none-eabi-gcc"
+      - "C:/Program Files/Razer/ChromaBroadcast/bin/arm-none-eabi-gcc.com"
+      - "C:/Program Files/Razer/ChromaBroadcast/bin/arm-none-eabi-gcc.exe"
+      - "C:/Program Files/Razer/ChromaBroadcast/bin/arm-none-eabi-gcc"
+      - "C:/Windows/System32/arm-none-eabi-gcc.com"
+      - "C:/Windows/System32/arm-none-eabi-gcc.exe"
+      - "C:/Windows/System32/arm-none-eabi-gcc"
+      - "C:/Windows/arm-none-eabi-gcc.com"
+      - "C:/Windows/arm-none-eabi-gcc.exe"
+      - "C:/Windows/arm-none-eabi-gcc"
+      - "C:/Windows/System32/wbem/arm-none-eabi-gcc.com"
+      - "C:/Windows/System32/wbem/arm-none-eabi-gcc.exe"
+      - "C:/Windows/System32/wbem/arm-none-eabi-gcc"
+      - "C:/Windows/System32/WindowsPowerShell/v1.0/arm-none-eabi-gcc.com"
+      - "C:/Windows/System32/WindowsPowerShell/v1.0/arm-none-eabi-gcc.exe"
+      - "C:/Windows/System32/WindowsPowerShell/v1.0/arm-none-eabi-gcc"
+      - "C:/Windows/System32/OpenSSH/arm-none-eabi-gcc.com"
+      - "C:/Windows/System32/OpenSSH/arm-none-eabi-gcc.exe"
+      - "C:/Windows/System32/OpenSSH/arm-none-eabi-gcc"
+      - "C:/Program Files/NVIDIA Corporation/NVIDIA App/NvDLISR/arm-none-eabi-gcc.com"
+      - "C:/Program Files/NVIDIA Corporation/NVIDIA App/NvDLISR/arm-none-eabi-gcc.exe"
+      - "C:/Program Files/NVIDIA Corporation/NVIDIA App/NvDLISR/arm-none-eabi-gcc"
+      - "C:/Program Files (x86)/NVIDIA Corporation/PhysX/Common/arm-none-eabi-gcc.com"
+      - "C:/Program Files (x86)/NVIDIA Corporation/PhysX/Common/arm-none-eabi-gcc.exe"
+      - "C:/Program Files (x86)/NVIDIA Corporation/PhysX/Common/arm-none-eabi-gcc"
+      - "C:/Windows/System32/config/systemprofile/AppData/Local/Microsoft/WindowsApps/arm-none-eabi-gcc.com"
+      - "C:/Windows/System32/config/systemprofile/AppData/Local/Microsoft/WindowsApps/arm-none-eabi-gcc.exe"
+      - "C:/Windows/System32/config/systemprofile/AppData/Local/Microsoft/WindowsApps/arm-none-eabi-gcc"
+      - "C:/Program Files (x86)/Razer Chroma SDK/bin/arm-none-eabi-gcc.com"
+      - "C:/Program Files (x86)/Razer Chroma SDK/bin/arm-none-eabi-gcc.exe"
+      - "C:/Program Files (x86)/Razer Chroma SDK/bin/arm-none-eabi-gcc"
+      - "C:/Program Files/Razer Chroma SDK/bin/arm-none-eabi-gcc.com"
+      - "C:/Program Files/Razer Chroma SDK/bin/arm-none-eabi-gcc.exe"
+      - "C:/Program Files/Razer Chroma SDK/bin/arm-none-eabi-gcc"
+      - "C:/Users/david/AppData/Local/Programs/Python/Python313/Scripts/arm-none-eabi-gcc.com"
+      - "C:/Users/david/AppData/Local/Programs/Python/Python313/Scripts/arm-none-eabi-gcc.exe"
+      - "C:/Users/david/AppData/Local/Programs/Python/Python313/Scripts/arm-none-eabi-gcc"
+      - "C:/Users/david/AppData/Local/Programs/Python/Python313/arm-none-eabi-gcc.com"
+      - "C:/Users/david/AppData/Local/Programs/Python/Python313/arm-none-eabi-gcc.exe"
+      - "C:/Users/david/AppData/Local/Programs/Python/Python313/arm-none-eabi-gcc"
+      - "C:/Users/david/AppData/Local/Microsoft/WindowsApps/arm-none-eabi-gcc.com"
+      - "C:/Users/david/AppData/Local/Microsoft/WindowsApps/arm-none-eabi-gcc.exe"
+      - "C:/Users/david/AppData/Local/Microsoft/WindowsApps/arm-none-eabi-gcc"
+      - "C:/Program Files/Microsoft SQL Server/170/Tools/Binn/arm-none-eabi-gcc.com"
+      - "C:/Program Files/Microsoft SQL Server/170/Tools/Binn/arm-none-eabi-gcc.exe"
+      - "C:/Program Files/Microsoft SQL Server/170/Tools/Binn/arm-none-eabi-gcc"
+      - "C:/Program Files (x86)/IncrediBuild/arm-none-eabi-gcc.com"
+      - "C:/Program Files (x86)/IncrediBuild/arm-none-eabi-gcc.exe"
+      - "C:/Program Files (x86)/IncrediBuild/arm-none-eabi-gcc"
+      - "C:/Program Files (x86)/Windows Kits/10/Windows Performance Toolkit/arm-none-eabi-gcc.com"
+      - "C:/Program Files (x86)/Windows Kits/10/Windows Performance Toolkit/arm-none-eabi-gcc.exe"
+      - "C:/Program Files (x86)/Windows Kits/10/Windows Performance Toolkit/arm-none-eabi-gcc"
+      - "C:/Program Files/nodejs/arm-none-eabi-gcc.com"
+      - "C:/Program Files/nodejs/arm-none-eabi-gcc.exe"
+      - "C:/Program Files/nodejs/arm-none-eabi-gcc"
+      - "C:/ProgramData/chocolatey/bin/arm-none-eabi-gcc.com"
+      - "C:/ProgramData/chocolatey/bin/arm-none-eabi-gcc.exe"
+      - "C:/ProgramData/chocolatey/bin/arm-none-eabi-gcc"
+      - "C:/Program Files/Git/cmd/arm-none-eabi-gcc.com"
+      - "C:/Program Files/Git/cmd/arm-none-eabi-gcc.exe"
+      - "C:/Program Files/Git/cmd/arm-none-eabi-gcc"
+      - "C:/Program Files/dotnet/arm-none-eabi-gcc.com"
+      - "C:/Program Files/dotnet/arm-none-eabi-gcc.exe"
+      - "C:/Program Files/dotnet/arm-none-eabi-gcc"
       - "C:/Users/david/scoop/apps/gcc-arm-none-eabi/current/bin/arm-none-eabi-gcc.com"
     found: "C:/Users/david/scoop/apps/gcc-arm-none-eabi/current/bin/arm-none-eabi-gcc.exe"
     search_context:
       ENV{PATH}:
         - "c:\\Users\\david\\.cursor\\extensions\\vadimcn.vscode-lldb-1.12.0\\bin"
-        - "C:\\Users\\david\\scoop\\apps\\gcc-arm-none-eabi\\current\\bin"
-        - "C:\\Users\\david\\scoop\\shims"
         - "C:\\Python314\\Scripts\\"
         - "C:\\Python314\\"
         - "C:\\Program Files (x86)\\Razer\\ChromaBroadcast\\bin"
@@ -149,9 +216,8 @@ events:
         - "C:\\ProgramData\\chocolatey\\bin"
         - "C:\\Program Files\\Git\\cmd"
         - "C:\\Program Files\\dotnet\\"
-        - "C:\\Users\\david\\AppData\\Local\\Programs\\Python\\Python313\\Scripts\\"
-        - "C:\\Users\\david\\AppData\\Local\\Programs\\Python\\Python313\\"
-        - "C:\\Users\\david\\AppData\\Local\\Microsoft\\WindowsApps"
+        - "C:\\Users\\david\\scoop\\apps\\gcc-arm-none-eabi\\current\\bin"
+        - "C:\\Users\\david\\scoop\\shims"
         - "C:\\Users\\david\\AppData\\Local\\Programs\\cursor\\resources\\app\\bin"
         - "C:\\msys64\\ucrt64\\bin"
         - "C:\\Users\\david\\AppData\\Roaming\\npm"
@@ -159,10 +225,10 @@ events:
   -
     kind: "find-v1"
     backtrace:
-      - "C:/pico/pico-sdk/cmake/preload/toolchains/util/find_compiler.cmake:12 (find_program)"
-      - "C:/pico/pico-sdk/cmake/preload/toolchains/util/find_compiler.cmake:39 (pico_find_compiler)"
-      - "C:/pico/pico-sdk/cmake/preload/toolchains/util/pico_arm_gcc_common.cmake:26 (pico_find_compiler_with_triples)"
-      - "C:/pico/pico-sdk/cmake/preload/toolchains/pico_arm_cortex_m0plus_gcc.cmake:7 (include)"
+      - "C:/Users/david/Downloads/myshit/pico-sdk/cmake/preload/toolchains/util/find_compiler.cmake:12 (find_program)"
+      - "C:/Users/david/Downloads/myshit/pico-sdk/cmake/preload/toolchains/util/find_compiler.cmake:39 (pico_find_compiler)"
+      - "C:/Users/david/Downloads/myshit/pico-sdk/cmake/preload/toolchains/util/pico_arm_gcc_common.cmake:26 (pico_find_compiler_with_triples)"
+      - "C:/Users/david/Downloads/myshit/pico-sdk/cmake/preload/toolchains/pico_arm_cortex_m0plus_gcc.cmake:7 (include)"
       - "C:/Users/david/scoop/apps/cmake/current/share/cmake-4.3/Modules/CMakeDetermineSystem.cmake:146 (include)"
       - "CMakeLists.txt:5 (project)"
     mode: "program"
@@ -182,8 +248,6 @@ events:
     search_context:
       ENV{PATH}:
         - "c:\\Users\\david\\.cursor\\extensions\\vadimcn.vscode-lldb-1.12.0\\bin"
-        - "C:\\Users\\david\\scoop\\apps\\gcc-arm-none-eabi\\current\\bin"
-        - "C:\\Users\\david\\scoop\\shims"
         - "C:\\Python314\\Scripts\\"
         - "C:\\Python314\\"
         - "C:\\Program Files (x86)\\Razer\\ChromaBroadcast\\bin"
@@ -208,9 +272,8 @@ events:
         - "C:\\ProgramData\\chocolatey\\bin"
         - "C:\\Program Files\\Git\\cmd"
         - "C:\\Program Files\\dotnet\\"
-        - "C:\\Users\\david\\AppData\\Local\\Programs\\Python\\Python313\\Scripts\\"
-        - "C:\\Users\\david\\AppData\\Local\\Programs\\Python\\Python313\\"
-        - "C:\\Users\\david\\AppData\\Local\\Microsoft\\WindowsApps"
+        - "C:\\Users\\david\\scoop\\apps\\gcc-arm-none-eabi\\current\\bin"
+        - "C:\\Users\\david\\scoop\\shims"
         - "C:\\Users\\david\\AppData\\Local\\Programs\\cursor\\resources\\app\\bin"
         - "C:\\msys64\\ucrt64\\bin"
         - "C:\\Users\\david\\AppData\\Roaming\\npm"
@@ -218,10 +281,10 @@ events:
   -
     kind: "find-v1"
     backtrace:
-      - "C:/pico/pico-sdk/cmake/preload/toolchains/util/find_compiler.cmake:24 (find_program)"
-      - "C:/pico/pico-sdk/cmake/preload/toolchains/util/find_compiler.cmake:39 (pico_find_compiler)"
-      - "C:/pico/pico-sdk/cmake/preload/toolchains/util/pico_arm_gcc_common.cmake:26 (pico_find_compiler_with_triples)"
-      - "C:/pico/pico-sdk/cmake/preload/toolchains/pico_arm_cortex_m0plus_gcc.cmake:7 (include)"
+      - "C:/Users/david/Downloads/myshit/pico-sdk/cmake/preload/toolchains/util/find_compiler.cmake:24 (find_program)"
+      - "C:/Users/david/Downloads/myshit/pico-sdk/cmake/preload/toolchains/util/find_compiler.cmake:39 (pico_find_compiler)"
+      - "C:/Users/david/Downloads/myshit/pico-sdk/cmake/preload/toolchains/util/pico_arm_gcc_common.cmake:26 (pico_find_compiler_with_triples)"
+      - "C:/Users/david/Downloads/myshit/pico-sdk/cmake/preload/toolchains/pico_arm_cortex_m0plus_gcc.cmake:7 (include)"
       - "C:/Users/david/scoop/apps/cmake/current/share/cmake-4.3/Modules/CMakeDetermineSystem.cmake:146 (include)"
       - "CMakeLists.txt:5 (project)"
     mode: "program"
@@ -239,8 +302,6 @@ events:
       - "arm-none-eabi-g++"
     candidate_directories:
       - "C:/Users/david/.cursor/extensions/vadimcn.vscode-lldb-1.12.0/bin/"
-      - "C:/Users/david/scoop/apps/gcc-arm-none-eabi/current/bin/"
-      - "C:/Users/david/scoop/shims/"
       - "C:/Python314/Scripts/"
       - "C:/Python314/"
       - "C:/Program Files (x86)/Razer/ChromaBroadcast/bin/"
@@ -265,6 +326,8 @@ events:
       - "C:/ProgramData/chocolatey/bin/"
       - "C:/Program Files/Git/cmd/"
       - "C:/Program Files/dotnet/"
+      - "C:/Users/david/scoop/apps/gcc-arm-none-eabi/current/bin/"
+      - "C:/Users/david/scoop/shims/"
       - "C:/Users/david/AppData/Local/Programs/cursor/resources/app/bin/"
       - "C:/msys64/ucrt64/bin/"
       - "C:/Users/david/AppData/Roaming/npm/"
@@ -273,13 +336,83 @@ events:
       - "C:/Users/david/.cursor/extensions/vadimcn.vscode-lldb-1.12.0/bin/arm-none-eabi-g++.com"
       - "C:/Users/david/.cursor/extensions/vadimcn.vscode-lldb-1.12.0/bin/arm-none-eabi-g++.exe"
       - "C:/Users/david/.cursor/extensions/vadimcn.vscode-lldb-1.12.0/bin/arm-none-eabi-g++"
+      - "C:/Python314/Scripts/arm-none-eabi-g++.com"
+      - "C:/Python314/Scripts/arm-none-eabi-g++.exe"
+      - "C:/Python314/Scripts/arm-none-eabi-g++"
+      - "C:/Python314/arm-none-eabi-g++.com"
+      - "C:/Python314/arm-none-eabi-g++.exe"
+      - "C:/Python314/arm-none-eabi-g++"
+      - "C:/Program Files (x86)/Razer/ChromaBroadcast/bin/arm-none-eabi-g++.com"
+      - "C:/Program Files (x86)/Razer/ChromaBroadcast/bin/arm-none-eabi-g++.exe"
+      - "C:/Program Files (x86)/Razer/ChromaBroadcast/bin/arm-none-eabi-g++"
+      - "C:/Program Files/Razer/ChromaBroadcast/bin/arm-none-eabi-g++.com"
+      - "C:/Program Files/Razer/ChromaBroadcast/bin/arm-none-eabi-g++.exe"
+      - "C:/Program Files/Razer/ChromaBroadcast/bin/arm-none-eabi-g++"
+      - "C:/Windows/System32/arm-none-eabi-g++.com"
+      - "C:/Windows/System32/arm-none-eabi-g++.exe"
+      - "C:/Windows/System32/arm-none-eabi-g++"
+      - "C:/Windows/arm-none-eabi-g++.com"
+      - "C:/Windows/arm-none-eabi-g++.exe"
+      - "C:/Windows/arm-none-eabi-g++"
+      - "C:/Windows/System32/wbem/arm-none-eabi-g++.com"
+      - "C:/Windows/System32/wbem/arm-none-eabi-g++.exe"
+      - "C:/Windows/System32/wbem/arm-none-eabi-g++"
+      - "C:/Windows/System32/WindowsPowerShell/v1.0/arm-none-eabi-g++.com"
+      - "C:/Windows/System32/WindowsPowerShell/v1.0/arm-none-eabi-g++.exe"
+      - "C:/Windows/System32/WindowsPowerShell/v1.0/arm-none-eabi-g++"
+      - "C:/Windows/System32/OpenSSH/arm-none-eabi-g++.com"
+      - "C:/Windows/System32/OpenSSH/arm-none-eabi-g++.exe"
+      - "C:/Windows/System32/OpenSSH/arm-none-eabi-g++"
+      - "C:/Program Files/NVIDIA Corporation/NVIDIA App/NvDLISR/arm-none-eabi-g++.com"
+      - "C:/Program Files/NVIDIA Corporation/NVIDIA App/NvDLISR/arm-none-eabi-g++.exe"
+      - "C:/Program Files/NVIDIA Corporation/NVIDIA App/NvDLISR/arm-none-eabi-g++"
+      - "C:/Program Files (x86)/NVIDIA Corporation/PhysX/Common/arm-none-eabi-g++.com"
+      - "C:/Program Files (x86)/NVIDIA Corporation/PhysX/Common/arm-none-eabi-g++.exe"
+      - "C:/Program Files (x86)/NVIDIA Corporation/PhysX/Common/arm-none-eabi-g++"
+      - "C:/Windows/System32/config/systemprofile/AppData/Local/Microsoft/WindowsApps/arm-none-eabi-g++.com"
+      - "C:/Windows/System32/config/systemprofile/AppData/Local/Microsoft/WindowsApps/arm-none-eabi-g++.exe"
+      - "C:/Windows/System32/config/systemprofile/AppData/Local/Microsoft/WindowsApps/arm-none-eabi-g++"
+      - "C:/Program Files (x86)/Razer Chroma SDK/bin/arm-none-eabi-g++.com"
+      - "C:/Program Files (x86)/Razer Chroma SDK/bin/arm-none-eabi-g++.exe"
+      - "C:/Program Files (x86)/Razer Chroma SDK/bin/arm-none-eabi-g++"
+      - "C:/Program Files/Razer Chroma SDK/bin/arm-none-eabi-g++.com"
+      - "C:/Program Files/Razer Chroma SDK/bin/arm-none-eabi-g++.exe"
+      - "C:/Program Files/Razer Chroma SDK/bin/arm-none-eabi-g++"
+      - "C:/Users/david/AppData/Local/Programs/Python/Python313/Scripts/arm-none-eabi-g++.com"
+      - "C:/Users/david/AppData/Local/Programs/Python/Python313/Scripts/arm-none-eabi-g++.exe"
+      - "C:/Users/david/AppData/Local/Programs/Python/Python313/Scripts/arm-none-eabi-g++"
+      - "C:/Users/david/AppData/Local/Programs/Python/Python313/arm-none-eabi-g++.com"
+      - "C:/Users/david/AppData/Local/Programs/Python/Python313/arm-none-eabi-g++.exe"
+      - "C:/Users/david/AppData/Local/Programs/Python/Python313/arm-none-eabi-g++"
+      - "C:/Users/david/AppData/Local/Microsoft/WindowsApps/arm-none-eabi-g++.com"
+      - "C:/Users/david/AppData/Local/Microsoft/WindowsApps/arm-none-eabi-g++.exe"
+      - "C:/Users/david/AppData/Local/Microsoft/WindowsApps/arm-none-eabi-g++"
+      - "C:/Program Files/Microsoft SQL Server/170/Tools/Binn/arm-none-eabi-g++.com"
+      - "C:/Program Files/Microsoft SQL Server/170/Tools/Binn/arm-none-eabi-g++.exe"
+      - "C:/Program Files/Microsoft SQL Server/170/Tools/Binn/arm-none-eabi-g++"
+      - "C:/Program Files (x86)/IncrediBuild/arm-none-eabi-g++.com"
+      - "C:/Program Files (x86)/IncrediBuild/arm-none-eabi-g++.exe"
+      - "C:/Program Files (x86)/IncrediBuild/arm-none-eabi-g++"
+      - "C:/Program Files (x86)/Windows Kits/10/Windows Performance Toolkit/arm-none-eabi-g++.com"
+      - "C:/Program Files (x86)/Windows Kits/10/Windows Performance Toolkit/arm-none-eabi-g++.exe"
+      - "C:/Program Files (x86)/Windows Kits/10/Windows Performance Toolkit/arm-none-eabi-g++"
+      - "C:/Program Files/nodejs/arm-none-eabi-g++.com"
+      - "C:/Program Files/nodejs/arm-none-eabi-g++.exe"
+      - "C:/Program Files/nodejs/arm-none-eabi-g++"
+      - "C:/ProgramData/chocolatey/bin/arm-none-eabi-g++.com"
+      - "C:/ProgramData/chocolatey/bin/arm-none-eabi-g++.exe"
+      - "C:/ProgramData/chocolatey/bin/arm-none-eabi-g++"
+      - "C:/Program Files/Git/cmd/arm-none-eabi-g++.com"
+      - "C:/Program Files/Git/cmd/arm-none-eabi-g++.exe"
+      - "C:/Program Files/Git/cmd/arm-none-eabi-g++"
+      - "C:/Program Files/dotnet/arm-none-eabi-g++.com"
+      - "C:/Program Files/dotnet/arm-none-eabi-g++.exe"
+      - "C:/Program Files/dotnet/arm-none-eabi-g++"
       - "C:/Users/david/scoop/apps/gcc-arm-none-eabi/current/bin/arm-none-eabi-g++.com"
     found: "C:/Users/david/scoop/apps/gcc-arm-none-eabi/current/bin/arm-none-eabi-g++.exe"
     search_context:
       ENV{PATH}:
         - "c:\\Users\\david\\.cursor\\extensions\\vadimcn.vscode-lldb-1.12.0\\bin"
-        - "C:\\Users\\david\\scoop\\apps\\gcc-arm-none-eabi\\current\\bin"
-        - "C:\\Users\\david\\scoop\\shims"
         - "C:\\Python314\\Scripts\\"
         - "C:\\Python314\\"
         - "C:\\Program Files (x86)\\Razer\\ChromaBroadcast\\bin"
@@ -304,9 +437,8 @@ events:
         - "C:\\ProgramData\\chocolatey\\bin"
         - "C:\\Program Files\\Git\\cmd"
         - "C:\\Program Files\\dotnet\\"
-        - "C:\\Users\\david\\AppData\\Local\\Programs\\Python\\Python313\\Scripts\\"
-        - "C:\\Users\\david\\AppData\\Local\\Programs\\Python\\Python313\\"
-        - "C:\\Users\\david\\AppData\\Local\\Microsoft\\WindowsApps"
+        - "C:\\Users\\david\\scoop\\apps\\gcc-arm-none-eabi\\current\\bin"
+        - "C:\\Users\\david\\scoop\\shims"
         - "C:\\Users\\david\\AppData\\Local\\Programs\\cursor\\resources\\app\\bin"
         - "C:\\msys64\\ucrt64\\bin"
         - "C:\\Users\\david\\AppData\\Roaming\\npm"
@@ -314,10 +446,10 @@ events:
   -
     kind: "find-v1"
     backtrace:
-      - "C:/pico/pico-sdk/cmake/preload/toolchains/util/find_compiler.cmake:12 (find_program)"
-      - "C:/pico/pico-sdk/cmake/preload/toolchains/util/find_compiler.cmake:39 (pico_find_compiler)"
-      - "C:/pico/pico-sdk/cmake/preload/toolchains/util/pico_arm_gcc_common.cmake:28 (pico_find_compiler_with_triples)"
-      - "C:/pico/pico-sdk/cmake/preload/toolchains/pico_arm_cortex_m0plus_gcc.cmake:7 (include)"
+      - "C:/Users/david/Downloads/myshit/pico-sdk/cmake/preload/toolchains/util/find_compiler.cmake:12 (find_program)"
+      - "C:/Users/david/Downloads/myshit/pico-sdk/cmake/preload/toolchains/util/find_compiler.cmake:39 (pico_find_compiler)"
+      - "C:/Users/david/Downloads/myshit/pico-sdk/cmake/preload/toolchains/util/pico_arm_gcc_common.cmake:28 (pico_find_compiler_with_triples)"
+      - "C:/Users/david/Downloads/myshit/pico-sdk/cmake/preload/toolchains/pico_arm_cortex_m0plus_gcc.cmake:7 (include)"
       - "C:/Users/david/scoop/apps/cmake/current/share/cmake-4.3/Modules/CMakeDetermineSystem.cmake:146 (include)"
       - "CMakeLists.txt:5 (project)"
     mode: "program"
@@ -337,8 +469,6 @@ events:
     search_context:
       ENV{PATH}:
         - "c:\\Users\\david\\.cursor\\extensions\\vadimcn.vscode-lldb-1.12.0\\bin"
-        - "C:\\Users\\david\\scoop\\apps\\gcc-arm-none-eabi\\current\\bin"
-        - "C:\\Users\\david\\scoop\\shims"
         - "C:\\Python314\\Scripts\\"
         - "C:\\Python314\\"
         - "C:\\Program Files (x86)\\Razer\\ChromaBroadcast\\bin"
@@ -363,9 +493,8 @@ events:
         - "C:\\ProgramData\\chocolatey\\bin"
         - "C:\\Program Files\\Git\\cmd"
         - "C:\\Program Files\\dotnet\\"
-        - "C:\\Users\\david\\AppData\\Local\\Programs\\Python\\Python313\\Scripts\\"
-        - "C:\\Users\\david\\AppData\\Local\\Programs\\Python\\Python313\\"
-        - "C:\\Users\\david\\AppData\\Local\\Microsoft\\WindowsApps"
+        - "C:\\Users\\david\\scoop\\apps\\gcc-arm-none-eabi\\current\\bin"
+        - "C:\\Users\\david\\scoop\\shims"
         - "C:\\Users\\david\\AppData\\Local\\Programs\\cursor\\resources\\app\\bin"
         - "C:\\msys64\\ucrt64\\bin"
         - "C:\\Users\\david\\AppData\\Roaming\\npm"
@@ -373,10 +502,10 @@ events:
   -
     kind: "find-v1"
     backtrace:
-      - "C:/pico/pico-sdk/cmake/preload/toolchains/util/find_compiler.cmake:24 (find_program)"
-      - "C:/pico/pico-sdk/cmake/preload/toolchains/util/find_compiler.cmake:39 (pico_find_compiler)"
-      - "C:/pico/pico-sdk/cmake/preload/toolchains/util/pico_arm_gcc_common.cmake:28 (pico_find_compiler_with_triples)"
-      - "C:/pico/pico-sdk/cmake/preload/toolchains/pico_arm_cortex_m0plus_gcc.cmake:7 (include)"
+      - "C:/Users/david/Downloads/myshit/pico-sdk/cmake/preload/toolchains/util/find_compiler.cmake:24 (find_program)"
+      - "C:/Users/david/Downloads/myshit/pico-sdk/cmake/preload/toolchains/util/find_compiler.cmake:39 (pico_find_compiler)"
+      - "C:/Users/david/Downloads/myshit/pico-sdk/cmake/preload/toolchains/util/pico_arm_gcc_common.cmake:28 (pico_find_compiler_with_triples)"
+      - "C:/Users/david/Downloads/myshit/pico-sdk/cmake/preload/toolchains/pico_arm_cortex_m0plus_gcc.cmake:7 (include)"
       - "C:/Users/david/scoop/apps/cmake/current/share/cmake-4.3/Modules/CMakeDetermineSystem.cmake:146 (include)"
       - "CMakeLists.txt:5 (project)"
     mode: "program"
@@ -394,8 +523,6 @@ events:
       - "arm-none-eabi-objcopy"
     candidate_directories:
       - "C:/Users/david/.cursor/extensions/vadimcn.vscode-lldb-1.12.0/bin/"
-      - "C:/Users/david/scoop/apps/gcc-arm-none-eabi/current/bin/"
-      - "C:/Users/david/scoop/shims/"
       - "C:/Python314/Scripts/"
       - "C:/Python314/"
       - "C:/Program Files (x86)/Razer/ChromaBroadcast/bin/"
@@ -420,6 +547,8 @@ events:
       - "C:/ProgramData/chocolatey/bin/"
       - "C:/Program Files/Git/cmd/"
       - "C:/Program Files/dotnet/"
+      - "C:/Users/david/scoop/apps/gcc-arm-none-eabi/current/bin/"
+      - "C:/Users/david/scoop/shims/"
       - "C:/Users/david/AppData/Local/Programs/cursor/resources/app/bin/"
       - "C:/msys64/ucrt64/bin/"
       - "C:/Users/david/AppData/Roaming/npm/"
@@ -428,13 +557,83 @@ events:
       - "C:/Users/david/.cursor/extensions/vadimcn.vscode-lldb-1.12.0/bin/arm-none-eabi-objcopy.com"
       - "C:/Users/david/.cursor/extensions/vadimcn.vscode-lldb-1.12.0/bin/arm-none-eabi-objcopy.exe"
       - "C:/Users/david/.cursor/extensions/vadimcn.vscode-lldb-1.12.0/bin/arm-none-eabi-objcopy"
+      - "C:/Python314/Scripts/arm-none-eabi-objcopy.com"
+      - "C:/Python314/Scripts/arm-none-eabi-objcopy.exe"
+      - "C:/Python314/Scripts/arm-none-eabi-objcopy"
+      - "C:/Python314/arm-none-eabi-objcopy.com"
+      - "C:/Python314/arm-none-eabi-objcopy.exe"
+      - "C:/Python314/arm-none-eabi-objcopy"
+      - "C:/Program Files (x86)/Razer/ChromaBroadcast/bin/arm-none-eabi-objcopy.com"
+      - "C:/Program Files (x86)/Razer/ChromaBroadcast/bin/arm-none-eabi-objcopy.exe"
+      - "C:/Program Files (x86)/Razer/ChromaBroadcast/bin/arm-none-eabi-objcopy"
+      - "C:/Program Files/Razer/ChromaBroadcast/bin/arm-none-eabi-objcopy.com"
+      - "C:/Program Files/Razer/ChromaBroadcast/bin/arm-none-eabi-objcopy.exe"
+      - "C:/Program Files/Razer/ChromaBroadcast/bin/arm-none-eabi-objcopy"
+      - "C:/Windows/System32/arm-none-eabi-objcopy.com"
+      - "C:/Windows/System32/arm-none-eabi-objcopy.exe"
+      - "C:/Windows/System32/arm-none-eabi-objcopy"
+      - "C:/Windows/arm-none-eabi-objcopy.com"
+      - "C:/Windows/arm-none-eabi-objcopy.exe"
+      - "C:/Windows/arm-none-eabi-objcopy"
+      - "C:/Windows/System32/wbem/arm-none-eabi-objcopy.com"
+      - "C:/Windows/System32/wbem/arm-none-eabi-objcopy.exe"
+      - "C:/Windows/System32/wbem/arm-none-eabi-objcopy"
+      - "C:/Windows/System32/WindowsPowerShell/v1.0/arm-none-eabi-objcopy.com"
+      - "C:/Windows/System32/WindowsPowerShell/v1.0/arm-none-eabi-objcopy.exe"
+      - "C:/Windows/System32/WindowsPowerShell/v1.0/arm-none-eabi-objcopy"
+      - "C:/Windows/System32/OpenSSH/arm-none-eabi-objcopy.com"
+      - "C:/Windows/System32/OpenSSH/arm-none-eabi-objcopy.exe"
+      - "C:/Windows/System32/OpenSSH/arm-none-eabi-objcopy"
+      - "C:/Program Files/NVIDIA Corporation/NVIDIA App/NvDLISR/arm-none-eabi-objcopy.com"
+      - "C:/Program Files/NVIDIA Corporation/NVIDIA App/NvDLISR/arm-none-eabi-objcopy.exe"
+      - "C:/Program Files/NVIDIA Corporation/NVIDIA App/NvDLISR/arm-none-eabi-objcopy"
+      - "C:/Program Files (x86)/NVIDIA Corporation/PhysX/Common/arm-none-eabi-objcopy.com"
+      - "C:/Program Files (x86)/NVIDIA Corporation/PhysX/Common/arm-none-eabi-objcopy.exe"
+      - "C:/Program Files (x86)/NVIDIA Corporation/PhysX/Common/arm-none-eabi-objcopy"
+      - "C:/Windows/System32/config/systemprofile/AppData/Local/Microsoft/WindowsApps/arm-none-eabi-objcopy.com"
+      - "C:/Windows/System32/config/systemprofile/AppData/Local/Microsoft/WindowsApps/arm-none-eabi-objcopy.exe"
+      - "C:/Windows/System32/config/systemprofile/AppData/Local/Microsoft/WindowsApps/arm-none-eabi-objcopy"
+      - "C:/Program Files (x86)/Razer Chroma SDK/bin/arm-none-eabi-objcopy.com"
+      - "C:/Program Files (x86)/Razer Chroma SDK/bin/arm-none-eabi-objcopy.exe"
+      - "C:/Program Files (x86)/Razer Chroma SDK/bin/arm-none-eabi-objcopy"
+      - "C:/Program Files/Razer Chroma SDK/bin/arm-none-eabi-objcopy.com"
+      - "C:/Program Files/Razer Chroma SDK/bin/arm-none-eabi-objcopy.exe"
+      - "C:/Program Files/Razer Chroma SDK/bin/arm-none-eabi-objcopy"
+      - "C:/Users/david/AppData/Local/Programs/Python/Python313/Scripts/arm-none-eabi-objcopy.com"
+      - "C:/Users/david/AppData/Local/Programs/Python/Python313/Scripts/arm-none-eabi-objcopy.exe"
+      - "C:/Users/david/AppData/Local/Programs/Python/Python313/Scripts/arm-none-eabi-objcopy"
+      - "C:/Users/david/AppData/Local/Programs/Python/Python313/arm-none-eabi-objcopy.com"
+      - "C:/Users/david/AppData/Local/Programs/Python/Python313/arm-none-eabi-objcopy.exe"
+      - "C:/Users/david/AppData/Local/Programs/Python/Python313/arm-none-eabi-objcopy"
+      - "C:/Users/david/AppData/Local/Microsoft/WindowsApps/arm-none-eabi-objcopy.com"
+      - "C:/Users/david/AppData/Local/Microsoft/WindowsApps/arm-none-eabi-objcopy.exe"
+      - "C:/Users/david/AppData/Local/Microsoft/WindowsApps/arm-none-eabi-objcopy"
+      - "C:/Program Files/Microsoft SQL Server/170/Tools/Binn/arm-none-eabi-objcopy.com"
+      - "C:/Program Files/Microsoft SQL Server/170/Tools/Binn/arm-none-eabi-objcopy.exe"
+      - "C:/Program Files/Microsoft SQL Server/170/Tools/Binn/arm-none-eabi-objcopy"
+      - "C:/Program Files (x86)/IncrediBuild/arm-none-eabi-objcopy.com"
+      - "C:/Program Files (x86)/IncrediBuild/arm-none-eabi-objcopy.exe"
+      - "C:/Program Files (x86)/IncrediBuild/arm-none-eabi-objcopy"
+      - "C:/Program Files (x86)/Windows Kits/10/Windows Performance Toolkit/arm-none-eabi-objcopy.com"
+      - "C:/Program Files (x86)/Windows Kits/10/Windows Performance Toolkit/arm-none-eabi-objcopy.exe"
+      - "C:/Program Files (x86)/Windows Kits/10/Windows Performance Toolkit/arm-none-eabi-objcopy"
+      - "C:/Program Files/nodejs/arm-none-eabi-objcopy.com"
+      - "C:/Program Files/nodejs/arm-none-eabi-objcopy.exe"
+      - "C:/Program Files/nodejs/arm-none-eabi-objcopy"
+      - "C:/ProgramData/chocolatey/bin/arm-none-eabi-objcopy.com"
+      - "C:/ProgramData/chocolatey/bin/arm-none-eabi-objcopy.exe"
+      - "C:/ProgramData/chocolatey/bin/arm-none-eabi-objcopy"
+      - "C:/Program Files/Git/cmd/arm-none-eabi-objcopy.com"
+      - "C:/Program Files/Git/cmd/arm-none-eabi-objcopy.exe"
+      - "C:/Program Files/Git/cmd/arm-none-eabi-objcopy"
+      - "C:/Program Files/dotnet/arm-none-eabi-objcopy.com"
+      - "C:/Program Files/dotnet/arm-none-eabi-objcopy.exe"
+      - "C:/Program Files/dotnet/arm-none-eabi-objcopy"
       - "C:/Users/david/scoop/apps/gcc-arm-none-eabi/current/bin/arm-none-eabi-objcopy.com"
     found: "C:/Users/david/scoop/apps/gcc-arm-none-eabi/current/bin/arm-none-eabi-objcopy.exe"
     search_context:
       ENV{PATH}:
         - "c:\\Users\\david\\.cursor\\extensions\\vadimcn.vscode-lldb-1.12.0\\bin"
-        - "C:\\Users\\david\\scoop\\apps\\gcc-arm-none-eabi\\current\\bin"
-        - "C:\\Users\\david\\scoop\\shims"
         - "C:\\Python314\\Scripts\\"
         - "C:\\Python314\\"
         - "C:\\Program Files (x86)\\Razer\\ChromaBroadcast\\bin"
@@ -459,9 +658,8 @@ events:
         - "C:\\ProgramData\\chocolatey\\bin"
         - "C:\\Program Files\\Git\\cmd"
         - "C:\\Program Files\\dotnet\\"
-        - "C:\\Users\\david\\AppData\\Local\\Programs\\Python\\Python313\\Scripts\\"
-        - "C:\\Users\\david\\AppData\\Local\\Programs\\Python\\Python313\\"
-        - "C:\\Users\\david\\AppData\\Local\\Microsoft\\WindowsApps"
+        - "C:\\Users\\david\\scoop\\apps\\gcc-arm-none-eabi\\current\\bin"
+        - "C:\\Users\\david\\scoop\\shims"
         - "C:\\Users\\david\\AppData\\Local\\Programs\\cursor\\resources\\app\\bin"
         - "C:\\msys64\\ucrt64\\bin"
         - "C:\\Users\\david\\AppData\\Roaming\\npm"
@@ -469,10 +667,10 @@ events:
   -
     kind: "find-v1"
     backtrace:
-      - "C:/pico/pico-sdk/cmake/preload/toolchains/util/find_compiler.cmake:12 (find_program)"
-      - "C:/pico/pico-sdk/cmake/preload/toolchains/util/find_compiler.cmake:39 (pico_find_compiler)"
-      - "C:/pico/pico-sdk/cmake/preload/toolchains/util/pico_arm_gcc_common.cmake:29 (pico_find_compiler_with_triples)"
-      - "C:/pico/pico-sdk/cmake/preload/toolchains/pico_arm_cortex_m0plus_gcc.cmake:7 (include)"
+      - "C:/Users/david/Downloads/myshit/pico-sdk/cmake/preload/toolchains/util/find_compiler.cmake:12 (find_program)"
+      - "C:/Users/david/Downloads/myshit/pico-sdk/cmake/preload/toolchains/util/find_compiler.cmake:39 (pico_find_compiler)"
+      - "C:/Users/david/Downloads/myshit/pico-sdk/cmake/preload/toolchains/util/pico_arm_gcc_common.cmake:29 (pico_find_compiler_with_triples)"
+      - "C:/Users/david/Downloads/myshit/pico-sdk/cmake/preload/toolchains/pico_arm_cortex_m0plus_gcc.cmake:7 (include)"
       - "C:/Users/david/scoop/apps/cmake/current/share/cmake-4.3/Modules/CMakeDetermineSystem.cmake:146 (include)"
       - "CMakeLists.txt:5 (project)"
     mode: "program"
@@ -492,8 +690,6 @@ events:
     search_context:
       ENV{PATH}:
         - "c:\\Users\\david\\.cursor\\extensions\\vadimcn.vscode-lldb-1.12.0\\bin"
-        - "C:\\Users\\david\\scoop\\apps\\gcc-arm-none-eabi\\current\\bin"
-        - "C:\\Users\\david\\scoop\\shims"
         - "C:\\Python314\\Scripts\\"
         - "C:\\Python314\\"
         - "C:\\Program Files (x86)\\Razer\\ChromaBroadcast\\bin"
@@ -518,9 +714,8 @@ events:
         - "C:\\ProgramData\\chocolatey\\bin"
         - "C:\\Program Files\\Git\\cmd"
         - "C:\\Program Files\\dotnet\\"
-        - "C:\\Users\\david\\AppData\\Local\\Programs\\Python\\Python313\\Scripts\\"
-        - "C:\\Users\\david\\AppData\\Local\\Programs\\Python\\Python313\\"
-        - "C:\\Users\\david\\AppData\\Local\\Microsoft\\WindowsApps"
+        - "C:\\Users\\david\\scoop\\apps\\gcc-arm-none-eabi\\current\\bin"
+        - "C:\\Users\\david\\scoop\\shims"
         - "C:\\Users\\david\\AppData\\Local\\Programs\\cursor\\resources\\app\\bin"
         - "C:\\msys64\\ucrt64\\bin"
         - "C:\\Users\\david\\AppData\\Roaming\\npm"
@@ -528,10 +723,10 @@ events:
   -
     kind: "find-v1"
     backtrace:
-      - "C:/pico/pico-sdk/cmake/preload/toolchains/util/find_compiler.cmake:24 (find_program)"
-      - "C:/pico/pico-sdk/cmake/preload/toolchains/util/find_compiler.cmake:39 (pico_find_compiler)"
-      - "C:/pico/pico-sdk/cmake/preload/toolchains/util/pico_arm_gcc_common.cmake:29 (pico_find_compiler_with_triples)"
-      - "C:/pico/pico-sdk/cmake/preload/toolchains/pico_arm_cortex_m0plus_gcc.cmake:7 (include)"
+      - "C:/Users/david/Downloads/myshit/pico-sdk/cmake/preload/toolchains/util/find_compiler.cmake:24 (find_program)"
+      - "C:/Users/david/Downloads/myshit/pico-sdk/cmake/preload/toolchains/util/find_compiler.cmake:39 (pico_find_compiler)"
+      - "C:/Users/david/Downloads/myshit/pico-sdk/cmake/preload/toolchains/util/pico_arm_gcc_common.cmake:29 (pico_find_compiler_with_triples)"
+      - "C:/Users/david/Downloads/myshit/pico-sdk/cmake/preload/toolchains/pico_arm_cortex_m0plus_gcc.cmake:7 (include)"
       - "C:/Users/david/scoop/apps/cmake/current/share/cmake-4.3/Modules/CMakeDetermineSystem.cmake:146 (include)"
       - "CMakeLists.txt:5 (project)"
     mode: "program"
@@ -549,8 +744,6 @@ events:
       - "arm-none-eabi-objdump"
     candidate_directories:
       - "C:/Users/david/.cursor/extensions/vadimcn.vscode-lldb-1.12.0/bin/"
-      - "C:/Users/david/scoop/apps/gcc-arm-none-eabi/current/bin/"
-      - "C:/Users/david/scoop/shims/"
       - "C:/Python314/Scripts/"
       - "C:/Python314/"
       - "C:/Program Files (x86)/Razer/ChromaBroadcast/bin/"
@@ -575,6 +768,8 @@ events:
       - "C:/ProgramData/chocolatey/bin/"
       - "C:/Program Files/Git/cmd/"
       - "C:/Program Files/dotnet/"
+      - "C:/Users/david/scoop/apps/gcc-arm-none-eabi/current/bin/"
+      - "C:/Users/david/scoop/shims/"
       - "C:/Users/david/AppData/Local/Programs/cursor/resources/app/bin/"
       - "C:/msys64/ucrt64/bin/"
       - "C:/Users/david/AppData/Roaming/npm/"
@@ -583,13 +778,83 @@ events:
       - "C:/Users/david/.cursor/extensions/vadimcn.vscode-lldb-1.12.0/bin/arm-none-eabi-objdump.com"
       - "C:/Users/david/.cursor/extensions/vadimcn.vscode-lldb-1.12.0/bin/arm-none-eabi-objdump.exe"
       - "C:/Users/david/.cursor/extensions/vadimcn.vscode-lldb-1.12.0/bin/arm-none-eabi-objdump"
+      - "C:/Python314/Scripts/arm-none-eabi-objdump.com"
+      - "C:/Python314/Scripts/arm-none-eabi-objdump.exe"
+      - "C:/Python314/Scripts/arm-none-eabi-objdump"
+      - "C:/Python314/arm-none-eabi-objdump.com"
+      - "C:/Python314/arm-none-eabi-objdump.exe"
+      - "C:/Python314/arm-none-eabi-objdump"
+      - "C:/Program Files (x86)/Razer/ChromaBroadcast/bin/arm-none-eabi-objdump.com"
+      - "C:/Program Files (x86)/Razer/ChromaBroadcast/bin/arm-none-eabi-objdump.exe"
+      - "C:/Program Files (x86)/Razer/ChromaBroadcast/bin/arm-none-eabi-objdump"
+      - "C:/Program Files/Razer/ChromaBroadcast/bin/arm-none-eabi-objdump.com"
+      - "C:/Program Files/Razer/ChromaBroadcast/bin/arm-none-eabi-objdump.exe"
+      - "C:/Program Files/Razer/ChromaBroadcast/bin/arm-none-eabi-objdump"
+      - "C:/Windows/System32/arm-none-eabi-objdump.com"
+      - "C:/Windows/System32/arm-none-eabi-objdump.exe"
+      - "C:/Windows/System32/arm-none-eabi-objdump"
+      - "C:/Windows/arm-none-eabi-objdump.com"
+      - "C:/Windows/arm-none-eabi-objdump.exe"
+      - "C:/Windows/arm-none-eabi-objdump"
+      - "C:/Windows/System32/wbem/arm-none-eabi-objdump.com"
+      - "C:/Windows/System32/wbem/arm-none-eabi-objdump.exe"
+      - "C:/Windows/System32/wbem/arm-none-eabi-objdump"
+      - "C:/Windows/System32/WindowsPowerShell/v1.0/arm-none-eabi-objdump.com"
+      - "C:/Windows/System32/WindowsPowerShell/v1.0/arm-none-eabi-objdump.exe"
+      - "C:/Windows/System32/WindowsPowerShell/v1.0/arm-none-eabi-objdump"
+      - "C:/Windows/System32/OpenSSH/arm-none-eabi-objdump.com"
+      - "C:/Windows/System32/OpenSSH/arm-none-eabi-objdump.exe"
+      - "C:/Windows/System32/OpenSSH/arm-none-eabi-objdump"
+      - "C:/Program Files/NVIDIA Corporation/NVIDIA App/NvDLISR/arm-none-eabi-objdump.com"
+      - "C:/Program Files/NVIDIA Corporation/NVIDIA App/NvDLISR/arm-none-eabi-objdump.exe"
+      - "C:/Program Files/NVIDIA Corporation/NVIDIA App/NvDLISR/arm-none-eabi-objdump"
+      - "C:/Program Files (x86)/NVIDIA Corporation/PhysX/Common/arm-none-eabi-objdump.com"
+      - "C:/Program Files (x86)/NVIDIA Corporation/PhysX/Common/arm-none-eabi-objdump.exe"
+      - "C:/Program Files (x86)/NVIDIA Corporation/PhysX/Common/arm-none-eabi-objdump"
+      - "C:/Windows/System32/config/systemprofile/AppData/Local/Microsoft/WindowsApps/arm-none-eabi-objdump.com"
+      - "C:/Windows/System32/config/systemprofile/AppData/Local/Microsoft/WindowsApps/arm-none-eabi-objdump.exe"
+      - "C:/Windows/System32/config/systemprofile/AppData/Local/Microsoft/WindowsApps/arm-none-eabi-objdump"
+      - "C:/Program Files (x86)/Razer Chroma SDK/bin/arm-none-eabi-objdump.com"
+      - "C:/Program Files (x86)/Razer Chroma SDK/bin/arm-none-eabi-objdump.exe"
+      - "C:/Program Files (x86)/Razer Chroma SDK/bin/arm-none-eabi-objdump"
+      - "C:/Program Files/Razer Chroma SDK/bin/arm-none-eabi-objdump.com"
+      - "C:/Program Files/Razer Chroma SDK/bin/arm-none-eabi-objdump.exe"
+      - "C:/Program Files/Razer Chroma SDK/bin/arm-none-eabi-objdump"
+      - "C:/Users/david/AppData/Local/Programs/Python/Python313/Scripts/arm-none-eabi-objdump.com"
+      - "C:/Users/david/AppData/Local/Programs/Python/Python313/Scripts/arm-none-eabi-objdump.exe"
+      - "C:/Users/david/AppData/Local/Programs/Python/Python313/Scripts/arm-none-eabi-objdump"
+      - "C:/Users/david/AppData/Local/Programs/Python/Python313/arm-none-eabi-objdump.com"
+      - "C:/Users/david/AppData/Local/Programs/Python/Python313/arm-none-eabi-objdump.exe"
+      - "C:/Users/david/AppData/Local/Programs/Python/Python313/arm-none-eabi-objdump"
+      - "C:/Users/david/AppData/Local/Microsoft/WindowsApps/arm-none-eabi-objdump.com"
+      - "C:/Users/david/AppData/Local/Microsoft/WindowsApps/arm-none-eabi-objdump.exe"
+      - "C:/Users/david/AppData/Local/Microsoft/WindowsApps/arm-none-eabi-objdump"
+      - "C:/Program Files/Microsoft SQL Server/170/Tools/Binn/arm-none-eabi-objdump.com"
+      - "C:/Program Files/Microsoft SQL Server/170/Tools/Binn/arm-none-eabi-objdump.exe"
+      - "C:/Program Files/Microsoft SQL Server/170/Tools/Binn/arm-none-eabi-objdump"
+      - "C:/Program Files (x86)/IncrediBuild/arm-none-eabi-objdump.com"
+      - "C:/Program Files (x86)/IncrediBuild/arm-none-eabi-objdump.exe"
+      - "C:/Program Files (x86)/IncrediBuild/arm-none-eabi-objdump"
+      - "C:/Program Files (x86)/Windows Kits/10/Windows Performance Toolkit/arm-none-eabi-objdump.com"
+      - "C:/Program Files (x86)/Windows Kits/10/Windows Performance Toolkit/arm-none-eabi-objdump.exe"
+      - "C:/Program Files (x86)/Windows Kits/10/Windows Performance Toolkit/arm-none-eabi-objdump"
+      - "C:/Program Files/nodejs/arm-none-eabi-objdump.com"
+      - "C:/Program Files/nodejs/arm-none-eabi-objdump.exe"
+      - "C:/Program Files/nodejs/arm-none-eabi-objdump"
+      - "C:/ProgramData/chocolatey/bin/arm-none-eabi-objdump.com"
+      - "C:/ProgramData/chocolatey/bin/arm-none-eabi-objdump.exe"
+      - "C:/ProgramData/chocolatey/bin/arm-none-eabi-objdump"
+      - "C:/Program Files/Git/cmd/arm-none-eabi-objdump.com"
+      - "C:/Program Files/Git/cmd/arm-none-eabi-objdump.exe"
+      - "C:/Program Files/Git/cmd/arm-none-eabi-objdump"
+      - "C:/Program Files/dotnet/arm-none-eabi-objdump.com"
+      - "C:/Program Files/dotnet/arm-none-eabi-objdump.exe"
+      - "C:/Program Files/dotnet/arm-none-eabi-objdump"
       - "C:/Users/david/scoop/apps/gcc-arm-none-eabi/current/bin/arm-none-eabi-objdump.com"
     found: "C:/Users/david/scoop/apps/gcc-arm-none-eabi/current/bin/arm-none-eabi-objdump.exe"
     search_context:
       ENV{PATH}:
         - "c:\\Users\\david\\.cursor\\extensions\\vadimcn.vscode-lldb-1.12.0\\bin"
-        - "C:\\Users\\david\\scoop\\apps\\gcc-arm-none-eabi\\current\\bin"
-        - "C:\\Users\\david\\scoop\\shims"
         - "C:\\Python314\\Scripts\\"
         - "C:\\Python314\\"
         - "C:\\Program Files (x86)\\Razer\\ChromaBroadcast\\bin"
@@ -614,9 +879,8 @@ events:
         - "C:\\ProgramData\\chocolatey\\bin"
         - "C:\\Program Files\\Git\\cmd"
         - "C:\\Program Files\\dotnet\\"
-        - "C:\\Users\\david\\AppData\\Local\\Programs\\Python\\Python313\\Scripts\\"
-        - "C:\\Users\\david\\AppData\\Local\\Programs\\Python\\Python313\\"
-        - "C:\\Users\\david\\AppData\\Local\\Microsoft\\WindowsApps"
+        - "C:\\Users\\david\\scoop\\apps\\gcc-arm-none-eabi\\current\\bin"
+        - "C:\\Users\\david\\scoop\\shims"
         - "C:\\Users\\david\\AppData\\Local\\Programs\\cursor\\resources\\app\\bin"
         - "C:\\msys64\\ucrt64\\bin"
         - "C:\\Users\\david\\AppData\\Roaming\\npm"
@@ -651,8 +915,6 @@ events:
       - "samu"
     candidate_directories:
       - "C:/Users/david/.cursor/extensions/vadimcn.vscode-lldb-1.12.0/bin/"
-      - "C:/Users/david/scoop/apps/gcc-arm-none-eabi/current/bin/"
-      - "C:/Users/david/scoop/shims/"
       - "C:/Python314/Scripts/"
       - "C:/Python314/"
       - "C:/Program Files (x86)/Razer/ChromaBroadcast/bin/"
@@ -677,6 +939,8 @@ events:
       - "C:/ProgramData/chocolatey/bin/"
       - "C:/Program Files/Git/cmd/"
       - "C:/Program Files/dotnet/"
+      - "C:/Users/david/scoop/apps/gcc-arm-none-eabi/current/bin/"
+      - "C:/Users/david/scoop/shims/"
       - "C:/Users/david/AppData/Local/Programs/cursor/resources/app/bin/"
       - "C:/msys64/ucrt64/bin/"
       - "C:/Users/david/AppData/Roaming/npm/"
@@ -691,6 +955,222 @@ events:
       - "C:/Users/david/.cursor/extensions/vadimcn.vscode-lldb-1.12.0/bin/samu.com"
       - "C:/Users/david/.cursor/extensions/vadimcn.vscode-lldb-1.12.0/bin/samu.exe"
       - "C:/Users/david/.cursor/extensions/vadimcn.vscode-lldb-1.12.0/bin/samu"
+      - "C:/Python314/Scripts/ninja-build.com"
+      - "C:/Python314/Scripts/ninja-build.exe"
+      - "C:/Python314/Scripts/ninja-build"
+      - "C:/Python314/Scripts/ninja.com"
+      - "C:/Python314/Scripts/ninja.exe"
+      - "C:/Python314/Scripts/ninja"
+      - "C:/Python314/Scripts/samu.com"
+      - "C:/Python314/Scripts/samu.exe"
+      - "C:/Python314/Scripts/samu"
+      - "C:/Python314/ninja-build.com"
+      - "C:/Python314/ninja-build.exe"
+      - "C:/Python314/ninja-build"
+      - "C:/Python314/ninja.com"
+      - "C:/Python314/ninja.exe"
+      - "C:/Python314/ninja"
+      - "C:/Python314/samu.com"
+      - "C:/Python314/samu.exe"
+      - "C:/Python314/samu"
+      - "C:/Program Files (x86)/Razer/ChromaBroadcast/bin/ninja-build.com"
+      - "C:/Program Files (x86)/Razer/ChromaBroadcast/bin/ninja-build.exe"
+      - "C:/Program Files (x86)/Razer/ChromaBroadcast/bin/ninja-build"
+      - "C:/Program Files (x86)/Razer/ChromaBroadcast/bin/ninja.com"
+      - "C:/Program Files (x86)/Razer/ChromaBroadcast/bin/ninja.exe"
+      - "C:/Program Files (x86)/Razer/ChromaBroadcast/bin/ninja"
+      - "C:/Program Files (x86)/Razer/ChromaBroadcast/bin/samu.com"
+      - "C:/Program Files (x86)/Razer/ChromaBroadcast/bin/samu.exe"
+      - "C:/Program Files (x86)/Razer/ChromaBroadcast/bin/samu"
+      - "C:/Program Files/Razer/ChromaBroadcast/bin/ninja-build.com"
+      - "C:/Program Files/Razer/ChromaBroadcast/bin/ninja-build.exe"
+      - "C:/Program Files/Razer/ChromaBroadcast/bin/ninja-build"
+      - "C:/Program Files/Razer/ChromaBroadcast/bin/ninja.com"
+      - "C:/Program Files/Razer/ChromaBroadcast/bin/ninja.exe"
+      - "C:/Program Files/Razer/ChromaBroadcast/bin/ninja"
+      - "C:/Program Files/Razer/ChromaBroadcast/bin/samu.com"
+      - "C:/Program Files/Razer/ChromaBroadcast/bin/samu.exe"
+      - "C:/Program Files/Razer/ChromaBroadcast/bin/samu"
+      - "C:/Windows/System32/ninja-build.com"
+      - "C:/Windows/System32/ninja-build.exe"
+      - "C:/Windows/System32/ninja-build"
+      - "C:/Windows/System32/ninja.com"
+      - "C:/Windows/System32/ninja.exe"
+      - "C:/Windows/System32/ninja"
+      - "C:/Windows/System32/samu.com"
+      - "C:/Windows/System32/samu.exe"
+      - "C:/Windows/System32/samu"
+      - "C:/Windows/ninja-build.com"
+      - "C:/Windows/ninja-build.exe"
+      - "C:/Windows/ninja-build"
+      - "C:/Windows/ninja.com"
+      - "C:/Windows/ninja.exe"
+      - "C:/Windows/ninja"
+      - "C:/Windows/samu.com"
+      - "C:/Windows/samu.exe"
+      - "C:/Windows/samu"
+      - "C:/Windows/System32/wbem/ninja-build.com"
+      - "C:/Windows/System32/wbem/ninja-build.exe"
+      - "C:/Windows/System32/wbem/ninja-build"
+      - "C:/Windows/System32/wbem/ninja.com"
+      - "C:/Windows/System32/wbem/ninja.exe"
+      - "C:/Windows/System32/wbem/ninja"
+      - "C:/Windows/System32/wbem/samu.com"
+      - "C:/Windows/System32/wbem/samu.exe"
+      - "C:/Windows/System32/wbem/samu"
+      - "C:/Windows/System32/WindowsPowerShell/v1.0/ninja-build.com"
+      - "C:/Windows/System32/WindowsPowerShell/v1.0/ninja-build.exe"
+      - "C:/Windows/System32/WindowsPowerShell/v1.0/ninja-build"
+      - "C:/Windows/System32/WindowsPowerShell/v1.0/ninja.com"
+      - "C:/Windows/System32/WindowsPowerShell/v1.0/ninja.exe"
+      - "C:/Windows/System32/WindowsPowerShell/v1.0/ninja"
+      - "C:/Windows/System32/WindowsPowerShell/v1.0/samu.com"
+      - "C:/Windows/System32/WindowsPowerShell/v1.0/samu.exe"
+      - "C:/Windows/System32/WindowsPowerShell/v1.0/samu"
+      - "C:/Windows/System32/OpenSSH/ninja-build.com"
+      - "C:/Windows/System32/OpenSSH/ninja-build.exe"
+      - "C:/Windows/System32/OpenSSH/ninja-build"
+      - "C:/Windows/System32/OpenSSH/ninja.com"
+      - "C:/Windows/System32/OpenSSH/ninja.exe"
+      - "C:/Windows/System32/OpenSSH/ninja"
+      - "C:/Windows/System32/OpenSSH/samu.com"
+      - "C:/Windows/System32/OpenSSH/samu.exe"
+      - "C:/Windows/System32/OpenSSH/samu"
+      - "C:/Program Files/NVIDIA Corporation/NVIDIA App/NvDLISR/ninja-build.com"
+      - "C:/Program Files/NVIDIA Corporation/NVIDIA App/NvDLISR/ninja-build.exe"
+      - "C:/Program Files/NVIDIA Corporation/NVIDIA App/NvDLISR/ninja-build"
+      - "C:/Program Files/NVIDIA Corporation/NVIDIA App/NvDLISR/ninja.com"
+      - "C:/Program Files/NVIDIA Corporation/NVIDIA App/NvDLISR/ninja.exe"
+      - "C:/Program Files/NVIDIA Corporation/NVIDIA App/NvDLISR/ninja"
+      - "C:/Program Files/NVIDIA Corporation/NVIDIA App/NvDLISR/samu.com"
+      - "C:/Program Files/NVIDIA Corporation/NVIDIA App/NvDLISR/samu.exe"
+      - "C:/Program Files/NVIDIA Corporation/NVIDIA App/NvDLISR/samu"
+      - "C:/Program Files (x86)/NVIDIA Corporation/PhysX/Common/ninja-build.com"
+      - "C:/Program Files (x86)/NVIDIA Corporation/PhysX/Common/ninja-build.exe"
+      - "C:/Program Files (x86)/NVIDIA Corporation/PhysX/Common/ninja-build"
+      - "C:/Program Files (x86)/NVIDIA Corporation/PhysX/Common/ninja.com"
+      - "C:/Program Files (x86)/NVIDIA Corporation/PhysX/Common/ninja.exe"
+      - "C:/Program Files (x86)/NVIDIA Corporation/PhysX/Common/ninja"
+      - "C:/Program Files (x86)/NVIDIA Corporation/PhysX/Common/samu.com"
+      - "C:/Program Files (x86)/NVIDIA Corporation/PhysX/Common/samu.exe"
+      - "C:/Program Files (x86)/NVIDIA Corporation/PhysX/Common/samu"
+      - "C:/Windows/System32/config/systemprofile/AppData/Local/Microsoft/WindowsApps/ninja-build.com"
+      - "C:/Windows/System32/config/systemprofile/AppData/Local/Microsoft/WindowsApps/ninja-build.exe"
+      - "C:/Windows/System32/config/systemprofile/AppData/Local/Microsoft/WindowsApps/ninja-build"
+      - "C:/Windows/System32/config/systemprofile/AppData/Local/Microsoft/WindowsApps/ninja.com"
+      - "C:/Windows/System32/config/systemprofile/AppData/Local/Microsoft/WindowsApps/ninja.exe"
+      - "C:/Windows/System32/config/systemprofile/AppData/Local/Microsoft/WindowsApps/ninja"
+      - "C:/Windows/System32/config/systemprofile/AppData/Local/Microsoft/WindowsApps/samu.com"
+      - "C:/Windows/System32/config/systemprofile/AppData/Local/Microsoft/WindowsApps/samu.exe"
+      - "C:/Windows/System32/config/systemprofile/AppData/Local/Microsoft/WindowsApps/samu"
+      - "C:/Program Files (x86)/Razer Chroma SDK/bin/ninja-build.com"
+      - "C:/Program Files (x86)/Razer Chroma SDK/bin/ninja-build.exe"
+      - "C:/Program Files (x86)/Razer Chroma SDK/bin/ninja-build"
+      - "C:/Program Files (x86)/Razer Chroma SDK/bin/ninja.com"
+      - "C:/Program Files (x86)/Razer Chroma SDK/bin/ninja.exe"
+      - "C:/Program Files (x86)/Razer Chroma SDK/bin/ninja"
+      - "C:/Program Files (x86)/Razer Chroma SDK/bin/samu.com"
+      - "C:/Program Files (x86)/Razer Chroma SDK/bin/samu.exe"
+      - "C:/Program Files (x86)/Razer Chroma SDK/bin/samu"
+      - "C:/Program Files/Razer Chroma SDK/bin/ninja-build.com"
+      - "C:/Program Files/Razer Chroma SDK/bin/ninja-build.exe"
+      - "C:/Program Files/Razer Chroma SDK/bin/ninja-build"
+      - "C:/Program Files/Razer Chroma SDK/bin/ninja.com"
+      - "C:/Program Files/Razer Chroma SDK/bin/ninja.exe"
+      - "C:/Program Files/Razer Chroma SDK/bin/ninja"
+      - "C:/Program Files/Razer Chroma SDK/bin/samu.com"
+      - "C:/Program Files/Razer Chroma SDK/bin/samu.exe"
+      - "C:/Program Files/Razer Chroma SDK/bin/samu"
+      - "C:/Users/david/AppData/Local/Programs/Python/Python313/Scripts/ninja-build.com"
+      - "C:/Users/david/AppData/Local/Programs/Python/Python313/Scripts/ninja-build.exe"
+      - "C:/Users/david/AppData/Local/Programs/Python/Python313/Scripts/ninja-build"
+      - "C:/Users/david/AppData/Local/Programs/Python/Python313/Scripts/ninja.com"
+      - "C:/Users/david/AppData/Local/Programs/Python/Python313/Scripts/ninja.exe"
+      - "C:/Users/david/AppData/Local/Programs/Python/Python313/Scripts/ninja"
+      - "C:/Users/david/AppData/Local/Programs/Python/Python313/Scripts/samu.com"
+      - "C:/Users/david/AppData/Local/Programs/Python/Python313/Scripts/samu.exe"
+      - "C:/Users/david/AppData/Local/Programs/Python/Python313/Scripts/samu"
+      - "C:/Users/david/AppData/Local/Programs/Python/Python313/ninja-build.com"
+      - "C:/Users/david/AppData/Local/Programs/Python/Python313/ninja-build.exe"
+      - "C:/Users/david/AppData/Local/Programs/Python/Python313/ninja-build"
+      - "C:/Users/david/AppData/Local/Programs/Python/Python313/ninja.com"
+      - "C:/Users/david/AppData/Local/Programs/Python/Python313/ninja.exe"
+      - "C:/Users/david/AppData/Local/Programs/Python/Python313/ninja"
+      - "C:/Users/david/AppData/Local/Programs/Python/Python313/samu.com"
+      - "C:/Users/david/AppData/Local/Programs/Python/Python313/samu.exe"
+      - "C:/Users/david/AppData/Local/Programs/Python/Python313/samu"
+      - "C:/Users/david/AppData/Local/Microsoft/WindowsApps/ninja-build.com"
+      - "C:/Users/david/AppData/Local/Microsoft/WindowsApps/ninja-build.exe"
+      - "C:/Users/david/AppData/Local/Microsoft/WindowsApps/ninja-build"
+      - "C:/Users/david/AppData/Local/Microsoft/WindowsApps/ninja.com"
+      - "C:/Users/david/AppData/Local/Microsoft/WindowsApps/ninja.exe"
+      - "C:/Users/david/AppData/Local/Microsoft/WindowsApps/ninja"
+      - "C:/Users/david/AppData/Local/Microsoft/WindowsApps/samu.com"
+      - "C:/Users/david/AppData/Local/Microsoft/WindowsApps/samu.exe"
+      - "C:/Users/david/AppData/Local/Microsoft/WindowsApps/samu"
+      - "C:/Program Files/Microsoft SQL Server/170/Tools/Binn/ninja-build.com"
+      - "C:/Program Files/Microsoft SQL Server/170/Tools/Binn/ninja-build.exe"
+      - "C:/Program Files/Microsoft SQL Server/170/Tools/Binn/ninja-build"
+      - "C:/Program Files/Microsoft SQL Server/170/Tools/Binn/ninja.com"
+      - "C:/Program Files/Microsoft SQL Server/170/Tools/Binn/ninja.exe"
+      - "C:/Program Files/Microsoft SQL Server/170/Tools/Binn/ninja"
+      - "C:/Program Files/Microsoft SQL Server/170/Tools/Binn/samu.com"
+      - "C:/Program Files/Microsoft SQL Server/170/Tools/Binn/samu.exe"
+      - "C:/Program Files/Microsoft SQL Server/170/Tools/Binn/samu"
+      - "C:/Program Files (x86)/IncrediBuild/ninja-build.com"
+      - "C:/Program Files (x86)/IncrediBuild/ninja-build.exe"
+      - "C:/Program Files (x86)/IncrediBuild/ninja-build"
+      - "C:/Program Files (x86)/IncrediBuild/ninja.com"
+      - "C:/Program Files (x86)/IncrediBuild/ninja.exe"
+      - "C:/Program Files (x86)/IncrediBuild/ninja"
+      - "C:/Program Files (x86)/IncrediBuild/samu.com"
+      - "C:/Program Files (x86)/IncrediBuild/samu.exe"
+      - "C:/Program Files (x86)/IncrediBuild/samu"
+      - "C:/Program Files (x86)/Windows Kits/10/Windows Performance Toolkit/ninja-build.com"
+      - "C:/Program Files (x86)/Windows Kits/10/Windows Performance Toolkit/ninja-build.exe"
+      - "C:/Program Files (x86)/Windows Kits/10/Windows Performance Toolkit/ninja-build"
+      - "C:/Program Files (x86)/Windows Kits/10/Windows Performance Toolkit/ninja.com"
+      - "C:/Program Files (x86)/Windows Kits/10/Windows Performance Toolkit/ninja.exe"
+      - "C:/Program Files (x86)/Windows Kits/10/Windows Performance Toolkit/ninja"
+      - "C:/Program Files (x86)/Windows Kits/10/Windows Performance Toolkit/samu.com"
+      - "C:/Program Files (x86)/Windows Kits/10/Windows Performance Toolkit/samu.exe"
+      - "C:/Program Files (x86)/Windows Kits/10/Windows Performance Toolkit/samu"
+      - "C:/Program Files/nodejs/ninja-build.com"
+      - "C:/Program Files/nodejs/ninja-build.exe"
+      - "C:/Program Files/nodejs/ninja-build"
+      - "C:/Program Files/nodejs/ninja.com"
+      - "C:/Program Files/nodejs/ninja.exe"
+      - "C:/Program Files/nodejs/ninja"
+      - "C:/Program Files/nodejs/samu.com"
+      - "C:/Program Files/nodejs/samu.exe"
+      - "C:/Program Files/nodejs/samu"
+      - "C:/ProgramData/chocolatey/bin/ninja-build.com"
+      - "C:/ProgramData/chocolatey/bin/ninja-build.exe"
+      - "C:/ProgramData/chocolatey/bin/ninja-build"
+      - "C:/ProgramData/chocolatey/bin/ninja.com"
+      - "C:/ProgramData/chocolatey/bin/ninja.exe"
+      - "C:/ProgramData/chocolatey/bin/ninja"
+      - "C:/ProgramData/chocolatey/bin/samu.com"
+      - "C:/ProgramData/chocolatey/bin/samu.exe"
+      - "C:/ProgramData/chocolatey/bin/samu"
+      - "C:/Program Files/Git/cmd/ninja-build.com"
+      - "C:/Program Files/Git/cmd/ninja-build.exe"
+      - "C:/Program Files/Git/cmd/ninja-build"
+      - "C:/Program Files/Git/cmd/ninja.com"
+      - "C:/Program Files/Git/cmd/ninja.exe"
+      - "C:/Program Files/Git/cmd/ninja"
+      - "C:/Program Files/Git/cmd/samu.com"
+      - "C:/Program Files/Git/cmd/samu.exe"
+      - "C:/Program Files/Git/cmd/samu"
+      - "C:/Program Files/dotnet/ninja-build.com"
+      - "C:/Program Files/dotnet/ninja-build.exe"
+      - "C:/Program Files/dotnet/ninja-build"
+      - "C:/Program Files/dotnet/ninja.com"
+      - "C:/Program Files/dotnet/ninja.exe"
+      - "C:/Program Files/dotnet/ninja"
+      - "C:/Program Files/dotnet/samu.com"
+      - "C:/Program Files/dotnet/samu.exe"
+      - "C:/Program Files/dotnet/samu"
       - "C:/Users/david/scoop/apps/gcc-arm-none-eabi/current/bin/ninja-build.com"
       - "C:/Users/david/scoop/apps/gcc-arm-none-eabi/current/bin/ninja-build.exe"
       - "C:/Users/david/scoop/apps/gcc-arm-none-eabi/current/bin/ninja-build"
@@ -708,8 +1188,6 @@ events:
     search_context:
       ENV{PATH}:
         - "c:\\Users\\david\\.cursor\\extensions\\vadimcn.vscode-lldb-1.12.0\\bin"
-        - "C:\\Users\\david\\scoop\\apps\\gcc-arm-none-eabi\\current\\bin"
-        - "C:\\Users\\david\\scoop\\shims"
         - "C:\\Python314\\Scripts\\"
         - "C:\\Python314\\"
         - "C:\\Program Files (x86)\\Razer\\ChromaBroadcast\\bin"
@@ -734,9 +1212,8 @@ events:
         - "C:\\ProgramData\\chocolatey\\bin"
         - "C:\\Program Files\\Git\\cmd"
         - "C:\\Program Files\\dotnet\\"
-        - "C:\\Users\\david\\AppData\\Local\\Programs\\Python\\Python313\\Scripts\\"
-        - "C:\\Users\\david\\AppData\\Local\\Programs\\Python\\Python313\\"
-        - "C:\\Users\\david\\AppData\\Local\\Microsoft\\WindowsApps"
+        - "C:\\Users\\david\\scoop\\apps\\gcc-arm-none-eabi\\current\\bin"
+        - "C:\\Users\\david\\scoop\\shims"
         - "C:\\Users\\david\\AppData\\Local\\Programs\\cursor\\resources\\app\\bin"
         - "C:\\msys64\\ucrt64\\bin"
         - "C:\\Users\\david\\AppData\\Roaming\\npm"
@@ -766,13 +1243,11 @@ events:
       - "CMakeCCompilerId.c.in"
     candidate_directories:
       - "C:/Users/david/scoop/apps/cmake/current/share/cmake-4.3/Modules/"
-      - "C:/pico/pico-sdk/cmake/"
+      - "C:/Users/david/Downloads/myshit/pico-sdk/cmake/"
     found: "C:/Users/david/scoop/apps/cmake/current/share/cmake-4.3/Modules/CMakeCCompilerId.c.in"
     search_context:
       ENV{PATH}:
         - "c:\\Users\\david\\.cursor\\extensions\\vadimcn.vscode-lldb-1.12.0\\bin"
-        - "C:\\Users\\david\\scoop\\apps\\gcc-arm-none-eabi\\current\\bin"
-        - "C:\\Users\\david\\scoop\\shims"
         - "C:\\Python314\\Scripts\\"
         - "C:\\Python314\\"
         - "C:\\Program Files (x86)\\Razer\\ChromaBroadcast\\bin"
@@ -797,9 +1272,8 @@ events:
         - "C:\\ProgramData\\chocolatey\\bin"
         - "C:\\Program Files\\Git\\cmd"
         - "C:\\Program Files\\dotnet\\"
-        - "C:\\Users\\david\\AppData\\Local\\Programs\\Python\\Python313\\Scripts\\"
-        - "C:\\Users\\david\\AppData\\Local\\Programs\\Python\\Python313\\"
-        - "C:\\Users\\david\\AppData\\Local\\Microsoft\\WindowsApps"
+        - "C:\\Users\\david\\scoop\\apps\\gcc-arm-none-eabi\\current\\bin"
+        - "C:\\Users\\david\\scoop\\shims"
         - "C:\\Users\\david\\AppData\\Local\\Programs\\cursor\\resources\\app\\bin"
         - "C:\\msys64\\ucrt64\\bin"
         - "C:\\Users\\david\\AppData\\Roaming\\npm"
@@ -871,13 +1345,11 @@ events:
       - "CMakeCCompilerId.c.in"
     candidate_directories:
       - "C:/Users/david/scoop/apps/cmake/current/share/cmake-4.3/Modules/"
-      - "C:/pico/pico-sdk/cmake/"
+      - "C:/Users/david/Downloads/myshit/pico-sdk/cmake/"
     found: "C:/Users/david/scoop/apps/cmake/current/share/cmake-4.3/Modules/CMakeCCompilerId.c.in"
     search_context:
       ENV{PATH}:
         - "c:\\Users\\david\\.cursor\\extensions\\vadimcn.vscode-lldb-1.12.0\\bin"
-        - "C:\\Users\\david\\scoop\\apps\\gcc-arm-none-eabi\\current\\bin"
-        - "C:\\Users\\david\\scoop\\shims"
         - "C:\\Python314\\Scripts\\"
         - "C:\\Python314\\"
         - "C:\\Program Files (x86)\\Razer\\ChromaBroadcast\\bin"
@@ -902,9 +1374,8 @@ events:
         - "C:\\ProgramData\\chocolatey\\bin"
         - "C:\\Program Files\\Git\\cmd"
         - "C:\\Program Files\\dotnet\\"
-        - "C:\\Users\\david\\AppData\\Local\\Programs\\Python\\Python313\\Scripts\\"
-        - "C:\\Users\\david\\AppData\\Local\\Programs\\Python\\Python313\\"
-        - "C:\\Users\\david\\AppData\\Local\\Microsoft\\WindowsApps"
+        - "C:\\Users\\david\\scoop\\apps\\gcc-arm-none-eabi\\current\\bin"
+        - "C:\\Users\\david\\scoop\\shims"
         - "C:\\Users\\david\\AppData\\Local\\Programs\\cursor\\resources\\app\\bin"
         - "C:\\msys64\\ucrt64\\bin"
         - "C:\\Users\\david\\AppData\\Roaming\\npm"
@@ -955,7 +1426,6 @@ events:
     candidate_directories:
       - "C:/Users/david/scoop/apps/gcc-arm-none-eabi/current/bin/"
       - "C:/Users/david/.cursor/extensions/vadimcn.vscode-lldb-1.12.0/bin/"
-      - "C:/Users/david/scoop/shims/"
       - "C:/Python314/Scripts/"
       - "C:/Python314/"
       - "C:/Program Files (x86)/Razer/ChromaBroadcast/bin/"
@@ -980,6 +1450,7 @@ events:
       - "C:/ProgramData/chocolatey/bin/"
       - "C:/Program Files/Git/cmd/"
       - "C:/Program Files/dotnet/"
+      - "C:/Users/david/scoop/shims/"
       - "C:/Users/david/AppData/Local/Programs/cursor/resources/app/bin/"
       - "C:/msys64/ucrt64/bin/"
       - "C:/Users/david/AppData/Roaming/npm/"
@@ -990,8 +1461,6 @@ events:
     search_context:
       ENV{PATH}:
         - "c:\\Users\\david\\.cursor\\extensions\\vadimcn.vscode-lldb-1.12.0\\bin"
-        - "C:\\Users\\david\\scoop\\apps\\gcc-arm-none-eabi\\current\\bin"
-        - "C:\\Users\\david\\scoop\\shims"
         - "C:\\Python314\\Scripts\\"
         - "C:\\Python314\\"
         - "C:\\Program Files (x86)\\Razer\\ChromaBroadcast\\bin"
@@ -1016,9 +1485,8 @@ events:
         - "C:\\ProgramData\\chocolatey\\bin"
         - "C:\\Program Files\\Git\\cmd"
         - "C:\\Program Files\\dotnet\\"
-        - "C:\\Users\\david\\AppData\\Local\\Programs\\Python\\Python313\\Scripts\\"
-        - "C:\\Users\\david\\AppData\\Local\\Programs\\Python\\Python313\\"
-        - "C:\\Users\\david\\AppData\\Local\\Microsoft\\WindowsApps"
+        - "C:\\Users\\david\\scoop\\apps\\gcc-arm-none-eabi\\current\\bin"
+        - "C:\\Users\\david\\scoop\\shims"
         - "C:\\Users\\david\\AppData\\Local\\Programs\\cursor\\resources\\app\\bin"
         - "C:\\msys64\\ucrt64\\bin"
         - "C:\\Users\\david\\AppData\\Roaming\\npm"
@@ -1047,7 +1515,6 @@ events:
     candidate_directories:
       - "C:/Users/david/scoop/apps/gcc-arm-none-eabi/current/bin/"
       - "C:/Users/david/.cursor/extensions/vadimcn.vscode-lldb-1.12.0/bin/"
-      - "C:/Users/david/scoop/shims/"
       - "C:/Python314/Scripts/"
       - "C:/Python314/"
       - "C:/Program Files (x86)/Razer/ChromaBroadcast/bin/"
@@ -1072,6 +1539,7 @@ events:
       - "C:/ProgramData/chocolatey/bin/"
       - "C:/Program Files/Git/cmd/"
       - "C:/Program Files/dotnet/"
+      - "C:/Users/david/scoop/shims/"
       - "C:/Users/david/AppData/Local/Programs/cursor/resources/app/bin/"
       - "C:/msys64/ucrt64/bin/"
       - "C:/Users/david/AppData/Roaming/npm/"
@@ -1082,8 +1550,6 @@ events:
     search_context:
       ENV{PATH}:
         - "c:\\Users\\david\\.cursor\\extensions\\vadimcn.vscode-lldb-1.12.0\\bin"
-        - "C:\\Users\\david\\scoop\\apps\\gcc-arm-none-eabi\\current\\bin"
-        - "C:\\Users\\david\\scoop\\shims"
         - "C:\\Python314\\Scripts\\"
         - "C:\\Python314\\"
         - "C:\\Program Files (x86)\\Razer\\ChromaBroadcast\\bin"
@@ -1108,9 +1574,8 @@ events:
         - "C:\\ProgramData\\chocolatey\\bin"
         - "C:\\Program Files\\Git\\cmd"
         - "C:\\Program Files\\dotnet\\"
-        - "C:\\Users\\david\\AppData\\Local\\Programs\\Python\\Python313\\Scripts\\"
-        - "C:\\Users\\david\\AppData\\Local\\Programs\\Python\\Python313\\"
-        - "C:\\Users\\david\\AppData\\Local\\Microsoft\\WindowsApps"
+        - "C:\\Users\\david\\scoop\\apps\\gcc-arm-none-eabi\\current\\bin"
+        - "C:\\Users\\david\\scoop\\shims"
         - "C:\\Users\\david\\AppData\\Local\\Programs\\cursor\\resources\\app\\bin"
         - "C:\\msys64\\ucrt64\\bin"
         - "C:\\Users\\david\\AppData\\Roaming\\npm"
@@ -1139,7 +1604,6 @@ events:
     candidate_directories:
       - "C:/Users/david/scoop/apps/gcc-arm-none-eabi/current/bin/"
       - "C:/Users/david/.cursor/extensions/vadimcn.vscode-lldb-1.12.0/bin/"
-      - "C:/Users/david/scoop/shims/"
       - "C:/Python314/Scripts/"
       - "C:/Python314/"
       - "C:/Program Files (x86)/Razer/ChromaBroadcast/bin/"
@@ -1164,6 +1628,7 @@ events:
       - "C:/ProgramData/chocolatey/bin/"
       - "C:/Program Files/Git/cmd/"
       - "C:/Program Files/dotnet/"
+      - "C:/Users/david/scoop/shims/"
       - "C:/Users/david/AppData/Local/Programs/cursor/resources/app/bin/"
       - "C:/msys64/ucrt64/bin/"
       - "C:/Users/david/AppData/Roaming/npm/"
@@ -1174,8 +1639,6 @@ events:
     search_context:
       ENV{PATH}:
         - "c:\\Users\\david\\.cursor\\extensions\\vadimcn.vscode-lldb-1.12.0\\bin"
-        - "C:\\Users\\david\\scoop\\apps\\gcc-arm-none-eabi\\current\\bin"
-        - "C:\\Users\\david\\scoop\\shims"
         - "C:\\Python314\\Scripts\\"
         - "C:\\Python314\\"
         - "C:\\Program Files (x86)\\Razer\\ChromaBroadcast\\bin"
@@ -1200,9 +1663,8 @@ events:
         - "C:\\ProgramData\\chocolatey\\bin"
         - "C:\\Program Files\\Git\\cmd"
         - "C:\\Program Files\\dotnet\\"
-        - "C:\\Users\\david\\AppData\\Local\\Programs\\Python\\Python313\\Scripts\\"
-        - "C:\\Users\\david\\AppData\\Local\\Programs\\Python\\Python313\\"
-        - "C:\\Users\\david\\AppData\\Local\\Microsoft\\WindowsApps"
+        - "C:\\Users\\david\\scoop\\apps\\gcc-arm-none-eabi\\current\\bin"
+        - "C:\\Users\\david\\scoop\\shims"
         - "C:\\Users\\david\\AppData\\Local\\Programs\\cursor\\resources\\app\\bin"
         - "C:\\msys64\\ucrt64\\bin"
         - "C:\\Users\\david\\AppData\\Roaming\\npm"
@@ -1231,7 +1693,6 @@ events:
     candidate_directories:
       - "C:/Users/david/scoop/apps/gcc-arm-none-eabi/current/bin/"
       - "C:/Users/david/.cursor/extensions/vadimcn.vscode-lldb-1.12.0/bin/"
-      - "C:/Users/david/scoop/shims/"
       - "C:/Python314/Scripts/"
       - "C:/Python314/"
       - "C:/Program Files (x86)/Razer/ChromaBroadcast/bin/"
@@ -1256,6 +1717,7 @@ events:
       - "C:/ProgramData/chocolatey/bin/"
       - "C:/Program Files/Git/cmd/"
       - "C:/Program Files/dotnet/"
+      - "C:/Users/david/scoop/shims/"
       - "C:/Users/david/AppData/Local/Programs/cursor/resources/app/bin/"
       - "C:/msys64/ucrt64/bin/"
       - "C:/Users/david/AppData/Roaming/npm/"
@@ -1266,8 +1728,6 @@ events:
     search_context:
       ENV{PATH}:
         - "c:\\Users\\david\\.cursor\\extensions\\vadimcn.vscode-lldb-1.12.0\\bin"
-        - "C:\\Users\\david\\scoop\\apps\\gcc-arm-none-eabi\\current\\bin"
-        - "C:\\Users\\david\\scoop\\shims"
         - "C:\\Python314\\Scripts\\"
         - "C:\\Python314\\"
         - "C:\\Program Files (x86)\\Razer\\ChromaBroadcast\\bin"
@@ -1292,9 +1752,8 @@ events:
         - "C:\\ProgramData\\chocolatey\\bin"
         - "C:\\Program Files\\Git\\cmd"
         - "C:\\Program Files\\dotnet\\"
-        - "C:\\Users\\david\\AppData\\Local\\Programs\\Python\\Python313\\Scripts\\"
-        - "C:\\Users\\david\\AppData\\Local\\Programs\\Python\\Python313\\"
-        - "C:\\Users\\david\\AppData\\Local\\Microsoft\\WindowsApps"
+        - "C:\\Users\\david\\scoop\\apps\\gcc-arm-none-eabi\\current\\bin"
+        - "C:\\Users\\david\\scoop\\shims"
         - "C:\\Users\\david\\AppData\\Local\\Programs\\cursor\\resources\\app\\bin"
         - "C:\\msys64\\ucrt64\\bin"
         - "C:\\Users\\david\\AppData\\Roaming\\npm"
@@ -1323,7 +1782,6 @@ events:
     candidate_directories:
       - "C:/Users/david/scoop/apps/gcc-arm-none-eabi/current/bin/"
       - "C:/Users/david/.cursor/extensions/vadimcn.vscode-lldb-1.12.0/bin/"
-      - "C:/Users/david/scoop/shims/"
       - "C:/Python314/Scripts/"
       - "C:/Python314/"
       - "C:/Program Files (x86)/Razer/ChromaBroadcast/bin/"
@@ -1348,6 +1806,7 @@ events:
       - "C:/ProgramData/chocolatey/bin/"
       - "C:/Program Files/Git/cmd/"
       - "C:/Program Files/dotnet/"
+      - "C:/Users/david/scoop/shims/"
       - "C:/Users/david/AppData/Local/Programs/cursor/resources/app/bin/"
       - "C:/msys64/ucrt64/bin/"
       - "C:/Users/david/AppData/Roaming/npm/"
@@ -1358,8 +1817,6 @@ events:
     search_context:
       ENV{PATH}:
         - "c:\\Users\\david\\.cursor\\extensions\\vadimcn.vscode-lldb-1.12.0\\bin"
-        - "C:\\Users\\david\\scoop\\apps\\gcc-arm-none-eabi\\current\\bin"
-        - "C:\\Users\\david\\scoop\\shims"
         - "C:\\Python314\\Scripts\\"
         - "C:\\Python314\\"
         - "C:\\Program Files (x86)\\Razer\\ChromaBroadcast\\bin"
@@ -1384,9 +1841,8 @@ events:
         - "C:\\ProgramData\\chocolatey\\bin"
         - "C:\\Program Files\\Git\\cmd"
         - "C:\\Program Files\\dotnet\\"
-        - "C:\\Users\\david\\AppData\\Local\\Programs\\Python\\Python313\\Scripts\\"
-        - "C:\\Users\\david\\AppData\\Local\\Programs\\Python\\Python313\\"
-        - "C:\\Users\\david\\AppData\\Local\\Microsoft\\WindowsApps"
+        - "C:\\Users\\david\\scoop\\apps\\gcc-arm-none-eabi\\current\\bin"
+        - "C:\\Users\\david\\scoop\\shims"
         - "C:\\Users\\david\\AppData\\Local\\Programs\\cursor\\resources\\app\\bin"
         - "C:\\msys64\\ucrt64\\bin"
         - "C:\\Users\\david\\AppData\\Roaming\\npm"
@@ -1415,7 +1871,6 @@ events:
     candidate_directories:
       - "C:/Users/david/scoop/apps/gcc-arm-none-eabi/current/bin/"
       - "C:/Users/david/.cursor/extensions/vadimcn.vscode-lldb-1.12.0/bin/"
-      - "C:/Users/david/scoop/shims/"
       - "C:/Python314/Scripts/"
       - "C:/Python314/"
       - "C:/Program Files (x86)/Razer/ChromaBroadcast/bin/"
@@ -1440,6 +1895,7 @@ events:
       - "C:/ProgramData/chocolatey/bin/"
       - "C:/Program Files/Git/cmd/"
       - "C:/Program Files/dotnet/"
+      - "C:/Users/david/scoop/shims/"
       - "C:/Users/david/AppData/Local/Programs/cursor/resources/app/bin/"
       - "C:/msys64/ucrt64/bin/"
       - "C:/Users/david/AppData/Roaming/npm/"
@@ -1450,8 +1906,6 @@ events:
     search_context:
       ENV{PATH}:
         - "c:\\Users\\david\\.cursor\\extensions\\vadimcn.vscode-lldb-1.12.0\\bin"
-        - "C:\\Users\\david\\scoop\\apps\\gcc-arm-none-eabi\\current\\bin"
-        - "C:\\Users\\david\\scoop\\shims"
         - "C:\\Python314\\Scripts\\"
         - "C:\\Python314\\"
         - "C:\\Program Files (x86)\\Razer\\ChromaBroadcast\\bin"
@@ -1476,9 +1930,8 @@ events:
         - "C:\\ProgramData\\chocolatey\\bin"
         - "C:\\Program Files\\Git\\cmd"
         - "C:\\Program Files\\dotnet\\"
-        - "C:\\Users\\david\\AppData\\Local\\Programs\\Python\\Python313\\Scripts\\"
-        - "C:\\Users\\david\\AppData\\Local\\Programs\\Python\\Python313\\"
-        - "C:\\Users\\david\\AppData\\Local\\Microsoft\\WindowsApps"
+        - "C:\\Users\\david\\scoop\\apps\\gcc-arm-none-eabi\\current\\bin"
+        - "C:\\Users\\david\\scoop\\shims"
         - "C:\\Users\\david\\AppData\\Local\\Programs\\cursor\\resources\\app\\bin"
         - "C:\\msys64\\ucrt64\\bin"
         - "C:\\Users\\david\\AppData\\Roaming\\npm"
@@ -1507,7 +1960,6 @@ events:
     candidate_directories:
       - "C:/Users/david/scoop/apps/gcc-arm-none-eabi/current/bin/"
       - "C:/Users/david/.cursor/extensions/vadimcn.vscode-lldb-1.12.0/bin/"
-      - "C:/Users/david/scoop/shims/"
       - "C:/Python314/Scripts/"
       - "C:/Python314/"
       - "C:/Program Files (x86)/Razer/ChromaBroadcast/bin/"
@@ -1532,6 +1984,7 @@ events:
       - "C:/ProgramData/chocolatey/bin/"
       - "C:/Program Files/Git/cmd/"
       - "C:/Program Files/dotnet/"
+      - "C:/Users/david/scoop/shims/"
       - "C:/Users/david/AppData/Local/Programs/cursor/resources/app/bin/"
       - "C:/msys64/ucrt64/bin/"
       - "C:/Users/david/AppData/Roaming/npm/"
@@ -1543,9 +1996,6 @@ events:
       - "C:/Users/david/.cursor/extensions/vadimcn.vscode-lldb-1.12.0/bin/arm-none-eabi-dlltool.com"
       - "C:/Users/david/.cursor/extensions/vadimcn.vscode-lldb-1.12.0/bin/arm-none-eabi-dlltool.exe"
       - "C:/Users/david/.cursor/extensions/vadimcn.vscode-lldb-1.12.0/bin/arm-none-eabi-dlltool"
-      - "C:/Users/david/scoop/shims/arm-none-eabi-dlltool.com"
-      - "C:/Users/david/scoop/shims/arm-none-eabi-dlltool.exe"
-      - "C:/Users/david/scoop/shims/arm-none-eabi-dlltool"
       - "C:/Python314/Scripts/arm-none-eabi-dlltool.com"
       - "C:/Python314/Scripts/arm-none-eabi-dlltool.exe"
       - "C:/Python314/Scripts/arm-none-eabi-dlltool"
@@ -1618,6 +2068,9 @@ events:
       - "C:/Program Files/dotnet/arm-none-eabi-dlltool.com"
       - "C:/Program Files/dotnet/arm-none-eabi-dlltool.exe"
       - "C:/Program Files/dotnet/arm-none-eabi-dlltool"
+      - "C:/Users/david/scoop/shims/arm-none-eabi-dlltool.com"
+      - "C:/Users/david/scoop/shims/arm-none-eabi-dlltool.exe"
+      - "C:/Users/david/scoop/shims/arm-none-eabi-dlltool"
       - "C:/Users/david/AppData/Local/Programs/cursor/resources/app/bin/arm-none-eabi-dlltool.com"
       - "C:/Users/david/AppData/Local/Programs/cursor/resources/app/bin/arm-none-eabi-dlltool.exe"
       - "C:/Users/david/AppData/Local/Programs/cursor/resources/app/bin/arm-none-eabi-dlltool"
@@ -1636,9 +2089,6 @@ events:
       - "C:/Users/david/.cursor/extensions/vadimcn.vscode-lldb-1.12.0/bin/dlltool.com"
       - "C:/Users/david/.cursor/extensions/vadimcn.vscode-lldb-1.12.0/bin/dlltool.exe"
       - "C:/Users/david/.cursor/extensions/vadimcn.vscode-lldb-1.12.0/bin/dlltool"
-      - "C:/Users/david/scoop/shims/dlltool.com"
-      - "C:/Users/david/scoop/shims/dlltool.exe"
-      - "C:/Users/david/scoop/shims/dlltool"
       - "C:/Python314/Scripts/dlltool.com"
       - "C:/Python314/Scripts/dlltool.exe"
       - "C:/Python314/Scripts/dlltool"
@@ -1711,6 +2161,9 @@ events:
       - "C:/Program Files/dotnet/dlltool.com"
       - "C:/Program Files/dotnet/dlltool.exe"
       - "C:/Program Files/dotnet/dlltool"
+      - "C:/Users/david/scoop/shims/dlltool.com"
+      - "C:/Users/david/scoop/shims/dlltool.exe"
+      - "C:/Users/david/scoop/shims/dlltool"
       - "C:/Users/david/AppData/Local/Programs/cursor/resources/app/bin/dlltool.com"
       - "C:/Users/david/AppData/Local/Programs/cursor/resources/app/bin/dlltool.exe"
       - "C:/Users/david/AppData/Local/Programs/cursor/resources/app/bin/dlltool"
@@ -1719,8 +2172,6 @@ events:
     search_context:
       ENV{PATH}:
         - "c:\\Users\\david\\.cursor\\extensions\\vadimcn.vscode-lldb-1.12.0\\bin"
-        - "C:\\Users\\david\\scoop\\apps\\gcc-arm-none-eabi\\current\\bin"
-        - "C:\\Users\\david\\scoop\\shims"
         - "C:\\Python314\\Scripts\\"
         - "C:\\Python314\\"
         - "C:\\Program Files (x86)\\Razer\\ChromaBroadcast\\bin"
@@ -1745,9 +2196,8 @@ events:
         - "C:\\ProgramData\\chocolatey\\bin"
         - "C:\\Program Files\\Git\\cmd"
         - "C:\\Program Files\\dotnet\\"
-        - "C:\\Users\\david\\AppData\\Local\\Programs\\Python\\Python313\\Scripts\\"
-        - "C:\\Users\\david\\AppData\\Local\\Programs\\Python\\Python313\\"
-        - "C:\\Users\\david\\AppData\\Local\\Microsoft\\WindowsApps"
+        - "C:\\Users\\david\\scoop\\apps\\gcc-arm-none-eabi\\current\\bin"
+        - "C:\\Users\\david\\scoop\\shims"
         - "C:\\Users\\david\\AppData\\Local\\Programs\\cursor\\resources\\app\\bin"
         - "C:\\msys64\\ucrt64\\bin"
         - "C:\\Users\\david\\AppData\\Roaming\\npm"
@@ -1776,7 +2226,6 @@ events:
     candidate_directories:
       - "C:/Users/david/scoop/apps/gcc-arm-none-eabi/current/bin/"
       - "C:/Users/david/.cursor/extensions/vadimcn.vscode-lldb-1.12.0/bin/"
-      - "C:/Users/david/scoop/shims/"
       - "C:/Python314/Scripts/"
       - "C:/Python314/"
       - "C:/Program Files (x86)/Razer/ChromaBroadcast/bin/"
@@ -1801,6 +2250,7 @@ events:
       - "C:/ProgramData/chocolatey/bin/"
       - "C:/Program Files/Git/cmd/"
       - "C:/Program Files/dotnet/"
+      - "C:/Users/david/scoop/shims/"
       - "C:/Users/david/AppData/Local/Programs/cursor/resources/app/bin/"
       - "C:/msys64/ucrt64/bin/"
       - "C:/Users/david/AppData/Roaming/npm/"
@@ -1811,8 +2261,6 @@ events:
     search_context:
       ENV{PATH}:
         - "c:\\Users\\david\\.cursor\\extensions\\vadimcn.vscode-lldb-1.12.0\\bin"
-        - "C:\\Users\\david\\scoop\\apps\\gcc-arm-none-eabi\\current\\bin"
-        - "C:\\Users\\david\\scoop\\shims"
         - "C:\\Python314\\Scripts\\"
         - "C:\\Python314\\"
         - "C:\\Program Files (x86)\\Razer\\ChromaBroadcast\\bin"
@@ -1837,9 +2285,8 @@ events:
         - "C:\\ProgramData\\chocolatey\\bin"
         - "C:\\Program Files\\Git\\cmd"
         - "C:\\Program Files\\dotnet\\"
-        - "C:\\Users\\david\\AppData\\Local\\Programs\\Python\\Python313\\Scripts\\"
-        - "C:\\Users\\david\\AppData\\Local\\Programs\\Python\\Python313\\"
-        - "C:\\Users\\david\\AppData\\Local\\Microsoft\\WindowsApps"
+        - "C:\\Users\\david\\scoop\\apps\\gcc-arm-none-eabi\\current\\bin"
+        - "C:\\Users\\david\\scoop\\shims"
         - "C:\\Users\\david\\AppData\\Local\\Programs\\cursor\\resources\\app\\bin"
         - "C:\\msys64\\ucrt64\\bin"
         - "C:\\Users\\david\\AppData\\Roaming\\npm"
@@ -1868,7 +2315,6 @@ events:
     candidate_directories:
       - "C:/Users/david/scoop/apps/gcc-arm-none-eabi/current/bin/"
       - "C:/Users/david/.cursor/extensions/vadimcn.vscode-lldb-1.12.0/bin/"
-      - "C:/Users/david/scoop/shims/"
       - "C:/Python314/Scripts/"
       - "C:/Python314/"
       - "C:/Program Files (x86)/Razer/ChromaBroadcast/bin/"
@@ -1893,6 +2339,7 @@ events:
       - "C:/ProgramData/chocolatey/bin/"
       - "C:/Program Files/Git/cmd/"
       - "C:/Program Files/dotnet/"
+      - "C:/Users/david/scoop/shims/"
       - "C:/Users/david/AppData/Local/Programs/cursor/resources/app/bin/"
       - "C:/msys64/ucrt64/bin/"
       - "C:/Users/david/AppData/Roaming/npm/"
@@ -1904,9 +2351,6 @@ events:
       - "C:/Users/david/.cursor/extensions/vadimcn.vscode-lldb-1.12.0/bin/arm-none-eabi-tapi.com"
       - "C:/Users/david/.cursor/extensions/vadimcn.vscode-lldb-1.12.0/bin/arm-none-eabi-tapi.exe"
       - "C:/Users/david/.cursor/extensions/vadimcn.vscode-lldb-1.12.0/bin/arm-none-eabi-tapi"
-      - "C:/Users/david/scoop/shims/arm-none-eabi-tapi.com"
-      - "C:/Users/david/scoop/shims/arm-none-eabi-tapi.exe"
-      - "C:/Users/david/scoop/shims/arm-none-eabi-tapi"
       - "C:/Python314/Scripts/arm-none-eabi-tapi.com"
       - "C:/Python314/Scripts/arm-none-eabi-tapi.exe"
       - "C:/Python314/Scripts/arm-none-eabi-tapi"
@@ -1979,6 +2423,9 @@ events:
       - "C:/Program Files/dotnet/arm-none-eabi-tapi.com"
       - "C:/Program Files/dotnet/arm-none-eabi-tapi.exe"
       - "C:/Program Files/dotnet/arm-none-eabi-tapi"
+      - "C:/Users/david/scoop/shims/arm-none-eabi-tapi.com"
+      - "C:/Users/david/scoop/shims/arm-none-eabi-tapi.exe"
+      - "C:/Users/david/scoop/shims/arm-none-eabi-tapi"
       - "C:/Users/david/AppData/Local/Programs/cursor/resources/app/bin/arm-none-eabi-tapi.com"
       - "C:/Users/david/AppData/Local/Programs/cursor/resources/app/bin/arm-none-eabi-tapi.exe"
       - "C:/Users/david/AppData/Local/Programs/cursor/resources/app/bin/arm-none-eabi-tapi"
@@ -1997,9 +2444,6 @@ events:
       - "C:/Users/david/.cursor/extensions/vadimcn.vscode-lldb-1.12.0/bin/tapi.com"
       - "C:/Users/david/.cursor/extensions/vadimcn.vscode-lldb-1.12.0/bin/tapi.exe"
       - "C:/Users/david/.cursor/extensions/vadimcn.vscode-lldb-1.12.0/bin/tapi"
-      - "C:/Users/david/scoop/shims/tapi.com"
-      - "C:/Users/david/scoop/shims/tapi.exe"
-      - "C:/Users/david/scoop/shims/tapi"
       - "C:/Python314/Scripts/tapi.com"
       - "C:/Python314/Scripts/tapi.exe"
       - "C:/Python314/Scripts/tapi"
@@ -2072,6 +2516,9 @@ events:
       - "C:/Program Files/dotnet/tapi.com"
       - "C:/Program Files/dotnet/tapi.exe"
       - "C:/Program Files/dotnet/tapi"
+      - "C:/Users/david/scoop/shims/tapi.com"
+      - "C:/Users/david/scoop/shims/tapi.exe"
+      - "C:/Users/david/scoop/shims/tapi"
       - "C:/Users/david/AppData/Local/Programs/cursor/resources/app/bin/tapi.com"
       - "C:/Users/david/AppData/Local/Programs/cursor/resources/app/bin/tapi.exe"
       - "C:/Users/david/AppData/Local/Programs/cursor/resources/app/bin/tapi"
@@ -2088,8 +2535,6 @@ events:
     search_context:
       ENV{PATH}:
         - "c:\\Users\\david\\.cursor\\extensions\\vadimcn.vscode-lldb-1.12.0\\bin"
-        - "C:\\Users\\david\\scoop\\apps\\gcc-arm-none-eabi\\current\\bin"
-        - "C:\\Users\\david\\scoop\\shims"
         - "C:\\Python314\\Scripts\\"
         - "C:\\Python314\\"
         - "C:\\Program Files (x86)\\Razer\\ChromaBroadcast\\bin"
@@ -2114,9 +2559,8 @@ events:
         - "C:\\ProgramData\\chocolatey\\bin"
         - "C:\\Program Files\\Git\\cmd"
         - "C:\\Program Files\\dotnet\\"
-        - "C:\\Users\\david\\AppData\\Local\\Programs\\Python\\Python313\\Scripts\\"
-        - "C:\\Users\\david\\AppData\\Local\\Programs\\Python\\Python313\\"
-        - "C:\\Users\\david\\AppData\\Local\\Microsoft\\WindowsApps"
+        - "C:\\Users\\david\\scoop\\apps\\gcc-arm-none-eabi\\current\\bin"
+        - "C:\\Users\\david\\scoop\\shims"
         - "C:\\Users\\david\\AppData\\Local\\Programs\\cursor\\resources\\app\\bin"
         - "C:\\msys64\\ucrt64\\bin"
         - "C:\\Users\\david\\AppData\\Roaming\\npm"
@@ -2147,7 +2591,6 @@ events:
     candidate_directories:
       - "C:/Users/david/scoop/apps/gcc-arm-none-eabi/current/bin/"
       - "C:/Users/david/.cursor/extensions/vadimcn.vscode-lldb-1.12.0/bin/"
-      - "C:/Users/david/scoop/shims/"
       - "C:/Python314/Scripts/"
       - "C:/Python314/"
       - "C:/Program Files (x86)/Razer/ChromaBroadcast/bin/"
@@ -2172,6 +2615,7 @@ events:
       - "C:/ProgramData/chocolatey/bin/"
       - "C:/Program Files/Git/cmd/"
       - "C:/Program Files/dotnet/"
+      - "C:/Users/david/scoop/shims/"
       - "C:/Users/david/AppData/Local/Programs/cursor/resources/app/bin/"
       - "C:/msys64/ucrt64/bin/"
       - "C:/Users/david/AppData/Roaming/npm/"
@@ -2183,9 +2627,6 @@ events:
       - "C:/Users/david/.cursor/extensions/vadimcn.vscode-lldb-1.12.0/bin/arm-none-eabi-gcc-ar-15.2.com"
       - "C:/Users/david/.cursor/extensions/vadimcn.vscode-lldb-1.12.0/bin/arm-none-eabi-gcc-ar-15.2.exe"
       - "C:/Users/david/.cursor/extensions/vadimcn.vscode-lldb-1.12.0/bin/arm-none-eabi-gcc-ar-15.2"
-      - "C:/Users/david/scoop/shims/arm-none-eabi-gcc-ar-15.2.com"
-      - "C:/Users/david/scoop/shims/arm-none-eabi-gcc-ar-15.2.exe"
-      - "C:/Users/david/scoop/shims/arm-none-eabi-gcc-ar-15.2"
       - "C:/Python314/Scripts/arm-none-eabi-gcc-ar-15.2.com"
       - "C:/Python314/Scripts/arm-none-eabi-gcc-ar-15.2.exe"
       - "C:/Python314/Scripts/arm-none-eabi-gcc-ar-15.2"
@@ -2258,6 +2699,9 @@ events:
       - "C:/Program Files/dotnet/arm-none-eabi-gcc-ar-15.2.com"
       - "C:/Program Files/dotnet/arm-none-eabi-gcc-ar-15.2.exe"
       - "C:/Program Files/dotnet/arm-none-eabi-gcc-ar-15.2"
+      - "C:/Users/david/scoop/shims/arm-none-eabi-gcc-ar-15.2.com"
+      - "C:/Users/david/scoop/shims/arm-none-eabi-gcc-ar-15.2.exe"
+      - "C:/Users/david/scoop/shims/arm-none-eabi-gcc-ar-15.2"
       - "C:/Users/david/AppData/Local/Programs/cursor/resources/app/bin/arm-none-eabi-gcc-ar-15.2.com"
       - "C:/Users/david/AppData/Local/Programs/cursor/resources/app/bin/arm-none-eabi-gcc-ar-15.2.exe"
       - "C:/Users/david/AppData/Local/Programs/cursor/resources/app/bin/arm-none-eabi-gcc-ar-15.2"
@@ -2276,9 +2720,6 @@ events:
       - "C:/Users/david/.cursor/extensions/vadimcn.vscode-lldb-1.12.0/bin/arm-none-eabi-gcc-ar-15.com"
       - "C:/Users/david/.cursor/extensions/vadimcn.vscode-lldb-1.12.0/bin/arm-none-eabi-gcc-ar-15.exe"
       - "C:/Users/david/.cursor/extensions/vadimcn.vscode-lldb-1.12.0/bin/arm-none-eabi-gcc-ar-15"
-      - "C:/Users/david/scoop/shims/arm-none-eabi-gcc-ar-15.com"
-      - "C:/Users/david/scoop/shims/arm-none-eabi-gcc-ar-15.exe"
-      - "C:/Users/david/scoop/shims/arm-none-eabi-gcc-ar-15"
       - "C:/Python314/Scripts/arm-none-eabi-gcc-ar-15.com"
       - "C:/Python314/Scripts/arm-none-eabi-gcc-ar-15.exe"
       - "C:/Python314/Scripts/arm-none-eabi-gcc-ar-15"
@@ -2351,6 +2792,9 @@ events:
       - "C:/Program Files/dotnet/arm-none-eabi-gcc-ar-15.com"
       - "C:/Program Files/dotnet/arm-none-eabi-gcc-ar-15.exe"
       - "C:/Program Files/dotnet/arm-none-eabi-gcc-ar-15"
+      - "C:/Users/david/scoop/shims/arm-none-eabi-gcc-ar-15.com"
+      - "C:/Users/david/scoop/shims/arm-none-eabi-gcc-ar-15.exe"
+      - "C:/Users/david/scoop/shims/arm-none-eabi-gcc-ar-15"
       - "C:/Users/david/AppData/Local/Programs/cursor/resources/app/bin/arm-none-eabi-gcc-ar-15.com"
       - "C:/Users/david/AppData/Local/Programs/cursor/resources/app/bin/arm-none-eabi-gcc-ar-15.exe"
       - "C:/Users/david/AppData/Local/Programs/cursor/resources/app/bin/arm-none-eabi-gcc-ar-15"
@@ -2369,9 +2813,6 @@ events:
       - "C:/Users/david/.cursor/extensions/vadimcn.vscode-lldb-1.12.0/bin/arm-none-eabi-gcc-ar15.com"
       - "C:/Users/david/.cursor/extensions/vadimcn.vscode-lldb-1.12.0/bin/arm-none-eabi-gcc-ar15.exe"
       - "C:/Users/david/.cursor/extensions/vadimcn.vscode-lldb-1.12.0/bin/arm-none-eabi-gcc-ar15"
-      - "C:/Users/david/scoop/shims/arm-none-eabi-gcc-ar15.com"
-      - "C:/Users/david/scoop/shims/arm-none-eabi-gcc-ar15.exe"
-      - "C:/Users/david/scoop/shims/arm-none-eabi-gcc-ar15"
       - "C:/Python314/Scripts/arm-none-eabi-gcc-ar15.com"
       - "C:/Python314/Scripts/arm-none-eabi-gcc-ar15.exe"
       - "C:/Python314/Scripts/arm-none-eabi-gcc-ar15"
@@ -2444,6 +2885,9 @@ events:
       - "C:/Program Files/dotnet/arm-none-eabi-gcc-ar15.com"
       - "C:/Program Files/dotnet/arm-none-eabi-gcc-ar15.exe"
       - "C:/Program Files/dotnet/arm-none-eabi-gcc-ar15"
+      - "C:/Users/david/scoop/shims/arm-none-eabi-gcc-ar15.com"
+      - "C:/Users/david/scoop/shims/arm-none-eabi-gcc-ar15.exe"
+      - "C:/Users/david/scoop/shims/arm-none-eabi-gcc-ar15"
       - "C:/Users/david/AppData/Local/Programs/cursor/resources/app/bin/arm-none-eabi-gcc-ar15.com"
       - "C:/Users/david/AppData/Local/Programs/cursor/resources/app/bin/arm-none-eabi-gcc-ar15.exe"
       - "C:/Users/david/AppData/Local/Programs/cursor/resources/app/bin/arm-none-eabi-gcc-ar15"
@@ -2461,8 +2905,6 @@ events:
     search_context:
       ENV{PATH}:
         - "c:\\Users\\david\\.cursor\\extensions\\vadimcn.vscode-lldb-1.12.0\\bin"
-        - "C:\\Users\\david\\scoop\\apps\\gcc-arm-none-eabi\\current\\bin"
-        - "C:\\Users\\david\\scoop\\shims"
         - "C:\\Python314\\Scripts\\"
         - "C:\\Python314\\"
         - "C:\\Program Files (x86)\\Razer\\ChromaBroadcast\\bin"
@@ -2487,9 +2929,8 @@ events:
         - "C:\\ProgramData\\chocolatey\\bin"
         - "C:\\Program Files\\Git\\cmd"
         - "C:\\Program Files\\dotnet\\"
-        - "C:\\Users\\david\\AppData\\Local\\Programs\\Python\\Python313\\Scripts\\"
-        - "C:\\Users\\david\\AppData\\Local\\Programs\\Python\\Python313\\"
-        - "C:\\Users\\david\\AppData\\Local\\Microsoft\\WindowsApps"
+        - "C:\\Users\\david\\scoop\\apps\\gcc-arm-none-eabi\\current\\bin"
+        - "C:\\Users\\david\\scoop\\shims"
         - "C:\\Users\\david\\AppData\\Local\\Programs\\cursor\\resources\\app\\bin"
         - "C:\\msys64\\ucrt64\\bin"
         - "C:\\Users\\david\\AppData\\Roaming\\npm"
@@ -2520,7 +2961,6 @@ events:
     candidate_directories:
       - "C:/Users/david/scoop/apps/gcc-arm-none-eabi/current/bin/"
       - "C:/Users/david/.cursor/extensions/vadimcn.vscode-lldb-1.12.0/bin/"
-      - "C:/Users/david/scoop/shims/"
       - "C:/Python314/Scripts/"
       - "C:/Python314/"
       - "C:/Program Files (x86)/Razer/ChromaBroadcast/bin/"
@@ -2545,6 +2985,7 @@ events:
       - "C:/ProgramData/chocolatey/bin/"
       - "C:/Program Files/Git/cmd/"
       - "C:/Program Files/dotnet/"
+      - "C:/Users/david/scoop/shims/"
       - "C:/Users/david/AppData/Local/Programs/cursor/resources/app/bin/"
       - "C:/msys64/ucrt64/bin/"
       - "C:/Users/david/AppData/Roaming/npm/"
@@ -2556,9 +2997,6 @@ events:
       - "C:/Users/david/.cursor/extensions/vadimcn.vscode-lldb-1.12.0/bin/arm-none-eabi-gcc-ranlib-15.2.com"
       - "C:/Users/david/.cursor/extensions/vadimcn.vscode-lldb-1.12.0/bin/arm-none-eabi-gcc-ranlib-15.2.exe"
       - "C:/Users/david/.cursor/extensions/vadimcn.vscode-lldb-1.12.0/bin/arm-none-eabi-gcc-ranlib-15.2"
-      - "C:/Users/david/scoop/shims/arm-none-eabi-gcc-ranlib-15.2.com"
-      - "C:/Users/david/scoop/shims/arm-none-eabi-gcc-ranlib-15.2.exe"
-      - "C:/Users/david/scoop/shims/arm-none-eabi-gcc-ranlib-15.2"
       - "C:/Python314/Scripts/arm-none-eabi-gcc-ranlib-15.2.com"
       - "C:/Python314/Scripts/arm-none-eabi-gcc-ranlib-15.2.exe"
       - "C:/Python314/Scripts/arm-none-eabi-gcc-ranlib-15.2"
@@ -2631,6 +3069,9 @@ events:
       - "C:/Program Files/dotnet/arm-none-eabi-gcc-ranlib-15.2.com"
       - "C:/Program Files/dotnet/arm-none-eabi-gcc-ranlib-15.2.exe"
       - "C:/Program Files/dotnet/arm-none-eabi-gcc-ranlib-15.2"
+      - "C:/Users/david/scoop/shims/arm-none-eabi-gcc-ranlib-15.2.com"
+      - "C:/Users/david/scoop/shims/arm-none-eabi-gcc-ranlib-15.2.exe"
+      - "C:/Users/david/scoop/shims/arm-none-eabi-gcc-ranlib-15.2"
       - "C:/Users/david/AppData/Local/Programs/cursor/resources/app/bin/arm-none-eabi-gcc-ranlib-15.2.com"
       - "C:/Users/david/AppData/Local/Programs/cursor/resources/app/bin/arm-none-eabi-gcc-ranlib-15.2.exe"
       - "C:/Users/david/AppData/Local/Programs/cursor/resources/app/bin/arm-none-eabi-gcc-ranlib-15.2"
@@ -2649,9 +3090,6 @@ events:
       - "C:/Users/david/.cursor/extensions/vadimcn.vscode-lldb-1.12.0/bin/arm-none-eabi-gcc-ranlib-15.com"
       - "C:/Users/david/.cursor/extensions/vadimcn.vscode-lldb-1.12.0/bin/arm-none-eabi-gcc-ranlib-15.exe"
       - "C:/Users/david/.cursor/extensions/vadimcn.vscode-lldb-1.12.0/bin/arm-none-eabi-gcc-ranlib-15"
-      - "C:/Users/david/scoop/shims/arm-none-eabi-gcc-ranlib-15.com"
-      - "C:/Users/david/scoop/shims/arm-none-eabi-gcc-ranlib-15.exe"
-      - "C:/Users/david/scoop/shims/arm-none-eabi-gcc-ranlib-15"
       - "C:/Python314/Scripts/arm-none-eabi-gcc-ranlib-15.com"
       - "C:/Python314/Scripts/arm-none-eabi-gcc-ranlib-15.exe"
       - "C:/Python314/Scripts/arm-none-eabi-gcc-ranlib-15"
@@ -2724,6 +3162,9 @@ events:
       - "C:/Program Files/dotnet/arm-none-eabi-gcc-ranlib-15.com"
       - "C:/Program Files/dotnet/arm-none-eabi-gcc-ranlib-15.exe"
       - "C:/Program Files/dotnet/arm-none-eabi-gcc-ranlib-15"
+      - "C:/Users/david/scoop/shims/arm-none-eabi-gcc-ranlib-15.com"
+      - "C:/Users/david/scoop/shims/arm-none-eabi-gcc-ranlib-15.exe"
+      - "C:/Users/david/scoop/shims/arm-none-eabi-gcc-ranlib-15"
       - "C:/Users/david/AppData/Local/Programs/cursor/resources/app/bin/arm-none-eabi-gcc-ranlib-15.com"
       - "C:/Users/david/AppData/Local/Programs/cursor/resources/app/bin/arm-none-eabi-gcc-ranlib-15.exe"
       - "C:/Users/david/AppData/Local/Programs/cursor/resources/app/bin/arm-none-eabi-gcc-ranlib-15"
@@ -2742,9 +3183,6 @@ events:
       - "C:/Users/david/.cursor/extensions/vadimcn.vscode-lldb-1.12.0/bin/arm-none-eabi-gcc-ranlib15.com"
       - "C:/Users/david/.cursor/extensions/vadimcn.vscode-lldb-1.12.0/bin/arm-none-eabi-gcc-ranlib15.exe"
       - "C:/Users/david/.cursor/extensions/vadimcn.vscode-lldb-1.12.0/bin/arm-none-eabi-gcc-ranlib15"
-      - "C:/Users/david/scoop/shims/arm-none-eabi-gcc-ranlib15.com"
-      - "C:/Users/david/scoop/shims/arm-none-eabi-gcc-ranlib15.exe"
-      - "C:/Users/david/scoop/shims/arm-none-eabi-gcc-ranlib15"
       - "C:/Python314/Scripts/arm-none-eabi-gcc-ranlib15.com"
       - "C:/Python314/Scripts/arm-none-eabi-gcc-ranlib15.exe"
       - "C:/Python314/Scripts/arm-none-eabi-gcc-ranlib15"
@@ -2817,6 +3255,9 @@ events:
       - "C:/Program Files/dotnet/arm-none-eabi-gcc-ranlib15.com"
       - "C:/Program Files/dotnet/arm-none-eabi-gcc-ranlib15.exe"
       - "C:/Program Files/dotnet/arm-none-eabi-gcc-ranlib15"
+      - "C:/Users/david/scoop/shims/arm-none-eabi-gcc-ranlib15.com"
+      - "C:/Users/david/scoop/shims/arm-none-eabi-gcc-ranlib15.exe"
+      - "C:/Users/david/scoop/shims/arm-none-eabi-gcc-ranlib15"
       - "C:/Users/david/AppData/Local/Programs/cursor/resources/app/bin/arm-none-eabi-gcc-ranlib15.com"
       - "C:/Users/david/AppData/Local/Programs/cursor/resources/app/bin/arm-none-eabi-gcc-ranlib15.exe"
       - "C:/Users/david/AppData/Local/Programs/cursor/resources/app/bin/arm-none-eabi-gcc-ranlib15"
@@ -2834,8 +3275,6 @@ events:
     search_context:
       ENV{PATH}:
         - "c:\\Users\\david\\.cursor\\extensions\\vadimcn.vscode-lldb-1.12.0\\bin"
-        - "C:\\Users\\david\\scoop\\apps\\gcc-arm-none-eabi\\current\\bin"
-        - "C:\\Users\\david\\scoop\\shims"
         - "C:\\Python314\\Scripts\\"
         - "C:\\Python314\\"
         - "C:\\Program Files (x86)\\Razer\\ChromaBroadcast\\bin"
@@ -2860,9 +3299,8 @@ events:
         - "C:\\ProgramData\\chocolatey\\bin"
         - "C:\\Program Files\\Git\\cmd"
         - "C:\\Program Files\\dotnet\\"
-        - "C:\\Users\\david\\AppData\\Local\\Programs\\Python\\Python313\\Scripts\\"
-        - "C:\\Users\\david\\AppData\\Local\\Programs\\Python\\Python313\\"
-        - "C:\\Users\\david\\AppData\\Local\\Microsoft\\WindowsApps"
+        - "C:\\Users\\david\\scoop\\apps\\gcc-arm-none-eabi\\current\\bin"
+        - "C:\\Users\\david\\scoop\\shims"
         - "C:\\Users\\david\\AppData\\Local\\Programs\\cursor\\resources\\app\\bin"
         - "C:\\msys64\\ucrt64\\bin"
         - "C:\\Users\\david\\AppData\\Roaming\\npm"
@@ -2892,13 +3330,11 @@ events:
       - "CMakeCXXCompilerId.cpp.in"
     candidate_directories:
       - "C:/Users/david/scoop/apps/cmake/current/share/cmake-4.3/Modules/"
-      - "C:/pico/pico-sdk/cmake/"
+      - "C:/Users/david/Downloads/myshit/pico-sdk/cmake/"
     found: "C:/Users/david/scoop/apps/cmake/current/share/cmake-4.3/Modules/CMakeCXXCompilerId.cpp.in"
     search_context:
       ENV{PATH}:
         - "c:\\Users\\david\\.cursor\\extensions\\vadimcn.vscode-lldb-1.12.0\\bin"
-        - "C:\\Users\\david\\scoop\\apps\\gcc-arm-none-eabi\\current\\bin"
-        - "C:\\Users\\david\\scoop\\shims"
         - "C:\\Python314\\Scripts\\"
         - "C:\\Python314\\"
         - "C:\\Program Files (x86)\\Razer\\ChromaBroadcast\\bin"
@@ -2923,9 +3359,8 @@ events:
         - "C:\\ProgramData\\chocolatey\\bin"
         - "C:\\Program Files\\Git\\cmd"
         - "C:\\Program Files\\dotnet\\"
-        - "C:\\Users\\david\\AppData\\Local\\Programs\\Python\\Python313\\Scripts\\"
-        - "C:\\Users\\david\\AppData\\Local\\Programs\\Python\\Python313\\"
-        - "C:\\Users\\david\\AppData\\Local\\Microsoft\\WindowsApps"
+        - "C:\\Users\\david\\scoop\\apps\\gcc-arm-none-eabi\\current\\bin"
+        - "C:\\Users\\david\\scoop\\shims"
         - "C:\\Users\\david\\AppData\\Local\\Programs\\cursor\\resources\\app\\bin"
         - "C:\\msys64\\ucrt64\\bin"
         - "C:\\Users\\david\\AppData\\Roaming\\npm"
@@ -2997,13 +3432,11 @@ events:
       - "CMakeCXXCompilerId.cpp.in"
     candidate_directories:
       - "C:/Users/david/scoop/apps/cmake/current/share/cmake-4.3/Modules/"
-      - "C:/pico/pico-sdk/cmake/"
+      - "C:/Users/david/Downloads/myshit/pico-sdk/cmake/"
     found: "C:/Users/david/scoop/apps/cmake/current/share/cmake-4.3/Modules/CMakeCXXCompilerId.cpp.in"
     search_context:
       ENV{PATH}:
         - "c:\\Users\\david\\.cursor\\extensions\\vadimcn.vscode-lldb-1.12.0\\bin"
-        - "C:\\Users\\david\\scoop\\apps\\gcc-arm-none-eabi\\current\\bin"
-        - "C:\\Users\\david\\scoop\\shims"
         - "C:\\Python314\\Scripts\\"
         - "C:\\Python314\\"
         - "C:\\Program Files (x86)\\Razer\\ChromaBroadcast\\bin"
@@ -3028,9 +3461,8 @@ events:
         - "C:\\ProgramData\\chocolatey\\bin"
         - "C:\\Program Files\\Git\\cmd"
         - "C:\\Program Files\\dotnet\\"
-        - "C:\\Users\\david\\AppData\\Local\\Programs\\Python\\Python313\\Scripts\\"
-        - "C:\\Users\\david\\AppData\\Local\\Programs\\Python\\Python313\\"
-        - "C:\\Users\\david\\AppData\\Local\\Microsoft\\WindowsApps"
+        - "C:\\Users\\david\\scoop\\apps\\gcc-arm-none-eabi\\current\\bin"
+        - "C:\\Users\\david\\scoop\\shims"
         - "C:\\Users\\david\\AppData\\Local\\Programs\\cursor\\resources\\app\\bin"
         - "C:\\msys64\\ucrt64\\bin"
         - "C:\\Users\\david\\AppData\\Roaming\\npm"
@@ -3083,7 +3515,6 @@ events:
     candidate_directories:
       - "C:/Users/david/scoop/apps/gcc-arm-none-eabi/current/bin/"
       - "C:/Users/david/.cursor/extensions/vadimcn.vscode-lldb-1.12.0/bin/"
-      - "C:/Users/david/scoop/shims/"
       - "C:/Python314/Scripts/"
       - "C:/Python314/"
       - "C:/Program Files (x86)/Razer/ChromaBroadcast/bin/"
@@ -3108,6 +3539,7 @@ events:
       - "C:/ProgramData/chocolatey/bin/"
       - "C:/Program Files/Git/cmd/"
       - "C:/Program Files/dotnet/"
+      - "C:/Users/david/scoop/shims/"
       - "C:/Users/david/AppData/Local/Programs/cursor/resources/app/bin/"
       - "C:/msys64/ucrt64/bin/"
       - "C:/Users/david/AppData/Roaming/npm/"
@@ -3119,9 +3551,6 @@ events:
       - "C:/Users/david/.cursor/extensions/vadimcn.vscode-lldb-1.12.0/bin/arm-none-eabi-gcc-ar-15.2.com"
       - "C:/Users/david/.cursor/extensions/vadimcn.vscode-lldb-1.12.0/bin/arm-none-eabi-gcc-ar-15.2.exe"
       - "C:/Users/david/.cursor/extensions/vadimcn.vscode-lldb-1.12.0/bin/arm-none-eabi-gcc-ar-15.2"
-      - "C:/Users/david/scoop/shims/arm-none-eabi-gcc-ar-15.2.com"
-      - "C:/Users/david/scoop/shims/arm-none-eabi-gcc-ar-15.2.exe"
-      - "C:/Users/david/scoop/shims/arm-none-eabi-gcc-ar-15.2"
       - "C:/Python314/Scripts/arm-none-eabi-gcc-ar-15.2.com"
       - "C:/Python314/Scripts/arm-none-eabi-gcc-ar-15.2.exe"
       - "C:/Python314/Scripts/arm-none-eabi-gcc-ar-15.2"
@@ -3194,6 +3623,9 @@ events:
       - "C:/Program Files/dotnet/arm-none-eabi-gcc-ar-15.2.com"
       - "C:/Program Files/dotnet/arm-none-eabi-gcc-ar-15.2.exe"
       - "C:/Program Files/dotnet/arm-none-eabi-gcc-ar-15.2"
+      - "C:/Users/david/scoop/shims/arm-none-eabi-gcc-ar-15.2.com"
+      - "C:/Users/david/scoop/shims/arm-none-eabi-gcc-ar-15.2.exe"
+      - "C:/Users/david/scoop/shims/arm-none-eabi-gcc-ar-15.2"
       - "C:/Users/david/AppData/Local/Programs/cursor/resources/app/bin/arm-none-eabi-gcc-ar-15.2.com"
       - "C:/Users/david/AppData/Local/Programs/cursor/resources/app/bin/arm-none-eabi-gcc-ar-15.2.exe"
       - "C:/Users/david/AppData/Local/Programs/cursor/resources/app/bin/arm-none-eabi-gcc-ar-15.2"
@@ -3212,9 +3644,6 @@ events:
       - "C:/Users/david/.cursor/extensions/vadimcn.vscode-lldb-1.12.0/bin/arm-none-eabi-gcc-ar-15.com"
       - "C:/Users/david/.cursor/extensions/vadimcn.vscode-lldb-1.12.0/bin/arm-none-eabi-gcc-ar-15.exe"
       - "C:/Users/david/.cursor/extensions/vadimcn.vscode-lldb-1.12.0/bin/arm-none-eabi-gcc-ar-15"
-      - "C:/Users/david/scoop/shims/arm-none-eabi-gcc-ar-15.com"
-      - "C:/Users/david/scoop/shims/arm-none-eabi-gcc-ar-15.exe"
-      - "C:/Users/david/scoop/shims/arm-none-eabi-gcc-ar-15"
       - "C:/Python314/Scripts/arm-none-eabi-gcc-ar-15.com"
       - "C:/Python314/Scripts/arm-none-eabi-gcc-ar-15.exe"
       - "C:/Python314/Scripts/arm-none-eabi-gcc-ar-15"
@@ -3287,6 +3716,9 @@ events:
       - "C:/Program Files/dotnet/arm-none-eabi-gcc-ar-15.com"
       - "C:/Program Files/dotnet/arm-none-eabi-gcc-ar-15.exe"
       - "C:/Program Files/dotnet/arm-none-eabi-gcc-ar-15"
+      - "C:/Users/david/scoop/shims/arm-none-eabi-gcc-ar-15.com"
+      - "C:/Users/david/scoop/shims/arm-none-eabi-gcc-ar-15.exe"
+      - "C:/Users/david/scoop/shims/arm-none-eabi-gcc-ar-15"
       - "C:/Users/david/AppData/Local/Programs/cursor/resources/app/bin/arm-none-eabi-gcc-ar-15.com"
       - "C:/Users/david/AppData/Local/Programs/cursor/resources/app/bin/arm-none-eabi-gcc-ar-15.exe"
       - "C:/Users/david/AppData/Local/Programs/cursor/resources/app/bin/arm-none-eabi-gcc-ar-15"
@@ -3305,9 +3737,6 @@ events:
       - "C:/Users/david/.cursor/extensions/vadimcn.vscode-lldb-1.12.0/bin/arm-none-eabi-gcc-ar15.com"
       - "C:/Users/david/.cursor/extensions/vadimcn.vscode-lldb-1.12.0/bin/arm-none-eabi-gcc-ar15.exe"
       - "C:/Users/david/.cursor/extensions/vadimcn.vscode-lldb-1.12.0/bin/arm-none-eabi-gcc-ar15"
-      - "C:/Users/david/scoop/shims/arm-none-eabi-gcc-ar15.com"
-      - "C:/Users/david/scoop/shims/arm-none-eabi-gcc-ar15.exe"
-      - "C:/Users/david/scoop/shims/arm-none-eabi-gcc-ar15"
       - "C:/Python314/Scripts/arm-none-eabi-gcc-ar15.com"
       - "C:/Python314/Scripts/arm-none-eabi-gcc-ar15.exe"
       - "C:/Python314/Scripts/arm-none-eabi-gcc-ar15"
@@ -3380,6 +3809,9 @@ events:
       - "C:/Program Files/dotnet/arm-none-eabi-gcc-ar15.com"
       - "C:/Program Files/dotnet/arm-none-eabi-gcc-ar15.exe"
       - "C:/Program Files/dotnet/arm-none-eabi-gcc-ar15"
+      - "C:/Users/david/scoop/shims/arm-none-eabi-gcc-ar15.com"
+      - "C:/Users/david/scoop/shims/arm-none-eabi-gcc-ar15.exe"
+      - "C:/Users/david/scoop/shims/arm-none-eabi-gcc-ar15"
       - "C:/Users/david/AppData/Local/Programs/cursor/resources/app/bin/arm-none-eabi-gcc-ar15.com"
       - "C:/Users/david/AppData/Local/Programs/cursor/resources/app/bin/arm-none-eabi-gcc-ar15.exe"
       - "C:/Users/david/AppData/Local/Programs/cursor/resources/app/bin/arm-none-eabi-gcc-ar15"
@@ -3397,8 +3829,6 @@ events:
     search_context:
       ENV{PATH}:
         - "c:\\Users\\david\\.cursor\\extensions\\vadimcn.vscode-lldb-1.12.0\\bin"
-        - "C:\\Users\\david\\scoop\\apps\\gcc-arm-none-eabi\\current\\bin"
-        - "C:\\Users\\david\\scoop\\shims"
         - "C:\\Python314\\Scripts\\"
         - "C:\\Python314\\"
         - "C:\\Program Files (x86)\\Razer\\ChromaBroadcast\\bin"
@@ -3423,9 +3853,8 @@ events:
         - "C:\\ProgramData\\chocolatey\\bin"
         - "C:\\Program Files\\Git\\cmd"
         - "C:\\Program Files\\dotnet\\"
-        - "C:\\Users\\david\\AppData\\Local\\Programs\\Python\\Python313\\Scripts\\"
-        - "C:\\Users\\david\\AppData\\Local\\Programs\\Python\\Python313\\"
-        - "C:\\Users\\david\\AppData\\Local\\Microsoft\\WindowsApps"
+        - "C:\\Users\\david\\scoop\\apps\\gcc-arm-none-eabi\\current\\bin"
+        - "C:\\Users\\david\\scoop\\shims"
         - "C:\\Users\\david\\AppData\\Local\\Programs\\cursor\\resources\\app\\bin"
         - "C:\\msys64\\ucrt64\\bin"
         - "C:\\Users\\david\\AppData\\Roaming\\npm"
@@ -3456,7 +3885,6 @@ events:
     candidate_directories:
       - "C:/Users/david/scoop/apps/gcc-arm-none-eabi/current/bin/"
       - "C:/Users/david/.cursor/extensions/vadimcn.vscode-lldb-1.12.0/bin/"
-      - "C:/Users/david/scoop/shims/"
       - "C:/Python314/Scripts/"
       - "C:/Python314/"
       - "C:/Program Files (x86)/Razer/ChromaBroadcast/bin/"
@@ -3481,6 +3909,7 @@ events:
       - "C:/ProgramData/chocolatey/bin/"
       - "C:/Program Files/Git/cmd/"
       - "C:/Program Files/dotnet/"
+      - "C:/Users/david/scoop/shims/"
       - "C:/Users/david/AppData/Local/Programs/cursor/resources/app/bin/"
       - "C:/msys64/ucrt64/bin/"
       - "C:/Users/david/AppData/Roaming/npm/"
@@ -3492,9 +3921,6 @@ events:
       - "C:/Users/david/.cursor/extensions/vadimcn.vscode-lldb-1.12.0/bin/arm-none-eabi-gcc-ranlib-15.2.com"
       - "C:/Users/david/.cursor/extensions/vadimcn.vscode-lldb-1.12.0/bin/arm-none-eabi-gcc-ranlib-15.2.exe"
       - "C:/Users/david/.cursor/extensions/vadimcn.vscode-lldb-1.12.0/bin/arm-none-eabi-gcc-ranlib-15.2"
-      - "C:/Users/david/scoop/shims/arm-none-eabi-gcc-ranlib-15.2.com"
-      - "C:/Users/david/scoop/shims/arm-none-eabi-gcc-ranlib-15.2.exe"
-      - "C:/Users/david/scoop/shims/arm-none-eabi-gcc-ranlib-15.2"
       - "C:/Python314/Scripts/arm-none-eabi-gcc-ranlib-15.2.com"
       - "C:/Python314/Scripts/arm-none-eabi-gcc-ranlib-15.2.exe"
       - "C:/Python314/Scripts/arm-none-eabi-gcc-ranlib-15.2"
@@ -3567,6 +3993,9 @@ events:
       - "C:/Program Files/dotnet/arm-none-eabi-gcc-ranlib-15.2.com"
       - "C:/Program Files/dotnet/arm-none-eabi-gcc-ranlib-15.2.exe"
       - "C:/Program Files/dotnet/arm-none-eabi-gcc-ranlib-15.2"
+      - "C:/Users/david/scoop/shims/arm-none-eabi-gcc-ranlib-15.2.com"
+      - "C:/Users/david/scoop/shims/arm-none-eabi-gcc-ranlib-15.2.exe"
+      - "C:/Users/david/scoop/shims/arm-none-eabi-gcc-ranlib-15.2"
       - "C:/Users/david/AppData/Local/Programs/cursor/resources/app/bin/arm-none-eabi-gcc-ranlib-15.2.com"
       - "C:/Users/david/AppData/Local/Programs/cursor/resources/app/bin/arm-none-eabi-gcc-ranlib-15.2.exe"
       - "C:/Users/david/AppData/Local/Programs/cursor/resources/app/bin/arm-none-eabi-gcc-ranlib-15.2"
@@ -3585,9 +4014,6 @@ events:
       - "C:/Users/david/.cursor/extensions/vadimcn.vscode-lldb-1.12.0/bin/arm-none-eabi-gcc-ranlib-15.com"
       - "C:/Users/david/.cursor/extensions/vadimcn.vscode-lldb-1.12.0/bin/arm-none-eabi-gcc-ranlib-15.exe"
       - "C:/Users/david/.cursor/extensions/vadimcn.vscode-lldb-1.12.0/bin/arm-none-eabi-gcc-ranlib-15"
-      - "C:/Users/david/scoop/shims/arm-none-eabi-gcc-ranlib-15.com"
-      - "C:/Users/david/scoop/shims/arm-none-eabi-gcc-ranlib-15.exe"
-      - "C:/Users/david/scoop/shims/arm-none-eabi-gcc-ranlib-15"
       - "C:/Python314/Scripts/arm-none-eabi-gcc-ranlib-15.com"
       - "C:/Python314/Scripts/arm-none-eabi-gcc-ranlib-15.exe"
       - "C:/Python314/Scripts/arm-none-eabi-gcc-ranlib-15"
@@ -3660,6 +4086,9 @@ events:
       - "C:/Program Files/dotnet/arm-none-eabi-gcc-ranlib-15.com"
       - "C:/Program Files/dotnet/arm-none-eabi-gcc-ranlib-15.exe"
       - "C:/Program Files/dotnet/arm-none-eabi-gcc-ranlib-15"
+      - "C:/Users/david/scoop/shims/arm-none-eabi-gcc-ranlib-15.com"
+      - "C:/Users/david/scoop/shims/arm-none-eabi-gcc-ranlib-15.exe"
+      - "C:/Users/david/scoop/shims/arm-none-eabi-gcc-ranlib-15"
       - "C:/Users/david/AppData/Local/Programs/cursor/resources/app/bin/arm-none-eabi-gcc-ranlib-15.com"
       - "C:/Users/david/AppData/Local/Programs/cursor/resources/app/bin/arm-none-eabi-gcc-ranlib-15.exe"
       - "C:/Users/david/AppData/Local/Programs/cursor/resources/app/bin/arm-none-eabi-gcc-ranlib-15"
@@ -3678,9 +4107,6 @@ events:
       - "C:/Users/david/.cursor/extensions/vadimcn.vscode-lldb-1.12.0/bin/arm-none-eabi-gcc-ranlib15.com"
       - "C:/Users/david/.cursor/extensions/vadimcn.vscode-lldb-1.12.0/bin/arm-none-eabi-gcc-ranlib15.exe"
       - "C:/Users/david/.cursor/extensions/vadimcn.vscode-lldb-1.12.0/bin/arm-none-eabi-gcc-ranlib15"
-      - "C:/Users/david/scoop/shims/arm-none-eabi-gcc-ranlib15.com"
-      - "C:/Users/david/scoop/shims/arm-none-eabi-gcc-ranlib15.exe"
-      - "C:/Users/david/scoop/shims/arm-none-eabi-gcc-ranlib15"
       - "C:/Python314/Scripts/arm-none-eabi-gcc-ranlib15.com"
       - "C:/Python314/Scripts/arm-none-eabi-gcc-ranlib15.exe"
       - "C:/Python314/Scripts/arm-none-eabi-gcc-ranlib15"
@@ -3753,6 +4179,9 @@ events:
       - "C:/Program Files/dotnet/arm-none-eabi-gcc-ranlib15.com"
       - "C:/Program Files/dotnet/arm-none-eabi-gcc-ranlib15.exe"
       - "C:/Program Files/dotnet/arm-none-eabi-gcc-ranlib15"
+      - "C:/Users/david/scoop/shims/arm-none-eabi-gcc-ranlib15.com"
+      - "C:/Users/david/scoop/shims/arm-none-eabi-gcc-ranlib15.exe"
+      - "C:/Users/david/scoop/shims/arm-none-eabi-gcc-ranlib15"
       - "C:/Users/david/AppData/Local/Programs/cursor/resources/app/bin/arm-none-eabi-gcc-ranlib15.com"
       - "C:/Users/david/AppData/Local/Programs/cursor/resources/app/bin/arm-none-eabi-gcc-ranlib15.exe"
       - "C:/Users/david/AppData/Local/Programs/cursor/resources/app/bin/arm-none-eabi-gcc-ranlib15"
@@ -3770,8 +4199,6 @@ events:
     search_context:
       ENV{PATH}:
         - "c:\\Users\\david\\.cursor\\extensions\\vadimcn.vscode-lldb-1.12.0\\bin"
-        - "C:\\Users\\david\\scoop\\apps\\gcc-arm-none-eabi\\current\\bin"
-        - "C:\\Users\\david\\scoop\\shims"
         - "C:\\Python314\\Scripts\\"
         - "C:\\Python314\\"
         - "C:\\Program Files (x86)\\Razer\\ChromaBroadcast\\bin"
@@ -3796,9 +4223,8 @@ events:
         - "C:\\ProgramData\\chocolatey\\bin"
         - "C:\\Program Files\\Git\\cmd"
         - "C:\\Program Files\\dotnet\\"
-        - "C:\\Users\\david\\AppData\\Local\\Programs\\Python\\Python313\\Scripts\\"
-        - "C:\\Users\\david\\AppData\\Local\\Programs\\Python\\Python313\\"
-        - "C:\\Users\\david\\AppData\\Local\\Microsoft\\WindowsApps"
+        - "C:\\Users\\david\\scoop\\apps\\gcc-arm-none-eabi\\current\\bin"
+        - "C:\\Users\\david\\scoop\\shims"
         - "C:\\Users\\david\\AppData\\Local\\Programs\\cursor\\resources\\app\\bin"
         - "C:\\msys64\\ucrt64\\bin"
         - "C:\\Users\\david\\AppData\\Roaming\\npm"
@@ -3842,7 +4268,6 @@ events:
     candidate_directories:
       - "C:/Users/david/scoop/apps/gcc-arm-none-eabi/current/bin/"
       - "C:/Users/david/.cursor/extensions/vadimcn.vscode-lldb-1.12.0/bin/"
-      - "C:/Users/david/scoop/shims/"
       - "C:/Python314/Scripts/"
       - "C:/Python314/"
       - "C:/Program Files (x86)/Razer/ChromaBroadcast/bin/"
@@ -3867,6 +4292,7 @@ events:
       - "C:/ProgramData/chocolatey/bin/"
       - "C:/Program Files/Git/cmd/"
       - "C:/Program Files/dotnet/"
+      - "C:/Users/david/scoop/shims/"
       - "C:/Users/david/AppData/Local/Programs/cursor/resources/app/bin/"
       - "C:/msys64/ucrt64/bin/"
       - "C:/Users/david/AppData/Roaming/npm/"
@@ -3878,9 +4304,6 @@ events:
       - "C:/Users/david/.cursor/extensions/vadimcn.vscode-lldb-1.12.0/bin/arm-none-eabi-gcc-ar-.com"
       - "C:/Users/david/.cursor/extensions/vadimcn.vscode-lldb-1.12.0/bin/arm-none-eabi-gcc-ar-.exe"
       - "C:/Users/david/.cursor/extensions/vadimcn.vscode-lldb-1.12.0/bin/arm-none-eabi-gcc-ar-"
-      - "C:/Users/david/scoop/shims/arm-none-eabi-gcc-ar-.com"
-      - "C:/Users/david/scoop/shims/arm-none-eabi-gcc-ar-.exe"
-      - "C:/Users/david/scoop/shims/arm-none-eabi-gcc-ar-"
       - "C:/Python314/Scripts/arm-none-eabi-gcc-ar-.com"
       - "C:/Python314/Scripts/arm-none-eabi-gcc-ar-.exe"
       - "C:/Python314/Scripts/arm-none-eabi-gcc-ar-"
@@ -3953,6 +4376,9 @@ events:
       - "C:/Program Files/dotnet/arm-none-eabi-gcc-ar-.com"
       - "C:/Program Files/dotnet/arm-none-eabi-gcc-ar-.exe"
       - "C:/Program Files/dotnet/arm-none-eabi-gcc-ar-"
+      - "C:/Users/david/scoop/shims/arm-none-eabi-gcc-ar-.com"
+      - "C:/Users/david/scoop/shims/arm-none-eabi-gcc-ar-.exe"
+      - "C:/Users/david/scoop/shims/arm-none-eabi-gcc-ar-"
       - "C:/Users/david/AppData/Local/Programs/cursor/resources/app/bin/arm-none-eabi-gcc-ar-.com"
       - "C:/Users/david/AppData/Local/Programs/cursor/resources/app/bin/arm-none-eabi-gcc-ar-.exe"
       - "C:/Users/david/AppData/Local/Programs/cursor/resources/app/bin/arm-none-eabi-gcc-ar-"
@@ -3971,9 +4397,6 @@ events:
       - "C:/Users/david/.cursor/extensions/vadimcn.vscode-lldb-1.12.0/bin/arm-none-eabi-gcc-ar-.com"
       - "C:/Users/david/.cursor/extensions/vadimcn.vscode-lldb-1.12.0/bin/arm-none-eabi-gcc-ar-.exe"
       - "C:/Users/david/.cursor/extensions/vadimcn.vscode-lldb-1.12.0/bin/arm-none-eabi-gcc-ar-"
-      - "C:/Users/david/scoop/shims/arm-none-eabi-gcc-ar-.com"
-      - "C:/Users/david/scoop/shims/arm-none-eabi-gcc-ar-.exe"
-      - "C:/Users/david/scoop/shims/arm-none-eabi-gcc-ar-"
       - "C:/Python314/Scripts/arm-none-eabi-gcc-ar-.com"
       - "C:/Python314/Scripts/arm-none-eabi-gcc-ar-.exe"
       - "C:/Python314/Scripts/arm-none-eabi-gcc-ar-"
@@ -4046,6 +4469,9 @@ events:
       - "C:/Program Files/dotnet/arm-none-eabi-gcc-ar-.com"
       - "C:/Program Files/dotnet/arm-none-eabi-gcc-ar-.exe"
       - "C:/Program Files/dotnet/arm-none-eabi-gcc-ar-"
+      - "C:/Users/david/scoop/shims/arm-none-eabi-gcc-ar-.com"
+      - "C:/Users/david/scoop/shims/arm-none-eabi-gcc-ar-.exe"
+      - "C:/Users/david/scoop/shims/arm-none-eabi-gcc-ar-"
       - "C:/Users/david/AppData/Local/Programs/cursor/resources/app/bin/arm-none-eabi-gcc-ar-.com"
       - "C:/Users/david/AppData/Local/Programs/cursor/resources/app/bin/arm-none-eabi-gcc-ar-.exe"
       - "C:/Users/david/AppData/Local/Programs/cursor/resources/app/bin/arm-none-eabi-gcc-ar-"
@@ -4063,8 +4489,6 @@ events:
     search_context:
       ENV{PATH}:
         - "c:\\Users\\david\\.cursor\\extensions\\vadimcn.vscode-lldb-1.12.0\\bin"
-        - "C:\\Users\\david\\scoop\\apps\\gcc-arm-none-eabi\\current\\bin"
-        - "C:\\Users\\david\\scoop\\shims"
         - "C:\\Python314\\Scripts\\"
         - "C:\\Python314\\"
         - "C:\\Program Files (x86)\\Razer\\ChromaBroadcast\\bin"
@@ -4089,9 +4513,8 @@ events:
         - "C:\\ProgramData\\chocolatey\\bin"
         - "C:\\Program Files\\Git\\cmd"
         - "C:\\Program Files\\dotnet\\"
-        - "C:\\Users\\david\\AppData\\Local\\Programs\\Python\\Python313\\Scripts\\"
-        - "C:\\Users\\david\\AppData\\Local\\Programs\\Python\\Python313\\"
-        - "C:\\Users\\david\\AppData\\Local\\Microsoft\\WindowsApps"
+        - "C:\\Users\\david\\scoop\\apps\\gcc-arm-none-eabi\\current\\bin"
+        - "C:\\Users\\david\\scoop\\shims"
         - "C:\\Users\\david\\AppData\\Local\\Programs\\cursor\\resources\\app\\bin"
         - "C:\\msys64\\ucrt64\\bin"
         - "C:\\Users\\david\\AppData\\Roaming\\npm"
@@ -4122,7 +4545,6 @@ events:
     candidate_directories:
       - "C:/Users/david/scoop/apps/gcc-arm-none-eabi/current/bin/"
       - "C:/Users/david/.cursor/extensions/vadimcn.vscode-lldb-1.12.0/bin/"
-      - "C:/Users/david/scoop/shims/"
       - "C:/Python314/Scripts/"
       - "C:/Python314/"
       - "C:/Program Files (x86)/Razer/ChromaBroadcast/bin/"
@@ -4147,6 +4569,7 @@ events:
       - "C:/ProgramData/chocolatey/bin/"
       - "C:/Program Files/Git/cmd/"
       - "C:/Program Files/dotnet/"
+      - "C:/Users/david/scoop/shims/"
       - "C:/Users/david/AppData/Local/Programs/cursor/resources/app/bin/"
       - "C:/msys64/ucrt64/bin/"
       - "C:/Users/david/AppData/Roaming/npm/"
@@ -4158,9 +4581,6 @@ events:
       - "C:/Users/david/.cursor/extensions/vadimcn.vscode-lldb-1.12.0/bin/arm-none-eabi-gcc-ranlib-.com"
       - "C:/Users/david/.cursor/extensions/vadimcn.vscode-lldb-1.12.0/bin/arm-none-eabi-gcc-ranlib-.exe"
       - "C:/Users/david/.cursor/extensions/vadimcn.vscode-lldb-1.12.0/bin/arm-none-eabi-gcc-ranlib-"
-      - "C:/Users/david/scoop/shims/arm-none-eabi-gcc-ranlib-.com"
-      - "C:/Users/david/scoop/shims/arm-none-eabi-gcc-ranlib-.exe"
-      - "C:/Users/david/scoop/shims/arm-none-eabi-gcc-ranlib-"
       - "C:/Python314/Scripts/arm-none-eabi-gcc-ranlib-.com"
       - "C:/Python314/Scripts/arm-none-eabi-gcc-ranlib-.exe"
       - "C:/Python314/Scripts/arm-none-eabi-gcc-ranlib-"
@@ -4233,6 +4653,9 @@ events:
       - "C:/Program Files/dotnet/arm-none-eabi-gcc-ranlib-.com"
       - "C:/Program Files/dotnet/arm-none-eabi-gcc-ranlib-.exe"
       - "C:/Program Files/dotnet/arm-none-eabi-gcc-ranlib-"
+      - "C:/Users/david/scoop/shims/arm-none-eabi-gcc-ranlib-.com"
+      - "C:/Users/david/scoop/shims/arm-none-eabi-gcc-ranlib-.exe"
+      - "C:/Users/david/scoop/shims/arm-none-eabi-gcc-ranlib-"
       - "C:/Users/david/AppData/Local/Programs/cursor/resources/app/bin/arm-none-eabi-gcc-ranlib-.com"
       - "C:/Users/david/AppData/Local/Programs/cursor/resources/app/bin/arm-none-eabi-gcc-ranlib-.exe"
       - "C:/Users/david/AppData/Local/Programs/cursor/resources/app/bin/arm-none-eabi-gcc-ranlib-"
@@ -4251,9 +4674,6 @@ events:
       - "C:/Users/david/.cursor/extensions/vadimcn.vscode-lldb-1.12.0/bin/arm-none-eabi-gcc-ranlib-.com"
       - "C:/Users/david/.cursor/extensions/vadimcn.vscode-lldb-1.12.0/bin/arm-none-eabi-gcc-ranlib-.exe"
       - "C:/Users/david/.cursor/extensions/vadimcn.vscode-lldb-1.12.0/bin/arm-none-eabi-gcc-ranlib-"
-      - "C:/Users/david/scoop/shims/arm-none-eabi-gcc-ranlib-.com"
-      - "C:/Users/david/scoop/shims/arm-none-eabi-gcc-ranlib-.exe"
-      - "C:/Users/david/scoop/shims/arm-none-eabi-gcc-ranlib-"
       - "C:/Python314/Scripts/arm-none-eabi-gcc-ranlib-.com"
       - "C:/Python314/Scripts/arm-none-eabi-gcc-ranlib-.exe"
       - "C:/Python314/Scripts/arm-none-eabi-gcc-ranlib-"
@@ -4326,6 +4746,9 @@ events:
       - "C:/Program Files/dotnet/arm-none-eabi-gcc-ranlib-.com"
       - "C:/Program Files/dotnet/arm-none-eabi-gcc-ranlib-.exe"
       - "C:/Program Files/dotnet/arm-none-eabi-gcc-ranlib-"
+      - "C:/Users/david/scoop/shims/arm-none-eabi-gcc-ranlib-.com"
+      - "C:/Users/david/scoop/shims/arm-none-eabi-gcc-ranlib-.exe"
+      - "C:/Users/david/scoop/shims/arm-none-eabi-gcc-ranlib-"
       - "C:/Users/david/AppData/Local/Programs/cursor/resources/app/bin/arm-none-eabi-gcc-ranlib-.com"
       - "C:/Users/david/AppData/Local/Programs/cursor/resources/app/bin/arm-none-eabi-gcc-ranlib-.exe"
       - "C:/Users/david/AppData/Local/Programs/cursor/resources/app/bin/arm-none-eabi-gcc-ranlib-"
@@ -4343,8 +4766,6 @@ events:
     search_context:
       ENV{PATH}:
         - "c:\\Users\\david\\.cursor\\extensions\\vadimcn.vscode-lldb-1.12.0\\bin"
-        - "C:\\Users\\david\\scoop\\apps\\gcc-arm-none-eabi\\current\\bin"
-        - "C:\\Users\\david\\scoop\\shims"
         - "C:\\Python314\\Scripts\\"
         - "C:\\Python314\\"
         - "C:\\Program Files (x86)\\Razer\\ChromaBroadcast\\bin"
@@ -4369,9 +4790,8 @@ events:
         - "C:\\ProgramData\\chocolatey\\bin"
         - "C:\\Program Files\\Git\\cmd"
         - "C:\\Program Files\\dotnet\\"
-        - "C:\\Users\\david\\AppData\\Local\\Programs\\Python\\Python313\\Scripts\\"
-        - "C:\\Users\\david\\AppData\\Local\\Programs\\Python\\Python313\\"
-        - "C:\\Users\\david\\AppData\\Local\\Microsoft\\WindowsApps"
+        - "C:\\Users\\david\\scoop\\apps\\gcc-arm-none-eabi\\current\\bin"
+        - "C:\\Users\\david\\scoop\\shims"
         - "C:\\Users\\david\\AppData\\Local\\Programs\\cursor\\resources\\app\\bin"
         - "C:\\msys64\\ucrt64\\bin"
         - "C:\\Users\\david\\AppData\\Roaming\\npm"
@@ -4386,23 +4806,23 @@ events:
     checks:
       - "Detecting C compiler ABI info"
     directories:
-      source: "C:/pico/pico-kernel/build/CMakeFiles/CMakeScratch/TryCompile-pz9dt2"
-      binary: "C:/pico/pico-kernel/build/CMakeFiles/CMakeScratch/TryCompile-pz9dt2"
+      source: "C:/pico/pico-kernel/build/CMakeFiles/CMakeScratch/TryCompile-j196dw"
+      binary: "C:/pico/pico-kernel/build/CMakeFiles/CMakeScratch/TryCompile-j196dw"
     cmakeVariables:
       CMAKE_CXX_STDLIB_MODULES_JSON: ""
       CMAKE_C_FLAGS: "-mcpu=cortex-m0plus -mthumb"
       CMAKE_C_FLAGS_DEBUG: "-Og -g"
       CMAKE_EXE_LINKER_FLAGS: ""
-      CMAKE_MODULE_PATH: "C:/pico/pico-sdk/cmake"
-      PICO_SDK_PATH: "C:/pico/pico-sdk"
+      CMAKE_MODULE_PATH: "C:/Users/david/Downloads/myshit/pico-sdk/cmake"
+      PICO_SDK_PATH: "C:/Users/david/Downloads/myshit/pico-sdk"
     buildResult:
       variable: "CMAKE_C_ABI_COMPILED"
       cached: true
       stdout: |
-        Change Dir: 'C:/pico/pico-kernel/build/CMakeFiles/CMakeScratch/TryCompile-pz9dt2'
+        Change Dir: 'C:/pico/pico-kernel/build/CMakeFiles/CMakeScratch/TryCompile-j196dw'
         
-        Run Build Command(s): C:/Users/david/scoop/shims/ninja.exe -v cmTC_cf4ef
-        [1/2] C:\\Users\\david\\scoop\\apps\\gcc-arm-none-eabi\\current\\bin\\arm-none-eabi-gcc.exe   -mcpu=cortex-m0plus -mthumb    -v -o CMakeFiles/cmTC_cf4ef.dir/CMakeCCompilerABI.c.obj -c C:/Users/david/scoop/apps/cmake/current/share/cmake-4.3/Modules/CMakeCCompilerABI.c
+        Run Build Command(s): C:/Users/david/scoop/shims/ninja.exe -v cmTC_05dad
+        [1/2] C:\\Users\\david\\scoop\\apps\\gcc-arm-none-eabi\\current\\bin\\arm-none-eabi-gcc.exe   -mcpu=cortex-m0plus -mthumb    -v -o CMakeFiles/cmTC_05dad.dir/CMakeCCompilerABI.c.obj -c C:/Users/david/scoop/apps/cmake/current/share/cmake-4.3/Modules/CMakeCCompilerABI.c
         Using built-in specs.
         COLLECT_GCC=C:\\Users\\david\\scoop\\apps\\gcc-arm-none-eabi\\current\\bin\\arm-none-eabi-gcc.exe
         Target: arm-none-eabi
@@ -4410,8 +4830,8 @@ events:
         Thread model: single
         Supported LTO compression algorithms: zlib
         gcc version 15.2.1 20251203 (Arm GNU Toolchain 15.2.Rel1 (Build arm-15.86)) 
-        COLLECT_GCC_OPTIONS='-mcpu=cortex-m0plus' '-mthumb' '-v' '-o' 'CMakeFiles/cmTC_cf4ef.dir/CMakeCCompilerABI.c.obj' '-c' '-mfloat-abi=soft' '-mlibarch=armv6s-m' '-march=armv6s-m' '-dumpdir' 'CMakeFiles/cmTC_cf4ef.dir/'
-         C:/Users/david/scoop/apps/gcc-arm-none-eabi/15.2.rel1/bin/../libexec/gcc/arm-none-eabi/15.2.1/cc1.exe -quiet -v -imultilib thumb/v6-m/nofp -iprefix C:/Users/david/scoop/apps/gcc-arm-none-eabi/15.2.rel1/bin/../lib/gcc/arm-none-eabi/15.2.1/ -isysroot C:/Users/david/scoop/apps/gcc-arm-none-eabi/15.2.rel1/bin/../arm-none-eabi -D__USES_INITFINI__ C:/Users/david/scoop/apps/cmake/current/share/cmake-4.3/Modules/CMakeCCompilerABI.c -quiet -dumpdir CMakeFiles/cmTC_cf4ef.dir/ -dumpbase CMakeCCompilerABI.c.c -dumpbase-ext .c -mcpu=cortex-m0plus -mthumb -mfloat-abi=soft -mlibarch=armv6s-m -march=armv6s-m -version -o C:\\Users\\david\\AppData\\Local\\Temp\\cctJd4cr.s
+        COLLECT_GCC_OPTIONS='-mcpu=cortex-m0plus' '-mthumb' '-v' '-o' 'CMakeFiles/cmTC_05dad.dir/CMakeCCompilerABI.c.obj' '-c' '-mfloat-abi=soft' '-mlibarch=armv6s-m' '-march=armv6s-m' '-dumpdir' 'CMakeFiles/cmTC_05dad.dir/'
+         C:/Users/david/scoop/apps/gcc-arm-none-eabi/15.2.rel1/bin/../libexec/gcc/arm-none-eabi/15.2.1/cc1.exe -quiet -v -imultilib thumb/v6-m/nofp -iprefix C:/Users/david/scoop/apps/gcc-arm-none-eabi/15.2.rel1/bin/../lib/gcc/arm-none-eabi/15.2.1/ -isysroot C:/Users/david/scoop/apps/gcc-arm-none-eabi/15.2.rel1/bin/../arm-none-eabi -D__USES_INITFINI__ C:/Users/david/scoop/apps/cmake/current/share/cmake-4.3/Modules/CMakeCCompilerABI.c -quiet -dumpdir CMakeFiles/cmTC_05dad.dir/ -dumpbase CMakeCCompilerABI.c.c -dumpbase-ext .c -mcpu=cortex-m0plus -mthumb -mfloat-abi=soft -mlibarch=armv6s-m -march=armv6s-m -version -o C:\\Users\\david\\AppData\\Local\\Temp\\ccGkUKCv.s
         GNU C23 (Arm GNU Toolchain 15.2.Rel1 (Build arm-15.86)) version 15.2.1 20251203 (arm-none-eabi)
         	compiled by GNU C version 13-win32, GMP version 6.2.1, MPFR version 3.1.6, MPC version 1.0.3, isl version isl-0.15-1-g835ea3a-GMP
         
@@ -4428,13 +4848,13 @@ events:
          C:/Users/david/scoop/apps/gcc-arm-none-eabi/15.2.rel1/bin/../lib/gcc/arm-none-eabi/15.2.1/../../../../arm-none-eabi/include
         End of search list.
         Compiler executable checksum: 06ab445c59ba8f89bbf09b9a069e4cf7
-        COLLECT_GCC_OPTIONS='-mcpu=cortex-m0plus' '-mthumb' '-v' '-o' 'CMakeFiles/cmTC_cf4ef.dir/CMakeCCompilerABI.c.obj' '-c' '-mfloat-abi=soft' '-mlibarch=armv6s-m' '-march=armv6s-m' '-dumpdir' 'CMakeFiles/cmTC_cf4ef.dir/'
-         C:/Users/david/scoop/apps/gcc-arm-none-eabi/15.2.rel1/bin/../lib/gcc/arm-none-eabi/15.2.1/../../../../arm-none-eabi/bin/as.exe -v -march=armv6s-m -mfloat-abi=soft -meabi=5 -o CMakeFiles/cmTC_cf4ef.dir/CMakeCCompilerABI.c.obj C:\\Users\\david\\AppData\\Local\\Temp\\cctJd4cr.s
+        COLLECT_GCC_OPTIONS='-mcpu=cortex-m0plus' '-mthumb' '-v' '-o' 'CMakeFiles/cmTC_05dad.dir/CMakeCCompilerABI.c.obj' '-c' '-mfloat-abi=soft' '-mlibarch=armv6s-m' '-march=armv6s-m' '-dumpdir' 'CMakeFiles/cmTC_05dad.dir/'
+         C:/Users/david/scoop/apps/gcc-arm-none-eabi/15.2.rel1/bin/../lib/gcc/arm-none-eabi/15.2.1/../../../../arm-none-eabi/bin/as.exe -v -march=armv6s-m -mfloat-abi=soft -meabi=5 -o CMakeFiles/cmTC_05dad.dir/CMakeCCompilerABI.c.obj C:\\Users\\david\\AppData\\Local\\Temp\\ccGkUKCv.s
         GNU assembler version 2.45.1 (arm-none-eabi) using BFD version (Arm GNU Toolchain 15.2.Rel1 (Build arm-15.86)) 2.45.1.20251203
         COMPILER_PATH=C:/Users/david/scoop/apps/gcc-arm-none-eabi/15.2.rel1/bin/../libexec/gcc/arm-none-eabi/15.2.1/;C:/Users/david/scoop/apps/gcc-arm-none-eabi/15.2.rel1/bin/../libexec/gcc/;C:/Users/david/scoop/apps/gcc-arm-none-eabi/15.2.rel1/bin/../lib/gcc/arm-none-eabi/15.2.1/../../../../arm-none-eabi/bin/
         LIBRARY_PATH=C:/Users/david/scoop/apps/gcc-arm-none-eabi/15.2.rel1/bin/../lib/gcc/arm-none-eabi/15.2.1/thumb/v6-m/nofp/;C:/Users/david/scoop/apps/gcc-arm-none-eabi/15.2.rel1/bin/../lib/gcc/arm-none-eabi/15.2.1/../../../../arm-none-eabi/lib/thumb/v6-m/nofp/;C:/Users/david/scoop/apps/gcc-arm-none-eabi/15.2.rel1/bin/../arm-none-eabi/lib/thumb/v6-m/nofp/;C:/Users/david/scoop/apps/gcc-arm-none-eabi/15.2.rel1/bin/../lib/gcc/arm-none-eabi/15.2.1/;C:/Users/david/scoop/apps/gcc-arm-none-eabi/15.2.rel1/bin/../lib/gcc/;C:/Users/david/scoop/apps/gcc-arm-none-eabi/15.2.rel1/bin/../lib/gcc/arm-none-eabi/15.2.1/../../../../arm-none-eabi/lib/;C:/Users/david/scoop/apps/gcc-arm-none-eabi/15.2.rel1/bin/../arm-none-eabi/lib/
-        COLLECT_GCC_OPTIONS='-mcpu=cortex-m0plus' '-mthumb' '-v' '-o' 'CMakeFiles/cmTC_cf4ef.dir/CMakeCCompilerABI.c.obj' '-c' '-mfloat-abi=soft' '-mlibarch=armv6s-m' '-march=armv6s-m' '-dumpdir' 'CMakeFiles/cmTC_cf4ef.dir/CMakeCCompilerABI.c.'
-        [2/2] C:\\WINDOWS\\system32\\cmd.exe /C "cd . && C:\\Users\\david\\scoop\\apps\\gcc-arm-none-eabi\\current\\bin\\arm-none-eabi-gcc.exe -mcpu=cortex-m0plus -mthumb -Wl,--build-id=none -nostdlib  -v CMakeFiles/cmTC_cf4ef.dir/CMakeCCompilerABI.c.obj -o cmTC_cf4ef.elf   && cd ."
+        COLLECT_GCC_OPTIONS='-mcpu=cortex-m0plus' '-mthumb' '-v' '-o' 'CMakeFiles/cmTC_05dad.dir/CMakeCCompilerABI.c.obj' '-c' '-mfloat-abi=soft' '-mlibarch=armv6s-m' '-march=armv6s-m' '-dumpdir' 'CMakeFiles/cmTC_05dad.dir/CMakeCCompilerABI.c.'
+        [2/2] C:\\WINDOWS\\system32\\cmd.exe /C "cd . && C:\\Users\\david\\scoop\\apps\\gcc-arm-none-eabi\\current\\bin\\arm-none-eabi-gcc.exe -mcpu=cortex-m0plus -mthumb -Wl,--build-id=none -nostdlib  -v CMakeFiles/cmTC_05dad.dir/CMakeCCompilerABI.c.obj -o cmTC_05dad.elf   && cd ."
         Using built-in specs.
         COLLECT_GCC=C:\\Users\\david\\scoop\\apps\\gcc-arm-none-eabi\\current\\bin\\arm-none-eabi-gcc.exe
         COLLECT_LTO_WRAPPER=C:/Users/david/scoop/apps/gcc-arm-none-eabi/15.2.rel1/bin/../libexec/gcc/arm-none-eabi/15.2.1/lto-wrapper.exe
@@ -4445,10 +4865,10 @@ events:
         gcc version 15.2.1 20251203 (Arm GNU Toolchain 15.2.Rel1 (Build arm-15.86)) 
         COMPILER_PATH=C:/Users/david/scoop/apps/gcc-arm-none-eabi/15.2.rel1/bin/../libexec/gcc/arm-none-eabi/15.2.1/;C:/Users/david/scoop/apps/gcc-arm-none-eabi/15.2.rel1/bin/../libexec/gcc/;C:/Users/david/scoop/apps/gcc-arm-none-eabi/15.2.rel1/bin/../lib/gcc/arm-none-eabi/15.2.1/../../../../arm-none-eabi/bin/
         LIBRARY_PATH=C:/Users/david/scoop/apps/gcc-arm-none-eabi/15.2.rel1/bin/../lib/gcc/arm-none-eabi/15.2.1/thumb/v6-m/nofp/;C:/Users/david/scoop/apps/gcc-arm-none-eabi/15.2.rel1/bin/../lib/gcc/arm-none-eabi/15.2.1/../../../../arm-none-eabi/lib/thumb/v6-m/nofp/;C:/Users/david/scoop/apps/gcc-arm-none-eabi/15.2.rel1/bin/../arm-none-eabi/lib/thumb/v6-m/nofp/;C:/Users/david/scoop/apps/gcc-arm-none-eabi/15.2.rel1/bin/../lib/gcc/arm-none-eabi/15.2.1/;C:/Users/david/scoop/apps/gcc-arm-none-eabi/15.2.rel1/bin/../lib/gcc/;C:/Users/david/scoop/apps/gcc-arm-none-eabi/15.2.rel1/bin/../lib/gcc/arm-none-eabi/15.2.1/../../../../arm-none-eabi/lib/;C:/Users/david/scoop/apps/gcc-arm-none-eabi/15.2.rel1/bin/../arm-none-eabi/lib/
-        COLLECT_GCC_OPTIONS='-mcpu=cortex-m0plus' '-mthumb' '-nostdlib' '-v' '-o' 'cmTC_cf4ef.elf' '-mfloat-abi=soft' '-mlibarch=armv6s-m' '-march=armv6s-m' '-dumpdir' 'cmTC_cf4ef.elf.'
-         C:/Users/david/scoop/apps/gcc-arm-none-eabi/15.2.rel1/bin/../libexec/gcc/arm-none-eabi/15.2.1/collect2.exe -plugin C:/Users/david/scoop/apps/gcc-arm-none-eabi/15.2.rel1/bin/../libexec/gcc/arm-none-eabi/15.2.1/liblto_plugin.dll -plugin-opt=C:/Users/david/scoop/apps/gcc-arm-none-eabi/15.2.rel1/bin/../libexec/gcc/arm-none-eabi/15.2.1/lto-wrapper.exe -plugin-opt=-fresolution=C:\\Users\\david\\AppData\\Local\\Temp\\ccTW0KTz.res --sysroot=C:/Users/david/scoop/apps/gcc-arm-none-eabi/15.2.rel1/bin/../arm-none-eabi -X -o cmTC_cf4ef.elf -LC:/Users/david/scoop/apps/gcc-arm-none-eabi/15.2.rel1/bin/../lib/gcc/arm-none-eabi/15.2.1/thumb/v6-m/nofp -LC:/Users/david/scoop/apps/gcc-arm-none-eabi/15.2.rel1/bin/../lib/gcc/arm-none-eabi/15.2.1/../../../../arm-none-eabi/lib/thumb/v6-m/nofp -LC:/Users/david/scoop/apps/gcc-arm-none-eabi/15.2.rel1/bin/../arm-none-eabi/lib/thumb/v6-m/nofp -LC:/Users/david/scoop/apps/gcc-arm-none-eabi/15.2.rel1/bin/../lib/gcc/arm-none-eabi/15.2.1 -LC:/Users/david/scoop/apps/gcc-arm-none-eabi/15.2.rel1/bin/../lib/gcc -LC:/Users/david/scoop/apps/gcc-arm-none-eabi/15.2.rel1/bin/../lib/gcc/arm-none-eabi/15.2.1/../../../../arm-none-eabi/lib -LC:/Users/david/scoop/apps/gcc-arm-none-eabi/15.2.rel1/bin/../arm-none-eabi/lib --build-id=none CMakeFiles/cmTC_cf4ef.dir/CMakeCCompilerABI.c.obj
+        COLLECT_GCC_OPTIONS='-mcpu=cortex-m0plus' '-mthumb' '-nostdlib' '-v' '-o' 'cmTC_05dad.elf' '-mfloat-abi=soft' '-mlibarch=armv6s-m' '-march=armv6s-m' '-dumpdir' 'cmTC_05dad.elf.'
+         C:/Users/david/scoop/apps/gcc-arm-none-eabi/15.2.rel1/bin/../libexec/gcc/arm-none-eabi/15.2.1/collect2.exe -plugin C:/Users/david/scoop/apps/gcc-arm-none-eabi/15.2.rel1/bin/../libexec/gcc/arm-none-eabi/15.2.1/liblto_plugin.dll -plugin-opt=C:/Users/david/scoop/apps/gcc-arm-none-eabi/15.2.rel1/bin/../libexec/gcc/arm-none-eabi/15.2.1/lto-wrapper.exe -plugin-opt=-fresolution=C:\\Users\\david\\AppData\\Local\\Temp\\ccOYGZ3C.res --sysroot=C:/Users/david/scoop/apps/gcc-arm-none-eabi/15.2.rel1/bin/../arm-none-eabi -X -o cmTC_05dad.elf -LC:/Users/david/scoop/apps/gcc-arm-none-eabi/15.2.rel1/bin/../lib/gcc/arm-none-eabi/15.2.1/thumb/v6-m/nofp -LC:/Users/david/scoop/apps/gcc-arm-none-eabi/15.2.rel1/bin/../lib/gcc/arm-none-eabi/15.2.1/../../../../arm-none-eabi/lib/thumb/v6-m/nofp -LC:/Users/david/scoop/apps/gcc-arm-none-eabi/15.2.rel1/bin/../arm-none-eabi/lib/thumb/v6-m/nofp -LC:/Users/david/scoop/apps/gcc-arm-none-eabi/15.2.rel1/bin/../lib/gcc/arm-none-eabi/15.2.1 -LC:/Users/david/scoop/apps/gcc-arm-none-eabi/15.2.rel1/bin/../lib/gcc -LC:/Users/david/scoop/apps/gcc-arm-none-eabi/15.2.rel1/bin/../lib/gcc/arm-none-eabi/15.2.1/../../../../arm-none-eabi/lib -LC:/Users/david/scoop/apps/gcc-arm-none-eabi/15.2.rel1/bin/../arm-none-eabi/lib --build-id=none CMakeFiles/cmTC_05dad.dir/CMakeCCompilerABI.c.obj
         C:/Users/david/scoop/apps/gcc-arm-none-eabi/15.2.rel1/bin/../lib/gcc/arm-none-eabi/15.2.1/../../../../arm-none-eabi/bin/ld.exe: warning: cannot find entry symbol _start; defaulting to 00008000
-        COLLECT_GCC_OPTIONS='-mcpu=cortex-m0plus' '-mthumb' '-nostdlib' '-v' '-o' 'cmTC_cf4ef.elf' '-mfloat-abi=soft' '-mlibarch=armv6s-m' '-march=armv6s-m' '-dumpdir' 'cmTC_cf4ef.elf.'
+        COLLECT_GCC_OPTIONS='-mcpu=cortex-m0plus' '-mthumb' '-nostdlib' '-v' '-o' 'cmTC_05dad.elf' '-mfloat-abi=soft' '-mlibarch=armv6s-m' '-march=armv6s-m' '-dumpdir' 'cmTC_05dad.elf.'
         
       exitCode: 0
   -
@@ -4481,10 +4901,10 @@ events:
       Parsed C implicit link information:
         link line regex: [^( *|.*[/\\])(ld[0-9]*(|\\.[a-rt-z][a-z]*|\\.s[a-np-z][a-z]*|\\.so[a-z]+)|CMAKE_LINK_STARTFILE-NOTFOUND|([^/\\]+-)?ld|collect2)[^/\\]*( |$)]
         linker tool regex: [^[ 	]*(->|"|[0-9]+>[ 	-]*Build:[ 	0-9]+ ms[ 	]*)?[ 	]*(([^"]*[/\\])?(ld[0-9]*(|\\.[a-rt-z][a-z]*|\\.s[a-np-z][a-z]*|\\.so[a-z]+)))("|,| |$)]
-        ignore line: [Change Dir: 'C:/pico/pico-kernel/build/CMakeFiles/CMakeScratch/TryCompile-pz9dt2']
+        ignore line: [Change Dir: 'C:/pico/pico-kernel/build/CMakeFiles/CMakeScratch/TryCompile-j196dw']
         ignore line: []
-        ignore line: [Run Build Command(s): C:/Users/david/scoop/shims/ninja.exe -v cmTC_cf4ef]
-        ignore line: [[1/2] C:\\Users\\david\\scoop\\apps\\gcc-arm-none-eabi\\current\\bin\\arm-none-eabi-gcc.exe   -mcpu=cortex-m0plus -mthumb    -v -o CMakeFiles/cmTC_cf4ef.dir/CMakeCCompilerABI.c.obj -c C:/Users/david/scoop/apps/cmake/current/share/cmake-4.3/Modules/CMakeCCompilerABI.c]
+        ignore line: [Run Build Command(s): C:/Users/david/scoop/shims/ninja.exe -v cmTC_05dad]
+        ignore line: [[1/2] C:\\Users\\david\\scoop\\apps\\gcc-arm-none-eabi\\current\\bin\\arm-none-eabi-gcc.exe   -mcpu=cortex-m0plus -mthumb    -v -o CMakeFiles/cmTC_05dad.dir/CMakeCCompilerABI.c.obj -c C:/Users/david/scoop/apps/cmake/current/share/cmake-4.3/Modules/CMakeCCompilerABI.c]
         ignore line: [Using built-in specs.]
         ignore line: [COLLECT_GCC=C:\\Users\\david\\scoop\\apps\\gcc-arm-none-eabi\\current\\bin\\arm-none-eabi-gcc.exe]
         ignore line: [Target: arm-none-eabi]
@@ -4492,8 +4912,8 @@ events:
         ignore line: [Thread model: single]
         ignore line: [Supported LTO compression algorithms: zlib]
         ignore line: [gcc version 15.2.1 20251203 (Arm GNU Toolchain 15.2.Rel1 (Build arm-15.86)) ]
-        ignore line: [COLLECT_GCC_OPTIONS='-mcpu=cortex-m0plus' '-mthumb' '-v' '-o' 'CMakeFiles/cmTC_cf4ef.dir/CMakeCCompilerABI.c.obj' '-c' '-mfloat-abi=soft' '-mlibarch=armv6s-m' '-march=armv6s-m' '-dumpdir' 'CMakeFiles/cmTC_cf4ef.dir/']
-        ignore line: [ C:/Users/david/scoop/apps/gcc-arm-none-eabi/15.2.rel1/bin/../libexec/gcc/arm-none-eabi/15.2.1/cc1.exe -quiet -v -imultilib thumb/v6-m/nofp -iprefix C:/Users/david/scoop/apps/gcc-arm-none-eabi/15.2.rel1/bin/../lib/gcc/arm-none-eabi/15.2.1/ -isysroot C:/Users/david/scoop/apps/gcc-arm-none-eabi/15.2.rel1/bin/../arm-none-eabi -D__USES_INITFINI__ C:/Users/david/scoop/apps/cmake/current/share/cmake-4.3/Modules/CMakeCCompilerABI.c -quiet -dumpdir CMakeFiles/cmTC_cf4ef.dir/ -dumpbase CMakeCCompilerABI.c.c -dumpbase-ext .c -mcpu=cortex-m0plus -mthumb -mfloat-abi=soft -mlibarch=armv6s-m -march=armv6s-m -version -o C:\\Users\\david\\AppData\\Local\\Temp\\cctJd4cr.s]
+        ignore line: [COLLECT_GCC_OPTIONS='-mcpu=cortex-m0plus' '-mthumb' '-v' '-o' 'CMakeFiles/cmTC_05dad.dir/CMakeCCompilerABI.c.obj' '-c' '-mfloat-abi=soft' '-mlibarch=armv6s-m' '-march=armv6s-m' '-dumpdir' 'CMakeFiles/cmTC_05dad.dir/']
+        ignore line: [ C:/Users/david/scoop/apps/gcc-arm-none-eabi/15.2.rel1/bin/../libexec/gcc/arm-none-eabi/15.2.1/cc1.exe -quiet -v -imultilib thumb/v6-m/nofp -iprefix C:/Users/david/scoop/apps/gcc-arm-none-eabi/15.2.rel1/bin/../lib/gcc/arm-none-eabi/15.2.1/ -isysroot C:/Users/david/scoop/apps/gcc-arm-none-eabi/15.2.rel1/bin/../arm-none-eabi -D__USES_INITFINI__ C:/Users/david/scoop/apps/cmake/current/share/cmake-4.3/Modules/CMakeCCompilerABI.c -quiet -dumpdir CMakeFiles/cmTC_05dad.dir/ -dumpbase CMakeCCompilerABI.c.c -dumpbase-ext .c -mcpu=cortex-m0plus -mthumb -mfloat-abi=soft -mlibarch=armv6s-m -march=armv6s-m -version -o C:\\Users\\david\\AppData\\Local\\Temp\\ccGkUKCv.s]
         ignore line: [GNU C23 (Arm GNU Toolchain 15.2.Rel1 (Build arm-15.86)) version 15.2.1 20251203 (arm-none-eabi)]
         ignore line: [	compiled by GNU C version 13-win32  GMP version 6.2.1  MPFR version 3.1.6  MPC version 1.0.3  isl version isl-0.15-1-g835ea3a-GMP]
         ignore line: []
@@ -4510,8 +4930,8 @@ events:
         ignore line: [ C:/Users/david/scoop/apps/gcc-arm-none-eabi/15.2.rel1/bin/../lib/gcc/arm-none-eabi/15.2.1/../../../../arm-none-eabi/include]
         ignore line: [End of search list.]
         ignore line: [Compiler executable checksum: 06ab445c59ba8f89bbf09b9a069e4cf7]
-        ignore line: [COLLECT_GCC_OPTIONS='-mcpu=cortex-m0plus' '-mthumb' '-v' '-o' 'CMakeFiles/cmTC_cf4ef.dir/CMakeCCompilerABI.c.obj' '-c' '-mfloat-abi=soft' '-mlibarch=armv6s-m' '-march=armv6s-m' '-dumpdir' 'CMakeFiles/cmTC_cf4ef.dir/']
-        ignore line: [ C:/Users/david/scoop/apps/gcc-arm-none-eabi/15.2.rel1/bin/../lib/gcc/arm-none-eabi/15.2.1/../../../../arm-none-eabi/bin/as.exe -v -march=armv6s-m -mfloat-abi=soft -meabi=5 -o CMakeFiles/cmTC_cf4ef.dir/CMakeCCompilerABI.c.obj C:\\Users\\david\\AppData\\Local\\Temp\\cctJd4cr.s]
+        ignore line: [COLLECT_GCC_OPTIONS='-mcpu=cortex-m0plus' '-mthumb' '-v' '-o' 'CMakeFiles/cmTC_05dad.dir/CMakeCCompilerABI.c.obj' '-c' '-mfloat-abi=soft' '-mlibarch=armv6s-m' '-march=armv6s-m' '-dumpdir' 'CMakeFiles/cmTC_05dad.dir/']
+        ignore line: [ C:/Users/david/scoop/apps/gcc-arm-none-eabi/15.2.rel1/bin/../lib/gcc/arm-none-eabi/15.2.1/../../../../arm-none-eabi/bin/as.exe -v -march=armv6s-m -mfloat-abi=soft -meabi=5 -o CMakeFiles/cmTC_05dad.dir/CMakeCCompilerABI.c.obj C:\\Users\\david\\AppData\\Local\\Temp\\ccGkUKCv.s]
         ignore line: [GNU assembler version 2.45.1 (arm-none-eabi) using BFD version (Arm GNU Toolchain 15.2.Rel1 (Build arm-15.86)) 2.45.1.20251203]
         ignore line: [COMPILER_PATH=C:/Users/david/scoop/apps/gcc-arm-none-eabi/15.2.rel1/bin/../libexec/gcc/arm-none-eabi/15.2.1/]
         ignore line: [C:/Users/david/scoop/apps/gcc-arm-none-eabi/15.2.rel1/bin/../libexec/gcc/]
@@ -4523,8 +4943,8 @@ events:
         ignore line: [C:/Users/david/scoop/apps/gcc-arm-none-eabi/15.2.rel1/bin/../lib/gcc/]
         ignore line: [C:/Users/david/scoop/apps/gcc-arm-none-eabi/15.2.rel1/bin/../lib/gcc/arm-none-eabi/15.2.1/../../../../arm-none-eabi/lib/]
         ignore line: [C:/Users/david/scoop/apps/gcc-arm-none-eabi/15.2.rel1/bin/../arm-none-eabi/lib/]
-        ignore line: [COLLECT_GCC_OPTIONS='-mcpu=cortex-m0plus' '-mthumb' '-v' '-o' 'CMakeFiles/cmTC_cf4ef.dir/CMakeCCompilerABI.c.obj' '-c' '-mfloat-abi=soft' '-mlibarch=armv6s-m' '-march=armv6s-m' '-dumpdir' 'CMakeFiles/cmTC_cf4ef.dir/CMakeCCompilerABI.c.']
-        ignore line: [[2/2] C:\\WINDOWS\\system32\\cmd.exe /C "cd . && C:\\Users\\david\\scoop\\apps\\gcc-arm-none-eabi\\current\\bin\\arm-none-eabi-gcc.exe -mcpu=cortex-m0plus -mthumb -Wl --build-id=none -nostdlib  -v CMakeFiles/cmTC_cf4ef.dir/CMakeCCompilerABI.c.obj -o cmTC_cf4ef.elf   && cd ."]
+        ignore line: [COLLECT_GCC_OPTIONS='-mcpu=cortex-m0plus' '-mthumb' '-v' '-o' 'CMakeFiles/cmTC_05dad.dir/CMakeCCompilerABI.c.obj' '-c' '-mfloat-abi=soft' '-mlibarch=armv6s-m' '-march=armv6s-m' '-dumpdir' 'CMakeFiles/cmTC_05dad.dir/CMakeCCompilerABI.c.']
+        ignore line: [[2/2] C:\\WINDOWS\\system32\\cmd.exe /C "cd . && C:\\Users\\david\\scoop\\apps\\gcc-arm-none-eabi\\current\\bin\\arm-none-eabi-gcc.exe -mcpu=cortex-m0plus -mthumb -Wl --build-id=none -nostdlib  -v CMakeFiles/cmTC_05dad.dir/CMakeCCompilerABI.c.obj -o cmTC_05dad.elf   && cd ."]
         ignore line: [Using built-in specs.]
         ignore line: [COLLECT_GCC=C:\\Users\\david\\scoop\\apps\\gcc-arm-none-eabi\\current\\bin\\arm-none-eabi-gcc.exe]
         ignore line: [COLLECT_LTO_WRAPPER=C:/Users/david/scoop/apps/gcc-arm-none-eabi/15.2.rel1/bin/../libexec/gcc/arm-none-eabi/15.2.1/lto-wrapper.exe]
@@ -4543,17 +4963,17 @@ events:
         ignore line: [C:/Users/david/scoop/apps/gcc-arm-none-eabi/15.2.rel1/bin/../lib/gcc/]
         ignore line: [C:/Users/david/scoop/apps/gcc-arm-none-eabi/15.2.rel1/bin/../lib/gcc/arm-none-eabi/15.2.1/../../../../arm-none-eabi/lib/]
         ignore line: [C:/Users/david/scoop/apps/gcc-arm-none-eabi/15.2.rel1/bin/../arm-none-eabi/lib/]
-        ignore line: [COLLECT_GCC_OPTIONS='-mcpu=cortex-m0plus' '-mthumb' '-nostdlib' '-v' '-o' 'cmTC_cf4ef.elf' '-mfloat-abi=soft' '-mlibarch=armv6s-m' '-march=armv6s-m' '-dumpdir' 'cmTC_cf4ef.elf.']
-        link line: [ C:/Users/david/scoop/apps/gcc-arm-none-eabi/15.2.rel1/bin/../libexec/gcc/arm-none-eabi/15.2.1/collect2.exe -plugin C:/Users/david/scoop/apps/gcc-arm-none-eabi/15.2.rel1/bin/../libexec/gcc/arm-none-eabi/15.2.1/liblto_plugin.dll -plugin-opt=C:/Users/david/scoop/apps/gcc-arm-none-eabi/15.2.rel1/bin/../libexec/gcc/arm-none-eabi/15.2.1/lto-wrapper.exe -plugin-opt=-fresolution=C:\\Users\\david\\AppData\\Local\\Temp\\ccTW0KTz.res --sysroot=C:/Users/david/scoop/apps/gcc-arm-none-eabi/15.2.rel1/bin/../arm-none-eabi -X -o cmTC_cf4ef.elf -LC:/Users/david/scoop/apps/gcc-arm-none-eabi/15.2.rel1/bin/../lib/gcc/arm-none-eabi/15.2.1/thumb/v6-m/nofp -LC:/Users/david/scoop/apps/gcc-arm-none-eabi/15.2.rel1/bin/../lib/gcc/arm-none-eabi/15.2.1/../../../../arm-none-eabi/lib/thumb/v6-m/nofp -LC:/Users/david/scoop/apps/gcc-arm-none-eabi/15.2.rel1/bin/../arm-none-eabi/lib/thumb/v6-m/nofp -LC:/Users/david/scoop/apps/gcc-arm-none-eabi/15.2.rel1/bin/../lib/gcc/arm-none-eabi/15.2.1 -LC:/Users/david/scoop/apps/gcc-arm-none-eabi/15.2.rel1/bin/../lib/gcc -LC:/Users/david/scoop/apps/gcc-arm-none-eabi/15.2.rel1/bin/../lib/gcc/arm-none-eabi/15.2.1/../../../../arm-none-eabi/lib -LC:/Users/david/scoop/apps/gcc-arm-none-eabi/15.2.rel1/bin/../arm-none-eabi/lib --build-id=none CMakeFiles/cmTC_cf4ef.dir/CMakeCCompilerABI.c.obj]
+        ignore line: [COLLECT_GCC_OPTIONS='-mcpu=cortex-m0plus' '-mthumb' '-nostdlib' '-v' '-o' 'cmTC_05dad.elf' '-mfloat-abi=soft' '-mlibarch=armv6s-m' '-march=armv6s-m' '-dumpdir' 'cmTC_05dad.elf.']
+        link line: [ C:/Users/david/scoop/apps/gcc-arm-none-eabi/15.2.rel1/bin/../libexec/gcc/arm-none-eabi/15.2.1/collect2.exe -plugin C:/Users/david/scoop/apps/gcc-arm-none-eabi/15.2.rel1/bin/../libexec/gcc/arm-none-eabi/15.2.1/liblto_plugin.dll -plugin-opt=C:/Users/david/scoop/apps/gcc-arm-none-eabi/15.2.rel1/bin/../libexec/gcc/arm-none-eabi/15.2.1/lto-wrapper.exe -plugin-opt=-fresolution=C:\\Users\\david\\AppData\\Local\\Temp\\ccOYGZ3C.res --sysroot=C:/Users/david/scoop/apps/gcc-arm-none-eabi/15.2.rel1/bin/../arm-none-eabi -X -o cmTC_05dad.elf -LC:/Users/david/scoop/apps/gcc-arm-none-eabi/15.2.rel1/bin/../lib/gcc/arm-none-eabi/15.2.1/thumb/v6-m/nofp -LC:/Users/david/scoop/apps/gcc-arm-none-eabi/15.2.rel1/bin/../lib/gcc/arm-none-eabi/15.2.1/../../../../arm-none-eabi/lib/thumb/v6-m/nofp -LC:/Users/david/scoop/apps/gcc-arm-none-eabi/15.2.rel1/bin/../arm-none-eabi/lib/thumb/v6-m/nofp -LC:/Users/david/scoop/apps/gcc-arm-none-eabi/15.2.rel1/bin/../lib/gcc/arm-none-eabi/15.2.1 -LC:/Users/david/scoop/apps/gcc-arm-none-eabi/15.2.rel1/bin/../lib/gcc -LC:/Users/david/scoop/apps/gcc-arm-none-eabi/15.2.rel1/bin/../lib/gcc/arm-none-eabi/15.2.1/../../../../arm-none-eabi/lib -LC:/Users/david/scoop/apps/gcc-arm-none-eabi/15.2.rel1/bin/../arm-none-eabi/lib --build-id=none CMakeFiles/cmTC_05dad.dir/CMakeCCompilerABI.c.obj]
           arg [C:/Users/david/scoop/apps/gcc-arm-none-eabi/15.2.rel1/bin/../libexec/gcc/arm-none-eabi/15.2.1/collect2.exe] ==> ignore
           arg [-plugin] ==> ignore
           arg [C:/Users/david/scoop/apps/gcc-arm-none-eabi/15.2.rel1/bin/../libexec/gcc/arm-none-eabi/15.2.1/liblto_plugin.dll] ==> ignore
           arg [-plugin-opt=C:/Users/david/scoop/apps/gcc-arm-none-eabi/15.2.rel1/bin/../libexec/gcc/arm-none-eabi/15.2.1/lto-wrapper.exe] ==> ignore
-          arg [-plugin-opt=-fresolution=C:\\Users\\david\\AppData\\Local\\Temp\\ccTW0KTz.res] ==> ignore
+          arg [-plugin-opt=-fresolution=C:\\Users\\david\\AppData\\Local\\Temp\\ccOYGZ3C.res] ==> ignore
           arg [--sysroot=C:/Users/david/scoop/apps/gcc-arm-none-eabi/15.2.rel1/bin/../arm-none-eabi] ==> ignore
           arg [-X] ==> ignore
           arg [-o] ==> ignore
-          arg [cmTC_cf4ef.elf] ==> ignore
+          arg [cmTC_05dad.elf] ==> ignore
           arg [-LC:/Users/david/scoop/apps/gcc-arm-none-eabi/15.2.rel1/bin/../lib/gcc/arm-none-eabi/15.2.1/thumb/v6-m/nofp] ==> dir [C:/Users/david/scoop/apps/gcc-arm-none-eabi/15.2.rel1/bin/../lib/gcc/arm-none-eabi/15.2.1/thumb/v6-m/nofp]
           arg [-LC:/Users/david/scoop/apps/gcc-arm-none-eabi/15.2.rel1/bin/../lib/gcc/arm-none-eabi/15.2.1/../../../../arm-none-eabi/lib/thumb/v6-m/nofp] ==> dir [C:/Users/david/scoop/apps/gcc-arm-none-eabi/15.2.rel1/bin/../lib/gcc/arm-none-eabi/15.2.1/../../../../arm-none-eabi/lib/thumb/v6-m/nofp]
           arg [-LC:/Users/david/scoop/apps/gcc-arm-none-eabi/15.2.rel1/bin/../arm-none-eabi/lib/thumb/v6-m/nofp] ==> dir [C:/Users/david/scoop/apps/gcc-arm-none-eabi/15.2.rel1/bin/../arm-none-eabi/lib/thumb/v6-m/nofp]
@@ -4562,10 +4982,10 @@ events:
           arg [-LC:/Users/david/scoop/apps/gcc-arm-none-eabi/15.2.rel1/bin/../lib/gcc/arm-none-eabi/15.2.1/../../../../arm-none-eabi/lib] ==> dir [C:/Users/david/scoop/apps/gcc-arm-none-eabi/15.2.rel1/bin/../lib/gcc/arm-none-eabi/15.2.1/../../../../arm-none-eabi/lib]
           arg [-LC:/Users/david/scoop/apps/gcc-arm-none-eabi/15.2.rel1/bin/../arm-none-eabi/lib] ==> dir [C:/Users/david/scoop/apps/gcc-arm-none-eabi/15.2.rel1/bin/../arm-none-eabi/lib]
           arg [--build-id=none] ==> ignore
-          arg [CMakeFiles/cmTC_cf4ef.dir/CMakeCCompilerABI.c.obj] ==> ignore
+          arg [CMakeFiles/cmTC_05dad.dir/CMakeCCompilerABI.c.obj] ==> ignore
         ignore line: [C:/Users/david/scoop/apps/gcc-arm-none-eabi/15.2.rel1/bin/../lib/gcc/arm-none-eabi/15.2.1/../../../../arm-none-eabi/bin/ld.exe: warning: cannot find entry symbol _start]
         ignore line: [ defaulting to 00008000]
-        ignore line: [COLLECT_GCC_OPTIONS='-mcpu=cortex-m0plus' '-mthumb' '-nostdlib' '-v' '-o' 'cmTC_cf4ef.elf' '-mfloat-abi=soft' '-mlibarch=armv6s-m' '-march=armv6s-m' '-dumpdir' 'cmTC_cf4ef.elf.']
+        ignore line: [COLLECT_GCC_OPTIONS='-mcpu=cortex-m0plus' '-mthumb' '-nostdlib' '-v' '-o' 'cmTC_05dad.elf' '-mfloat-abi=soft' '-mlibarch=armv6s-m' '-march=armv6s-m' '-dumpdir' 'cmTC_05dad.elf.']
         ignore line: []
         ignore line: []
         collapse library dir [C:/Users/david/scoop/apps/gcc-arm-none-eabi/15.2.rel1/bin/../lib/gcc/arm-none-eabi/15.2.1/thumb/v6-m/nofp] ==> [C:/Users/david/scoop/apps/gcc-arm-none-eabi/15.2.rel1/lib/gcc/arm-none-eabi/15.2.1/thumb/v6-m/nofp]
@@ -4590,24 +5010,24 @@ events:
     checks:
       - "Detecting CXX compiler ABI info"
     directories:
-      source: "C:/pico/pico-kernel/build/CMakeFiles/CMakeScratch/TryCompile-13d4bv"
-      binary: "C:/pico/pico-kernel/build/CMakeFiles/CMakeScratch/TryCompile-13d4bv"
+      source: "C:/pico/pico-kernel/build/CMakeFiles/CMakeScratch/TryCompile-fjcnyg"
+      binary: "C:/pico/pico-kernel/build/CMakeFiles/CMakeScratch/TryCompile-fjcnyg"
     cmakeVariables:
       CMAKE_CXX_FLAGS: "-mcpu=cortex-m0plus -mthumb"
       CMAKE_CXX_FLAGS_DEBUG: "-Og -g"
       CMAKE_CXX_SCAN_FOR_MODULES: "OFF"
       CMAKE_CXX_STDLIB_MODULES_JSON: ""
       CMAKE_EXE_LINKER_FLAGS: ""
-      CMAKE_MODULE_PATH: "C:/pico/pico-sdk/cmake"
-      PICO_SDK_PATH: "C:/pico/pico-sdk"
+      CMAKE_MODULE_PATH: "C:/Users/david/Downloads/myshit/pico-sdk/cmake"
+      PICO_SDK_PATH: "C:/Users/david/Downloads/myshit/pico-sdk"
     buildResult:
       variable: "CMAKE_CXX_ABI_COMPILED"
       cached: true
       stdout: |
-        Change Dir: 'C:/pico/pico-kernel/build/CMakeFiles/CMakeScratch/TryCompile-13d4bv'
+        Change Dir: 'C:/pico/pico-kernel/build/CMakeFiles/CMakeScratch/TryCompile-fjcnyg'
         
-        Run Build Command(s): C:/Users/david/scoop/shims/ninja.exe -v cmTC_8812e
-        [1/2] C:\\Users\\david\\scoop\\apps\\gcc-arm-none-eabi\\current\\bin\\arm-none-eabi-g++.exe   -mcpu=cortex-m0plus -mthumb    -v -o CMakeFiles/cmTC_8812e.dir/CMakeCXXCompilerABI.cpp.obj -c C:/Users/david/scoop/apps/cmake/current/share/cmake-4.3/Modules/CMakeCXXCompilerABI.cpp
+        Run Build Command(s): C:/Users/david/scoop/shims/ninja.exe -v cmTC_10ea4
+        [1/2] C:\\Users\\david\\scoop\\apps\\gcc-arm-none-eabi\\current\\bin\\arm-none-eabi-g++.exe   -mcpu=cortex-m0plus -mthumb    -v -o CMakeFiles/cmTC_10ea4.dir/CMakeCXXCompilerABI.cpp.obj -c C:/Users/david/scoop/apps/cmake/current/share/cmake-4.3/Modules/CMakeCXXCompilerABI.cpp
         Using built-in specs.
         COLLECT_GCC=C:\\Users\\david\\scoop\\apps\\gcc-arm-none-eabi\\current\\bin\\arm-none-eabi-g++.exe
         Target: arm-none-eabi
@@ -4615,8 +5035,8 @@ events:
         Thread model: single
         Supported LTO compression algorithms: zlib
         gcc version 15.2.1 20251203 (Arm GNU Toolchain 15.2.Rel1 (Build arm-15.86)) 
-        COLLECT_GCC_OPTIONS='-mcpu=cortex-m0plus' '-mthumb' '-v' '-o' 'CMakeFiles/cmTC_8812e.dir/CMakeCXXCompilerABI.cpp.obj' '-c' '-mfloat-abi=soft' '-mlibarch=armv6s-m' '-march=armv6s-m' '-dumpdir' 'CMakeFiles/cmTC_8812e.dir/'
-         C:/Users/david/scoop/apps/gcc-arm-none-eabi/15.2.rel1/bin/../libexec/gcc/arm-none-eabi/15.2.1/cc1plus.exe -quiet -v -imultilib thumb/v6-m/nofp -iprefix C:/Users/david/scoop/apps/gcc-arm-none-eabi/15.2.rel1/bin/../lib/gcc/arm-none-eabi/15.2.1/ -isysroot C:/Users/david/scoop/apps/gcc-arm-none-eabi/15.2.rel1/bin/../arm-none-eabi -D__USES_INITFINI__ C:/Users/david/scoop/apps/cmake/current/share/cmake-4.3/Modules/CMakeCXXCompilerABI.cpp -quiet -dumpdir CMakeFiles/cmTC_8812e.dir/ -dumpbase CMakeCXXCompilerABI.cpp.cpp -dumpbase-ext .cpp -mcpu=cortex-m0plus -mthumb -mfloat-abi=soft -mlibarch=armv6s-m -march=armv6s-m -version -o C:\\Users\\david\\AppData\\Local\\Temp\\ccj4fPgV.s
+        COLLECT_GCC_OPTIONS='-mcpu=cortex-m0plus' '-mthumb' '-v' '-o' 'CMakeFiles/cmTC_10ea4.dir/CMakeCXXCompilerABI.cpp.obj' '-c' '-mfloat-abi=soft' '-mlibarch=armv6s-m' '-march=armv6s-m' '-dumpdir' 'CMakeFiles/cmTC_10ea4.dir/'
+         C:/Users/david/scoop/apps/gcc-arm-none-eabi/15.2.rel1/bin/../libexec/gcc/arm-none-eabi/15.2.1/cc1plus.exe -quiet -v -imultilib thumb/v6-m/nofp -iprefix C:/Users/david/scoop/apps/gcc-arm-none-eabi/15.2.rel1/bin/../lib/gcc/arm-none-eabi/15.2.1/ -isysroot C:/Users/david/scoop/apps/gcc-arm-none-eabi/15.2.rel1/bin/../arm-none-eabi -D__USES_INITFINI__ C:/Users/david/scoop/apps/cmake/current/share/cmake-4.3/Modules/CMakeCXXCompilerABI.cpp -quiet -dumpdir CMakeFiles/cmTC_10ea4.dir/ -dumpbase CMakeCXXCompilerABI.cpp.cpp -dumpbase-ext .cpp -mcpu=cortex-m0plus -mthumb -mfloat-abi=soft -mlibarch=armv6s-m -march=armv6s-m -version -o C:\\Users\\david\\AppData\\Local\\Temp\\cc8SZDv0.s
         GNU C++17 (Arm GNU Toolchain 15.2.Rel1 (Build arm-15.86)) version 15.2.1 20251203 (arm-none-eabi)
         	compiled by GNU C version 13-win32, GMP version 6.2.1, MPFR version 3.1.6, MPC version 1.0.3, isl version isl-0.15-1-g835ea3a-GMP
         
@@ -4639,13 +5059,13 @@ events:
          C:/Users/david/scoop/apps/gcc-arm-none-eabi/15.2.rel1/bin/../lib/gcc/arm-none-eabi/15.2.1/../../../../arm-none-eabi/include
         End of search list.
         Compiler executable checksum: aac432cb28554e085afe9b46d5a4b17f
-        COLLECT_GCC_OPTIONS='-mcpu=cortex-m0plus' '-mthumb' '-v' '-o' 'CMakeFiles/cmTC_8812e.dir/CMakeCXXCompilerABI.cpp.obj' '-c' '-mfloat-abi=soft' '-mlibarch=armv6s-m' '-march=armv6s-m' '-dumpdir' 'CMakeFiles/cmTC_8812e.dir/'
-         C:/Users/david/scoop/apps/gcc-arm-none-eabi/15.2.rel1/bin/../lib/gcc/arm-none-eabi/15.2.1/../../../../arm-none-eabi/bin/as.exe -v -march=armv6s-m -mfloat-abi=soft -meabi=5 -o CMakeFiles/cmTC_8812e.dir/CMakeCXXCompilerABI.cpp.obj C:\\Users\\david\\AppData\\Local\\Temp\\ccj4fPgV.s
+        COLLECT_GCC_OPTIONS='-mcpu=cortex-m0plus' '-mthumb' '-v' '-o' 'CMakeFiles/cmTC_10ea4.dir/CMakeCXXCompilerABI.cpp.obj' '-c' '-mfloat-abi=soft' '-mlibarch=armv6s-m' '-march=armv6s-m' '-dumpdir' 'CMakeFiles/cmTC_10ea4.dir/'
+         C:/Users/david/scoop/apps/gcc-arm-none-eabi/15.2.rel1/bin/../lib/gcc/arm-none-eabi/15.2.1/../../../../arm-none-eabi/bin/as.exe -v -march=armv6s-m -mfloat-abi=soft -meabi=5 -o CMakeFiles/cmTC_10ea4.dir/CMakeCXXCompilerABI.cpp.obj C:\\Users\\david\\AppData\\Local\\Temp\\cc8SZDv0.s
         GNU assembler version 2.45.1 (arm-none-eabi) using BFD version (Arm GNU Toolchain 15.2.Rel1 (Build arm-15.86)) 2.45.1.20251203
         COMPILER_PATH=C:/Users/david/scoop/apps/gcc-arm-none-eabi/15.2.rel1/bin/../libexec/gcc/arm-none-eabi/15.2.1/;C:/Users/david/scoop/apps/gcc-arm-none-eabi/15.2.rel1/bin/../libexec/gcc/;C:/Users/david/scoop/apps/gcc-arm-none-eabi/15.2.rel1/bin/../lib/gcc/arm-none-eabi/15.2.1/../../../../arm-none-eabi/bin/
         LIBRARY_PATH=C:/Users/david/scoop/apps/gcc-arm-none-eabi/15.2.rel1/bin/../lib/gcc/arm-none-eabi/15.2.1/thumb/v6-m/nofp/;C:/Users/david/scoop/apps/gcc-arm-none-eabi/15.2.rel1/bin/../lib/gcc/arm-none-eabi/15.2.1/../../../../arm-none-eabi/lib/thumb/v6-m/nofp/;C:/Users/david/scoop/apps/gcc-arm-none-eabi/15.2.rel1/bin/../arm-none-eabi/lib/thumb/v6-m/nofp/;C:/Users/david/scoop/apps/gcc-arm-none-eabi/15.2.rel1/bin/../lib/gcc/arm-none-eabi/15.2.1/;C:/Users/david/scoop/apps/gcc-arm-none-eabi/15.2.rel1/bin/../lib/gcc/;C:/Users/david/scoop/apps/gcc-arm-none-eabi/15.2.rel1/bin/../lib/gcc/arm-none-eabi/15.2.1/../../../../arm-none-eabi/lib/;C:/Users/david/scoop/apps/gcc-arm-none-eabi/15.2.rel1/bin/../arm-none-eabi/lib/
-        COLLECT_GCC_OPTIONS='-mcpu=cortex-m0plus' '-mthumb' '-v' '-o' 'CMakeFiles/cmTC_8812e.dir/CMakeCXXCompilerABI.cpp.obj' '-c' '-mfloat-abi=soft' '-mlibarch=armv6s-m' '-march=armv6s-m' '-dumpdir' 'CMakeFiles/cmTC_8812e.dir/CMakeCXXCompilerABI.cpp.'
-        [2/2] C:\\WINDOWS\\system32\\cmd.exe /C "cd . && C:\\Users\\david\\scoop\\apps\\gcc-arm-none-eabi\\current\\bin\\arm-none-eabi-g++.exe -mcpu=cortex-m0plus -mthumb -Wl,--build-id=none -nostdlib  -v CMakeFiles/cmTC_8812e.dir/CMakeCXXCompilerABI.cpp.obj -o cmTC_8812e.elf   && cd ."
+        COLLECT_GCC_OPTIONS='-mcpu=cortex-m0plus' '-mthumb' '-v' '-o' 'CMakeFiles/cmTC_10ea4.dir/CMakeCXXCompilerABI.cpp.obj' '-c' '-mfloat-abi=soft' '-mlibarch=armv6s-m' '-march=armv6s-m' '-dumpdir' 'CMakeFiles/cmTC_10ea4.dir/CMakeCXXCompilerABI.cpp.'
+        [2/2] C:\\WINDOWS\\system32\\cmd.exe /C "cd . && C:\\Users\\david\\scoop\\apps\\gcc-arm-none-eabi\\current\\bin\\arm-none-eabi-g++.exe -mcpu=cortex-m0plus -mthumb -Wl,--build-id=none -nostdlib  -v CMakeFiles/cmTC_10ea4.dir/CMakeCXXCompilerABI.cpp.obj -o cmTC_10ea4.elf   && cd ."
         Using built-in specs.
         COLLECT_GCC=C:\\Users\\david\\scoop\\apps\\gcc-arm-none-eabi\\current\\bin\\arm-none-eabi-g++.exe
         COLLECT_LTO_WRAPPER=C:/Users/david/scoop/apps/gcc-arm-none-eabi/15.2.rel1/bin/../libexec/gcc/arm-none-eabi/15.2.1/lto-wrapper.exe
@@ -4656,10 +5076,10 @@ events:
         gcc version 15.2.1 20251203 (Arm GNU Toolchain 15.2.Rel1 (Build arm-15.86)) 
         COMPILER_PATH=C:/Users/david/scoop/apps/gcc-arm-none-eabi/15.2.rel1/bin/../libexec/gcc/arm-none-eabi/15.2.1/;C:/Users/david/scoop/apps/gcc-arm-none-eabi/15.2.rel1/bin/../libexec/gcc/;C:/Users/david/scoop/apps/gcc-arm-none-eabi/15.2.rel1/bin/../lib/gcc/arm-none-eabi/15.2.1/../../../../arm-none-eabi/bin/
         LIBRARY_PATH=C:/Users/david/scoop/apps/gcc-arm-none-eabi/15.2.rel1/bin/../lib/gcc/arm-none-eabi/15.2.1/thumb/v6-m/nofp/;C:/Users/david/scoop/apps/gcc-arm-none-eabi/15.2.rel1/bin/../lib/gcc/arm-none-eabi/15.2.1/../../../../arm-none-eabi/lib/thumb/v6-m/nofp/;C:/Users/david/scoop/apps/gcc-arm-none-eabi/15.2.rel1/bin/../arm-none-eabi/lib/thumb/v6-m/nofp/;C:/Users/david/scoop/apps/gcc-arm-none-eabi/15.2.rel1/bin/../lib/gcc/arm-none-eabi/15.2.1/;C:/Users/david/scoop/apps/gcc-arm-none-eabi/15.2.rel1/bin/../lib/gcc/;C:/Users/david/scoop/apps/gcc-arm-none-eabi/15.2.rel1/bin/../lib/gcc/arm-none-eabi/15.2.1/../../../../arm-none-eabi/lib/;C:/Users/david/scoop/apps/gcc-arm-none-eabi/15.2.rel1/bin/../arm-none-eabi/lib/
-        COLLECT_GCC_OPTIONS='-mcpu=cortex-m0plus' '-mthumb' '-nostdlib' '-v' '-o' 'cmTC_8812e.elf' '-mfloat-abi=soft' '-mlibarch=armv6s-m' '-march=armv6s-m' '-dumpdir' 'cmTC_8812e.elf.'
-         C:/Users/david/scoop/apps/gcc-arm-none-eabi/15.2.rel1/bin/../libexec/gcc/arm-none-eabi/15.2.1/collect2.exe -plugin C:/Users/david/scoop/apps/gcc-arm-none-eabi/15.2.rel1/bin/../libexec/gcc/arm-none-eabi/15.2.1/liblto_plugin.dll -plugin-opt=C:/Users/david/scoop/apps/gcc-arm-none-eabi/15.2.rel1/bin/../libexec/gcc/arm-none-eabi/15.2.1/lto-wrapper.exe -plugin-opt=-fresolution=C:\\Users\\david\\AppData\\Local\\Temp\\ccdBnhf4.res --sysroot=C:/Users/david/scoop/apps/gcc-arm-none-eabi/15.2.rel1/bin/../arm-none-eabi -X -o cmTC_8812e.elf -LC:/Users/david/scoop/apps/gcc-arm-none-eabi/15.2.rel1/bin/../lib/gcc/arm-none-eabi/15.2.1/thumb/v6-m/nofp -LC:/Users/david/scoop/apps/gcc-arm-none-eabi/15.2.rel1/bin/../lib/gcc/arm-none-eabi/15.2.1/../../../../arm-none-eabi/lib/thumb/v6-m/nofp -LC:/Users/david/scoop/apps/gcc-arm-none-eabi/15.2.rel1/bin/../arm-none-eabi/lib/thumb/v6-m/nofp -LC:/Users/david/scoop/apps/gcc-arm-none-eabi/15.2.rel1/bin/../lib/gcc/arm-none-eabi/15.2.1 -LC:/Users/david/scoop/apps/gcc-arm-none-eabi/15.2.rel1/bin/../lib/gcc -LC:/Users/david/scoop/apps/gcc-arm-none-eabi/15.2.rel1/bin/../lib/gcc/arm-none-eabi/15.2.1/../../../../arm-none-eabi/lib -LC:/Users/david/scoop/apps/gcc-arm-none-eabi/15.2.rel1/bin/../arm-none-eabi/lib --build-id=none CMakeFiles/cmTC_8812e.dir/CMakeCXXCompilerABI.cpp.obj
+        COLLECT_GCC_OPTIONS='-mcpu=cortex-m0plus' '-mthumb' '-nostdlib' '-v' '-o' 'cmTC_10ea4.elf' '-mfloat-abi=soft' '-mlibarch=armv6s-m' '-march=armv6s-m' '-dumpdir' 'cmTC_10ea4.elf.'
+         C:/Users/david/scoop/apps/gcc-arm-none-eabi/15.2.rel1/bin/../libexec/gcc/arm-none-eabi/15.2.1/collect2.exe -plugin C:/Users/david/scoop/apps/gcc-arm-none-eabi/15.2.rel1/bin/../libexec/gcc/arm-none-eabi/15.2.1/liblto_plugin.dll -plugin-opt=C:/Users/david/scoop/apps/gcc-arm-none-eabi/15.2.rel1/bin/../libexec/gcc/arm-none-eabi/15.2.1/lto-wrapper.exe -plugin-opt=-fresolution=C:\\Users\\david\\AppData\\Local\\Temp\\ccUbNIt4.res --sysroot=C:/Users/david/scoop/apps/gcc-arm-none-eabi/15.2.rel1/bin/../arm-none-eabi -X -o cmTC_10ea4.elf -LC:/Users/david/scoop/apps/gcc-arm-none-eabi/15.2.rel1/bin/../lib/gcc/arm-none-eabi/15.2.1/thumb/v6-m/nofp -LC:/Users/david/scoop/apps/gcc-arm-none-eabi/15.2.rel1/bin/../lib/gcc/arm-none-eabi/15.2.1/../../../../arm-none-eabi/lib/thumb/v6-m/nofp -LC:/Users/david/scoop/apps/gcc-arm-none-eabi/15.2.rel1/bin/../arm-none-eabi/lib/thumb/v6-m/nofp -LC:/Users/david/scoop/apps/gcc-arm-none-eabi/15.2.rel1/bin/../lib/gcc/arm-none-eabi/15.2.1 -LC:/Users/david/scoop/apps/gcc-arm-none-eabi/15.2.rel1/bin/../lib/gcc -LC:/Users/david/scoop/apps/gcc-arm-none-eabi/15.2.rel1/bin/../lib/gcc/arm-none-eabi/15.2.1/../../../../arm-none-eabi/lib -LC:/Users/david/scoop/apps/gcc-arm-none-eabi/15.2.rel1/bin/../arm-none-eabi/lib --build-id=none CMakeFiles/cmTC_10ea4.dir/CMakeCXXCompilerABI.cpp.obj
         C:/Users/david/scoop/apps/gcc-arm-none-eabi/15.2.rel1/bin/../lib/gcc/arm-none-eabi/15.2.1/../../../../arm-none-eabi/bin/ld.exe: warning: cannot find entry symbol _start; defaulting to 00008000
-        COLLECT_GCC_OPTIONS='-mcpu=cortex-m0plus' '-mthumb' '-nostdlib' '-v' '-o' 'cmTC_8812e.elf' '-mfloat-abi=soft' '-mlibarch=armv6s-m' '-march=armv6s-m' '-dumpdir' 'cmTC_8812e.elf.'
+        COLLECT_GCC_OPTIONS='-mcpu=cortex-m0plus' '-mthumb' '-nostdlib' '-v' '-o' 'cmTC_10ea4.elf' '-mfloat-abi=soft' '-mlibarch=armv6s-m' '-march=armv6s-m' '-dumpdir' 'cmTC_10ea4.elf.'
         
       exitCode: 0
   -
@@ -4698,10 +5118,10 @@ events:
       Parsed CXX implicit link information:
         link line regex: [^( *|.*[/\\])(ld[0-9]*(|\\.[a-rt-z][a-z]*|\\.s[a-np-z][a-z]*|\\.so[a-z]+)|CMAKE_LINK_STARTFILE-NOTFOUND|([^/\\]+-)?ld|collect2)[^/\\]*( |$)]
         linker tool regex: [^[ 	]*(->|"|[0-9]+>[ 	-]*Build:[ 	0-9]+ ms[ 	]*)?[ 	]*(([^"]*[/\\])?(ld[0-9]*(|\\.[a-rt-z][a-z]*|\\.s[a-np-z][a-z]*|\\.so[a-z]+)))("|,| |$)]
-        ignore line: [Change Dir: 'C:/pico/pico-kernel/build/CMakeFiles/CMakeScratch/TryCompile-13d4bv']
+        ignore line: [Change Dir: 'C:/pico/pico-kernel/build/CMakeFiles/CMakeScratch/TryCompile-fjcnyg']
         ignore line: []
-        ignore line: [Run Build Command(s): C:/Users/david/scoop/shims/ninja.exe -v cmTC_8812e]
-        ignore line: [[1/2] C:\\Users\\david\\scoop\\apps\\gcc-arm-none-eabi\\current\\bin\\arm-none-eabi-g++.exe   -mcpu=cortex-m0plus -mthumb    -v -o CMakeFiles/cmTC_8812e.dir/CMakeCXXCompilerABI.cpp.obj -c C:/Users/david/scoop/apps/cmake/current/share/cmake-4.3/Modules/CMakeCXXCompilerABI.cpp]
+        ignore line: [Run Build Command(s): C:/Users/david/scoop/shims/ninja.exe -v cmTC_10ea4]
+        ignore line: [[1/2] C:\\Users\\david\\scoop\\apps\\gcc-arm-none-eabi\\current\\bin\\arm-none-eabi-g++.exe   -mcpu=cortex-m0plus -mthumb    -v -o CMakeFiles/cmTC_10ea4.dir/CMakeCXXCompilerABI.cpp.obj -c C:/Users/david/scoop/apps/cmake/current/share/cmake-4.3/Modules/CMakeCXXCompilerABI.cpp]
         ignore line: [Using built-in specs.]
         ignore line: [COLLECT_GCC=C:\\Users\\david\\scoop\\apps\\gcc-arm-none-eabi\\current\\bin\\arm-none-eabi-g++.exe]
         ignore line: [Target: arm-none-eabi]
@@ -4709,8 +5129,8 @@ events:
         ignore line: [Thread model: single]
         ignore line: [Supported LTO compression algorithms: zlib]
         ignore line: [gcc version 15.2.1 20251203 (Arm GNU Toolchain 15.2.Rel1 (Build arm-15.86)) ]
-        ignore line: [COLLECT_GCC_OPTIONS='-mcpu=cortex-m0plus' '-mthumb' '-v' '-o' 'CMakeFiles/cmTC_8812e.dir/CMakeCXXCompilerABI.cpp.obj' '-c' '-mfloat-abi=soft' '-mlibarch=armv6s-m' '-march=armv6s-m' '-dumpdir' 'CMakeFiles/cmTC_8812e.dir/']
-        ignore line: [ C:/Users/david/scoop/apps/gcc-arm-none-eabi/15.2.rel1/bin/../libexec/gcc/arm-none-eabi/15.2.1/cc1plus.exe -quiet -v -imultilib thumb/v6-m/nofp -iprefix C:/Users/david/scoop/apps/gcc-arm-none-eabi/15.2.rel1/bin/../lib/gcc/arm-none-eabi/15.2.1/ -isysroot C:/Users/david/scoop/apps/gcc-arm-none-eabi/15.2.rel1/bin/../arm-none-eabi -D__USES_INITFINI__ C:/Users/david/scoop/apps/cmake/current/share/cmake-4.3/Modules/CMakeCXXCompilerABI.cpp -quiet -dumpdir CMakeFiles/cmTC_8812e.dir/ -dumpbase CMakeCXXCompilerABI.cpp.cpp -dumpbase-ext .cpp -mcpu=cortex-m0plus -mthumb -mfloat-abi=soft -mlibarch=armv6s-m -march=armv6s-m -version -o C:\\Users\\david\\AppData\\Local\\Temp\\ccj4fPgV.s]
+        ignore line: [COLLECT_GCC_OPTIONS='-mcpu=cortex-m0plus' '-mthumb' '-v' '-o' 'CMakeFiles/cmTC_10ea4.dir/CMakeCXXCompilerABI.cpp.obj' '-c' '-mfloat-abi=soft' '-mlibarch=armv6s-m' '-march=armv6s-m' '-dumpdir' 'CMakeFiles/cmTC_10ea4.dir/']
+        ignore line: [ C:/Users/david/scoop/apps/gcc-arm-none-eabi/15.2.rel1/bin/../libexec/gcc/arm-none-eabi/15.2.1/cc1plus.exe -quiet -v -imultilib thumb/v6-m/nofp -iprefix C:/Users/david/scoop/apps/gcc-arm-none-eabi/15.2.rel1/bin/../lib/gcc/arm-none-eabi/15.2.1/ -isysroot C:/Users/david/scoop/apps/gcc-arm-none-eabi/15.2.rel1/bin/../arm-none-eabi -D__USES_INITFINI__ C:/Users/david/scoop/apps/cmake/current/share/cmake-4.3/Modules/CMakeCXXCompilerABI.cpp -quiet -dumpdir CMakeFiles/cmTC_10ea4.dir/ -dumpbase CMakeCXXCompilerABI.cpp.cpp -dumpbase-ext .cpp -mcpu=cortex-m0plus -mthumb -mfloat-abi=soft -mlibarch=armv6s-m -march=armv6s-m -version -o C:\\Users\\david\\AppData\\Local\\Temp\\cc8SZDv0.s]
         ignore line: [GNU C++17 (Arm GNU Toolchain 15.2.Rel1 (Build arm-15.86)) version 15.2.1 20251203 (arm-none-eabi)]
         ignore line: [	compiled by GNU C version 13-win32  GMP version 6.2.1  MPFR version 3.1.6  MPC version 1.0.3  isl version isl-0.15-1-g835ea3a-GMP]
         ignore line: []
@@ -4733,8 +5153,8 @@ events:
         ignore line: [ C:/Users/david/scoop/apps/gcc-arm-none-eabi/15.2.rel1/bin/../lib/gcc/arm-none-eabi/15.2.1/../../../../arm-none-eabi/include]
         ignore line: [End of search list.]
         ignore line: [Compiler executable checksum: aac432cb28554e085afe9b46d5a4b17f]
-        ignore line: [COLLECT_GCC_OPTIONS='-mcpu=cortex-m0plus' '-mthumb' '-v' '-o' 'CMakeFiles/cmTC_8812e.dir/CMakeCXXCompilerABI.cpp.obj' '-c' '-mfloat-abi=soft' '-mlibarch=armv6s-m' '-march=armv6s-m' '-dumpdir' 'CMakeFiles/cmTC_8812e.dir/']
-        ignore line: [ C:/Users/david/scoop/apps/gcc-arm-none-eabi/15.2.rel1/bin/../lib/gcc/arm-none-eabi/15.2.1/../../../../arm-none-eabi/bin/as.exe -v -march=armv6s-m -mfloat-abi=soft -meabi=5 -o CMakeFiles/cmTC_8812e.dir/CMakeCXXCompilerABI.cpp.obj C:\\Users\\david\\AppData\\Local\\Temp\\ccj4fPgV.s]
+        ignore line: [COLLECT_GCC_OPTIONS='-mcpu=cortex-m0plus' '-mthumb' '-v' '-o' 'CMakeFiles/cmTC_10ea4.dir/CMakeCXXCompilerABI.cpp.obj' '-c' '-mfloat-abi=soft' '-mlibarch=armv6s-m' '-march=armv6s-m' '-dumpdir' 'CMakeFiles/cmTC_10ea4.dir/']
+        ignore line: [ C:/Users/david/scoop/apps/gcc-arm-none-eabi/15.2.rel1/bin/../lib/gcc/arm-none-eabi/15.2.1/../../../../arm-none-eabi/bin/as.exe -v -march=armv6s-m -mfloat-abi=soft -meabi=5 -o CMakeFiles/cmTC_10ea4.dir/CMakeCXXCompilerABI.cpp.obj C:\\Users\\david\\AppData\\Local\\Temp\\cc8SZDv0.s]
         ignore line: [GNU assembler version 2.45.1 (arm-none-eabi) using BFD version (Arm GNU Toolchain 15.2.Rel1 (Build arm-15.86)) 2.45.1.20251203]
         ignore line: [COMPILER_PATH=C:/Users/david/scoop/apps/gcc-arm-none-eabi/15.2.rel1/bin/../libexec/gcc/arm-none-eabi/15.2.1/]
         ignore line: [C:/Users/david/scoop/apps/gcc-arm-none-eabi/15.2.rel1/bin/../libexec/gcc/]
@@ -4746,8 +5166,8 @@ events:
         ignore line: [C:/Users/david/scoop/apps/gcc-arm-none-eabi/15.2.rel1/bin/../lib/gcc/]
         ignore line: [C:/Users/david/scoop/apps/gcc-arm-none-eabi/15.2.rel1/bin/../lib/gcc/arm-none-eabi/15.2.1/../../../../arm-none-eabi/lib/]
         ignore line: [C:/Users/david/scoop/apps/gcc-arm-none-eabi/15.2.rel1/bin/../arm-none-eabi/lib/]
-        ignore line: [COLLECT_GCC_OPTIONS='-mcpu=cortex-m0plus' '-mthumb' '-v' '-o' 'CMakeFiles/cmTC_8812e.dir/CMakeCXXCompilerABI.cpp.obj' '-c' '-mfloat-abi=soft' '-mlibarch=armv6s-m' '-march=armv6s-m' '-dumpdir' 'CMakeFiles/cmTC_8812e.dir/CMakeCXXCompilerABI.cpp.']
-        ignore line: [[2/2] C:\\WINDOWS\\system32\\cmd.exe /C "cd . && C:\\Users\\david\\scoop\\apps\\gcc-arm-none-eabi\\current\\bin\\arm-none-eabi-g++.exe -mcpu=cortex-m0plus -mthumb -Wl --build-id=none -nostdlib  -v CMakeFiles/cmTC_8812e.dir/CMakeCXXCompilerABI.cpp.obj -o cmTC_8812e.elf   && cd ."]
+        ignore line: [COLLECT_GCC_OPTIONS='-mcpu=cortex-m0plus' '-mthumb' '-v' '-o' 'CMakeFiles/cmTC_10ea4.dir/CMakeCXXCompilerABI.cpp.obj' '-c' '-mfloat-abi=soft' '-mlibarch=armv6s-m' '-march=armv6s-m' '-dumpdir' 'CMakeFiles/cmTC_10ea4.dir/CMakeCXXCompilerABI.cpp.']
+        ignore line: [[2/2] C:\\WINDOWS\\system32\\cmd.exe /C "cd . && C:\\Users\\david\\scoop\\apps\\gcc-arm-none-eabi\\current\\bin\\arm-none-eabi-g++.exe -mcpu=cortex-m0plus -mthumb -Wl --build-id=none -nostdlib  -v CMakeFiles/cmTC_10ea4.dir/CMakeCXXCompilerABI.cpp.obj -o cmTC_10ea4.elf   && cd ."]
         ignore line: [Using built-in specs.]
         ignore line: [COLLECT_GCC=C:\\Users\\david\\scoop\\apps\\gcc-arm-none-eabi\\current\\bin\\arm-none-eabi-g++.exe]
         ignore line: [COLLECT_LTO_WRAPPER=C:/Users/david/scoop/apps/gcc-arm-none-eabi/15.2.rel1/bin/../libexec/gcc/arm-none-eabi/15.2.1/lto-wrapper.exe]
@@ -4766,17 +5186,17 @@ events:
         ignore line: [C:/Users/david/scoop/apps/gcc-arm-none-eabi/15.2.rel1/bin/../lib/gcc/]
         ignore line: [C:/Users/david/scoop/apps/gcc-arm-none-eabi/15.2.rel1/bin/../lib/gcc/arm-none-eabi/15.2.1/../../../../arm-none-eabi/lib/]
         ignore line: [C:/Users/david/scoop/apps/gcc-arm-none-eabi/15.2.rel1/bin/../arm-none-eabi/lib/]
-        ignore line: [COLLECT_GCC_OPTIONS='-mcpu=cortex-m0plus' '-mthumb' '-nostdlib' '-v' '-o' 'cmTC_8812e.elf' '-mfloat-abi=soft' '-mlibarch=armv6s-m' '-march=armv6s-m' '-dumpdir' 'cmTC_8812e.elf.']
-        link line: [ C:/Users/david/scoop/apps/gcc-arm-none-eabi/15.2.rel1/bin/../libexec/gcc/arm-none-eabi/15.2.1/collect2.exe -plugin C:/Users/david/scoop/apps/gcc-arm-none-eabi/15.2.rel1/bin/../libexec/gcc/arm-none-eabi/15.2.1/liblto_plugin.dll -plugin-opt=C:/Users/david/scoop/apps/gcc-arm-none-eabi/15.2.rel1/bin/../libexec/gcc/arm-none-eabi/15.2.1/lto-wrapper.exe -plugin-opt=-fresolution=C:\\Users\\david\\AppData\\Local\\Temp\\ccdBnhf4.res --sysroot=C:/Users/david/scoop/apps/gcc-arm-none-eabi/15.2.rel1/bin/../arm-none-eabi -X -o cmTC_8812e.elf -LC:/Users/david/scoop/apps/gcc-arm-none-eabi/15.2.rel1/bin/../lib/gcc/arm-none-eabi/15.2.1/thumb/v6-m/nofp -LC:/Users/david/scoop/apps/gcc-arm-none-eabi/15.2.rel1/bin/../lib/gcc/arm-none-eabi/15.2.1/../../../../arm-none-eabi/lib/thumb/v6-m/nofp -LC:/Users/david/scoop/apps/gcc-arm-none-eabi/15.2.rel1/bin/../arm-none-eabi/lib/thumb/v6-m/nofp -LC:/Users/david/scoop/apps/gcc-arm-none-eabi/15.2.rel1/bin/../lib/gcc/arm-none-eabi/15.2.1 -LC:/Users/david/scoop/apps/gcc-arm-none-eabi/15.2.rel1/bin/../lib/gcc -LC:/Users/david/scoop/apps/gcc-arm-none-eabi/15.2.rel1/bin/../lib/gcc/arm-none-eabi/15.2.1/../../../../arm-none-eabi/lib -LC:/Users/david/scoop/apps/gcc-arm-none-eabi/15.2.rel1/bin/../arm-none-eabi/lib --build-id=none CMakeFiles/cmTC_8812e.dir/CMakeCXXCompilerABI.cpp.obj]
+        ignore line: [COLLECT_GCC_OPTIONS='-mcpu=cortex-m0plus' '-mthumb' '-nostdlib' '-v' '-o' 'cmTC_10ea4.elf' '-mfloat-abi=soft' '-mlibarch=armv6s-m' '-march=armv6s-m' '-dumpdir' 'cmTC_10ea4.elf.']
+        link line: [ C:/Users/david/scoop/apps/gcc-arm-none-eabi/15.2.rel1/bin/../libexec/gcc/arm-none-eabi/15.2.1/collect2.exe -plugin C:/Users/david/scoop/apps/gcc-arm-none-eabi/15.2.rel1/bin/../libexec/gcc/arm-none-eabi/15.2.1/liblto_plugin.dll -plugin-opt=C:/Users/david/scoop/apps/gcc-arm-none-eabi/15.2.rel1/bin/../libexec/gcc/arm-none-eabi/15.2.1/lto-wrapper.exe -plugin-opt=-fresolution=C:\\Users\\david\\AppData\\Local\\Temp\\ccUbNIt4.res --sysroot=C:/Users/david/scoop/apps/gcc-arm-none-eabi/15.2.rel1/bin/../arm-none-eabi -X -o cmTC_10ea4.elf -LC:/Users/david/scoop/apps/gcc-arm-none-eabi/15.2.rel1/bin/../lib/gcc/arm-none-eabi/15.2.1/thumb/v6-m/nofp -LC:/Users/david/scoop/apps/gcc-arm-none-eabi/15.2.rel1/bin/../lib/gcc/arm-none-eabi/15.2.1/../../../../arm-none-eabi/lib/thumb/v6-m/nofp -LC:/Users/david/scoop/apps/gcc-arm-none-eabi/15.2.rel1/bin/../arm-none-eabi/lib/thumb/v6-m/nofp -LC:/Users/david/scoop/apps/gcc-arm-none-eabi/15.2.rel1/bin/../lib/gcc/arm-none-eabi/15.2.1 -LC:/Users/david/scoop/apps/gcc-arm-none-eabi/15.2.rel1/bin/../lib/gcc -LC:/Users/david/scoop/apps/gcc-arm-none-eabi/15.2.rel1/bin/../lib/gcc/arm-none-eabi/15.2.1/../../../../arm-none-eabi/lib -LC:/Users/david/scoop/apps/gcc-arm-none-eabi/15.2.rel1/bin/../arm-none-eabi/lib --build-id=none CMakeFiles/cmTC_10ea4.dir/CMakeCXXCompilerABI.cpp.obj]
           arg [C:/Users/david/scoop/apps/gcc-arm-none-eabi/15.2.rel1/bin/../libexec/gcc/arm-none-eabi/15.2.1/collect2.exe] ==> ignore
           arg [-plugin] ==> ignore
           arg [C:/Users/david/scoop/apps/gcc-arm-none-eabi/15.2.rel1/bin/../libexec/gcc/arm-none-eabi/15.2.1/liblto_plugin.dll] ==> ignore
           arg [-plugin-opt=C:/Users/david/scoop/apps/gcc-arm-none-eabi/15.2.rel1/bin/../libexec/gcc/arm-none-eabi/15.2.1/lto-wrapper.exe] ==> ignore
-          arg [-plugin-opt=-fresolution=C:\\Users\\david\\AppData\\Local\\Temp\\ccdBnhf4.res] ==> ignore
+          arg [-plugin-opt=-fresolution=C:\\Users\\david\\AppData\\Local\\Temp\\ccUbNIt4.res] ==> ignore
           arg [--sysroot=C:/Users/david/scoop/apps/gcc-arm-none-eabi/15.2.rel1/bin/../arm-none-eabi] ==> ignore
           arg [-X] ==> ignore
           arg [-o] ==> ignore
-          arg [cmTC_8812e.elf] ==> ignore
+          arg [cmTC_10ea4.elf] ==> ignore
           arg [-LC:/Users/david/scoop/apps/gcc-arm-none-eabi/15.2.rel1/bin/../lib/gcc/arm-none-eabi/15.2.1/thumb/v6-m/nofp] ==> dir [C:/Users/david/scoop/apps/gcc-arm-none-eabi/15.2.rel1/bin/../lib/gcc/arm-none-eabi/15.2.1/thumb/v6-m/nofp]
           arg [-LC:/Users/david/scoop/apps/gcc-arm-none-eabi/15.2.rel1/bin/../lib/gcc/arm-none-eabi/15.2.1/../../../../arm-none-eabi/lib/thumb/v6-m/nofp] ==> dir [C:/Users/david/scoop/apps/gcc-arm-none-eabi/15.2.rel1/bin/../lib/gcc/arm-none-eabi/15.2.1/../../../../arm-none-eabi/lib/thumb/v6-m/nofp]
           arg [-LC:/Users/david/scoop/apps/gcc-arm-none-eabi/15.2.rel1/bin/../arm-none-eabi/lib/thumb/v6-m/nofp] ==> dir [C:/Users/david/scoop/apps/gcc-arm-none-eabi/15.2.rel1/bin/../arm-none-eabi/lib/thumb/v6-m/nofp]
@@ -4785,10 +5205,10 @@ events:
           arg [-LC:/Users/david/scoop/apps/gcc-arm-none-eabi/15.2.rel1/bin/../lib/gcc/arm-none-eabi/15.2.1/../../../../arm-none-eabi/lib] ==> dir [C:/Users/david/scoop/apps/gcc-arm-none-eabi/15.2.rel1/bin/../lib/gcc/arm-none-eabi/15.2.1/../../../../arm-none-eabi/lib]
           arg [-LC:/Users/david/scoop/apps/gcc-arm-none-eabi/15.2.rel1/bin/../arm-none-eabi/lib] ==> dir [C:/Users/david/scoop/apps/gcc-arm-none-eabi/15.2.rel1/bin/../arm-none-eabi/lib]
           arg [--build-id=none] ==> ignore
-          arg [CMakeFiles/cmTC_8812e.dir/CMakeCXXCompilerABI.cpp.obj] ==> ignore
+          arg [CMakeFiles/cmTC_10ea4.dir/CMakeCXXCompilerABI.cpp.obj] ==> ignore
         ignore line: [C:/Users/david/scoop/apps/gcc-arm-none-eabi/15.2.rel1/bin/../lib/gcc/arm-none-eabi/15.2.1/../../../../arm-none-eabi/bin/ld.exe: warning: cannot find entry symbol _start]
         ignore line: [ defaulting to 00008000]
-        ignore line: [COLLECT_GCC_OPTIONS='-mcpu=cortex-m0plus' '-mthumb' '-nostdlib' '-v' '-o' 'cmTC_8812e.elf' '-mfloat-abi=soft' '-mlibarch=armv6s-m' '-march=armv6s-m' '-dumpdir' 'cmTC_8812e.elf.']
+        ignore line: [COLLECT_GCC_OPTIONS='-mcpu=cortex-m0plus' '-mthumb' '-nostdlib' '-v' '-o' 'cmTC_10ea4.elf' '-mfloat-abi=soft' '-mlibarch=armv6s-m' '-march=armv6s-m' '-dumpdir' 'cmTC_10ea4.elf.']
         ignore line: []
         ignore line: []
         collapse library dir [C:/Users/david/scoop/apps/gcc-arm-none-eabi/15.2.rel1/bin/../lib/gcc/arm-none-eabi/15.2.1/thumb/v6-m/nofp] ==> [C:/Users/david/scoop/apps/gcc-arm-none-eabi/15.2.rel1/lib/gcc/arm-none-eabi/15.2.1/thumb/v6-m/nofp]
@@ -4809,8 +5229,8 @@ events:
     backtrace:
       - "C:/Users/david/scoop/apps/cmake/current/share/cmake-4.3/Modules/FindPython/Support.cmake:2165 (find_program)"
       - "C:/Users/david/scoop/apps/cmake/current/share/cmake-4.3/Modules/FindPython3.cmake:671 (include)"
-      - "C:/pico/pico-sdk/src/rp2040/boot_stage2/CMakeLists.txt:69 (find_package)"
-      - "C:/pico/pico-sdk/src/rp2040/boot_stage2/CMakeLists.txt:104 (pico_define_boot_stage2)"
+      - "C:/Users/david/Downloads/myshit/pico-sdk/src/rp2040/boot_stage2/CMakeLists.txt:69 (find_package)"
+      - "C:/Users/david/Downloads/myshit/pico-sdk/src/rp2040/boot_stage2/CMakeLists.txt:104 (pico_define_boot_stage2)"
     mode: "program"
     variable: "_Python3_EXECUTABLE"
     description: "Path to a program."
@@ -7306,8 +7726,6 @@ events:
     search_context:
       ENV{PATH}:
         - "c:\\Users\\david\\.cursor\\extensions\\vadimcn.vscode-lldb-1.12.0\\bin"
-        - "C:\\Users\\david\\scoop\\apps\\gcc-arm-none-eabi\\current\\bin"
-        - "C:\\Users\\david\\scoop\\shims"
         - "C:\\Python314\\Scripts\\"
         - "C:\\Python314\\"
         - "C:\\Program Files (x86)\\Razer\\ChromaBroadcast\\bin"
@@ -7332,9 +7750,8 @@ events:
         - "C:\\ProgramData\\chocolatey\\bin"
         - "C:\\Program Files\\Git\\cmd"
         - "C:\\Program Files\\dotnet\\"
-        - "C:\\Users\\david\\AppData\\Local\\Programs\\Python\\Python313\\Scripts\\"
-        - "C:\\Users\\david\\AppData\\Local\\Programs\\Python\\Python313\\"
-        - "C:\\Users\\david\\AppData\\Local\\Microsoft\\WindowsApps"
+        - "C:\\Users\\david\\scoop\\apps\\gcc-arm-none-eabi\\current\\bin"
+        - "C:\\Users\\david\\scoop\\shims"
         - "C:\\Users\\david\\AppData\\Local\\Programs\\cursor\\resources\\app\\bin"
         - "C:\\msys64\\ucrt64\\bin"
         - "C:\\Users\\david\\AppData\\Roaming\\npm"
@@ -7349,9 +7766,9 @@ events:
   -
     kind: "find_package-v1"
     backtrace:
-      - "C:/pico/pico-sdk/tools/CMakeLists.txt:116 (find_package)"
-      - "C:/pico/pico-sdk/tools/CMakeLists.txt:224 (pico_init_pioasm)"
-      - "C:/pico/pico-sdk/src/rp2_common/pico_cyw43_driver/CMakeLists.txt:51 (pico_generate_pio_header)"
+      - "C:/Users/david/Downloads/myshit/pico-sdk/tools/CMakeLists.txt:116 (find_package)"
+      - "C:/Users/david/Downloads/myshit/pico-sdk/tools/CMakeLists.txt:224 (pico_init_pioasm)"
+      - "C:/Users/david/Downloads/myshit/pico-sdk/src/rp2_common/pico_status_led/CMakeLists.txt:20 (pico_generate_pio_header)"
     name: "pioasm"
     configs:
       -
@@ -7418,38 +7835,6 @@ events:
         reason: "no_exist"
       -
         path: "C:/Users/david/.cursor/extensions/vadimcn.vscode-lldb-1.12.0/share/cps/pioasm.cps"
-        mode: "cps"
-        reason: "no_exist"
-      -
-        path: "C:/Users/david/scoop/apps/gcc-arm-none-eabi/current/pioasmConfig.cmake"
-        mode: "config"
-        reason: "no_exist"
-      -
-        path: "C:/Users/david/scoop/apps/gcc-arm-none-eabi/current/pioasm-config.cmake"
-        mode: "config"
-        reason: "no_exist"
-      -
-        path: "C:/Users/david/scoop/apps/gcc-arm-none-eabi/current/lib/cps/pioasm.cps"
-        mode: "cps"
-        reason: "no_exist"
-      -
-        path: "C:/Users/david/scoop/apps/gcc-arm-none-eabi/current/share/cps/pioasm.cps"
-        mode: "cps"
-        reason: "no_exist"
-      -
-        path: "C:/Users/david/scoop/shims/pioasmConfig.cmake"
-        mode: "config"
-        reason: "no_exist"
-      -
-        path: "C:/Users/david/scoop/shims/pioasm-config.cmake"
-        mode: "config"
-        reason: "no_exist"
-      -
-        path: "C:/Users/david/scoop/shims/lib/cps/pioasm.cps"
-        mode: "cps"
-        reason: "no_exist"
-      -
-        path: "C:/Users/david/scoop/shims/share/cps/pioasm.cps"
         mode: "cps"
         reason: "no_exist"
       -
@@ -7821,6 +8206,38 @@ events:
         mode: "cps"
         reason: "no_exist"
       -
+        path: "C:/Users/david/scoop/apps/gcc-arm-none-eabi/current/pioasmConfig.cmake"
+        mode: "config"
+        reason: "no_exist"
+      -
+        path: "C:/Users/david/scoop/apps/gcc-arm-none-eabi/current/pioasm-config.cmake"
+        mode: "config"
+        reason: "no_exist"
+      -
+        path: "C:/Users/david/scoop/apps/gcc-arm-none-eabi/current/lib/cps/pioasm.cps"
+        mode: "cps"
+        reason: "no_exist"
+      -
+        path: "C:/Users/david/scoop/apps/gcc-arm-none-eabi/current/share/cps/pioasm.cps"
+        mode: "cps"
+        reason: "no_exist"
+      -
+        path: "C:/Users/david/scoop/shims/pioasmConfig.cmake"
+        mode: "config"
+        reason: "no_exist"
+      -
+        path: "C:/Users/david/scoop/shims/pioasm-config.cmake"
+        mode: "config"
+        reason: "no_exist"
+      -
+        path: "C:/Users/david/scoop/shims/lib/cps/pioasm.cps"
+        mode: "cps"
+        reason: "no_exist"
+      -
+        path: "C:/Users/david/scoop/shims/share/cps/pioasm.cps"
+        mode: "cps"
+        reason: "no_exist"
+      -
         path: "C:/Users/david/AppData/Local/Programs/cursor/resources/app/pioasmConfig.cmake"
         mode: "config"
         reason: "no_exist"
@@ -7904,8 +8321,6 @@ events:
     search_context:
       ENV{PATH}:
         - "c:\\Users\\david\\.cursor\\extensions\\vadimcn.vscode-lldb-1.12.0\\bin"
-        - "C:\\Users\\david\\scoop\\apps\\gcc-arm-none-eabi\\current\\bin"
-        - "C:\\Users\\david\\scoop\\shims"
         - "C:\\Python314\\Scripts\\"
         - "C:\\Python314\\"
         - "C:\\Program Files (x86)\\Razer\\ChromaBroadcast\\bin"
@@ -7930,9 +8345,8 @@ events:
         - "C:\\ProgramData\\chocolatey\\bin"
         - "C:\\Program Files\\Git\\cmd"
         - "C:\\Program Files\\dotnet\\"
-        - "C:\\Users\\david\\AppData\\Local\\Programs\\Python\\Python313\\Scripts\\"
-        - "C:\\Users\\david\\AppData\\Local\\Programs\\Python\\Python313\\"
-        - "C:\\Users\\david\\AppData\\Local\\Microsoft\\WindowsApps"
+        - "C:\\Users\\david\\scoop\\apps\\gcc-arm-none-eabi\\current\\bin"
+        - "C:\\Users\\david\\scoop\\shims"
         - "C:\\Users\\david\\AppData\\Local\\Programs\\cursor\\resources\\app\\bin"
         - "C:\\msys64\\ucrt64\\bin"
         - "C:\\Users\\david\\AppData\\Roaming\\npm"
@@ -7949,7 +8363,7 @@ events:
     backtrace:
       - "C:/Users/david/scoop/apps/cmake/current/share/cmake-4.3/Modules/FindDoxygen.cmake:770 (find_program)"
       - "C:/Users/david/scoop/apps/cmake/current/share/cmake-4.3/Modules/FindDoxygen.cmake:955 (_Doxygen_find_doxygen)"
-      - "C:/pico/pico-sdk/docs/CMakeLists.txt:1 (find_package)"
+      - "C:/Users/david/Downloads/myshit/pico-sdk/docs/CMakeLists.txt:1 (find_package)"
     mode: "program"
     variable: "DOXYGEN_EXECUTABLE"
     description: "Doxygen documentation generation tool (https://www.doxygen.nl)"
@@ -7965,8 +8379,6 @@ events:
       - "doxygen"
     candidate_directories:
       - "C:/Users/david/.cursor/extensions/vadimcn.vscode-lldb-1.12.0/bin/"
-      - "C:/Users/david/scoop/apps/gcc-arm-none-eabi/current/bin/"
-      - "C:/Users/david/scoop/shims/"
       - "C:/Python314/Scripts/"
       - "C:/Python314/"
       - "C:/Program Files (x86)/Razer/ChromaBroadcast/bin/"
@@ -7991,6 +8403,8 @@ events:
       - "C:/ProgramData/chocolatey/bin/"
       - "C:/Program Files/Git/cmd/"
       - "C:/Program Files/dotnet/"
+      - "C:/Users/david/scoop/apps/gcc-arm-none-eabi/current/bin/"
+      - "C:/Users/david/scoop/shims/"
       - "C:/Users/david/AppData/Local/Programs/cursor/resources/app/bin/"
       - "C:/msys64/ucrt64/bin/"
       - "C:/Users/david/AppData/Roaming/npm/"
@@ -8016,12 +8430,6 @@ events:
       - "C:/Users/david/.cursor/extensions/vadimcn.vscode-lldb-1.12.0/bin/doxygen.com"
       - "C:/Users/david/.cursor/extensions/vadimcn.vscode-lldb-1.12.0/bin/doxygen.exe"
       - "C:/Users/david/.cursor/extensions/vadimcn.vscode-lldb-1.12.0/bin/doxygen"
-      - "C:/Users/david/scoop/apps/gcc-arm-none-eabi/current/bin/doxygen.com"
-      - "C:/Users/david/scoop/apps/gcc-arm-none-eabi/current/bin/doxygen.exe"
-      - "C:/Users/david/scoop/apps/gcc-arm-none-eabi/current/bin/doxygen"
-      - "C:/Users/david/scoop/shims/doxygen.com"
-      - "C:/Users/david/scoop/shims/doxygen.exe"
-      - "C:/Users/david/scoop/shims/doxygen"
       - "C:/Python314/Scripts/doxygen.com"
       - "C:/Python314/Scripts/doxygen.exe"
       - "C:/Python314/Scripts/doxygen"
@@ -8094,6 +8502,12 @@ events:
       - "C:/Program Files/dotnet/doxygen.com"
       - "C:/Program Files/dotnet/doxygen.exe"
       - "C:/Program Files/dotnet/doxygen"
+      - "C:/Users/david/scoop/apps/gcc-arm-none-eabi/current/bin/doxygen.com"
+      - "C:/Users/david/scoop/apps/gcc-arm-none-eabi/current/bin/doxygen.exe"
+      - "C:/Users/david/scoop/apps/gcc-arm-none-eabi/current/bin/doxygen"
+      - "C:/Users/david/scoop/shims/doxygen.com"
+      - "C:/Users/david/scoop/shims/doxygen.exe"
+      - "C:/Users/david/scoop/shims/doxygen"
       - "C:/Users/david/AppData/Local/Programs/cursor/resources/app/bin/doxygen.com"
       - "C:/Users/david/AppData/Local/Programs/cursor/resources/app/bin/doxygen.exe"
       - "C:/Users/david/AppData/Local/Programs/cursor/resources/app/bin/doxygen"
@@ -8161,8 +8575,6 @@ events:
     search_context:
       ENV{PATH}:
         - "c:\\Users\\david\\.cursor\\extensions\\vadimcn.vscode-lldb-1.12.0\\bin"
-        - "C:\\Users\\david\\scoop\\apps\\gcc-arm-none-eabi\\current\\bin"
-        - "C:\\Users\\david\\scoop\\shims"
         - "C:\\Python314\\Scripts\\"
         - "C:\\Python314\\"
         - "C:\\Program Files (x86)\\Razer\\ChromaBroadcast\\bin"
@@ -8187,9 +8599,8 @@ events:
         - "C:\\ProgramData\\chocolatey\\bin"
         - "C:\\Program Files\\Git\\cmd"
         - "C:\\Program Files\\dotnet\\"
-        - "C:\\Users\\david\\AppData\\Local\\Programs\\Python\\Python313\\Scripts\\"
-        - "C:\\Users\\david\\AppData\\Local\\Programs\\Python\\Python313\\"
-        - "C:\\Users\\david\\AppData\\Local\\Microsoft\\WindowsApps"
+        - "C:\\Users\\david\\scoop\\apps\\gcc-arm-none-eabi\\current\\bin"
+        - "C:\\Users\\david\\scoop\\shims"
         - "C:\\Users\\david\\AppData\\Local\\Programs\\cursor\\resources\\app\\bin"
         - "C:\\msys64\\ucrt64\\bin"
         - "C:\\Users\\david\\AppData\\Roaming\\npm"
@@ -8206,7 +8617,7 @@ events:
     backtrace:
       - "C:/Users/david/scoop/apps/cmake/current/share/cmake-4.3/Modules/FindDoxygen.cmake:858 (find_program)"
       - "C:/Users/david/scoop/apps/cmake/current/share/cmake-4.3/Modules/FindDoxygen.cmake:959 (_Doxygen_find_dot)"
-      - "C:/pico/pico-sdk/docs/CMakeLists.txt:1 (find_package)"
+      - "C:/Users/david/Downloads/myshit/pico-sdk/docs/CMakeLists.txt:1 (find_package)"
     mode: "program"
     variable: "DOXYGEN_DOT_EXECUTABLE"
     description: "Dot tool for use with Doxygen"
@@ -8222,8 +8633,6 @@ events:
       - "dot"
     candidate_directories:
       - "C:/Users/david/.cursor/extensions/vadimcn.vscode-lldb-1.12.0/bin/"
-      - "C:/Users/david/scoop/apps/gcc-arm-none-eabi/current/bin/"
-      - "C:/Users/david/scoop/shims/"
       - "C:/Python314/Scripts/"
       - "C:/Python314/"
       - "C:/Program Files (x86)/Razer/ChromaBroadcast/bin/"
@@ -8248,6 +8657,8 @@ events:
       - "C:/ProgramData/chocolatey/bin/"
       - "C:/Program Files/Git/cmd/"
       - "C:/Program Files/dotnet/"
+      - "C:/Users/david/scoop/apps/gcc-arm-none-eabi/current/bin/"
+      - "C:/Users/david/scoop/shims/"
       - "C:/Users/david/AppData/Local/Programs/cursor/resources/app/bin/"
       - "C:/msys64/ucrt64/bin/"
       - "C:/Users/david/AppData/Roaming/npm/"
@@ -8276,12 +8687,6 @@ events:
       - "C:/Users/david/.cursor/extensions/vadimcn.vscode-lldb-1.12.0/bin/dot.com"
       - "C:/Users/david/.cursor/extensions/vadimcn.vscode-lldb-1.12.0/bin/dot.exe"
       - "C:/Users/david/.cursor/extensions/vadimcn.vscode-lldb-1.12.0/bin/dot"
-      - "C:/Users/david/scoop/apps/gcc-arm-none-eabi/current/bin/dot.com"
-      - "C:/Users/david/scoop/apps/gcc-arm-none-eabi/current/bin/dot.exe"
-      - "C:/Users/david/scoop/apps/gcc-arm-none-eabi/current/bin/dot"
-      - "C:/Users/david/scoop/shims/dot.com"
-      - "C:/Users/david/scoop/shims/dot.exe"
-      - "C:/Users/david/scoop/shims/dot"
       - "C:/Python314/Scripts/dot.com"
       - "C:/Python314/Scripts/dot.exe"
       - "C:/Python314/Scripts/dot"
@@ -8354,6 +8759,12 @@ events:
       - "C:/Program Files/dotnet/dot.com"
       - "C:/Program Files/dotnet/dot.exe"
       - "C:/Program Files/dotnet/dot"
+      - "C:/Users/david/scoop/apps/gcc-arm-none-eabi/current/bin/dot.com"
+      - "C:/Users/david/scoop/apps/gcc-arm-none-eabi/current/bin/dot.exe"
+      - "C:/Users/david/scoop/apps/gcc-arm-none-eabi/current/bin/dot"
+      - "C:/Users/david/scoop/shims/dot.com"
+      - "C:/Users/david/scoop/shims/dot.exe"
+      - "C:/Users/david/scoop/shims/dot"
       - "C:/Users/david/AppData/Local/Programs/cursor/resources/app/bin/dot.com"
       - "C:/Users/david/AppData/Local/Programs/cursor/resources/app/bin/dot.exe"
       - "C:/Users/david/AppData/Local/Programs/cursor/resources/app/bin/dot"
@@ -8430,8 +8841,6 @@ events:
     search_context:
       ENV{PATH}:
         - "c:\\Users\\david\\.cursor\\extensions\\vadimcn.vscode-lldb-1.12.0\\bin"
-        - "C:\\Users\\david\\scoop\\apps\\gcc-arm-none-eabi\\current\\bin"
-        - "C:\\Users\\david\\scoop\\shims"
         - "C:\\Python314\\Scripts\\"
         - "C:\\Python314\\"
         - "C:\\Program Files (x86)\\Razer\\ChromaBroadcast\\bin"
@@ -8456,9 +8865,8 @@ events:
         - "C:\\ProgramData\\chocolatey\\bin"
         - "C:\\Program Files\\Git\\cmd"
         - "C:\\Program Files\\dotnet\\"
-        - "C:\\Users\\david\\AppData\\Local\\Programs\\Python\\Python313\\Scripts\\"
-        - "C:\\Users\\david\\AppData\\Local\\Programs\\Python\\Python313\\"
-        - "C:\\Users\\david\\AppData\\Local\\Microsoft\\WindowsApps"
+        - "C:\\Users\\david\\scoop\\apps\\gcc-arm-none-eabi\\current\\bin"
+        - "C:\\Users\\david\\scoop\\shims"
         - "C:\\Users\\david\\AppData\\Local\\Programs\\cursor\\resources\\app\\bin"
         - "C:\\msys64\\ucrt64\\bin"
         - "C:\\Users\\david\\AppData\\Roaming\\npm"
@@ -8473,10 +8881,10 @@ events:
   -
     kind: "find_package-v1"
     backtrace:
-      - "C:/pico/pico-sdk/tools/CMakeLists.txt:153 (find_package)"
-      - "C:/pico/pico-sdk/tools/CMakeLists.txt:688 (pico_init_picotool)"
-      - "C:/pico/pico-sdk/src/cmake/on_device.cmake:81 (picotool_postprocess_binary)"
-      - "CMakeLists.txt:29 (pico_add_extra_outputs)"
+      - "C:/Users/david/Downloads/myshit/pico-sdk/tools/CMakeLists.txt:153 (find_package)"
+      - "C:/Users/david/Downloads/myshit/pico-sdk/tools/CMakeLists.txt:688 (pico_init_picotool)"
+      - "C:/Users/david/Downloads/myshit/pico-sdk/src/cmake/on_device.cmake:81 (picotool_postprocess_binary)"
+      - "CMakeLists.txt:38 (pico_add_extra_outputs)"
     name: "picotool"
     configs:
       -
@@ -8543,38 +8951,6 @@ events:
         reason: "no_exist"
       -
         path: "C:/Users/david/.cursor/extensions/vadimcn.vscode-lldb-1.12.0/share/cps/picotool.cps"
-        mode: "cps"
-        reason: "no_exist"
-      -
-        path: "C:/Users/david/scoop/apps/gcc-arm-none-eabi/current/picotoolConfig.cmake"
-        mode: "config"
-        reason: "no_exist"
-      -
-        path: "C:/Users/david/scoop/apps/gcc-arm-none-eabi/current/picotool-config.cmake"
-        mode: "config"
-        reason: "no_exist"
-      -
-        path: "C:/Users/david/scoop/apps/gcc-arm-none-eabi/current/lib/cps/picotool.cps"
-        mode: "cps"
-        reason: "no_exist"
-      -
-        path: "C:/Users/david/scoop/apps/gcc-arm-none-eabi/current/share/cps/picotool.cps"
-        mode: "cps"
-        reason: "no_exist"
-      -
-        path: "C:/Users/david/scoop/shims/picotoolConfig.cmake"
-        mode: "config"
-        reason: "no_exist"
-      -
-        path: "C:/Users/david/scoop/shims/picotool-config.cmake"
-        mode: "config"
-        reason: "no_exist"
-      -
-        path: "C:/Users/david/scoop/shims/lib/cps/picotool.cps"
-        mode: "cps"
-        reason: "no_exist"
-      -
-        path: "C:/Users/david/scoop/shims/share/cps/picotool.cps"
         mode: "cps"
         reason: "no_exist"
       -
@@ -8946,6 +9322,38 @@ events:
         mode: "cps"
         reason: "no_exist"
       -
+        path: "C:/Users/david/scoop/apps/gcc-arm-none-eabi/current/picotoolConfig.cmake"
+        mode: "config"
+        reason: "no_exist"
+      -
+        path: "C:/Users/david/scoop/apps/gcc-arm-none-eabi/current/picotool-config.cmake"
+        mode: "config"
+        reason: "no_exist"
+      -
+        path: "C:/Users/david/scoop/apps/gcc-arm-none-eabi/current/lib/cps/picotool.cps"
+        mode: "cps"
+        reason: "no_exist"
+      -
+        path: "C:/Users/david/scoop/apps/gcc-arm-none-eabi/current/share/cps/picotool.cps"
+        mode: "cps"
+        reason: "no_exist"
+      -
+        path: "C:/Users/david/scoop/shims/picotoolConfig.cmake"
+        mode: "config"
+        reason: "no_exist"
+      -
+        path: "C:/Users/david/scoop/shims/picotool-config.cmake"
+        mode: "config"
+        reason: "no_exist"
+      -
+        path: "C:/Users/david/scoop/shims/lib/cps/picotool.cps"
+        mode: "cps"
+        reason: "no_exist"
+      -
+        path: "C:/Users/david/scoop/shims/share/cps/picotool.cps"
+        mode: "cps"
+        reason: "no_exist"
+      -
         path: "C:/Users/david/AppData/Local/Programs/cursor/resources/app/picotoolConfig.cmake"
         mode: "config"
         reason: "no_exist"
@@ -9029,8 +9437,6 @@ events:
     search_context:
       ENV{PATH}:
         - "c:\\Users\\david\\.cursor\\extensions\\vadimcn.vscode-lldb-1.12.0\\bin"
-        - "C:\\Users\\david\\scoop\\apps\\gcc-arm-none-eabi\\current\\bin"
-        - "C:\\Users\\david\\scoop\\shims"
         - "C:\\Python314\\Scripts\\"
         - "C:\\Python314\\"
         - "C:\\Program Files (x86)\\Razer\\ChromaBroadcast\\bin"
@@ -9055,9 +9461,8 @@ events:
         - "C:\\ProgramData\\chocolatey\\bin"
         - "C:\\Program Files\\Git\\cmd"
         - "C:\\Program Files\\dotnet\\"
-        - "C:\\Users\\david\\AppData\\Local\\Programs\\Python\\Python313\\Scripts\\"
-        - "C:\\Users\\david\\AppData\\Local\\Programs\\Python\\Python313\\"
-        - "C:\\Users\\david\\AppData\\Local\\Microsoft\\WindowsApps"
+        - "C:\\Users\\david\\scoop\\apps\\gcc-arm-none-eabi\\current\\bin"
+        - "C:\\Users\\david\\scoop\\shims"
         - "C:\\Users\\david\\AppData\\Local\\Programs\\cursor\\resources\\app\\bin"
         - "C:\\msys64\\ucrt64\\bin"
         - "C:\\Users\\david\\AppData\\Roaming\\npm"
@@ -9078,11 +9483,11 @@ events:
       - "C:/Users/david/scoop/apps/cmake/current/share/cmake-4.3/Modules/FetchContent.cmake:2010 (__FetchContent_doPopulation)"
       - "C:/Users/david/scoop/apps/cmake/current/share/cmake-4.3/Modules/FetchContent.cmake:1991:EVAL:1 (__FetchContent_Populate)"
       - "C:/Users/david/scoop/apps/cmake/current/share/cmake-4.3/Modules/FetchContent.cmake:1991 (cmake_language)"
-      - "C:/pico/pico-sdk/tools/Findpicotool.cmake:48 (FetchContent_Populate)"
-      - "C:/pico/pico-sdk/tools/CMakeLists.txt:168 (find_package)"
-      - "C:/pico/pico-sdk/tools/CMakeLists.txt:688 (pico_init_picotool)"
-      - "C:/pico/pico-sdk/src/cmake/on_device.cmake:81 (picotool_postprocess_binary)"
-      - "CMakeLists.txt:29 (pico_add_extra_outputs)"
+      - "C:/Users/david/Downloads/myshit/pico-sdk/tools/Findpicotool.cmake:48 (FetchContent_Populate)"
+      - "C:/Users/david/Downloads/myshit/pico-sdk/tools/CMakeLists.txt:168 (find_package)"
+      - "C:/Users/david/Downloads/myshit/pico-sdk/tools/CMakeLists.txt:688 (pico_init_picotool)"
+      - "C:/Users/david/Downloads/myshit/pico-sdk/src/cmake/on_device.cmake:81 (picotool_postprocess_binary)"
+      - "CMakeLists.txt:38 (pico_add_extra_outputs)"
     mode: "program"
     variable: "GIT_EXECUTABLE"
     description: "Git command line client"
@@ -9099,8 +9504,6 @@ events:
       - "git"
     candidate_directories:
       - "C:/Users/david/.cursor/extensions/vadimcn.vscode-lldb-1.12.0/bin/"
-      - "C:/Users/david/scoop/apps/gcc-arm-none-eabi/current/bin/"
-      - "C:/Users/david/scoop/shims/"
       - "C:/Python314/Scripts/"
       - "C:/Python314/"
       - "C:/Program Files (x86)/Razer/ChromaBroadcast/bin/"
@@ -9125,6 +9528,8 @@ events:
       - "C:/ProgramData/chocolatey/bin/"
       - "C:/Program Files/Git/cmd/"
       - "C:/Program Files/dotnet/"
+      - "C:/Users/david/scoop/apps/gcc-arm-none-eabi/current/bin/"
+      - "C:/Users/david/scoop/shims/"
       - "C:/Users/david/AppData/Local/Programs/cursor/resources/app/bin/"
       - "C:/msys64/ucrt64/bin/"
       - "C:/Users/david/AppData/Roaming/npm/"
@@ -9146,12 +9551,6 @@ events:
       - "C:/Users/david/.cursor/extensions/vadimcn.vscode-lldb-1.12.0/bin/git.cmd.com"
       - "C:/Users/david/.cursor/extensions/vadimcn.vscode-lldb-1.12.0/bin/git.cmd.exe"
       - "C:/Users/david/.cursor/extensions/vadimcn.vscode-lldb-1.12.0/bin/git.cmd"
-      - "C:/Users/david/scoop/apps/gcc-arm-none-eabi/current/bin/git.cmd.com"
-      - "C:/Users/david/scoop/apps/gcc-arm-none-eabi/current/bin/git.cmd.exe"
-      - "C:/Users/david/scoop/apps/gcc-arm-none-eabi/current/bin/git.cmd"
-      - "C:/Users/david/scoop/shims/git.cmd.com"
-      - "C:/Users/david/scoop/shims/git.cmd.exe"
-      - "C:/Users/david/scoop/shims/git.cmd"
       - "C:/Python314/Scripts/git.cmd.com"
       - "C:/Python314/Scripts/git.cmd.exe"
       - "C:/Python314/Scripts/git.cmd"
@@ -9224,6 +9623,12 @@ events:
       - "C:/Program Files/dotnet/git.cmd.com"
       - "C:/Program Files/dotnet/git.cmd.exe"
       - "C:/Program Files/dotnet/git.cmd"
+      - "C:/Users/david/scoop/apps/gcc-arm-none-eabi/current/bin/git.cmd.com"
+      - "C:/Users/david/scoop/apps/gcc-arm-none-eabi/current/bin/git.cmd.exe"
+      - "C:/Users/david/scoop/apps/gcc-arm-none-eabi/current/bin/git.cmd"
+      - "C:/Users/david/scoop/shims/git.cmd.com"
+      - "C:/Users/david/scoop/shims/git.cmd.exe"
+      - "C:/Users/david/scoop/shims/git.cmd"
       - "C:/Users/david/AppData/Local/Programs/cursor/resources/app/bin/git.cmd.com"
       - "C:/Users/david/AppData/Local/Programs/cursor/resources/app/bin/git.cmd.exe"
       - "C:/Users/david/AppData/Local/Programs/cursor/resources/app/bin/git.cmd"
@@ -9278,12 +9683,6 @@ events:
       - "C:/Users/david/.cursor/extensions/vadimcn.vscode-lldb-1.12.0/bin/git.com"
       - "C:/Users/david/.cursor/extensions/vadimcn.vscode-lldb-1.12.0/bin/git.exe"
       - "C:/Users/david/.cursor/extensions/vadimcn.vscode-lldb-1.12.0/bin/git"
-      - "C:/Users/david/scoop/apps/gcc-arm-none-eabi/current/bin/git.com"
-      - "C:/Users/david/scoop/apps/gcc-arm-none-eabi/current/bin/git.exe"
-      - "C:/Users/david/scoop/apps/gcc-arm-none-eabi/current/bin/git"
-      - "C:/Users/david/scoop/shims/git.com"
-      - "C:/Users/david/scoop/shims/git.exe"
-      - "C:/Users/david/scoop/shims/git"
       - "C:/Python314/Scripts/git.com"
       - "C:/Python314/Scripts/git.exe"
       - "C:/Python314/Scripts/git"
@@ -9355,8 +9754,6 @@ events:
     search_context:
       ENV{PATH}:
         - "c:\\Users\\david\\.cursor\\extensions\\vadimcn.vscode-lldb-1.12.0\\bin"
-        - "C:\\Users\\david\\scoop\\apps\\gcc-arm-none-eabi\\current\\bin"
-        - "C:\\Users\\david\\scoop\\shims"
         - "C:\\Python314\\Scripts\\"
         - "C:\\Python314\\"
         - "C:\\Program Files (x86)\\Razer\\ChromaBroadcast\\bin"
@@ -9381,9 +9778,8 @@ events:
         - "C:\\ProgramData\\chocolatey\\bin"
         - "C:\\Program Files\\Git\\cmd"
         - "C:\\Program Files\\dotnet\\"
-        - "C:\\Users\\david\\AppData\\Local\\Programs\\Python\\Python313\\Scripts\\"
-        - "C:\\Users\\david\\AppData\\Local\\Programs\\Python\\Python313\\"
-        - "C:\\Users\\david\\AppData\\Local\\Microsoft\\WindowsApps"
+        - "C:\\Users\\david\\scoop\\apps\\gcc-arm-none-eabi\\current\\bin"
+        - "C:\\Users\\david\\scoop\\shims"
         - "C:\\Users\\david\\AppData\\Local\\Programs\\cursor\\resources\\app\\bin"
         - "C:\\msys64\\ucrt64\\bin"
         - "C:\\Users\\david\\AppData\\Roaming\\npm"

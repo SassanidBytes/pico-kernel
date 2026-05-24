@@ -1,4 +1,4 @@
-# Install script for directory: C:/pico/pico-sdk/src/rp2_common/pico_platform_sections
+# Install script for directory: C:/Users/david/Downloads/myshit/pico-sdk/src/rp2_common/pico_platform_sections
 
 # Set the install prefix
 if(NOT DEFINED CMAKE_INSTALL_PREFIX)

@@ -1,4 +1,4 @@
-# Install script for directory: C:/pico/pico-sdk/src/rp2_common/pico_platform_panic
+# Install script for directory: C:/Users/david/Downloads/myshit/pico-sdk/src/rp2_common/pico_platform_panic
 
 # Set the install prefix
 if(NOT DEFINED CMAKE_INSTALL_PREFIX)

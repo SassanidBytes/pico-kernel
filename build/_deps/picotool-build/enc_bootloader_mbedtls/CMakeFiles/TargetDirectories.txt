@@ -1,2 +1,0 @@
-C:/pico/pico-kernel/build/_deps/picotool-build/enc_bootloader_mbedtls/CMakeFiles/edit_cache.dir
-C:/pico/pico-kernel/build/_deps/picotool-build/enc_bootloader_mbedtls/CMakeFiles/rebuild_cache.dir

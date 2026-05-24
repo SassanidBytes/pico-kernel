@@ -357,7 +357,7 @@ PICOTOOL_FLAT_INSTALL:UNINITIALIZED=1
 PICOTOOL_NO_LIBUSB:UNINITIALIZED=1
 
 //No help, variable specified on the command line.
-PICO_SDK_PATH:FILEPATH=C:/pico/pico-sdk
+PICO_SDK_PATH:FILEPATH=C:/Users/david/Downloads/myshit/pico-sdk
 
 //Value Computed by CMake
 nlohmann_json_BINARY_DIR:STATIC=C:/pico/pico-kernel/build/_deps/picotool-build/lib/nlohmann_json

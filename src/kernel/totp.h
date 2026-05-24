@@ -10,4 +10,4 @@
 uint32_t totp_generate(const uint8_t* key, int key_len, uint64_t timestamp);
 void     totp_run();
 
-#endifs
+#endif
