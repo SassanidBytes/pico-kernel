@@ -1,23 +1,33 @@
 # PicoKernel
 
-A bare-metal kernel for the Raspberry Pi Pico with a custom ST7789 graphics driver and interactive shell — written entirely in C, no MicroPython, no OS.
+A bare-metal kernel for the Raspberry Pi Pico with a custom ST7789 graphics driver, interactive shell, dual-core scheduler, games, and security tools — written entirely in C, no MicroPython, no OS.
 
 ![Platform](https://img.shields.io/badge/platform-RP2040-blue)
 ![Language](https://img.shields.io/badge/language-C-brightgreen)
 ![Display](https://img.shields.io/badge/display-ST7789%20240x135-orange)
 ![License](https://img.shields.io/badge/license-MIT-purple)
+![Cores](https://img.shields.io/badge/cores-dual--core-red)
 
 ## What is this?
 
 PicoKernel is a from-scratch bare-metal project for the Raspberry Pi Pico + Pimoroni Pico Display. It talks directly to hardware registers — no abstraction layers, no runtime environment. Just C, SPI, and pixels.
 
+It boots with a custom splash screen, launches a dual-core scheduler, and drops into an interactive shell with games and security tools.
+
 ## Features
 
 - Custom ST7789 SPI display driver (240x135, RGB565)
 - 8x8 bitmap font renderer
-- Interactive UART/USB shell with command parsing
-- Weighted emotion-aware RGB LED (ported from original MicroPython face project)
-- Fully documented, buildable from scratch on Windows/Linux/macOS
+- Interactive USB shell with command parsing
+- Dual-core operation (RP2040 Core0 + Core1)
+- Round-robin task scheduler
+- Mutex-based display synchronization
+- Boot splash screen with custom logo
+- Pong game with AI opponent
+- Space Invaders with enemy AI
+- Hardware Password Manager (XOR encrypted)
+- 2FA TOTP Token Generator
+- Heartbeat indicator (Core1)
 
 ## Hardware
 
@@ -26,7 +36,7 @@ PicoKernel is a from-scratch bare-metal project for the Raspberry Pi Pico + Pimo
 | MCU | Raspberry Pi Pico (RP2040) |
 | Display | Pimoroni Pico Display (ST7789, 240x135) |
 | Interface | SPI0 @ 62.5 MHz |
-| Input | USB Serial (via TinyUSB) |
+| Input | USB Serial + 4 Hardware Buttons |
 
 ## Pin Map
 
@@ -37,22 +47,44 @@ PicoKernel is a from-scratch bare-metal project for the Raspberry Pi Pico + Pimo
 | GPIO 17 | CS |
 | GPIO 16 | DC |
 | GPIO 20 | Backlight |
+| GPIO 12 | Button A |
+| GPIO 13 | Button B |
+| GPIO 14 | Button X |
+| GPIO 15 | Button Y |
 
 ## Project Structure
 
 pico-kernel/
 ├── src/
-│   ├── main.c              # Entry point
+│   ├── main.c                  # Entry point, dual-core launch
 │   ├── drivers/
-│   │   ├── st7789.c        # Display driver
+│   │   ├── st7789.c            # Display driver
 │   │   └── st7789.h
 │   ├── kernel/
-│   │   ├── shell.c         # Interactive shell
-│   │   └── shell.h
+│   │   ├── shell.c             # Interactive shell
+│   │   ├── shell.h
+│   │   ├── mutex.c             # Display mutex
+│   │   ├── mutex.h
+│   │   ├── pong.c              # Pong game
+│   │   ├── pong.h
+│   │   ├── invaders.c          # Space Invaders
+│   │   ├── invaders.h
+│   │   ├── passmanager.c       # Password Manager
+│   │   ├── passmanager.h
+│   │   ├── totp.c              # 2FA Token Generator
+│   │   ├── totp.h
+│   │   └── tasks/
+│   │       ├── scheduler.c     # Round-robin scheduler
+│   │       ├── scheduler.h
+│   │       └── task.h
 │   └── font/
-│       └── font8x8.h       # Bitmap font (ASCII 32-126)
+│       ├── font8x8.h           # Bitmap font (ASCII 32-126)
+│       └── logo.h              # Boot splash logo (RGB565)
 ├── CMakeLists.txt
 └── pico_sdk_import.cmake
+
+
+
 ## Build Instructions
 
 ### Requirements
@@ -100,17 +132,21 @@ Connect via any serial terminal (e.g. PuTTY) at `115200` baud:
 | `clear` | Clear the screen |
 | `color` | RGB color test |
 | `info` | Display driver info |
+| `tasks` | Task manager (dual-core) |
+| `pong` | Pong vs AI (A=up, B=down, X+Y=exit) |
+| `inv` | Space Invaders (A=left, B=right, X=shoot, Y+A=exit) |
+| `pass` | Password Manager (A/B=scroll, X=select, Y=exit) |
+| `2fa` | 2FA TOTP Token Generator (Y=exit) |
 
 ## How it works
 
-The kernel boots directly into `main()` after the RP2040 hardware init. It initializes the ST7789 over SPI, clears the framebuffer, renders boot text using a pixel-by-pixel bitmap font renderer, then enters the shell loop — polling USB serial for input and dispatching commands.
+The kernel boots directly into `main()` after the RP2040 hardware init. Core0 runs the shell and scheduler. Core1 runs a heartbeat indicator independently. A mutex ensures safe display access from both cores simultaneously.
 
 No RTOS. No HAL. No MicroPython. Just registers.
 
 ## Author
 
 **SassanidBytes** — [github.com/SassanidBytes](https://github.com/SassanidBytes)
-
 
 
 
