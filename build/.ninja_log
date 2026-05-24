@@ -232,3 +232,15 @@
 287	631	8013620096710203	C:/pico/pico-kernel/build/pico_kernel.hex	85c98932ae37acad
 287	631	8013620096710203	C:/pico/pico-kernel/build/pico_kernel.bin	85c98932ae37acad
 287	631	8013620096710203	C:/pico/pico-kernel/build/pico_kernel.uf2	85c98932ae37acad
+48	318	8013624708747582	CMakeFiles/pico_kernel.dir/src/kernel/storage.c.obj	101a8ae833d8fef6
+39	380	8013624708663672	CMakeFiles/pico_kernel.dir/src/kernel/passmanager.c.obj	b457e75d18ab1bee
+31	390	8013624708578515	CMakeFiles/pico_kernel.dir/src/kernel/shell.c.obj	8b790ec5030c505c
+390	752	8013624715703726	pico_kernel.elf	85c98932ae37acad
+390	752	8013624715703726	pico_kernel.dis	85c98932ae37acad
+390	752	8013624715703726	pico_kernel.hex	85c98932ae37acad
+390	752	8013624715703726	pico_kernel.bin	85c98932ae37acad
+390	752	8013624715703726	pico_kernel.uf2	85c98932ae37acad
+390	752	8013624715703726	C:/pico/pico-kernel/build/pico_kernel.dis	85c98932ae37acad
+390	752	8013624715703726	C:/pico/pico-kernel/build/pico_kernel.hex	85c98932ae37acad
+390	752	8013624715703726	C:/pico/pico-kernel/build/pico_kernel.bin	85c98932ae37acad
+390	752	8013624715703726	C:/pico/pico-kernel/build/pico_kernel.uf2	85c98932ae37acad

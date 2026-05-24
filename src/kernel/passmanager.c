@@ -229,7 +229,7 @@ static void show_password(int idx) {
             return;
         }
         sleep_ms(50);
-    }
+    } 
 }
 
 void passmanager_run() {
