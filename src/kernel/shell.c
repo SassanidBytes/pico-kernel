@@ -8,6 +8,8 @@
 #include <string.h>
 #include <stdio.h>
 #include "invaders.h"
+#include "passmanager.h"
+#include "totp.h"
 
 static int cursor_col = 0;
 static int cursor_row = 0;
@@ -73,6 +75,8 @@ static void handle_command(const char* cmd) {
         shell_println("  tasks   - Task Manager");
         shell_println("  pong    - Pong Spiel");
         shell_println("  inv     - Space Invaders");
+        shell_println("  pass    - Password Manager");
+        shell_println("  2fa     - 2FA Token");
     } else if (strcmp(cmd, "clear") == 0) {
         shell_clear();
     } else if (strcmp(cmd, "hello") == 0) {
@@ -117,6 +121,24 @@ static void handle_command(const char* cmd) {
         shell_println("'help' fuer Hilfe");
         shell_println("");
         shell_print("> ");
+    } else if (strcmp(cmd, "pass") == 0) {
+        passmanager_run();
+        shell_clear();
+        shell_println("PicoKernel v2.0");
+        shell_println("---------------");
+        shell_println("'help' fuer Hilfe");
+        shell_println("");
+        shell_print("> ");
+    } else if (strcmp(cmd, "2fa") == 0) {
+        totp_run();
+        shell_clear();
+        shell_println("PicoKernel v2.0");
+        shell_println("---------------");
+        shell_println("'help' fuer Hilfe");
+        shell_println("");
+        shell_print("> ");
+
+    
     } else {
         shell_print("Unbekannt: ");
         shell_println(cmd);
